@@ -19,8 +19,14 @@ tags:
 ## Progress
 
 ### Guitar (Palm Muted, Single Stroke)
-- Started: 70 BPM
-- Target: 90 BPM
+- Tuning: Drop C (CGCFAD)
+- Strings: bottom two (C+G) for chugs, sometimes low string only (C)
+- Started: 70 BPM halftime (140 actual)
+- Target: 90 BPM halftime (180 actual)
 
 ### Double Bass
-- Target: TBD
+- Left foot lead (as written)
+- Backbeat layered on top
+- Current: 70 BPM halftime (140 actual)
+- Target (fill-ins): 90 BPM halftime (180 actual)
+- Target (straight 16ths): 100 BPM halftime (200 actual)
