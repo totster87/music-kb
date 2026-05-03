@@ -65,6 +65,9 @@ Book slugs:
 - Ted Reed Syncopation: `progressive-steps-syncopation`
 - ABR Messengers Drums: `abr-messengers-drums`
 - The Roots — You Got Me: `the-roots-you-got-me`
+- DEP — One Of Us Is The Killer (guitar): `dep-one-of-us-is-the-killer`
+- 30 Dirty Grooves (drums): `30-dirty-grooves`
+- 20 Chops (drums): `20-chops`
 
 ### "ingest inbox" / "process inbox" / "catalog screenshots"
 1. Run `python docs/ingest.py --auto` to list what's in `docs/inbox/`
@@ -125,6 +128,9 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `progressive-steps-syncopation` | Progressive Steps to Syncopation | Ted Reed | 61 | Syncopation reading |
 | `abr-messengers-drums` | ABR — Messengers (Drums) | — | 121 | Full drum transcription |
 | `better-lovers-highly-irresponsible` | Better Lovers — Highly Irresponsible | — | 122 | Song index: p.4 / Lie Between: p.7 |
+| `dep-one-of-us-is-the-killer` | DEP — One Of Us Is The Killer | — | 93 | Guitar transcription / 8 songs auto-indexed |
+| `30-dirty-grooves` | 30 Dirty Grooves | — | 16 | Drum sheet music |
+| `20-chops` | 20 Chops | — | 5 | Drum sheet music (scanned) |
 
 ---
 

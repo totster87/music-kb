@@ -557,5 +557,77 @@
     "auto_indexed": false,
     "text_coverage": 0.0,
     "chapters": []
+  },
+  "etid-low-teens": {
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 0.967,
+    "chapters": [
+      {
+        "title": "All Music by Every Time I Die",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "title": "Fear And Trembling",
+        "start": 4,
+        "end": 12
+      },
+      {
+        "title": "C++ (Love Will Get You Killed)",
+        "start": 13,
+        "end": 17
+      },
+      {
+        "title": "Two Summers",
+        "start": 18,
+        "end": 22
+      },
+      {
+        "title": "Awful Lot",
+        "start": 23,
+        "end": 27
+      },
+      {
+        "title": "I Didn't Want To Join Your Stupid Cult Anyway",
+        "start": 28,
+        "end": 32
+      },
+      {
+        "title": "It Remembers",
+        "start": 33,
+        "end": 45
+      },
+      {
+        "title": "The Coin Has A Say",
+        "start": 46,
+        "end": 50
+      },
+      {
+        "title": "Religion Of Speed",
+        "start": 51,
+        "end": 58
+      },
+      {
+        "title": "Just As Real But Not As Brightly Lit",
+        "start": 59,
+        "end": 69
+      },
+      {
+        "title": "Map Change",
+        "start": 70,
+        "end": 80
+      },
+      {
+        "title": "Skin Without Bones",
+        "start": 81,
+        "end": 84
+      },
+      {
+        "title": "Nothing Visible; Ocean Empty",
+        "start": 85,
+        "end": 90
+      }
+    ]
   }
 }
