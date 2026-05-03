@@ -64,6 +64,18 @@ Book slugs:
 - Advanced Funk Studies (Latham): `advanced-funk-studies`
 - Ted Reed Syncopation: `progressive-steps-syncopation`
 - ABR Messengers Drums: `abr-messengers-drums`
+- The Roots — You Got Me: `the-roots-you-got-me`
+
+### "ingest inbox" / "process inbox" / "catalog screenshots"
+1. Run `python docs/ingest.py --auto` to list what's in `docs/inbox/`
+2. For each file, ask the user: what book/source is this from, and what page number?
+3. Run `python docs/ingest.py` interactively OR manually move the file: `docs/inbox/<file>` → `docs/rendered/<slug>/page-XXX.png`
+4. Update `docs/page-index.json` to include the new page number under the correct slug
+5. `git lfs track "docs/rendered/<slug>/*.png"` if new slug
+6. `git add` the moved file + `.gitattributes` + `page-index.json`, commit and push
+7. Confirm CDN URL: `https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/<slug>/page-XXX.png`
+
+**iPhone upload flow:** GitHub app → `docs/inbox/` → tap + → Upload file → commit to main → say "ingest inbox" in Claude
 
 ### "make me a routine" / "build a session"
 Ask: pad or kit? How long? Then build a structured session. Display pages only when walking through each exercise.
