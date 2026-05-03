@@ -6,7 +6,8 @@
 - **Wait for user input. Do nothing until the user speaks first.**
 - When showing exercises, songs, or routines: **generate or update an HTML file** and tell the user to open it in Safari. Never output tab or images in chat.
 - Use `python docs/viewers/generate_viewer.py` or write a custom HTML file to `docs/viewers/`
-- After generating: commit, push, then tell the user the filename to open in Safari via GitHub app
+- After generating: commit, push, then give the full GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/<filename>.html`
+- Always output full https:// links — never local file paths. Links must be tappable on iPhone.
 - On session init: greet the user, tell them to say `load my session` or a trigger phrase. Stop there.
 
 ---
@@ -35,7 +36,7 @@ The user is a drummer and guitarist:
 ### "guitar routine" / "guitar session"
 1. Read `repertoire/Better Lovers - Lie Between the Lines.md`
 2. Walk through the routine step by step
-3. Only display a page image if the user asks for it
+3. **Always end with the clickable GitHub Pages URL** — output the full https:// link so it is tappable on iPhone. Never give a file path.
 4. At the end ask for BPM + difficulty notes, log to Practice Log, commit and push
 
 ### "drum routine" / "drum session"

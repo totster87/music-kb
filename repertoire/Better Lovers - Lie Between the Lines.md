@@ -15,8 +15,8 @@ tags:
 ## Song Info
 - **Tuning:** Drop D (D A D G B E)
 - **Source:** Highly Irresponsible (Sheet Happens transcription)
-- **Score viewer (open in Safari):** `docs/viewers/Better Lovers - Lie Between the Lines (Clean Intro).html`
-- **Full song viewer:** `docs/viewers/Better Lovers - Lie Between the Lines (Full Song).html`
+- **Clean Intro score (tap to open):** https://totster87.github.io/music-kb/docs/viewers/Better%20Lovers%20-%20Lie%20Between%20the%20Lines%20(Clean%20Intro).html
+- **Full song score (tap to open):** https://totster87.github.io/music-kb/docs/viewers/Better%20Lovers%20-%20Lie%20Between%20the%20Lines%20(Full%20Song).html
 
 ## Song Structure
 | Section | Time | BPM | Notes |
