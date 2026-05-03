@@ -1,81 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Guitar Routine — 2026-05-03</title>
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: #111; font-family: -apple-system, sans-serif; color: #ddd; line-height: 1.6; }
-  header { position: sticky; top: 0; background: #0a0a0a; padding: 14px 20px;
-            border-bottom: 1px solid #222; z-index: 10; }
-  header h1 { font-size: 1rem; color: #fff; }
-  header p { font-size: 0.75rem; color: #666; margin-top: 2px; }
-  .content { max-width: 860px; margin: 0 auto; padding: 20px 16px; }
-  .section { border-radius: 10px; overflow: hidden; margin-bottom: 24px;
-              box-shadow: 0 2px 16px rgba(0,0,0,0.4); }
-  .section h2 { padding: 14px 20px; font-size: 0.95rem; font-weight: 600; }
-  .warm h2 { background: #1a2a1a; color: #a8d8a8; }
-  .exercise h2 { background: #1a1a2e; color: #7eb8f7; }
-  .notes { padding: 16px 20px; background: #181818; }
-  .notes p { font-size: 0.88rem; color: #bbb; margin-bottom: 10px; }
-  .notes p:last-child { margin-bottom: 0; }
-  .page-block { background: #1a1a1a; }
-  .page-label { padding: 7px 16px; font-size: 0.7rem; color: #555;
-                 background: #111; border-top: 1px solid #222; border-bottom: 1px solid #222; }
-  .page-block img { width: 100%; display: block; min-height: 200px; background: #1a1a1a; }
-  .page-note { padding: 12px 16px; font-size: 0.82rem; color: #999;
-                background: #161626; border-top: 1px solid #222; font-style: italic; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Guitar Routine — 2026-05-03</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f0f0f;
+      color: #e0e0e0;
+      padding: 16px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 1.4rem; font-weight: 700; color: #f5f5f5; margin-bottom: 4px; }
+    .subtitle { font-size: 0.85rem; color: #888; margin-bottom: 24px; }
+    .block {
+      background: #1a1a1a;
+      border-left: 3px solid #ff4444;
+      border-radius: 6px;
+      padding: 14px 16px;
+      margin-bottom: 16px;
+    }
+    .block.technique { border-left-color: #ff8800; }
+    .block.song      { border-left-color: #44aaff; }
+    .block.cooldown  { border-left-color: #44dd88; }
+    .block-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+    .block-title { font-size: 1rem; font-weight: 600; color: #f0f0f0; }
+    .block-time { font-size: 0.8rem; color: #666; white-space: nowrap; }
+    .block-tag { display: inline-block; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #888; margin-bottom: 8px; }
+    ul { list-style: none; padding: 0; }
+    li { font-size: 0.92rem; line-height: 1.6; padding: 2px 0; padding-left: 14px; position: relative; color: #ccc; }
+    li::before { content: "–"; position: absolute; left: 0; color: #555; }
+    .bpm-tag {
+      display: inline-block;
+      background: #2a2a2a;
+      border: 1px solid #444;
+      border-radius: 3px;
+      padding: 1px 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #aaa;
+      margin-left: 4px;
+    }
+    .focus-box {
+      background: #222;
+      border: 1px solid #333;
+      border-radius: 4px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color: #aaa;
+      line-height: 1.5;
+    }
+    .focus-box strong { color: #ff8800; }
+    .page-ref {
+      margin-top: 10px;
+      background: #1a1f1a;
+      border: 1px solid #2a3a2a;
+      border-radius: 4px;
+      padding: 8px 12px;
+      font-size: 0.82rem;
+      color: #6a9a6a;
+    }
+    .divider { height: 1px; background: #222; margin: 20px 0; }
+    .summary-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
+    .summary-chip { background: #1e1e1e; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.8rem; color: #999; }
+    .note { font-size: 0.82rem; color: #666; font-style: italic; margin-top: 6px; }
+  </style>
 </head>
 <body>
-<header>
-  <h1>Guitar Routine — 2026-05-03</h1>
-  <p>Drop D · ~55 min · String skipping · Palm muting · New song exposure</p>
-</header>
-<div class="content">
-<div class="section warm">
-  <h2>Warm-Up — 10 min</h2>
-  <div class="notes">
-    <p>Chromatic spider runs across all 6 strings. 60 BPM 16th notes, push to 80. Even, light pick attack throughout.</p>
-    <p>Then: open string arpeggios in Drop D — D major, D minor, D sus2. Let ring. Settles the picking hand before real work.</p>
+
+  <h1>Guitar Routine</h1>
+  <div class="subtitle">Sunday 3 May 2026 &nbsp;·&nbsp; Drop D &nbsp;·&nbsp; ~50 min</div>
+
+  <div class="summary-row">
+    <span class="summary-chip">Warm-up 5 min</span>
+    <span class="summary-chip">Technique 15 min</span>
+    <span class="summary-chip">Song work 20 min</span>
+    <span class="summary-chip">Section B intro 5 min</span>
+    <span class="summary-chip">Cool-down 5 min</span>
   </div>
-</div>
-<div class="section exercise">
-  <h2>Section 1 — String Skipping, Clean Tone — 15 min</h2><div class="page-block">
-  <div class="page-label">Better Lovers — Lie Between the Lines, Clean Intro</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-007.png" alt="Better Lovers — Lie Between the Lines, Clean Intro" loading="lazy">
-  <div class="page-note">Isolate every string-skip: open low D jumping to B or e string. Slow → 60 → 75 → 99 BPM. Wrist lifts slightly after low D to clear the G string.</div>
-</div>
-  <div class="notes">
-    <p>Work 2-bar chunks. 4 clean passes before moving on. No G string noise on any skip.</p>
+
+  <div class="block">
+    <div class="block-header">
+      <span class="block-title">1 — Warm-Up</span>
+      <span class="block-time">5 min</span>
+    </div>
+    <div class="block-tag">Fretting &amp; picking</div>
+    <ul>
+      <li>Chromatic 1-2-3-4 across all 6 strings, one fret per finger</li>
+      <li>Start slow — no rush, equal pick weight on every note</li>
+      <li>Both ascending and descending; ascending = downpick, descending = alternating</li>
+      <li>No click needed — focus on evenness and hand synchronisation</li>
+    </ul>
   </div>
-</div>
-<div class="section exercise">
-  <h2>Section 2 — Palm Muting Consistency — 15 min</h2><div class="page-block">
-  <div class="page-label">Better Lovers — Lie Between the Lines, Section B (♩=135)</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-008.png" alt="Better Lovers — Lie Between the Lines, Section B (♩=135)" loading="lazy">
-  <div class="page-note">Heavy palm mute on open D. Every hit identical — muted, tight, no variation. 100 BPM → 120 → 135. If mute lifts under speed, slow back down.</div>
-</div>
-  <div class="notes">
-    <p>Palm sits just behind the bridge. Any further back = too muddy. Right hand consistency is the whole game here.</p>
+
+  <div class="block technique">
+    <div class="block-header">
+      <span class="block-title">2 — String-Skip Isolation Drill</span>
+      <span class="block-time">15 min</span>
+    </div>
+    <div class="block-tag">Technique · Known issue</div>
+    <ul>
+      <li>Extract every string-skip pair from the Clean Intro: low D → B string, low D → e string</li>
+      <li>Play just those two notes slowly — open D, skip G string, land on target</li>
+      <li>No metronome first — get the arc clean before adding time</li>
+      <li>Add click at <span class="bpm-tag">50 BPM</span> once each pair lands silently</li>
+      <li>Push to <span class="bpm-tag">70 BPM</span> once 50 is locked</li>
+    </ul>
+    <div class="focus-box">
+      <strong>Fix cue:</strong> After hitting low D, let the wrist rise slightly so the pick clears the G string before descending to the target. Keep the pinky resting lightly on the body as an anchor. Any G-string buzz = wrist staying too flat.
+    </div>
   </div>
-</div>
-<div class="section exercise">
-  <h2>Section 3 — New Song Exposure — 10 min</h2><div class="page-block">
-  <div class="page-label">Better Lovers — Your Misplaced Self, opening (p.20)</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-020.png" alt="Better Lovers — Your Misplaced Self, opening (p.20)" loading="lazy">
-  <div class="page-note">First page of the next song. No tempo target — just read slowly, find the patterns, note anything that looks tricky for next session.</div>
-</div>
-  <div class="notes">
-    <p>Goal is familiarity, not performance. Mark any bar that looks like a problem.</p>
+
+  <div class="block song">
+    <div class="block-header">
+      <span class="block-title">3 — Clean Intro (Section A)</span>
+      <span class="block-time">20 min</span>
+    </div>
+    <div class="block-tag">Song · Better Lovers — Lie Between the Lines · pp. 7–8</div>
+    <ul>
+      <li>Break into 2-bar chunks — work each chunk individually, don't chain yet</li>
+      <li>Progression per chunk: <span class="bpm-tag">60 BPM</span> clean × 4 → <span class="bpm-tag">75 BPM</span> clean × 4 → <span class="bpm-tag">99 BPM</span></li>
+      <li>Let ring throughout — notes should blur together, nothing clipped early</li>
+      <li>When a chunk reaches 99 clean, mark it and move to the next</li>
+      <li>Final 5 min: chain all completed chunks end to end at 99 BPM</li>
+    </ul>
+    <p class="note">No BPM logged for this song yet — establish a baseline today.</p>
+    <div class="page-ref">Open book: Better Lovers — Highly Irresponsible pp. 7–8</div>
   </div>
-</div>
-<div class="section warm">
-  <h2>Cool-Down — 5 min</h2>
-  <div class="notes">
-    <p>Free playing in Drop D. No structure, no goal. Let the hands relax.</p>
+
+  <div class="block technique">
+    <div class="block-header">
+      <span class="block-title">4 — Section B Preview (Main Riff)</span>
+      <span class="block-time">5 min</span>
+    </div>
+    <div class="block-tag">Song · Exploration · ♩=135</div>
+    <ul>
+      <li>Distortion on — palm mute open D, heavy attack</li>
+      <li>Don't try to nail it at 135 — just read through at your own pace</li>
+      <li>Goal: feel how the energy shifts after the clean intro</li>
+      <li>Note any rhythm patterns that look tricky for next session</li>
+    </ul>
+    <div class="page-ref">Open book: Better Lovers — Highly Irresponsible p.9</div>
   </div>
-</div></div>
+
+  <div class="block cooldown">
+    <div class="block-header">
+      <span class="block-title">5 — Cool-Down</span>
+      <span class="block-time">5 min</span>
+    </div>
+    <div class="block-tag">Free play</div>
+    <ul>
+      <li>Drop D, no structure — noodle freely</li>
+      <li>Clean tone, light touch</li>
+      <li>Let the hands decompress</li>
+    </ul>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="focus-box" style="margin-bottom: 24px;">
+    <strong>After session:</strong> Note the highest BPM that felt comfortable on the Clean Intro, which bars needed the most work, and any observations on the string-skip fix. Log it.
+  </div>
+
 </body>
 </html>
