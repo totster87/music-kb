@@ -25,5 +25,8 @@ tags:
 - Wayne Salzmann II — Developing Melodic Language on the Drums
 - The Sound of Brushes — Ed Thigpen; swing, bebop, punk, R&B brush patterns
 
+## Double Bass
+- Double Bass Freedom — Virgil Donati; highly recommended by user
+
 ## Foundational
 - Progressive Steps to Syncopation for the Modern Drummer — Ted Reed
