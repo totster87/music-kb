@@ -29,7 +29,11 @@ The user is a drummer and guitarist:
 
 ### "load my session" / "start practice" / "what am I working on"
 1. Read `practice/Practice Log.md` — show last 5 entries
-2. Read `repertoire/Better Lovers - Lie Between the Lines.md` — show current section and known issues
+2. Read each active guitar repertoire file and show current section + known issues:
+   - `repertoire/Better Lovers - Lie Between the Lines.md`
+   - `repertoire/ABR - Truth of a Liar.md`
+   - `repertoire/ABR - Treatment.md`
+   - `repertoire/BTBAM - Prequel to the Sequel.md`
 3. Summarise the suggested session structure (do NOT auto-load any images)
 4. Ask: "Want me to pull up the current page?"
 
@@ -37,7 +41,7 @@ The user is a drummer and guitarist:
 Do NOT default to any specific song. Generate a fresh varied routine by:
 1. Read `practice/Practice Log.md` to see what was last worked on — avoid repeating the same thing
 2. Build a balanced session pulling from multiple sources: technique exercises, song excerpts, creative exploration
-3. Draw from: Better Lovers (Highly Irresponsible), ABR Messengers, any relevant technique concepts
+3. Draw from: Better Lovers (Highly Irresponsible), ABR Truth of a Liar, ABR Treatment, BTBAM Prequel to the Sequel, any relevant technique concepts
 4. Generate an HTML file at `docs/viewers/Guitar Routine - YYYY-MM-DD.html` with the routine written out — include embedded score pages for any referenced exercises/songs
 5. Commit, push, output the GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/Guitar%20Routine%20-%20YYYY-MM-DD.html`
 6. After the session ask for BPM + difficulty notes, log to Practice Log, commit and push
@@ -80,10 +84,35 @@ Run: `python docs/viewers/generate_viewer.py <slug> "<title>" <start> <end>` the
 - **Transcription pages:** `docs/rendered/better-lovers-highly-irresponsible/page-007.png` to `page-019.png`
 - **Current section:** Section A — Clean Intro (♩=99, let ring, pages 7–8)
 - **Known issue:** String skipping on all-downpicking — clips wrong string mid-skip
-- **Routine file:** `repertoire/Better Lovers - Lie Between the Lines.md`
+- **Repertoire file:** `repertoire/Better Lovers - Lie Between the Lines.md`
 - **Viewers (open in browser):**
   - `docs/viewers/Better Lovers - Lie Between the Lines (Clean Intro).html`
   - `docs/viewers/Better Lovers - Lie Between the Lines (Full Song).html`
+
+### Guitar — ABR, Truth of a Liar
+- **Tuning:** Drop D (confirm)
+- **Current section:** Section A
+- **Max BPM:** 120 (target 130)
+- **Known issues:** String skipping is the bottleneck — single-string tremolo is faster; pick attack inconsistency; unclear how hard to hit strings
+- **Approach:** BPM automation from 75, +1 BPM increments. 105 iffy, 118 sloppy, 120 max
+- **Repertoire file:** `repertoire/ABR - Truth of a Liar.md`
+- **Viewer:** Not yet generated — say "generate viewer for ABR Truth of a Liar" when ready
+
+### Guitar — ABR, Treatment
+- **Tuning:** C G C F A D (Drop C)
+- **Current section:** Section A — Intro (Guitar 1 only)
+- **Max BPM:** ~130 (target 195)
+- **Known issues:** Pinch harmonics frequently missed — pick angle and squeeze timing; sloppy above 130
+- **Repertoire file:** `repertoire/ABR - Treatment.md`
+- **Viewer:** Not yet generated — say "generate viewer for ABR Treatment" when ready
+
+### Guitar — BTBAM, Prequel to the Sequel
+- **Tuning:** Standard (E A D G B E)
+- **Current section:** Intro — lead melody only (single note lines)
+- **Max BPM:** 90 (target 100)
+- **Known issues:** Pick accuracy on descending runs — clips wrong string even at slow tempos
+- **Repertoire file:** `repertoire/BTBAM - Prequel to the Sequel.md`
+- **Viewer:** Not yet generated — say "generate viewer for BTBAM Prequel" when ready
 
 ### Drums
 - **Morello Groups of Four** (double bass): 70 BPM — just starting double bass
