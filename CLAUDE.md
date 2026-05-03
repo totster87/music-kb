@@ -1,10 +1,12 @@
 # music-kb — Claude Instructions
 
 ## ⚠️ CRITICAL — READ FIRST
-- **NEVER read, open, or load any `.png`, `.pdf`, or `.html` file under any circumstances unless the user explicitly types "show me page X"**
+- **NEVER read, open, or load any `.png`, `.pdf`, or `.html` file. Ever. Under any circumstances.**
 - **Do NOT auto-trigger any routines or read any files on session start**
 - **Wait for user input. Do nothing until the user speaks first.**
-- All rendered images are in `docs/rendered/` — reference their paths as text only, never open them automatically
+- When showing exercises, songs, or routines: **generate or update an HTML file** and tell the user to open it in Safari. Never output tab or images in chat.
+- Use `python docs/viewers/generate_viewer.py` or write a custom HTML file to `docs/viewers/`
+- After generating: commit, push, then tell the user the filename to open in Safari via GitHub app
 - On session init: greet the user, tell them to say `load my session` or a trigger phrase. Stop there.
 
 ---

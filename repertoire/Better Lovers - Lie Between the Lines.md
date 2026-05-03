@@ -15,71 +15,131 @@ tags:
 ## Song Info
 - **Tuning:** Drop D (D A D G B E)
 - **Source:** Highly Irresponsible (Sheet Happens transcription)
-- **Transcription pages:** 7–19 (PDF: `docs/rendered/better-lovers-highly-irresponsible/page-007.png` through `page-019.png`)
-
-## Viewers (open in any browser)
-- `docs/viewers/Better Lovers - Lie Between the Lines (Clean Intro).html` — pages 7–8
-- `docs/viewers/Better Lovers - Lie Between the Lines (Full Song).html` — pages 7–19
+- **Full score viewer (open in Safari):** `docs/viewers/Better Lovers - Lie Between the Lines (Full Song).html`
+- **Clean intro viewer:** `docs/viewers/Better Lovers - Lie Between the Lines (Clean Intro).html`
 
 ## Song Structure
 | Section | Time | BPM | Notes |
 |---------|------|-----|-------|
-| A — Clean Intro | 0:00 | ♩= 99 | Let ring, two guitars, melodic fingerpicked lines |
-| A — Slow down | ~0:30 | 98 → 75 | Tempo decelerates, Guitar 2 slowly slides down |
-| B — Main riff | 0:38 | ♩= 135 | Distortion, both guitars unison, heavy palm mute open D |
+| A — Clean Intro | 0:00 | ♩=99 | Let ring, two guitars, string skipping |
+| A — Slow down | ~0:30 | 98→75 | Tempo decelerates, Guitar 2 slides down |
+| B — Main riff | 0:38 | ♩=135 | Distortion, both guitars unison, heavy palm mute open D |
 
 ## Current Progress
 - **Section A (Clean Intro):** In progress
-  - Known issue: string skipping on downpicking — sometimes hitting wrong string
-  - Working approach: section-by-section, slow then up to tempo
+- **Known issue:** String skipping on all-downpicking — clips wrong string mid-skip
+- **Working approach:** Section by section, slow to tempo
+
+---
+
+## Section A — Clean Intro Tab (Guitar 1)
+*Drop D | ♩=99 | Let ring throughout | All downpicking*
+
+**Measures 1–4:**
+```
+e|----0-----------------------0-----------0--------------|
+B|------5--5--2---------5--5----2---2--0------2--0-------|
+G|--2-----------2----2-----------2-3-------------------2-|
+D|--0-----------0----0-----------0-----------------------|
+A|-------------------------------------------------------|
+D|-------------------------------------------------------|
+```
+
+**Measures 5–8 (slight variation):**
+```
+e|----0-----------------------0-----------1--(1)-1-------|
+B|------5--5--2---------5--5----2---2--0------2------4---|
+G|--2-----------2----2-----------2-3-------------------2-|
+D|--0-----------0----0-----------0-----------------------|
+A|-------------------------------------------------------|
+D|-------------------------------------------------------|
+```
+
+**Measures 9–12 (continues let ring, slight melody shift):**
+```
+e|----0-----------4--(4)--4-----------1--(1)--1------1---|
+B|------5--5--2-----------5--2--0-------2---------4------|
+G|--2--------------2--3-----------2-3--------------------|
+D|--0-----------0-----------0-----------0----------------|
+A|-------------------------------------------------------|
+D|-------------------------------------------------------|
+```
+
+**Measures 13–16 (tempo begins decelerating ~98→75):**
+```
+e|----1-----------1--(1)--0-----------1--(1)-------------|
+B|------1--1--2-----------4--2--0-------2----------------|
+G|--2-----------2--3--2-----------2-3--------------------|
+D|--0-----------0-----------0-----------0----------------|
+A|-------------------------------------------------------|
+D|-------------------------------------------------------|
+```
+*Guitar 2 sustains bends on high frets (frets 13→10, 12→8, 8) — slowly slides down at end*
+
+> **Note:** Tab is transcribed from the Sheet Happens score. For pixel-accurate notation open the HTML viewer in Safari.
+
+---
+
+## The String-Skipping Problem
+
+The skips in this riff happen between:
+- **Low D string (open, fret 0)** — the anchor note
+- **G string (fret 2–3)** — middle voice
+- **B and high e strings (frets 0–5)** — melody notes
+
+The sequence often goes: **low D → skip G → land on B or e**. On all-downpicking, the pick tends to clip the G string on the way through because the wrist stays low after the D string hit.
 
 ---
 
 ## Guitar Routine — Clean Intro (Section A)
 
-### Context
-The clean intro (pages 7–8) has Guitar 1 playing a melodic riff with **let ring** across string skips while Guitar 2 sustains high bends. The string skipping combined with all-downpicking is the main technical challenge.
+**Total time: ~45 min**
 
-### Why String Skipping Breaks Down
-When downpicking across non-adjacent strings, the picking hand has to travel further between strokes. The instinct is to keep the wrist close to the last string played — so when a skip happens, the pick either overshoots or clips the middle string. Fix: anchor pick trajectory to the skip destination, not the departure string.
+### Warm-Up (5 min)
+Slow chromatic runs across all 6 strings, both directions. Focus on even pick attack, no rushing.
 
----
+### Step 1 — Isolate the Skip Moments (5 min)
+Just the skip notes — open D, then the target B or e string fret. Nothing else.
+```
+e|--0---0---0---0--|    (or whatever melody fret)
+B|-----------------|
+G|-----------------|
+D|--0---0---0---0--|
+```
+- No metronome yet
+- Each pick stroke lands clean — no G string noise
+- Once clean: click at 50 BPM, 8th notes
 
-### Step 1 — Isolate the Skip (5–10 min)
-Find each string-skip moment in the intro riff (any bar where you jump over a string). Play just those two notes in isolation — skip string, then target string — slowly and deliberately. No riff context yet.
+### Step 2 — Two-Bar Chunks with Metronome (15 min)
+Break into 2-bar segments from the tab above. Each segment:
+1. **60 BPM** — clean 4x in a row before moving up
+2. **75 BPM** — same standard
+3. **99 BPM** — target tempo
 
-- No metronome to start
-- Focus: pick lands cleanly on the target string every time
-- Once clean: add a click at 50 BPM, 8th notes
+Don't chain segments until each is solid individually.
 
----
+### Step 3 — Picking Arc Drill (5 min)
+For the skip that keeps clipping:
+- Rest pinky lightly on the body as a reference anchor
+- Play D → skip → target string slowly, watching the wrist arc
+- The arc should feel identical every rep — burn it in
+- If you hear the G string: wrist is staying too flat, lift it slightly on the D string hit
 
-### Step 2 — Two-Bar Chunks with Metronome (10 min)
-Break the intro into 2-bar segments. Work each segment:
+### Step 4 — Full Intro Run (10 min)
+Measures 1–16 straight through at 99 BPM.
+- Note any bar number that breaks
+- Go back to Step 2 for just that bar, then rerun the full intro
 
-1. **60% tempo (~60 BPM)** — play until clean 4 times in a row
-2. **75% tempo (~75 BPM)** — same standard
-3. **Full tempo (99 BPM)** — target
+### Step 5 — Push Into Section B (5 min)
+If Section A is solid: look at the main riff (Section B, measures 17+, ♩=135).
+Distortion, heavy palm mute on open D. Don't aim for clean — just feel how it follows the intro.
 
-Don't move to the next chunk until the current one is solid at 99.
-
----
-
-### Step 3 — Picking Hand Anchor Drill (5 min)
-Useful when the skip is still inconsistent at speed:
-
-- Rest your picking hand pinky on the body of the guitar for reference
-- Play the skip slowly, consciously tracking where the wrist moves
-- The pick arc should feel the same every time — build muscle memory of the trajectory
-
----
-
-### Step 4 — Full Intro Run-Through (5 min)
-Play pages 7–8 straight through at target tempo (99 BPM). If a skip breaks, note which bar number and go back to Step 2 for just that bar.
+### Cool-Down (5 min)
+Free noodling in Drop D. No structure. Let the hands relax.
 
 ---
 
 ## BPM Log
 | Date | Section | BPM | Notes |
 |------|---------|-----|-------|
-| — | Clean Intro | — | Starting out |
+| — | Clean Intro | — | Starting out, string skipping issue on downpicking |
