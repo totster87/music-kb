@@ -1,0 +1,5 @@
+title: music-kb
+description: Personal music practice knowledge base
+theme: null
+include:
+  - docs/viewers

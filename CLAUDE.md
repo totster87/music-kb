@@ -128,3 +128,23 @@ cd music-kb
 git lfs pull
 ```
 Open in Claude Code — this file loads automatically. Say `load my session` to begin.
+
+## GitHub Pages (iPhone Viewer Access)
+
+If GitHub Pages is enabled, all HTML viewers are accessible directly in Safari — no downloading needed.
+
+**Status:** Needs to be enabled. Requires either:
+- GitHub Pro ($4/month) for private repo, OR
+- Make repo public (free)
+
+**To enable:** github.com/totster87/music-kb → Settings → Pages → Source: Deploy from branch → Branch: main → Folder: / (root)
+
+**Base URL once enabled:** `https://totster87.github.io/music-kb/`
+
+**Viewer URLs (once Pages is live):**
+- Clean Intro: `https://totster87.github.io/music-kb/docs/viewers/Better%20Lovers%20-%20Lie%20Between%20the%20Lines%20(Clean%20Intro).html`
+- Full Song: `https://totster87.github.io/music-kb/docs/viewers/Better%20Lovers%20-%20Lie%20Between%20the%20Lines%20(Full%20Song).html`
+
+**When generating new viewers:** Always remind the user of the Pages URL pattern so they can tap it directly on iPhone.
+
+**If Pages is not yet enabled:** Tell the user to open the HTML file from the GitHub app → download → open in Safari.
