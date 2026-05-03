@@ -42,16 +42,16 @@ Do NOT default to any specific song. Generate a fresh varied routine by:
 1. Read `practice/Practice Log.md` to see what was last worked on — avoid repeating the same thing
 2. Build a balanced session pulling from multiple sources: technique exercises, song excerpts, creative exploration
 3. Draw from: Better Lovers (Highly Irresponsible), ABR Truth of a Liar, ABR Treatment, BTBAM Prequel to the Sequel, any relevant technique concepts
-4. Generate an HTML file at `docs/viewers/Guitar Routine - YYYY-MM-DD.html` with the routine written out — include embedded score pages for any referenced exercises/songs
-5. Commit, push, output the GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/Guitar%20Routine%20-%20YYYY-MM-DD.html`
+4. Generate an HTML file at `docs/viewers/Guitar-Routine-YYYY-MM-DD.html` with the routine written out — include embedded score pages for any referenced exercises/songs
+5. Commit, push, output the GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/Guitar-Routine-YYYY-MM-DD.html`
 6. After the session ask for BPM + difficulty notes, log to Practice Log, commit and push
 
 ### "drum routine" / "make me a drum routine"
 Do NOT default to any specific exercise. Generate a fresh varied routine by:
 1. Read `practice/Practice Log.md` to see what was last worked on — avoid repeating the same thing
 2. Build a balanced session: warm-up (Stick Control/rudiments), technique (Morello/Chapin/PI Rock), double bass (Donati), music application (ABR or other transcription)
-3. Generate an HTML file at `docs/viewers/Drum Routine - YYYY-MM-DD.html` with the routine written out — include embedded score pages for referenced exercises
-4. Commit, push, output the GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/Drum%20Routine%20-%20YYYY-MM-DD.html`
+3. Generate an HTML file at `docs/viewers/Drum-Routine-YYYY-MM-DD.html` with the routine written out — include embedded score pages for referenced exercises
+4. Commit, push, output the GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/Drum-Routine-YYYY-MM-DD.html`
 5. After the session ask for BPM + difficulty notes, log to Practice Log, commit and push
 
 ### "show me page X of [book]" / "pull up page X"
