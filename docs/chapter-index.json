@@ -486,5 +486,76 @@
         "end": 1
       }
     ]
+  },
+  "dep-one-of-us-is-the-killer": {
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 0.946,
+    "chapters": [
+      {
+        "title": "MUSIC BY BENJAMIN WEINMAN",
+        "start": 3,
+        "end": 16
+      },
+      {
+        "title": "When I Lost My Bet",
+        "start": 17,
+        "end": 27
+      },
+      {
+        "title": "One Of Us Is the Killer",
+        "start": 28,
+        "end": 35
+      },
+      {
+        "title": "Hero of the Soviet Union",
+        "start": 36,
+        "end": 42
+      },
+      {
+        "title": "Nothing's Funny",
+        "start": 43,
+        "end": 50
+      },
+      {
+        "title": "Understanding Decay",
+        "start": 51,
+        "end": 62
+      },
+      {
+        "title": "Paranoia Shields",
+        "start": 63,
+        "end": 72
+      },
+      {
+        "title": "Magic That I Held You Prisoner",
+        "start": 73,
+        "end": 82
+      },
+      {
+        "title": "The Threat Posed by Nuclear Weapons",
+        "start": 83,
+        "end": 92
+      },
+      {
+        "title": "Sheet Happens Publishing",
+        "start": 93,
+        "end": 93
+      }
+    ]
+  },
+  "30-dirty-grooves": {
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 0.812,
+    "chapters": [],
+    "_notation_warning": "Auto-detection yielded 0 notation pages — fell back to all pages. Likely a watermarked or unusual PDF. Review and edit page-index manually if needed."
+  },
+  "20-chops": {
+    "_note": "Scanned PDF — no text layer detected (0% pages have text). Cannot auto-chapterize. Add chapters manually or via OCR.",
+    "scanned": true,
+    "auto_indexed": false,
+    "text_coverage": 0.0,
+    "chapters": []
   }
 }
