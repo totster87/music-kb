@@ -40,8 +40,9 @@ tags:
 - P.M. markers on nearly every beat — lift only at fretted chord stabs
 
 ## Current Progress
-- **Intro:** In progress (not yet at 195)
-- **Verse:** In progress
+- **Intro (Guitar 1 only):** In progress (not yet at 195)
+- **Verse (Guitar 1 only):** In progress
+- **Guitar 2:** Not started
 - **Known issues:**
   - Pinch harmonics missed frequently — pick angle and squeeze timing inconsistent
   - Under fingers comfortably at ~130 BPM; breaks down above that
@@ -49,4 +50,4 @@ tags:
 ## BPM Log
 | Date | Section | BPM | Notes |
 |------|---------|-----|-------|
-| 2026-05-03 | Verse | 130 | Under fingers at 130, bit sloppy above. Frequently misses pinch harmonic. Target 195. |
+| 2026-05-03 | Verse (Guitar 1) | 130 | Under fingers at 130, bit sloppy above. Frequently misses pinch harmonic. Target 195. |
