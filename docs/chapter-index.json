@@ -1,0 +1,115 @@
+{
+  "_note": "Page numbers = PDF page number (1-indexed). Extracted via PyMuPDF. Books marked 'scanned' have no text layer — chapters entered manually.",
+
+  "master-studies-morello": {
+    "chapters": [
+      { "title": "Accent Studies — 8th Notes with Accents", "start": 7, "end": 18 },
+      { "title": "8th-Note and Triplet Combinations", "start": 19, "end": 20 },
+      { "title": "Buzz Roll Studies — 8th Notes with Buzz Rolls", "start": 21, "end": 25 },
+      { "title": "Triplets with Buzz Rolls", "start": 26, "end": 30 },
+      { "title": "Stroke Combination Studies", "start": 31, "end": 40 },
+      { "title": "Control Studies", "start": 41, "end": 42 },
+      { "title": "Table of Time", "start": 43, "end": 44 },
+      { "title": "Endurance", "start": 45, "end": 45 },
+      { "title": "Velocity", "start": 46, "end": 52 },
+      { "title": "Dynamics", "start": 53, "end": 54 },
+      { "title": "The Stone 'Killer'", "start": 55, "end": 66 },
+      { "title": "Fill-In Studies — Groups of Three with Fill-Ins", "start": 67, "end": 70 },
+      { "title": "Groups of Four with Fill-Ins", "start": 71, "end": 72 },
+      { "title": "Threes and Fours with Fill-Ins", "start": 73, "end": 73 },
+      { "title": "Groups of Two with Fill-Ins", "start": 74, "end": 75 },
+      { "title": "Endurance Exercise with Fill-Ins", "start": 76, "end": 76 },
+      { "title": "Ostinato Studies", "start": 77, "end": 82 },
+      { "title": "Flam Studies — Flat Flams", "start": 83, "end": 86 },
+      { "title": "Flam Studies — 8th Notes with Flams", "start": 87, "end": 90 },
+      { "title": "Flam Studies — Triplets with Flams", "start": 91, "end": 94 }
+    ]
+  },
+
+  "double-bass-freedom": {
+    "chapters": [
+      { "title": "Getting Started — Basic Single Stroke Variations", "start": 9, "end": 10 },
+      { "title": "1/8 and 1/16 Note Variations", "start": 11, "end": 12 },
+      { "title": "1/8 Note Triplet and 1/16 Note Groups", "start": 20, "end": 20 },
+      { "title": "Hand/Foot Independence", "start": 21, "end": 27 },
+      { "title": "Technique Development for the Left Foot", "start": 28, "end": 33 },
+      { "title": "Alternating Singles — Hands and Feet / Oscillating Singles", "start": 34, "end": 47 },
+      { "title": "Creative Single Stroke Development", "start": 48, "end": 51 },
+      { "title": "Sixteenth Note Triplet Series", "start": 59, "end": 72 },
+      { "title": "Sixteenth Note Series — Moving Through Groups of 4", "start": 73, "end": 81 },
+      { "title": "Double Stroke Rolls", "start": 82, "end": 99 },
+      { "title": "Paradiddle Variations", "start": 100, "end": 107 },
+      { "title": "Flam Patterns", "start": 108, "end": 118 }
+    ]
+  },
+
+  "progressive-independence-rock": {
+    "_note": "Scanned PDF — no text layer. Chapters entered from book ToC.",
+    "chapters": [
+      { "title": "Part 1 — Basic Independence Patterns", "start": 3, "end": 8 },
+      { "title": "Part 2 — Hi-Hat Variations", "start": 9, "end": 48 },
+      { "title": "Part 3 — Combination Patterns (recommended start)", "start": 49, "end": 100 },
+      { "title": "Part 4 — Advanced Combinations", "start": 101, "end": 162 }
+    ]
+  },
+
+  "stick-control": {
+    "_note": "Scanned PDF. Chapters from book structure.",
+    "chapters": [
+      { "title": "Single Beat Combinations", "start": 5, "end": 10 },
+      { "title": "Double Beat Combinations", "start": 11, "end": 16 },
+      { "title": "Mixed Groupings", "start": 17, "end": 30 },
+      { "title": "Accent Studies", "start": 31, "end": 40 },
+      { "title": "Flam Studies", "start": 41, "end": 50 }
+    ]
+  },
+
+  "the-art-of-bop-drumming": {
+    "_note": "Needs text extraction — not yet indexed.",
+    "chapters": []
+  },
+
+  "advanced-techniques-modern-drummer": {
+    "_note": "Needs text extraction — not yet indexed.",
+    "chapters": []
+  },
+
+  "advanced-funk-studies": {
+    "_note": "Needs text extraction — not yet indexed.",
+    "chapters": []
+  },
+
+  "progressive-steps-syncopation": {
+    "_note": "Needs text extraction — not yet indexed.",
+    "chapters": []
+  },
+
+  "abr-messengers-drums": {
+    "_note": "Transcription — chapters = song sections. Needs manual entry.",
+    "chapters": []
+  },
+
+  "better-lovers-highly-irresponsible": {
+    "_note": "Transcription. Song index on p.4.",
+    "chapters": [
+      { "title": "Song Index", "start": 4, "end": 4 },
+      { "title": "Lie Between the Lines", "start": 7, "end": 19 },
+      { "title": "Your Misplaced Self", "start": 20, "end": 24 },
+      { "title": "A White Horse Covered in Blood", "start": 25, "end": 35 },
+      { "title": "Future Myopia", "start": 36, "end": 47 },
+      { "title": "Deliver Us From Life", "start": 48, "end": 58 },
+      { "title": "Drowning in a Burning World", "start": 59, "end": 64 },
+      { "title": "Everything Was Put Here For Me", "start": 65, "end": 78 },
+      { "title": "Superman Died Paralyzed", "start": 79, "end": 93 },
+      { "title": "At All Times", "start": 94, "end": 106 },
+      { "title": "Love as an Act of Rebellion", "start": 107, "end": 120 }
+    ]
+  },
+
+  "the-roots-you-got-me": {
+    "_note": "Single-page screenshot transcription by @fabio_thedrummer.",
+    "chapters": [
+      { "title": "DnB Final Part of the Song — Questlove", "start": 1, "end": 1 }
+    ]
+  }
+}

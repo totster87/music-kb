@@ -98,14 +98,14 @@ Run: `python docs/viewers/generate_viewer.py <slug> "<title>" <start> <end>` the
   - `docs/viewers/Better Lovers - Lie Between the Lines (Full Song).html`
 
 ### Drums
-- **Morello Groups of Four** (double bass): 70 BPM — just starting double bass
-- **Morello Table of Time:** 53 BPM halftime — rushes on subdivision transitions
-- **PI Rock Part 3, exercises 1–4:** hands/feet independence — recommended starting point
+- **Morello Groups of Four with Fill-Ins** (p.71): 70 BPM — just starting double bass
+- **Morello Table of Time** (p.43): 53 BPM halftime — rushes on subdivision transitions
+- **PI Rock Part 3, exercises 1–4** (p.49+): hands/feet independence — recommended starting point
 
 ### Suggested Session Structure
-1. Morello Groups of Four (double bass, 70 BPM)
-2. PI Rock Part 3 exercises 1–4
-3. Morello Table of Time (53 BPM halftime)
+1. Morello Groups of Four with Fill-Ins (p.71, 70 BPM)
+2. PI Rock Part 3 exercises 1–4 (p.49+)
+3. Morello Table of Time (p.43, 53 BPM halftime)
 
 ---
 
@@ -115,9 +115,9 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 
 | Slug | Title | Author | Pages | Key Pages |
 |------|-------|--------|-------|-----------|
-| `double-bass-freedom` | Double Bass Drum Freedom | Virgil Donati | 135 | First exercises: p.9 / Sextuplets: p.59 |
+| `double-bass-freedom` | Double Bass Drum Freedom | Virgil Donati | 135 | Basic single strokes: p.9 / Hand-foot independence: p.21 / Sextuplet series: p.59 |
 | `progressive-independence-rock` | Progressive Independence: Rock | Ron Spagnardi | 162 | Part 3 combos: p.9 |
-| `master-studies-morello` | Master Studies | Joe Morello | 97 | Table of Time: p.8 / Groups of Four: p.9 |
+| `master-studies-morello` | Master Studies | Joe Morello | 97 | Table of Time: p.43 / Groups of Four (fill-ins): p.71 / Accent Studies: p.7 |
 | `the-art-of-bop-drumming` | The Art of Bop Drumming | John Riley | 68 | Jazz comping and ride vocabulary |
 | `advanced-techniques-modern-drummer` | Advanced Techniques Vol.1 | Jim Chapin | 55 | Coordinated independence, jazz/be-bop |
 | `stick-control` | Stick Control | George Lawrence Stone | 50 | Single Beat Combinations: p.5 |
