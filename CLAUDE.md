@@ -68,6 +68,21 @@ Book slugs:
 - Advanced Funk Studies (Latham): `advanced-funk-studies`
 - Ted Reed Syncopation: `progressive-steps-syncopation`
 - ABR Messengers Drums: `abr-messengers-drums`
+- The Roots — You Got Me: `the-roots-you-got-me`
+- DEP — One Of Us Is The Killer (guitar): `dep-one-of-us-is-the-killer`
+- 30 Dirty Grooves (drums): `30-dirty-grooves`
+- 20 Chops (drums): `20-chops`
+
+### "ingest inbox" / "process inbox" / "catalog screenshots"
+1. Run `python docs/ingest.py --auto` to list what's in `docs/inbox/`
+2. For each file, ask the user: what book/source is this from, and what page number?
+3. Run `python docs/ingest.py` interactively OR manually move the file: `docs/inbox/<file>` → `docs/rendered/<slug>/page-XXX.png`
+4. Update `docs/page-index.json` to include the new page number under the correct slug
+5. `git lfs track "docs/rendered/<slug>/*.png"` if new slug
+6. `git add` the moved file + `.gitattributes` + `page-index.json`, commit and push
+7. Confirm CDN URL: `https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/<slug>/page-XXX.png`
+
+**iPhone upload flow:** GitHub app → `docs/inbox/` → tap + → Upload file → commit to main → say "ingest inbox" in Claude
 
 ### "make me a routine" / "build a session"
 Ask: pad or kit? How long? Then build a structured session. Display pages only when walking through each exercise.
@@ -115,14 +130,14 @@ Run: `python docs/viewers/generate_viewer.py <slug> "<title>" <start> <end>` the
 - **Viewer:** Not yet generated — say "generate viewer for BTBAM Prequel" when ready
 
 ### Drums
-- **Morello Groups of Four** (double bass): 70 BPM — just starting double bass
-- **Morello Table of Time:** 53 BPM halftime — rushes on subdivision transitions
-- **PI Rock Part 3, exercises 1–4:** hands/feet independence — recommended starting point
+- **Morello Groups of Four with Fill-Ins** (p.71): 70 BPM — just starting double bass
+- **Morello Table of Time** (p.43): 53 BPM halftime — rushes on subdivision transitions
+- **PI Rock Part 3, exercises 1–4** (p.49+): hands/feet independence — recommended starting point
 
 ### Suggested Session Structure
-1. Morello Groups of Four (double bass, 70 BPM)
-2. PI Rock Part 3 exercises 1–4
-3. Morello Table of Time (53 BPM halftime)
+1. Morello Groups of Four with Fill-Ins (p.71, 70 BPM)
+2. PI Rock Part 3 exercises 1–4 (p.49+)
+3. Morello Table of Time (p.43, 53 BPM halftime)
 
 ---
 
@@ -132,9 +147,9 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 
 | Slug | Title | Author | Pages | Key Pages |
 |------|-------|--------|-------|-----------|
-| `double-bass-freedom` | Double Bass Drum Freedom | Virgil Donati | 135 | First exercises: p.9 / Sextuplets: p.59 |
+| `double-bass-freedom` | Double Bass Drum Freedom | Virgil Donati | 135 | Basic single strokes: p.9 / Hand-foot independence: p.21 / Sextuplet series: p.59 |
 | `progressive-independence-rock` | Progressive Independence: Rock | Ron Spagnardi | 162 | Part 3 combos: p.9 |
-| `master-studies-morello` | Master Studies | Joe Morello | 97 | Table of Time: p.8 / Groups of Four: p.9 |
+| `master-studies-morello` | Master Studies | Joe Morello | 97 | Table of Time: p.43 / Groups of Four (fill-ins): p.71 / Accent Studies: p.7 |
 | `the-art-of-bop-drumming` | The Art of Bop Drumming | John Riley | 68 | Jazz comping and ride vocabulary |
 | `advanced-techniques-modern-drummer` | Advanced Techniques Vol.1 | Jim Chapin | 55 | Coordinated independence, jazz/be-bop |
 | `stick-control` | Stick Control | George Lawrence Stone | 50 | Single Beat Combinations: p.5 |
@@ -142,6 +157,9 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `progressive-steps-syncopation` | Progressive Steps to Syncopation | Ted Reed | 61 | Syncopation reading |
 | `abr-messengers-drums` | ABR — Messengers (Drums) | — | 121 | Full drum transcription |
 | `better-lovers-highly-irresponsible` | Better Lovers — Highly Irresponsible | — | 122 | Song index: p.4 / Lie Between: p.7 |
+| `dep-one-of-us-is-the-killer` | DEP — One Of Us Is The Killer | — | 93 | Guitar transcription / 8 songs auto-indexed |
+| `30-dirty-grooves` | 30 Dirty Grooves | — | 16 | Drum sheet music |
+| `20-chops` | 20 Chops | — | 5 | Drum sheet music (scanned) |
 
 ---
 

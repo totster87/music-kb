@@ -1,2 +1,11 @@
 *.pdf filter=lfs diff=lfs merge=lfs -text
 docs/rendered/**/*.png filter=lfs diff=lfs merge=lfs -text
+docs/rendered/the-roots-you-got-me/*.png filter=lfs diff=lfs merge=lfs -text
+docs/30*.pdf filter=lfs diff=lfs merge=lfs -text
+docs/20*.pdf filter=lfs diff=lfs merge=lfs -text
+docs/rendered/dep-one-of-us-is-the-killer/*.png filter=lfs diff=lfs merge=lfs -text
+docs/rendered/30-dirty-grooves/*.png filter=lfs diff=lfs merge=lfs -text
+docs/rendered/20-chops/*.png filter=lfs diff=lfs merge=lfs -text
+docs/transcriptions/Dillinger*.pdf filter=lfs diff=lfs merge=lfs -text
+docs/rendered/etid-low-teens/*.png filter=lfs diff=lfs merge=lfs -text
+docs/transcriptions/Every*.pdf filter=lfs diff=lfs merge=lfs -text
