@@ -17,15 +17,13 @@ tags:
 - **Album:** Colors (2007)
 - **Transcribed by:** Paul Waggoner
 - **Tuning:** Standard (E A D G B E)
-- **Tempos:** ♩=100 (intro), ♩=170 (section 2), ♩=185 (section 3)
+- **Tempo:** ♩=100
 - **Guitars:** Multiple parts (Gtr I, II, III)
 
 ## Song Structure
 | Section | BPM | Notes |
 |---------|-----|-------|
 | Intro lead | ♩=100 | Complex arpeggio runs, palm muting, lead guitar III |
-| Mid section | ♩=170 | Two guitars, palm mute chords, pinch harmonics |
-| Fast section | ♩=185 | Repeat of intro theme, two guitars |
 
 ## Current Progress
 - **Intro lead:** In progress

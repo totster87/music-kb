@@ -4,45 +4,59 @@ type: note
 permalink: music-kb/repertoire/abr-treatment
 tags:
 - abr
-- after-the-burial
+- august-burns-red
 - guitar
 - learning
 - djent
 - drop-c
 ---
 
-# After the Burial — Treatment
+# August Burns Red — Treatment
 
 ## Song Info
 - **Tuning:** C G C F A D (Drop C)
-- **Tempo:** ♩=195
 - **Guitars:** Two (Guitar 1 + Guitar 2, near-identical parts throughout)
 
 ## Song Structure
 | Section | BPM | Notes |
 |---------|-----|-------|
-| Intro | ♩=195 | Palm muted open low C + fretted A-string melody, ends with pinch harmonic |
-| Verse | ♩=195 | 3-string chord stabs, palm muted open string hits, ascending runs, P.M. throughout |
+| A — Intro | ♩=195 | P.M. open low C, fretted melody, chord stabs, P.H. — one continuous section |
+| B (♩=185) | ♩=185 | 1st/2nd endings, P.H. on repeat, similar melodic pattern |
+| C (♩=170) | ♩=170 | W/Reverb — slower section |
 
 ## Tab Detail
 
-### Intro (both guitars, 4/4)
-- Backbone: open low C (B string = 0) palm muted throughout
-- Guitar 1 melody notes on A string: 10 – 10 – 9 – 6/7 – 6–7–6 – 7, ending P.H. with vibrato
-- Guitar 2 runs a transposed parallel line: 14 – 14 – 13 – 9/10 – 9–10–9 – 10, same P.H. ending
-- Rhythm: tight 16th note palm muting on open C between every melody hit
+### A — Intro (♩=195, Guitar 1)
+One continuous section. Backbone is open low C (B string = 0) palm muted throughout.
 
-### Verse (section 3, both guitars identical)
-- Opens with 3-string stab: frets 11/11/11 (D/G/B strings) with vibrato, slides off
-- Followed by 8/8/8 chord hit, then into open-string P.M. run
+**Opening phrase:**
+- Guitar 1 melody on A string: 10 – 10 – 9 – 6/7 – 6–7–6 – 7, ending P.H. with vibrato
+- Guitar 2 transposed parallel: 14 – 14 – 13 – 9/10 – 9–10–9 – 10, same P.H.
+- Tight 16th-note P.M. on open C between every melody hit
+
+**Into the riff:**
+- 3-string stab: frets 11/11/11 (D/G/B strings) with vibrato, slides off
+- 8/8/8 chord hit, then open-string P.M. run
 - Pattern: 0 – 6 – 7 – 8 – 0 – 8 – 0 – 8–7 – 0–7–11 (slide/hammer)
-- Second bar: ascending run 9–11, 9–11, 9–10–9–11–9, back to 11–9
-- P.M. markers on nearly every beat — lift only at fretted chord stabs
+- Ascending run: 9–11, 9–11, 9–10–9–11–9, back to 11–9
+- Guitar 2 mirrors Guitar 1 identically throughout
+
+### B — ♩=185 Section
+- Same melodic skeleton as Section A opening phrase
+- Guitar 1: 10–10–9 – 6/7 – 6–7–6–7 over open low C P.M., ending P.H.
+- Guitar 2: 14–14–13 – 9/10 – 9–10–9–10, ending P.H.
+- 1st ending: P.H. resolves back to top
+- 2nd ending: Guitar 1 goes to 5–8, Guitar 2 to 8–11 (moves on)
+
+### C — ♩=170 Section
+- Marked W/Reverb — likely cleaner or sparser texture
+- Not yet practiced
 
 ## Current Progress
-- **Intro (Guitar 1 only):** In progress (not yet at 195)
-- **Verse (Guitar 1 only):** In progress
-- **Guitar 2:** Not started
+- **Section A (Guitar 1 only):** In progress
+- **Section B:** Not started
+- **Section C:** Not started
+- **Guitar 2:** Not started on any section
 - **Known issues:**
   - Pinch harmonics missed frequently — pick angle and squeeze timing inconsistent
   - Under fingers comfortably at ~130 BPM; breaks down above that
@@ -50,4 +64,4 @@ tags:
 ## BPM Log
 | Date | Section | BPM | Notes |
 |------|---------|-----|-------|
-| 2026-05-03 | Verse (Guitar 1) | 130 | Under fingers at 130, bit sloppy above. Frequently misses pinch harmonic. Target 195. |
+| 2026-05-03 | Section A (Guitar 1) | 130 | Under fingers at 130, bit sloppy above. Frequently misses pinch harmonic. Target 195. |
