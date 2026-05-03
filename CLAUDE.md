@@ -1,6 +1,15 @@
 # music-kb — Claude Instructions
 
-This is a personal music practice knowledge base. Read this file fully before responding. All rendered images and PDFs are excluded from auto-indexing — only load them explicitly when the user asks.
+## ⚠️ CRITICAL — READ FIRST
+- **NEVER read, open, or load any `.png`, `.pdf`, or `.html` file under any circumstances unless the user explicitly types "show me page X"**
+- **Do NOT auto-trigger any routines or read any files on session start**
+- **Wait for user input. Do nothing until the user speaks first.**
+- All rendered images are in `docs/rendered/` — reference their paths as text only, never open them automatically
+- On session init: greet the user, tell them to say `load my session` or a trigger phrase. Stop there.
+
+---
+
+This is a personal music practice knowledge base.
 
 ---
 

@@ -1,4 +1,9 @@
+# Exclude all binary and rendered files - these are large and cause API errors on mobile
+docs/rendered/**
 docs/rendered/
-docs/viewers/
-docs/*.pdf
-docs/transcriptions/
+**/page-*.png
+*.png
+*.pdf
+*.html
+docs/viewers/**
+docs/transcriptions/**
