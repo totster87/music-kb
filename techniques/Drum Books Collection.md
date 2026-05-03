@@ -28,5 +28,8 @@ tags:
 ## Double Bass
 - Double Bass Freedom — Virgil Donati; highly recommended by user
 
+## Independence
+- Progressive Independence: Rock — Ron Spagnardi; comprehensive snare/bass drum independence for rock and funk
+
 ## Foundational
 - Progressive Steps to Syncopation for the Modern Drummer — Ted Reed
