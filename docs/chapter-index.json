@@ -1,115 +1,490 @@
 {
   "_note": "Page numbers = PDF page number (1-indexed). Extracted via PyMuPDF. Books marked 'scanned' have no text layer — chapters entered manually.",
-
   "master-studies-morello": {
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 1.0,
     "chapters": [
-      { "title": "Accent Studies — 8th Notes with Accents", "start": 7, "end": 18 },
-      { "title": "8th-Note and Triplet Combinations", "start": 19, "end": 20 },
-      { "title": "Buzz Roll Studies — 8th Notes with Buzz Rolls", "start": 21, "end": 25 },
-      { "title": "Triplets with Buzz Rolls", "start": 26, "end": 30 },
-      { "title": "Stroke Combination Studies", "start": 31, "end": 40 },
-      { "title": "Control Studies", "start": 41, "end": 42 },
-      { "title": "Table of Time", "start": 43, "end": 44 },
-      { "title": "Endurance", "start": 45, "end": 45 },
-      { "title": "Velocity", "start": 46, "end": 52 },
-      { "title": "Dynamics", "start": 53, "end": 54 },
-      { "title": "The Stone 'Killer'", "start": 55, "end": 66 },
-      { "title": "Fill-In Studies — Groups of Three with Fill-Ins", "start": 67, "end": 70 },
-      { "title": "Groups of Four with Fill-Ins", "start": 71, "end": 72 },
-      { "title": "Threes and Fours with Fill-Ins", "start": 73, "end": 73 },
-      { "title": "Groups of Two with Fill-Ins", "start": 74, "end": 75 },
-      { "title": "Endurance Exercise with Fill-Ins", "start": 76, "end": 76 },
-      { "title": "Ostinato Studies", "start": 77, "end": 82 },
-      { "title": "Flam Studies — Flat Flams", "start": 83, "end": 86 },
-      { "title": "Flam Studies — 8th Notes with Flams", "start": 87, "end": 90 },
-      { "title": "Flam Studies — Triplets with Flams", "start": 91, "end": 94 }
+      {
+        "title": "These exeroses can also be apphed lo the drumset",
+        "start": 8,
+        "end": 18
+      },
+      {
+        "title": "Bth-note and triplet combinations",
+        "start": 19,
+        "end": 25
+      },
+      {
+        "title": "triplets with buzz rolls",
+        "start": 26,
+        "end": 30
+      },
+      {
+        "title": "Stroke Combination Studies",
+        "start": 31,
+        "end": 31
+      },
+      {
+        "title": "tm-A □ □ J",
+        "start": 32,
+        "end": 35
+      },
+      {
+        "title": "t t",
+        "start": 36,
+        "end": 37
+      },
+      {
+        "title": "a@UJJJ JJJJJJJ ..dJJJJJ I JJJJJJJ ñ±iñJ JJdJ¡",
+        "start": 38,
+        "end": 38
+      },
+      {
+        "title": "L R L R L A L R L A L R L  A L R L",
+        "start": 39,
+        "end": 42
+      },
+      {
+        "title": "table of time",
+        "start": 43,
+        "end": 54
+      },
+      {
+        "title": "the Stone ''killer''",
+        "start": 55,
+        "end": 67
+      },
+      {
+        "title": "JI: J JffiJlDiJ MJ M =111: J 3 3 J 3 3 J-J J J Jm§11",
+        "start": 68,
+        "end": 68
+      },
+      {
+        "title": "JJJJJJJJJJJJJJJJJJJJJJJJ=!lf m J JJ=iJ.JJJ_JJJ 3 3 :1",
+        "start": 69,
+        "end": 70
+      },
+      {
+        "title": "groups of tour with fill-ins",
+        "start": 71,
+        "end": 71
+      },
+      {
+        "title": "L R L  L R L  L R L  L R",
+        "start": 72,
+        "end": 72
+      },
+      {
+        "title": "threes and tours with fill-ins",
+        "start": 73,
+        "end": 74
+      },
+      {
+        "title": "J J J J J □J J . J J J l , 1 1",
+        "start": 75,
+        "end": 75
+      },
+      {
+        "title": "endurance exercise with fill-ins",
+        "start": 76,
+        "end": 76
+      },
+      {
+        "title": "Ostinato Studies",
+        "start": 77,
+        "end": 77
+      },
+      {
+        "title": "J J 3 J J J J J I J J J J J J J J I J J J J J J J J '.11",
+        "start": 78,
+        "end": 81
+      },
+      {
+        "title": "Once you have reached a certaín proficiency, start putting the rhythms logether",
+        "start": 82,
+        "end": 86
+      },
+      {
+        "title": "th notes with flams",
+        "start": 87,
+        "end": 88
+      },
+      {
+        "title": "ol- 3 3 3 J 3 &l 3 1 J 3 3 3 v 3 ¿;¡ rm",
+        "start": 89,
+        "end": 90
+      },
+      {
+        "title": "triplets with flams",
+        "start": 91,
+        "end": 91
+      },
+      {
+        "title": "lfErfil Jt,J Jt.J 3 J 1fflú-JiLJil;l1'J 3-3-:1",
+        "start": 92,
+        "end": 93
+      },
+      {
+        "title": "r\u0004ikJ&l@\tiil 1eiJfim&lmhí@mq¡1",
+        "start": 94,
+        "end": 95
+      },
+      {
+        "title": "Joe More/lo w,rh Geo,ge Lawrence Stone",
+        "start": 96,
+        "end": 97
+      }
     ]
   },
-
   "double-bass-freedom": {
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 0.904,
     "chapters": [
-      { "title": "Getting Started — Basic Single Stroke Variations", "start": 9, "end": 10 },
-      { "title": "1/8 and 1/16 Note Variations", "start": 11, "end": 12 },
-      { "title": "1/8 Note Triplet and 1/16 Note Groups", "start": 20, "end": 20 },
-      { "title": "Hand/Foot Independence", "start": 21, "end": 27 },
-      { "title": "Technique Development for the Left Foot", "start": 28, "end": 33 },
-      { "title": "Alternating Singles — Hands and Feet / Oscillating Singles", "start": 34, "end": 47 },
-      { "title": "Creative Single Stroke Development", "start": 48, "end": 51 },
-      { "title": "Sixteenth Note Triplet Series", "start": 59, "end": 72 },
-      { "title": "Sixteenth Note Series — Moving Through Groups of 4", "start": 73, "end": 81 },
-      { "title": "Double Stroke Rolls", "start": 82, "end": 99 },
-      { "title": "Paradiddle Variations", "start": 100, "end": 107 },
-      { "title": "Flam Patterns", "start": 108, "end": 118 }
+      {
+        "title": "ABOUT VIRGIL DONATI",
+        "start": 4,
+        "end": 13
+      },
+      {
+        "title": "VIRGIL DONATI",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "title": "VIRGíL DONATI",
+        "start": 16,
+        "end": 21
+      },
+      {
+        "title": "r l l r l l r l l r l l r l l r",
+        "start": 22,
+        "end": 24
+      },
+      {
+        "title": "VIRGIL DONATI",
+        "start": 25,
+        "end": 42
+      },
+      {
+        "title": "a r - i L DON",
+        "start": 43,
+        "end": 47
+      },
+      {
+        "title": "VIRGIL UÚNÁÍi",
+        "start": 48,
+        "end": 48
+      },
+      {
+        "title": "RME (Refer to page 92)",
+        "start": 49,
+        "end": 68
+      },
+      {
+        "title": "IRGIL D O N !",
+        "start": 69,
+        "end": 73
+      },
+      {
+        "title": "D O U B L E Et^SS P R U M FRi",
+        "start": 74,
+        "end": 76
+      },
+      {
+        "title": "VIRGIL DONATI",
+        "start": 77,
+        "end": 79
+      },
+      {
+        "title": "FALSE GROOVES - Modulating 4's, 5's, and 7's",
+        "start": 80,
+        "end": 81
+      },
+      {
+        "title": "DOUBLE STROKE ROLLS",
+        "start": 82,
+        "end": 83
+      },
+      {
+        "title": "VIRGIL DONA!",
+        "start": 84,
+        "end": 87
+      },
+      {
+        "title": "VIRGIL DONATI",
+        "start": 88,
+        "end": 92
+      },
+      {
+        "title": "IRGSL DONATI",
+        "start": 93,
+        "end": 94
+      },
+      {
+        "title": "VIRGIL DONAT",
+        "start": 95,
+        "end": 96
+      },
+      {
+        "title": "VIRGIL DONATI",
+        "start": 97,
+        "end": 107
+      },
+      {
+        "title": "IL DONATI",
+        "start": 108,
+        "end": 112
+      },
+      {
+        "title": "V I R G I L DONATI",
+        "start": 113,
+        "end": 113
+      },
+      {
+        "title": "VIRGIL DONATI",
+        "start": 114,
+        "end": 118
+      },
+      {
+        "title": "RECORDED WORKS",
+        "start": 119,
+        "end": 124
+      },
+      {
+        "title": "IRGIL OONAT!",
+        "start": 125,
+        "end": 135
+      }
     ]
   },
-
   "progressive-independence-rock": {
-    "_note": "Scanned PDF — no text layer. Chapters entered from book ToC.",
+    "_note": "Scanned PDF — no text layer detected (0% pages have text). Cannot auto-chapterize. Add chapters manually or via OCR.",
+    "scanned": true,
+    "auto_indexed": false,
+    "text_coverage": 0.0,
     "chapters": [
-      { "title": "Part 1 — Basic Independence Patterns", "start": 3, "end": 8 },
-      { "title": "Part 2 — Hi-Hat Variations", "start": 9, "end": 48 },
-      { "title": "Part 3 — Combination Patterns (recommended start)", "start": 49, "end": 100 },
-      { "title": "Part 4 — Advanced Combinations", "start": 101, "end": 162 }
+      {
+        "title": "Part 1 — Basic Independence Patterns",
+        "start": 3,
+        "end": 8
+      },
+      {
+        "title": "Part 2 — Hi-Hat Variations",
+        "start": 9,
+        "end": 48
+      },
+      {
+        "title": "Part 3 — Combination Patterns (recommended start)",
+        "start": 49,
+        "end": 100
+      },
+      {
+        "title": "Part 4 — Advanced Combinations",
+        "start": 101,
+        "end": 162
+      }
     ]
   },
-
   "stick-control": {
-    "_note": "Scanned PDF. Chapters from book structure.",
+    "_note": "Scanned PDF — no text layer detected (6% pages have text). Cannot auto-chapterize. Add chapters manually or via OCR.",
+    "scanned": true,
+    "auto_indexed": false,
+    "text_coverage": 0.06,
     "chapters": [
-      { "title": "Single Beat Combinations", "start": 5, "end": 10 },
-      { "title": "Double Beat Combinations", "start": 11, "end": 16 },
-      { "title": "Mixed Groupings", "start": 17, "end": 30 },
-      { "title": "Accent Studies", "start": 31, "end": 40 },
-      { "title": "Flam Studies", "start": 41, "end": 50 }
+      {
+        "title": "Single Beat Combinations",
+        "start": 5,
+        "end": 10
+      },
+      {
+        "title": "Double Beat Combinations",
+        "start": 11,
+        "end": 16
+      },
+      {
+        "title": "Mixed Groupings",
+        "start": 17,
+        "end": 30
+      },
+      {
+        "title": "Accent Studies",
+        "start": 31,
+        "end": 40
+      },
+      {
+        "title": "Flam Studies",
+        "start": 41,
+        "end": 50
+      }
     ]
   },
-
   "the-art-of-bop-drumming": {
-    "_note": "Needs text extraction — not yet indexed.",
-    "chapters": []
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 1.0,
+    "chapters": [],
+    "_notation_warning": "Auto-detection yielded 0 notation pages — fell back to all pages. Likely a watermarked or unusual PDF. Review and edit page-index manually if needed."
   },
-
   "advanced-techniques-modern-drummer": {
-    "_note": "Needs text extraction — not yet indexed.",
+    "_note": "Scanned PDF — no text layer detected (0% pages have text). Cannot auto-chapterize. Add chapters manually or via OCR.",
+    "scanned": true,
+    "auto_indexed": false,
+    "text_coverage": 0.0,
     "chapters": []
   },
-
   "advanced-funk-studies": {
-    "_note": "Needs text extraction — not yet indexed.",
+    "_note": "Scanned PDF — no text layer detected (0% pages have text). Cannot auto-chapterize. Add chapters manually or via OCR.",
+    "scanned": true,
+    "auto_indexed": false,
+    "text_coverage": 0.0,
     "chapters": []
   },
-
   "progressive-steps-syncopation": {
-    "_note": "Needs text extraction — not yet indexed.",
-    "chapters": []
-  },
-
-  "abr-messengers-drums": {
-    "_note": "Transcription — chapters = song sections. Needs manual entry.",
-    "chapters": []
-  },
-
-  "better-lovers-highly-irresponsible": {
-    "_note": "Transcription. Song index on p.4.",
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 0.41,
     "chapters": [
-      { "title": "Song Index", "start": 4, "end": 4 },
-      { "title": "Lie Between the Lines", "start": 7, "end": 19 },
-      { "title": "Your Misplaced Self", "start": 20, "end": 24 },
-      { "title": "A White Horse Covered in Blood", "start": 25, "end": 35 },
-      { "title": "Future Myopia", "start": 36, "end": 47 },
-      { "title": "Deliver Us From Life", "start": 48, "end": 58 },
-      { "title": "Drowning in a Burning World", "start": 59, "end": 64 },
-      { "title": "Everything Was Put Here For Me", "start": 65, "end": 78 },
-      { "title": "Superman Died Paralyzed", "start": 79, "end": 93 },
-      { "title": "At All Times", "start": 94, "end": 106 },
-      { "title": "Love as an Act of Rebellion", "start": 107, "end": 120 }
+      {
+        "title": "ACCENTED EIGHTH NOTES",
+        "start": 45,
+        "end": 61
+      }
     ]
   },
-
+  "abr-messengers-drums": {
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 0.975,
+    "chapters": [
+      {
+        "title": "Music by August Burns Red",
+        "start": 2,
+        "end": 5
+      },
+      {
+        "title": "Notation Legend",
+        "start": 6,
+        "end": 6
+      },
+      {
+        "title": "Truth of a Liar",
+        "start": 7,
+        "end": 17
+      },
+      {
+        "title": "Up Against the Ropes",
+        "start": 18,
+        "end": 30
+      },
+      {
+        "title": "Back Burner",
+        "start": 31,
+        "end": 38
+      },
+      {
+        "title": "The Blinding Light",
+        "start": 39,
+        "end": 60
+      },
+      {
+        "title": "Vital Signs",
+        "start": 61,
+        "end": 69
+      },
+      {
+        "title": "The Eleventh Hour",
+        "start": 70,
+        "end": 80
+      },
+      {
+        "title": "The Balance",
+        "start": 81,
+        "end": 89
+      },
+      {
+        "title": "Black Sheep",
+        "start": 90,
+        "end": 97
+      },
+      {
+        "title": "An American Dream",
+        "start": 98,
+        "end": 120
+      },
+      {
+        "title": "Sheet Happens Publishing",
+        "start": 121,
+        "end": 121
+      }
+    ]
+  },
+  "better-lovers-highly-irresponsible": {
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 0.926,
+    "chapters": [
+      {
+        "title": "Lie Between The Lines",
+        "start": 7,
+        "end": 19
+      },
+      {
+        "title": "Your Misplaced Self",
+        "start": 20,
+        "end": 24
+      },
+      {
+        "title": "A White Horse Covered In Blood",
+        "start": 25,
+        "end": 35
+      },
+      {
+        "title": "Future Myopia",
+        "start": 36,
+        "end": 47
+      },
+      {
+        "title": "Deliver Us From Life",
+        "start": 48,
+        "end": 58
+      },
+      {
+        "title": "Drowning In A Burning World",
+        "start": 59,
+        "end": 67
+      },
+      {
+        "title": "Everything Was Put Here For Me",
+        "start": 68,
+        "end": 78
+      },
+      {
+        "title": "Superman Died Paralyzed",
+        "start": 79,
+        "end": 93
+      },
+      {
+        "title": "At All Times",
+        "start": 94,
+        "end": 106
+      },
+      {
+        "title": "Love As An Act Of Rebellion",
+        "start": 107,
+        "end": 122
+      }
+    ]
+  },
   "the-roots-you-got-me": {
     "_note": "Single-page screenshot transcription by @fabio_thedrummer.",
     "chapters": [
-      { "title": "DnB Final Part of the Song — Questlove", "start": 1, "end": 1 }
+      {
+        "title": "DnB Final Part of the Song — Questlove",
+        "start": 1,
+        "end": 1
+      }
     ]
   }
 }
