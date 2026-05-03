@@ -23,20 +23,20 @@ tags:
 ## Song Structure
 | Section | BPM | Notes |
 |---------|-----|-------|
-| Intro lead | ♩=100 | Complex arpeggio runs, palm muting, lead guitar III |
+| Intro — lead melody | ♩=100 | Single note lines only — melody/lead guitar, no chords or rhythm parts |
 
 ## Current Progress
-- **Intro lead:** In progress
-- **Known issue:** Pick accuracy on descending arpeggios — misses target string even at slow tempos
+- **Intro lead melody:** In progress
+- **Known issue:** Pick accuracy on descending single-note runs — misses target string even at slow tempos
 
 ## Practice Notes
 
-### Intro Lead (Gtr III, ♩=100)
-- Arpeggio runs ascending and descending across strings
-- Palm muted sections interspersed
+### Intro Lead Melody (♩=100)
+- Single note lines only — melody throughout, no chord work
+- Arpeggio-style runs ascending and descending across strings
 - Tab positions reach frets 9–14 on A/D strings, wide stretches
 - **Max comfortable BPM:** 90 (gets sloppy above this)
-- **Problem:** Descending arpeggio pick accuracy — sometimes clips wrong string even slowly
+- **Problem:** Descending run pick accuracy — sometimes clips wrong string even slowly
 
 ## BPM Log
 | Date | Section | BPM | Notes |
