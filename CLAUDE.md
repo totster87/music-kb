@@ -158,14 +158,17 @@ Run: `python docs/viewers/generate_viewer.py <slug> "<title>" <start> <end>` the
 - **Viewer:** Not yet generated — say "generate viewer for BTBAM Prequel" when ready
 
 ### Drums
-- **Morello Groups of Four with Fill-Ins** (p.71): 70 BPM — just starting double bass
-- **Morello Table of Time** (p.43): 53 BPM halftime — rushes on subdivision transitions
-- **PI Rock Part 3, exercises 1–4** (p.49+): hands/feet independence — recommended starting point
+- **Morello Groups of Four with Fill-Ins** (p.71): 72 BPM — left foot unstable at higher tempos, speeds up/flutters; focus on evenness not speed
+- **Morello Table of Time** (p.43): 53 BPM halftime — rushes on subdivision transitions. NOTE: p.43, not p.8
+- **PI Rock Part 3, exercises 1–4** (p.9): ~75 BPM — losing control on 16th note alternating hats when right hand hits snare; groups of 3 in second measure are the problem point
+- **You Got Me (The Roots)**: 83 BPM — steady, feels elementary but internal clock not 100% solid
 
 ### Suggested Session Structure
-1. Morello Groups of Four with Fill-Ins (p.71, 70 BPM)
-2. PI Rock Part 3 exercises 1–4 (p.49+)
-3. Morello Table of Time (p.43, 53 BPM halftime)
+1. Stick Control p.5 — warm up hands
+2. Morello Groups of Four with Fill-Ins (p.71) — double bass, focus on left foot evenness
+3. PI Rock Part 3 exercises 1–4 (p.9) — independence, isolate the groups-of-3 snare problem
+4. Morello Table of Time (p.43) — subdivision transitions
+5. You Got Me — music application
 
 ---
 
