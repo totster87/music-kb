@@ -12,6 +12,34 @@
 
 ---
 
+## ⚠️ GitHub Pages + Images — What Works and What Does NOT
+
+### Filenames
+- ✅ **Use hyphens:** `Drum-Routine-2026-05-04.html`
+- ❌ **Do NOT use spaces:** `Drum Routine - 2026-05-04.html` — spaces break GitHub Pages URLs even when URL-encoded
+
+### Images (score pages)
+All score PNGs in `docs/rendered/` are stored in **Git LFS**. GitHub Pages serves LFS pointer files, not the actual image content.
+
+- ✅ **Use `media.githubusercontent.com` URLs** — this is GitHub's LFS media CDN and serves actual image content:
+  ```
+  https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/<slug>/page-XXX.png
+  ```
+- ❌ **Do NOT use relative paths** like `../rendered/<slug>/page-XXX.png` — GitHub Pages serves the LFS pointer text, showing a broken image
+- ❌ **Do NOT use `raw.githubusercontent.com`** — also serves the LFS pointer, not the image
+
+### Template for score images in HTML viewers
+```html
+<img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/<slug>/page-XXX.png" alt="...">
+```
+
+### Deployment
+- GitHub Pages deploys from `main` branch — all viewer files must be on `main` to be accessible
+- Feature branches are NOT served by GitHub Pages
+- CDN propagation takes 1–2 minutes after a push before changes are live
+
+---
+
 This is a personal music practice knowledge base.
 
 ---
