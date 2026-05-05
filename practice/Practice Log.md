@@ -21,6 +21,10 @@ tags:
 | 2026-05-04 | You Got Me (The Roots) | Drums | 83 BPM | Played beat with improvised fill after 3 repeats. Feels elementary technically but knows time wasn't 100% solid. |
 | 2026-05-04 | Groups of Four with Fill-Ins (Morello p.71) | Drums — Double Bass | 72 BPM | Solid left foot workout. 72 stable. Faster tempos: left foot speeds up, flutters, tip-toeing. Right foot much more stable. |
 | 2026-05-04 | PI Rock Part 3, exercises 1–4 | Drums | 75 BPM | Got ~4 bars. 16th note alternating hats loses control when right hand hits snare — especially groups of 3 in second measure. Harder than it looks. |
+| 2026-05-05 | Warm-up — chromatic 1-2-3-4 | Guitar | No click | Felt fine. |
+| 2026-05-05 | String-skip isolation drill | Guitar | 50–70 BPM | Some pick noise and fretting buzzing open strings — smooths out over time. |
+| 2026-05-05 | Better Lovers — Lie Between the Lines, Clean Intro (pp.7–8) | Guitar | ♩=99 | Rough spot: mm.3–4 awkward pinky stretch on C shape chord. Bar 8: playing 5th fret G string instead of 1st fret B (sounds better, sustains open high E). |
+| 2026-05-05 | Better Lovers — Lie Between the Lines, Main Riff (p.9) | Guitar | ♩=135 | On 4 open string jab — unsure of which strings. Bar 41: not skipping from low to high string cleanly — downward chord gets missed. |
 
 ---
 
@@ -85,3 +89,25 @@ tags:
 - Harder than it looks — real independence challenge
 
 **Cool-down — skipped**
+
+---
+
+### 2026-05-05 — Guitar
+
+**Warm-up — chromatic 1-2-3-4**
+- Felt fine
+
+**String-skip isolation drill**
+- Some pick noise and fretting buzzing on open strings — smooths out over time
+- Applied to Better Lovers + ABR string-skip pairs
+
+**Better Lovers — Lie Between the Lines, Clean Intro (pp.7–8, ♩=99)**
+→ `repertoire/Better Lovers - Lie Between the Lines.md`
+- Rough spot: mm.3–4 — awkward pinky stretch on C shape chord
+- Bar 8: playing 5th fret G string instead of 1st fret B string — sounds better and can sustain open high E; keeping this fingering
+
+**Better Lovers — Lie Between the Lines, Main Riff / Section B (p.9, ♩=135)**
+→ `repertoire/Better Lovers - Lie Between the Lines.md`
+- 4 open string jab: unsure which strings are being hit — needs slow isolation
+- Bar 41: not executing the skip from low to high string — downward chord keeps getting missed
+- Did not reach blocks 5–8 (ABR Truth, Pinch harmonic drill, ABR Treatment, BTBAM)
