@@ -24,7 +24,7 @@ tags:
 | 2026-05-05 | Warm-up — chromatic 1-2-3-4 | Guitar | No click | Felt fine. |
 | 2026-05-05 | String-skip isolation drill | Guitar | 50–70 BPM | Some pick noise and fretting buzzing open strings — smooths out over time. |
 | 2026-05-05 | Better Lovers — Lie Between the Lines, Clean Intro (pp.7–8) | Guitar | ♩=99 | Rough spot: mm.3–4 awkward pinky stretch on C shape chord. Bar 8: playing 5th fret G string instead of 1st fret B (sounds better, sustains open high E). |
-| 2026-05-05 | Better Lovers — Lie Between the Lines, Main Riff (p.10) | Guitar | ♩=135 | Bar 20: 4 open string jab — unsure which strings. Bars 24–25: not committing to the bend, clips lower strings. |
+| 2026-05-05 | Better Lovers — Lie Between the Lines, Section B (pp.8–9) | Guitar | ♩=135 | Bar 20: open string jab — unsure which strings. Bar 23: not skipping low to high — downward chord missed. Bars 24–25: not committing to the bend, clips lower strings. |
 | 2026-05-05 | Chapin — Advanced Techniques p.18 | Drums | As written + doubletime | 60 BPM too slow — played as written then doubletime. Consider metronome on 2+4 (would mean very low written BPM). |
 | 2026-05-05 | Riley — Art of Bop Drumming p.22 | Drums | Slow | Very challenging. Ride got shaky, had to slow way down. Couldn't play exercises continuously. Doubles on 2+4 are the weak spot — last triplet lands on ride hit simultaneously. Notes took time to comprehend on the spot. |
 | 2026-05-05 | Donati — Double Bass Freedom p.59 Sextuplets | Drums — Double Bass | 60–80 BPM | 60 solid. Wobbly in high 70s. 80 BPM most lines OK. 3rd and 5th lines hardest. |
@@ -113,7 +113,9 @@ tags:
 **Better Lovers — Lie Between the Lines, Main Riff / Section B (p.9, ♩=135)**
 → `repertoire/Better Lovers - Lie Between the Lines.md`
 - Bar 20: 4 open string jab — unsure which strings are being hit, needs slow isolation
+- Bar 23: not skipping from low to high string — downward chord keeps getting missed
 - Bars 24–25: not committing to the bend — end up hitting lower strings instead of following through
+- All three in Section B, pp.8–9
 - Did not reach blocks 5–8 (ABR Truth, Pinch harmonic drill, ABR Treatment, BTBAM)
 
 ---
