@@ -51,6 +51,7 @@ The user is a drummer and guitarist:
 - **Guitar:** Drop D / metal. Currently learning Better Lovers — Highly Irresponsible.
 - **Goal:** Tailored practice routines from owned books, BPM tracking, exercise pages displayed on request.
 - **Book familiarity:** Has worked through most books in the library. Feel free to pull from any book — Chapin, Riley, Latham, Reed, Donati, 30 Dirty Grooves, 20 Chops, ABR Messengers, etc. Don't default to the same 2–3 books every session. Vary it.
+- **Recording goal:** Occasionally flag one block per routine as a recording target — one take, no editing, just capturing progress. Start small and build the habit.
 
 ---
 
