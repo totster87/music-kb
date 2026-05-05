@@ -24,7 +24,7 @@ tags:
 | 2026-05-05 | Warm-up — chromatic 1-2-3-4 | Guitar | No click | Felt fine. |
 | 2026-05-05 | String-skip isolation drill | Guitar | 50–70 BPM | Some pick noise and fretting buzzing open strings — smooths out over time. |
 | 2026-05-05 | Better Lovers — Lie Between the Lines, Clean Intro (pp.7–8) | Guitar | ♩=99 | Rough spot: mm.3–4 awkward pinky stretch on C shape chord. Bar 8: playing 5th fret G string instead of 1st fret B (sounds better, sustains open high E). |
-| 2026-05-05 | Better Lovers — Lie Between the Lines, Main Riff (p.9) | Guitar | ♩=135 | On 4 open string jab — unsure of which strings. Bar 41: not skipping from low to high string cleanly — downward chord gets missed. |
+| 2026-05-05 | Better Lovers — Lie Between the Lines, Main Riff (p.9) | Guitar | ♩=135 | On 4 open string jab — unsure of which strings. Bar 41: not skipping from low to high string cleanly — downward chord gets missed. Also not committing to the bend — hitting lower strings instead of following through. |
 
 ---
 
@@ -110,4 +110,5 @@ tags:
 → `repertoire/Better Lovers - Lie Between the Lines.md`
 - 4 open string jab: unsure which strings are being hit — needs slow isolation
 - Bar 41: not executing the skip from low to high string — downward chord keeps getting missed
+- Bar 41: not committing to the bend — end up hitting lower strings instead of following through
 - Did not reach blocks 5–8 (ABR Truth, Pinch harmonic drill, ABR Treatment, BTBAM)
