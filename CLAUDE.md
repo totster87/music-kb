@@ -206,7 +206,7 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `dep-one-of-us-is-the-killer` | DEP — One Of Us Is The Killer | — | 93 | Guitar transcription / 8 songs auto-indexed |
 | `30-dirty-grooves` | 30 Dirty Grooves | — | 16 | Drum sheet music |
 | `20-chops` | 20 Chops | — | 5 | Drum sheet music (scanned) |
-| `evolution-of-blast-beats` | The Evolution of Blast Beats | Derek Roddy | ~100 | 4 blast types intro: p.22 / Kick variations (Metal Downbeat/Upbeat, Punk Feel): p.15 / Double Bass Workout: p.79–81+ / No pages ingested yet — screenshots only |
+| `evolution-of-blast-beats` | The Evolution of Blast Beats | Derek Roddy | ~100 | 4 blast types intro: p.22 / Kick variations (Metal Downbeat/Upbeat, Punk Feel): p.15 / Double Bass Workout: p.79–81+ / Double Bass Workout exercises work well as burnout finishers OR warm-ups / No pages ingested yet — screenshots only |
 
 ---
 
