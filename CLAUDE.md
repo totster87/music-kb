@@ -50,6 +50,7 @@ The user is a drummer and guitarist:
 - **Drums:** Metal + jazz/funk. Working through method books with BPM logging. Has practice pad and full kit.
 - **Guitar:** Drop D / metal. Currently learning Better Lovers — Highly Irresponsible.
 - **Goal:** Tailored practice routines from owned books, BPM tracking, exercise pages displayed on request.
+- **Book familiarity:** Has worked through most books in the library. Feel free to pull from any book — Chapin, Riley, Latham, Reed, Donati, 30 Dirty Grooves, 20 Chops, ABR Messengers, etc. Don't default to the same 2–3 books every session. Vary it.
 
 ---
 
@@ -77,7 +78,12 @@ Do NOT default to any specific song. Generate a fresh varied routine by:
 ### "drum routine" / "make me a drum routine"
 Do NOT default to any specific exercise. Generate a fresh varied routine by:
 1. Read `practice/Practice Log.md` to see what was last worked on — avoid repeating the same thing
-2. Build a balanced session: warm-up (Stick Control/rudiments), technique (Morello/Chapin/PI Rock), double bass (Donati), music application (ABR or other transcription)
+2. Build a balanced session. Draw freely from the full book library — don't default to the same books each time. Good rotation includes:
+   - Warm-up: Stick Control, rudiments, or a Reed syncopation reading exercise
+   - Technique: Morello, Chapin, PI Rock, Latham funk, 30 Dirty Grooves, 20 Chops — rotate these
+   - Double bass: Donati (any section — single strokes, hand-foot independence, sextuplets)
+   - Music application: ABR Messengers, The Roots You Got Me, or any transcription
+   - Jazz/bop: Riley Art of Bop, Chapin Advanced Techniques — don't neglect these
 3. Generate an HTML file at `docs/viewers/Drum-Routine-YYYY-MM-DD.html` with the routine written out — include embedded score pages for referenced exercises
 4. Commit, push, output the GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/Drum-Routine-YYYY-MM-DD.html`
 5. After the session ask for BPM + difficulty notes, log to Practice Log, commit and push
