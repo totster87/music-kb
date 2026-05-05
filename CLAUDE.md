@@ -92,7 +92,7 @@ Do NOT default to any specific exercise. Generate a fresh varied routine by:
      - Doubletime bop — take a swing tempo and double it, hold the ride feel as long as possible
      - Trading bursts — 4 bars medium swing / 4 bars full doubletime, alternate
      - Open sprint — no rules, no click, full kit, play as hard and fast as possible for 3 min
-     Note: user is NOT interested in gravity blast. Has a blast beat book but no PDF yet — do not reference it until ingested.
+     Note: user is NOT interested in gravity blast. Has "The Evolution of Blast Beats" by Derek Roddy — no pages ingested yet, do not reference specific exercises until ingested.
 3. Generate an HTML file at `docs/viewers/Drum-Routine-YYYY-MM-DD.html` with the routine written out — include embedded score pages for referenced exercises
 4. Commit, push, output the GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/Drum-Routine-YYYY-MM-DD.html`
 5. After the session ask for BPM + difficulty notes, log to Practice Log, commit and push
@@ -206,6 +206,7 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `dep-one-of-us-is-the-killer` | DEP — One Of Us Is The Killer | — | 93 | Guitar transcription / 8 songs auto-indexed |
 | `30-dirty-grooves` | 30 Dirty Grooves | — | 16 | Drum sheet music |
 | `20-chops` | 20 Chops | — | 5 | Drum sheet music (scanned) |
+| `evolution-of-blast-beats` | The Evolution of Blast Beats | Derek Roddy | ~100 | 4 blast types intro: p.22 / Kick variations (Metal Downbeat/Upbeat, Punk Feel): p.15 / Double Bass Workout: p.79–81+ / No pages ingested yet — screenshots only |
 
 ---
 
