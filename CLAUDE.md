@@ -84,6 +84,7 @@ Do NOT default to any specific exercise. Generate a fresh varied routine by:
    - Double bass: Donati (any section — single strokes, hand-foot independence, sextuplets)
    - Music application: ABR Messengers, The Roots You Got Me, or any transcription
    - Jazz/bop: Riley Art of Bop, Chapin Advanced Techniques — don't neglect these
+   - **Burnout finisher (always last):** Fast double bass, blast beats, doubletime swing, or any high-intensity free-form block. No click, no structure — just push. 5 min max.
 3. Generate an HTML file at `docs/viewers/Drum-Routine-YYYY-MM-DD.html` with the routine written out — include embedded score pages for referenced exercises
 4. Commit, push, output the GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/Drum-Routine-YYYY-MM-DD.html`
 5. After the session ask for BPM + difficulty notes, log to Practice Log, commit and push
