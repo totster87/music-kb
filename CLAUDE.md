@@ -85,6 +85,14 @@ Do NOT default to any specific exercise. Generate a fresh varied routine by:
    - Music application: ABR Messengers, The Roots You Got Me, or any transcription
    - Jazz/bop: Riley Art of Bop, Chapin Advanced Techniques — don't neglect these
    - **Burnout finisher (always last):** Fast double bass, blast beats, doubletime swing, or any high-intensity free-form block. No click, no structure — just push. 5 min max.
+     Preferred burnout types (rotate these):
+     - Straight 16th endurance — both feet alternating 16ths at max tempo, simple hand groove on top, hold until form breaks
+     - Sextuplet sprint — groups of 6 on the feet, push tempo each minute, stop when it blurs
+     - Kick + snare unison — feet and snare hit together on every note, build speed until collapse
+     - Doubletime bop — take a swing tempo and double it, hold the ride feel as long as possible
+     - Trading bursts — 4 bars medium swing / 4 bars full doubletime, alternate
+     - Open sprint — no rules, no click, full kit, play as hard and fast as possible for 3 min
+     Note: user is NOT interested in gravity blast. Has a blast beat book but no PDF yet — do not reference it until ingested.
 3. Generate an HTML file at `docs/viewers/Drum-Routine-YYYY-MM-DD.html` with the routine written out — include embedded score pages for referenced exercises
 4. Commit, push, output the GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/Drum-Routine-YYYY-MM-DD.html`
 5. After the session ask for BPM + difficulty notes, log to Practice Log, commit and push
