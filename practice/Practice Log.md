@@ -25,6 +25,10 @@ tags:
 | 2026-05-05 | String-skip isolation drill | Guitar | 50–70 BPM | Some pick noise and fretting buzzing open strings — smooths out over time. |
 | 2026-05-05 | Better Lovers — Lie Between the Lines, Clean Intro (pp.7–8) | Guitar | ♩=99 | Rough spot: mm.3–4 awkward pinky stretch on C shape chord. Bar 8: playing 5th fret G string instead of 1st fret B (sounds better, sustains open high E). |
 | 2026-05-05 | Better Lovers — Lie Between the Lines, Main Riff (p.9) | Guitar | ♩=135 | On 4 open string jab — unsure of which strings. Bar 41: not skipping from low to high string cleanly — downward chord gets missed. Also not committing to the bend — hitting lower strings instead of following through. |
+| 2026-05-05 | Chapin — Advanced Techniques p.18 | Drums | As written + doubletime | 60 BPM too slow — played as written then doubletime. Consider metronome on 2+4 (would mean very low written BPM). |
+| 2026-05-05 | Riley — Art of Bop Drumming p.22 | Drums | Slow | Very challenging. Ride got shaky, had to slow way down. Couldn't play exercises continuously. Doubles on 2+4 are the weak spot — last triplet lands on ride hit simultaneously. Notes took time to comprehend on the spot. |
+| 2026-05-05 | Donati — Double Bass Freedom p.59 Sextuplets | Drums — Double Bass | 60–80 BPM | 60 solid. Wobbly in high 70s. 80 BPM most lines OK. 3rd and 5th lines hardest. |
+| 2026-05-05 | You Got Me (The Roots) | Drums | — | Still learning, working through it. Arms get sore quickly. |
 
 ---
 
@@ -112,3 +116,29 @@ tags:
 - Bar 41: not executing the skip from low to high string — downward chord keeps getting missed
 - Bar 41: not committing to the bend — end up hitting lower strings instead of following through
 - Did not reach blocks 5–8 (ABR Truth, Pinch harmonic drill, ABR Treatment, BTBAM)
+
+---
+
+### 2026-05-05 — Drums
+
+**Chapin — Advanced Techniques p.18**
+- 60 BPM felt very slow — played as written, then added doubletime feel
+- Idea for next time: metronome on 2 and 4 only (would result in very low notated BPM but more musical feel)
+
+**Riley — Art of Bop Drumming p.22**
+- Very demanding — a lot to take in on the spot
+- Ride got shaky, had to slow down significantly
+- Couldn't play exercises continuously end-to-end
+- Weak spot: doubles on 2 and 4 — the last note of the triplet lands on a ride hit at the same time, coordination breaks there
+- Notes needed time to comprehend — needs more reading familiarity before tempo becomes the goal
+
+**Donati — Double Bass Drum Freedom p.59 (Sextuplet Series)**
+- 60 BPM: solid
+- High 70s: starts getting wobbly
+- 80 BPM: can play most lines
+- 3rd and 5th lines are the hardest
+- Good baseline established — next session pick up at 75
+
+**You Got Me — The Roots**
+- Still learning the full chart — working it out bar by bar
+- Arms get sore quickly on this one
