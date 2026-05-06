@@ -202,12 +202,12 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `stick-control` | Stick Control | George Lawrence Stone | 50 | Single Beat Combinations: p.5 |
 | `advanced-funk-studies` | Advanced Funk Studies | Rick Latham | 51 | Funk patterns throughout |
 | `progressive-steps-syncopation` | Progressive Steps to Syncopation | Ted Reed | 61 | Syncopation reading |
-| `abr-messengers` | ABR — Messengers (Guitar) | — | 146 | Full guitar transcription / Truth of a Liar is song 1 |
+| `abr-messengers` | ABR — Messengers (Guitar) | — | 146 | Full guitar transcription / Truth of a Liar is song 1 / Content start page unknown — do NOT use p.1-7, start from p.8+ until confirmed |
 | `abr-messengers-drums` | ABR — Messengers (Drums) | — | 121 | Full drum transcription / Truth of a Liar: pp.7–17 / Up Against the Ropes starts p.18 |
 | `better-lovers-highly-irresponsible` | Better Lovers — Highly Irresponsible | — | 122 | Song index: p.4 / Lie Between: p.7 |
 | `better-lovers-play-it-properly` | Better Lovers — Play It Properly | — | 1 | 1 page ingested |
 | `dep-one-of-us-is-the-killer` | DEP — One Of Us Is The Killer | — | 93 | Guitar transcription / 8 songs auto-indexed |
-| `etid-low-teens` | Every Time I Die — Low Teens | — | 90 | Guitar transcription |
+| `etid-low-teens` | Every Time I Die — Low Teens | — | 90 | Guitar transcription / Content start page unknown — do NOT use p.1-9, start from p.10+ until confirmed |
 | `30-dirty-grooves` | 30 Dirty Grooves | — | 16 | Drum sheet music |
 | `20-chops` | 20 Chops | — | 5 | Drum sheet music (scanned) |
 | `evolution-of-blast-beats` | The Evolution of Blast Beats | Derek Roddy | ~100 | 4 blast types intro: p.22 / Kick variations (Metal Downbeat/Upbeat, Punk Feel): p.15 / Double Bass Workout: p.79–81+ / Double Bass Workout exercises work well as burnout finishers OR warm-ups / No pages ingested yet — screenshots only |
