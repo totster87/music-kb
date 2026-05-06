@@ -29,6 +29,11 @@ tags:
 | 2026-05-05 | Riley — Art of Bop Drumming p.22 | Drums | Slow | Very challenging. Ride got shaky, had to slow way down. Couldn't play exercises continuously. Doubles on 2+4 are the weak spot — last triplet lands on ride hit simultaneously. Notes took time to comprehend on the spot. |
 | 2026-05-05 | Donati — Double Bass Freedom p.59 Sextuplets | Drums — Double Bass | 60–80 BPM | 60 solid. Wobbly in high 70s. 80 BPM most lines OK. 3rd and 5th lines hardest. |
 | 2026-05-05 | You Got Me (The Roots) | Drums | — | Still learning, working through it. Arms get sore quickly. |
+| 2026-05-06 | Reed Syncopation p.37 | Drums | 60–80 BPM | Harder than expected. Rushed into orchestration — didn't spend enough time reading on snare first. Need to stay on snare for multiple bars before moving around the kit. |
+| 2026-05-06 | 30 Dirty Grooves p.8 | Drums | 100–115 BPM | Groove feels very slow at written tempo, unclear where applicable. At high speed (100–115) sounds awesome. 100 rough but tight, 115 cool. |
+| 2026-05-06 | Donati — Double Bass Freedom p.21 Hand-Foot Independence | Drums — Double Bass | 70–100 BPM | Started at 100, thought it was ok. Dropped to 70 — equally hard. Coordination problem, not tempo problem. |
+| 2026-05-06 | ABR Messengers Drums — Truth of a Liar p.7 | Drums | 143 BPM | Got first page down pretty clean at 143. Loses meter on the big fill but executes it fine. Tempo a bit shaky. |
+| 2026-05-06 | Burnout — Straight 16th Endurance | Drums | Max | Intense. Burned out very quickly. |
 
 ---
 
@@ -143,3 +148,33 @@ tags:
 **You Got Me — The Roots**
 - Still learning the full chart — working it out bar by bar
 - Arms get sore quickly on this one
+
+---
+
+### 2026-05-06 — Drums
+
+**Reed Syncopation p.37**
+- Harder than expected
+- Rushed into orchestrating around the kit — didn't spend enough time reading on snare first
+- Next time: stay on snare only for several bars until the reading is solid before touching the kit
+
+**30 Dirty Grooves p.8**
+- Written tempo feels very slow — unclear where it would be applicable
+- At high speed (100–115 BPM) sounds awesome
+- 100 BPM rough but tight, pushed to ~115 and it felt cool
+- Worth revisiting at speed
+
+**Donati — Double Bass Freedom p.21 (Hand-Foot Independence)**
+- Started at 100 BPM, thought it was manageable
+- Dropped to 70 BPM — equally hard
+- Purely a coordination problem, not tempo-dependent
+- Needs more time with the system before tempo matters
+
+**ABR Messengers Drums — Truth of a Liar (p.7)**
+- Got the first page down at 143 BPM, pretty clean
+- Loses the meter slightly on the big fill — execution is fine but tempo wavers
+- Strong start for a first session
+
+**Burnout — Straight 16th Endurance**
+- Very intense, burned out fast
+- Good sign — was pushing hard enough
