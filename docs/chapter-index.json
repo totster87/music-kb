@@ -576,13 +576,14 @@
     ]
   },
   "dep-one-of-us-is-the-killer": {
+    "_note": "PDF page = book page + 5 (verified via ToC on PDF p.5). Song list from ToC image.",
     "scanned": false,
-    "auto_indexed": true,
+    "auto_indexed": false,
     "text_coverage": 0.946,
     "chapters": [
       {
-        "title": "MUSIC BY BENJAMIN WEINMAN",
-        "start": 3,
+        "title": "Prancer",
+        "start": 6,
         "end": 16
       },
       {
@@ -613,22 +614,27 @@
       {
         "title": "Paranoia Shields",
         "start": 63,
+        "end": 70
+      },
+      {
+        "title": "CH 375 268 277 ARS",
+        "start": 71,
         "end": 72
       },
       {
         "title": "Magic That I Held You Prisoner",
         "start": 73,
+        "end": 75
+      },
+      {
+        "title": "Crossburner",
+        "start": 76,
         "end": 82
       },
       {
         "title": "The Threat Posed by Nuclear Weapons",
         "start": 83,
         "end": 92
-      },
-      {
-        "title": "Sheet Happens Publishing",
-        "start": 93,
-        "end": 93
       }
     ]
   },
