@@ -199,8 +199,8 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `master-studies-morello` | Master Studies | Joe Morello | 97 | Table of Time: p.43 / Groups of Four (fill-ins): p.71 / Accent Studies: p.7 |
 | `the-art-of-bop-drumming` | The Art of Bop Drumming | John Riley | 68 | Jazz comping and ride vocabulary |
 | `advanced-techniques-modern-drummer` | Advanced Techniques Vol.1 | Jim Chapin | 55 | Coordinated independence, jazz/be-bop |
-| `stick-control` | Stick Control | George Lawrence Stone | 50 | Single Beat Combinations: p.5 |
-| `advanced-funk-studies` | Advanced Funk Studies | Rick Latham | 51 | Funk patterns throughout |
+| `stick-control` | Stick Control | George Lawrence Stone | 50 | **Note: saved file page numbers may be offset from TOC** / Single Beat Combinations: p.5 / Short Rolls in 6/8: pp.25–29 / More sections TBC — share TOC |
+| `advanced-funk-studies` | Advanced Funk Studies | Rick Latham | 51 | **Note: saved file page numbers may be offset from TOC** / Introductory Exercises: p.8 / Hi-hat Quarter Notes: p.10 / Hi-hat Eighth Notes: p.10 / Hi-hat Off Beat: p.11 / Hi-hat Sixteenth Notes: p.12 / Hi-hat Openings: p.13 / Combination Exercises: p.14 / Fill Patterns: p.17 / Funk Patterns (74 exercises): p.18 / Transcriptions: p.23 (Steve Gadd p.24, Garibaldi p.27, Harvey Mason p.28, Erskine p.29) / Solos 1–10: p.31 |
 | `progressive-steps-syncopation` | Progressive Steps to Syncopation | Ted Reed | 61 | Syncopation reading |
 | `abr-messengers` | ABR — Messengers (Guitar) | — | 146 | Full guitar transcription / Truth of a Liar is song 1 / Content start page unknown — do NOT use p.1-7, start from p.8+ until confirmed |
 | `abr-messengers-drums` | ABR — Messengers (Drums) | — | 121 | Full drum transcription / Truth of a Liar: pp.7–17 / Up Against the Ropes starts p.18 |
