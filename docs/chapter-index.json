@@ -138,123 +138,59 @@
     ]
   },
   "double-bass-freedom": {
+    "_note": "PDF page = book page - 6 (verified: PDF p.24 = book p.30). Chapters from ToC on PDF pp.2-3.",
     "scanned": false,
-    "auto_indexed": true,
+    "auto_indexed": false,
     "text_coverage": 0.904,
     "chapters": [
       {
-        "title": "ABOUT VIRGIL DONATI",
-        "start": 4,
-        "end": 13
+        "title": "Chapter 1 — Getting Started",
+        "start": 6,
+        "end": 27
       },
       {
-        "title": "VIRGIL DONATI",
-        "start": 14,
-        "end": 15
+        "title": "Chapter 2 — Technique Development for the Left Foot",
+        "start": 28,
+        "end": 36
       },
       {
-        "title": "VIRGíL DONATI",
-        "start": 16,
-        "end": 21
-      },
-      {
-        "title": "r l l r l l r l l r l l r l l r",
-        "start": 22,
-        "end": 24
-      },
-      {
-        "title": "VIRGIL DONATI",
-        "start": 25,
-        "end": 42
-      },
-      {
-        "title": "a r - i L DON",
-        "start": 43,
+        "title": "Chapter 3 — Developing Single Strokes",
+        "start": 37,
         "end": 47
       },
       {
-        "title": "VIRGIL UÚNÁÍi",
+        "title": "Chapter 4 — Creative Single Stroke Development",
         "start": 48,
-        "end": 48
+        "end": 59
       },
       {
-        "title": "RME (Refer to page 92)",
-        "start": 49,
-        "end": 68
-      },
-      {
-        "title": "IRGIL D O N !",
-        "start": 69,
+        "title": "Chapter 5 — Sixteenth Note Triplet Series",
+        "start": 60,
         "end": 73
       },
       {
-        "title": "D O U B L E Et^SS P R U M FRi",
+        "title": "Chapter 6 — Sixteenth Note Series",
         "start": 74,
-        "end": 76
+        "end": 82
       },
       {
-        "title": "VIRGIL DONATI",
-        "start": 77,
-        "end": 79
+        "title": "Chapter 7 — Double Stroke Rolls",
+        "start": 83,
+        "end": 100
       },
       {
-        "title": "FALSE GROOVES - Modulating 4's, 5's, and 7's",
-        "start": 80,
-        "end": 81
+        "title": "Chapter 8 — Developing Paradiddles with the Feet",
+        "start": 101,
+        "end": 108
       },
       {
-        "title": "DOUBLE STROKE ROLLS",
-        "start": 82,
-        "end": 83
-      },
-      {
-        "title": "VIRGIL DONA!",
-        "start": 84,
-        "end": 87
-      },
-      {
-        "title": "VIRGIL DONATI",
-        "start": 88,
-        "end": 92
-      },
-      {
-        "title": "IRGSL DONATI",
-        "start": 93,
-        "end": 94
-      },
-      {
-        "title": "VIRGIL DONAT",
-        "start": 95,
-        "end": 96
-      },
-      {
-        "title": "VIRGIL DONATI",
-        "start": 97,
-        "end": 107
-      },
-      {
-        "title": "IL DONATI",
-        "start": 108,
-        "end": 112
-      },
-      {
-        "title": "V I R G I L DONATI",
-        "start": 113,
-        "end": 113
-      },
-      {
-        "title": "VIRGIL DONATI",
-        "start": 114,
+        "title": "Chapter 9 — Bass Drum Flams",
+        "start": 109,
         "end": 118
       },
       {
-        "title": "RECORDED WORKS",
+        "title": "Chapter 10 — Recorded Works",
         "start": 119,
-        "end": 124
-      },
-      {
-        "title": "IRGIL OONAT!",
-        "start": 125,
         "end": 135
       }
     ]
