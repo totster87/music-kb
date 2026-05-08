@@ -343,11 +343,57 @@
     "_notation_warning": "Auto-detection yielded 0 notation pages — fell back to all pages. Likely a watermarked or unusual PDF. Review and edit page-index manually if needed."
   },
   "advanced-techniques-modern-drummer": {
-    "_note": "Scanned PDF — no text layer detected (0% pages have text). Cannot auto-chapterize. Add chapters manually or via OCR.",
+    "_note": "Scanned PDF — no text layer. Chapters entered manually. PDF page = book page + 5 (verified: book p.4 = PDF p.9). Entire book is jazz comping exercises.",
     "scanned": true,
     "auto_indexed": false,
     "text_coverage": 0.0,
-    "chapters": []
+    "chapters": [
+      {
+        "title": "Dotted Eighths and Sixteenths",
+        "start": 9,
+        "end": 14
+      },
+      {
+        "title": "Eighths",
+        "start": 16,
+        "end": 20
+      },
+      {
+        "title": "Triplet",
+        "start": 25,
+        "end": 29
+      },
+      {
+        "title": "Sixteenths",
+        "start": 30,
+        "end": 33
+      },
+      {
+        "title": "Sixteenths (cont.)",
+        "start": 35,
+        "end": 36
+      },
+      {
+        "title": "Solo Exercise",
+        "start": 41,
+        "end": 44
+      },
+      {
+        "title": "Solo Exercise (p.42)",
+        "start": 47,
+        "end": 47
+      },
+      {
+        "title": "Solo Exercise (p.46)",
+        "start": 51,
+        "end": 51
+      },
+      {
+        "title": "Solo Exercise (p.51)",
+        "start": 55,
+        "end": 55
+      }
+    ]
   },
   "advanced-funk-studies": {
     "_note": "Scanned PDF — no text layer. Chapters entered manually from ToC. PDF page = book page + 2 (verified: book p.17 = PDF p.19).",
