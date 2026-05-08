@@ -202,29 +202,184 @@
     ]
   },
   "progressive-independence-rock": {
-    "_note": "Scanned PDF — no text layer detected (0% pages have text). Cannot auto-chapterize. Add chapters manually or via OCR.",
+    "_note": "Scanned PDF. No offset — PDF page = file page number. Sections 1-4 user-verified, sections 5-6 estimated using same 3/3/6/6/6/3 pattern.",
     "scanned": true,
     "auto_indexed": false,
     "text_coverage": 0.0,
     "chapters": [
       {
-        "title": "Part 1 — Basic Independence Patterns",
+        "title": "Section 1 - Right Hand 8th Note Beats - Snare Drum Independence with Eighth Notes",
         "start": 3,
+        "end": 5
+      },
+      {
+        "title": "Section 1 - Right Hand 8th Note Beats - Bass Drum Independence with Eighth Notes",
+        "start": 6,
         "end": 8
       },
       {
-        "title": "Part 2 — Hi-Hat Variations",
+        "title": "Section 1 - Right Hand 8th Note Beats - Snare/Bass Drum Combination",
         "start": 9,
-        "end": 48
+        "end": 14
       },
       {
-        "title": "Part 3 — Combination Patterns (recommended start)",
-        "start": 49,
+        "title": "Section 1 - Right Hand 8th Note Beats - Snare/Bass Hi-Hat Eighth Notes",
+        "start": 15,
+        "end": 20
+      },
+      {
+        "title": "Section 1 - Right Hand 8th Note Beats - Snare/Bass Hi-Hat Upbeats",
+        "start": 21,
+        "end": 26
+      },
+      {
+        "title": "Section 1 - Right Hand 8th Note Beats - Two Bar Combinations",
+        "start": 27,
+        "end": 29
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Snare with Quarter Notes",
+        "start": 30,
+        "end": 32
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Bass with Quarter Notes",
+        "start": 33,
+        "end": 35
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Snare/Bass Combination with Quarter Notes",
+        "start": 36,
+        "end": 41
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Snare/Bass Combination with Hi-Hat Eighth Notes",
+        "start": 42,
+        "end": 47
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Snare/Bass Combination with Hi-Hat Upbeats",
+        "start": 48,
+        "end": 53
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Two Bar Combinations",
+        "start": 54,
+        "end": 56
+      },
+      {
+        "title": "Section 3 - Right Hand Up-Beats - Snare",
+        "start": 57,
+        "end": 59
+      },
+      {
+        "title": "Section 3 - Right Hand Up-Beats - Bass",
+        "start": 60,
+        "end": 62
+      },
+      {
+        "title": "Section 3 - Right Hand Up-Beats - Snare/Bass Combination",
+        "start": 63,
+        "end": 68
+      },
+      {
+        "title": "Section 3 - Right Hand Up-Beats - Snare/Bass with Hi-Hat Eighth Notes",
+        "start": 69,
+        "end": 80
+      },
+      {
+        "title": "Section 3 - Right Hand Up-Beats - Two Bar Combinations",
+        "start": 81,
+        "end": 83
+      },
+      {
+        "title": "Section 4 - Right Hand Sixteenth Notes - Snare",
+        "start": 84,
+        "end": 85
+      },
+      {
+        "title": "Section 4 - Right Hand Sixteenth Notes - Bass",
+        "start": 86,
+        "end": 88
+      },
+      {
+        "title": "Section 4 - Right Hand Sixteenth Notes - Snare/Bass Combination",
+        "start": 89,
+        "end": 94
+      },
+      {
+        "title": "Section 4 - Right Hand Sixteenth Notes - Snare/Bass Combination with Hi-Hat Eighth Notes",
+        "start": 95,
         "end": 100
       },
       {
-        "title": "Part 4 — Advanced Combinations",
+        "title": "Section 4 - Right Hand Sixteenth Notes - Snare/Bass Combination with Hi-Hat Upbeat",
         "start": 101,
+        "end": 106
+      },
+      {
+        "title": "Section 4 - Right Hand Sixteenth Notes - Two Bar Combinations",
+        "start": 107,
+        "end": 109
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Snare",
+        "start": 110,
+        "end": 112
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Bass",
+        "start": 113,
+        "end": 115
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Snare/Bass Combination",
+        "start": 116,
+        "end": 121
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Snare/Bass Combination with Hi-Hat Eighth Notes",
+        "start": 122,
+        "end": 127
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Snare/Bass Combination with Hi-Hat Upbeat",
+        "start": 128,
+        "end": 133
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Two Bar Combinations",
+        "start": 134,
+        "end": 136
+      },
+      {
+        "title": "Section 6 - Snare",
+        "start": 137,
+        "end": 139
+      },
+      {
+        "title": "Section 6 - Bass",
+        "start": 140,
+        "end": 142
+      },
+      {
+        "title": "Section 6 - Snare/Bass Combination",
+        "start": 143,
+        "end": 148
+      },
+      {
+        "title": "Section 6 - Snare/Bass Combination with Hi-Hat Eighth Notes",
+        "start": 149,
+        "end": 154
+      },
+      {
+        "title": "Section 6 - Snare/Bass Combination with Hi-Hat Upbeat",
+        "start": 155,
+        "end": 160
+      },
+      {
+        "title": "Section 6 - Two Bar Combinations",
+        "start": 161,
         "end": 162
       }
     ]
