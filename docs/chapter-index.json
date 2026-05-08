@@ -648,15 +648,111 @@
   },
   "progressive-steps-syncopation": {
     "scanned": false,
-    "auto_indexed": true,
+    "auto_indexed": false,
     "text_coverage": 0.41,
     "chapters": [
       {
-        "title": "ACCENTED EIGHTH NOTES",
+        "title": "Foundation - Quarter Notes",
+        "start": 3,
+        "end": 8
+      },
+      {
+        "title": "Foundation - Eighth Notes",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "title": "Foundation - Dotted Quarter",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "title": "Foundation - Triplets",
+        "start": 13,
+        "end": 18
+      },
+      {
+        "title": "Foundation - Sixteenths",
+        "start": 19,
+        "end": 27
+      },
+      {
+        "title": "Syncopated Eighth Notes",
+        "start": 28,
+        "end": 35
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 1",
+        "start": 36,
+        "end": 36
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 2",
+        "start": 37,
+        "end": 37
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 3",
+        "start": 38,
+        "end": 38
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 4",
+        "start": 39,
+        "end": 39
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 5",
+        "start": 40,
+        "end": 40
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 6",
+        "start": 41,
+        "end": 41
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 7",
+        "start": 42,
+        "end": 42
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 8",
+        "start": 43,
+        "end": 43
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 9",
+        "start": 44,
+        "end": 44
+      },
+      {
+        "title": "Accents - Eighth Notes",
         "start": 45,
-        "end": 61
+        "end": 47
+      },
+      {
+        "title": "Accents - Dotted Eighth and Sixteenth",
+        "start": 48,
+        "end": 50
+      },
+      {
+        "title": "Accents - Eighth Note Triplets",
+        "start": 51,
+        "end": 55
+      },
+      {
+        "title": "Accents - Triplets with Mixed Stickings",
+        "start": 56,
+        "end": 56
+      },
+      {
+        "title": "Accents - Sixteenth Notes",
+        "start": 57,
+        "end": 59
       }
-    ]
+    ],
+    "_note": "No PDF offset — PDF page = file page number. Chapters entered manually by user."
   },
   "abr-messengers-drums": {
     "scanned": false,
