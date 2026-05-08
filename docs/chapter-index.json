@@ -1,139 +1,145 @@
 {
   "_note": "Page numbers = PDF page number (1-indexed). Extracted via PyMuPDF. Books marked 'scanned' have no text layer — chapters entered manually.",
   "master-studies-morello": {
+    "_note": "No PDF offset — PDF page = book page. Chapters from ToC (PDF p.4) + user page data.",
     "scanned": false,
-    "auto_indexed": true,
+    "auto_indexed": false,
     "text_coverage": 1.0,
     "chapters": [
       {
-        "title": "These exeroses can also be apphed lo the drumset",
-        "start": 8,
-        "end": 18
+        "title": "Accent Studies - 8th Notes with Buzz Accents",
+        "start": 7,
+        "end": 17
       },
       {
-        "title": "Bth-note and triplet combinations",
-        "start": 19,
-        "end": 25
+        "title": "Accent Studies - 8th-Note and Triplet Combinations",
+        "start": 18,
+        "end": 19
       },
       {
-        "title": "triplets with buzz rolls",
-        "start": 26,
+        "title": "Buzz Roll Studies - 8th Notes with Buzz Rolls",
+        "start": 20,
+        "end": 24
+      },
+      {
+        "title": "Buzz Roll Studies - Triplets with Buzz Rolls",
+        "start": 25,
+        "end": 29
+      },
+      {
+        "title": "Stroke Combination Studies - Single and Double",
+        "start": 30,
         "end": 30
       },
       {
-        "title": "Stroke Combination Studies",
+        "title": "Stroke Combination Studies - Double and Buzz",
         "start": 31,
         "end": 31
       },
       {
-        "title": "tm-A □ □ J",
+        "title": "Stroke Combination Studies - Single and Buzz",
         "start": 32,
+        "end": 33
+      },
+      {
+        "title": "Stroke Combination Studies - 5 Stroke Roll",
+        "start": 34,
         "end": 35
       },
       {
-        "title": "t t",
+        "title": "Stroke Combination Studies - 7 Stroke Roll",
         "start": 36,
-        "end": 37
+        "end": 36
       },
       {
-        "title": "a@UJJJ JJJJJJJ ..dJJJJJ I JJJJJJJ ñ±iñJ JJdJ¡",
-        "start": 38,
+        "title": "Stroke Combination Studies - 5 and 7 Stroke Roll",
+        "start": 37,
         "end": 38
       },
       {
-        "title": "L R L R L A L R L A L R L  A L R L",
+        "title": "Stroke Combination Studies - 9 Stroke Roll",
         "start": 39,
-        "end": 42
+        "end": 39
       },
       {
-        "title": "table of time",
-        "start": 43,
-        "end": 54
+        "title": "Control Studies - Sticking Exercises",
+        "start": 40,
+        "end": 41
       },
       {
-        "title": "the Stone ''killer''",
-        "start": 55,
-        "end": 67
+        "title": "Control Studies - Table of Time",
+        "start": 42,
+        "end": 43
       },
       {
-        "title": "JI: J JffiJlDiJ MJ M =111: J 3 3 J 3 3 J-J J J Jm§11",
-        "start": 68,
-        "end": 68
+        "title": "Control Studies - Endurance",
+        "start": 44,
+        "end": 44
       },
       {
-        "title": "JJJJJJJJJJJJJJJJJJJJJJJJ=!lf m J JJ=iJ.JJJ_JJJ 3 3 :1",
-        "start": 69,
-        "end": 70
+        "title": "Control Studies - Velocity",
+        "start": 45,
+        "end": 47
       },
       {
-        "title": "groups of tour with fill-ins",
-        "start": 71,
+        "title": "Control Studies - Progressive Accents",
+        "start": 48,
+        "end": 51
+      },
+      {
+        "title": "Control Studies - Dynamics",
+        "start": 52,
+        "end": 53
+      },
+      {
+        "title": "Control Studies - Stone Killer",
+        "start": 54,
+        "end": 65
+      },
+      {
+        "title": "Fill-In Studies - Groups of Three",
+        "start": 66,
+        "end": 69
+      },
+      {
+        "title": "Fill-In Studies - Groups of Four",
+        "start": 70,
         "end": 71
       },
       {
-        "title": "L R L  L R L  L R L  L R",
+        "title": "Fill-In Studies - Threes and Fours",
         "start": 72,
         "end": 72
       },
       {
-        "title": "threes and tours with fill-ins",
+        "title": "Fill-In Studies - Twos",
         "start": 73,
         "end": 74
       },
       {
-        "title": "J J J J J □J J . J J J l , 1 1",
+        "title": "Fill-In Studies - Endurance Exercise",
         "start": 75,
-        "end": 75
-      },
-      {
-        "title": "endurance exercise with fill-ins",
-        "start": 76,
         "end": 76
       },
       {
         "title": "Ostinato Studies",
         "start": 77,
-        "end": 77
-      },
-      {
-        "title": "J J 3 J J J J J I J J J J J J J J I J J J J J J J J '.11",
-        "start": 78,
         "end": 81
       },
       {
-        "title": "Once you have reached a certaín proficiency, start putting the rhythms logether",
+        "title": "Flam Studies - Flat Flams",
         "start": 82,
-        "end": 86
+        "end": 85
       },
       {
-        "title": "th notes with flams",
-        "start": 87,
-        "end": 88
+        "title": "Flam Studies - 8th Notes with Flams",
+        "start": 86,
+        "end": 89
       },
       {
-        "title": "ol- 3 3 3 J 3 &l 3 1 J 3 3 3 v 3 ¿;¡ rm",
-        "start": 89,
-        "end": 90
-      },
-      {
-        "title": "triplets with flams",
-        "start": 91,
-        "end": 91
-      },
-      {
-        "title": "lfErfil Jt,J Jt.J 3 J 1fflú-JiLJil;l1'J 3-3-:1",
-        "start": 92,
+        "title": "Flam Studies - Triplets with Flams",
+        "start": 90,
         "end": 93
-      },
-      {
-        "title": "r\u0004ikJ&l@\tiil 1eiJfim&lmhí@mq¡1",
-        "start": 94,
-        "end": 95
-      },
-      {
-        "title": "Joe More/lo w,rh Geo,ge Lawrence Stone",
-        "start": 96,
-        "end": 97
       }
     ]
   },
@@ -277,47 +283,211 @@
     "auto_indexed": false,
     "text_coverage": 1.0,
     "chapters": [
-      { "title": "Time Playing - The Ride Cymbal", "start": 7, "end": 7 },
-      { "title": "Time Playing - Phrasing", "start": 8, "end": 9 },
-      { "title": "Time Playing - The Jazz Drum Sound", "start": 10, "end": 10 },
-      { "title": "Time Playing - The Bass Drum & Hi-hat", "start": 11, "end": 11 },
-      { "title": "Time Playing - Cymbals", "start": 12, "end": 13 },
-      { "title": "Time Playing - Practicing", "start": 14, "end": 15 },
-      { "title": "Comping - Interdependence", "start": 17, "end": 17 },
-      { "title": "Comping - Comp Example 1", "start": 18, "end": 19 },
-      { "title": "Comping - Pacing", "start": 20, "end": 20 },
-      { "title": "Comping - Rhythmic Transposition", "start": 21, "end": 21 },
-      { "title": "Comping - Comp Example 2", "start": 22, "end": 23 },
-      { "title": "Comping - Comping with the Bass Drum", "start": 24, "end": 25 },
-      { "title": "Comping - Comp Example 3", "start": 26, "end": 27 },
-      { "title": "Comping - Comp Example 4", "start": 28, "end": 29 },
-      { "title": "Comping - Accompanying a Soloist", "start": 30, "end": 31 },
-      { "title": "Comping - Listening/Song Structure", "start": 32, "end": 32 },
-      { "title": "Comping - Awareness", "start": 33, "end": 33 },
-      { "title": "Soloing - Solo Structure", "start": 35, "end": 35 },
-      { "title": "Soloing - One-bar Phrases", "start": 36, "end": 36 },
-      { "title": "Soloing - Developing Musical Phrases", "start": 37, "end": 39 },
-      { "title": "Soloing - Three-beat Phrases", "start": 40, "end": 43 },
-      { "title": "Soloing - Developing Longer Solos", "start": 44, "end": 44 },
-      { "title": "Soloing - Question and Answer Solo", "start": 45, "end": 46 },
-      { "title": "Brushes - Basic Pattern", "start": 48, "end": 48 },
-      { "title": "Brushes - Ballad Patterns", "start": 49, "end": 49 },
-      { "title": "Brushes - Uptempo Patterns", "start": 50, "end": 50 },
-      { "title": "Brushes - The Figure 8", "start": 51, "end": 51 },
-      { "title": "Brushes - 3 Against 2 Feel", "start": 51, "end": 51 },
-      { "title": "Brushes - Brush Patterns in 3/4", "start": 52, "end": 54 },
-      { "title": "More Jazz Essentials - The Shuffle", "start": 56, "end": 56 },
-      { "title": "More Jazz Essentials - Playing in 2", "start": 57, "end": 57 },
-      { "title": "More Jazz Essentials - 3/4 Waltz", "start": 58, "end": 58 },
-      { "title": "More Jazz Essentials - Samba", "start": 59, "end": 59 },
-      { "title": "More Jazz Essentials - 12/8 Feel", "start": 59, "end": 59 },
-      { "title": "More Jazz Essentials - Mambo", "start": 60, "end": 60 },
-      { "title": "More Jazz Essentials - Uptempo Playing", "start": 60, "end": 61 },
-      { "title": "Charts - School Days (medium)", "start": 64, "end": 64 },
-      { "title": "Charts - Last Week (shuffle)", "start": 65, "end": 65 },
-      { "title": "Charts - What Is This Thing Called? (medium-up)", "start": 66, "end": 66 },
-      { "title": "Charts - October (ballad)", "start": 67, "end": 67 },
-      { "title": "Charts - Satch and Diz (3/4, 4/4)", "start": 68, "end": 68 }
+      {
+        "title": "Time Playing - The Ride Cymbal",
+        "start": 7,
+        "end": 7
+      },
+      {
+        "title": "Time Playing - Phrasing",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "title": "Time Playing - The Jazz Drum Sound",
+        "start": 10,
+        "end": 10
+      },
+      {
+        "title": "Time Playing - The Bass Drum & Hi-hat",
+        "start": 11,
+        "end": 11
+      },
+      {
+        "title": "Time Playing - Cymbals",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "title": "Time Playing - Practicing",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "title": "Comping - Interdependence",
+        "start": 17,
+        "end": 17
+      },
+      {
+        "title": "Comping - Comp Example 1",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "title": "Comping - Pacing",
+        "start": 20,
+        "end": 20
+      },
+      {
+        "title": "Comping - Rhythmic Transposition",
+        "start": 21,
+        "end": 21
+      },
+      {
+        "title": "Comping - Comp Example 2",
+        "start": 22,
+        "end": 23
+      },
+      {
+        "title": "Comping - Comping with the Bass Drum",
+        "start": 24,
+        "end": 25
+      },
+      {
+        "title": "Comping - Comp Example 3",
+        "start": 26,
+        "end": 27
+      },
+      {
+        "title": "Comping - Comp Example 4",
+        "start": 28,
+        "end": 29
+      },
+      {
+        "title": "Comping - Accompanying a Soloist",
+        "start": 30,
+        "end": 31
+      },
+      {
+        "title": "Comping - Listening/Song Structure",
+        "start": 32,
+        "end": 32
+      },
+      {
+        "title": "Comping - Awareness",
+        "start": 33,
+        "end": 33
+      },
+      {
+        "title": "Soloing - Solo Structure",
+        "start": 35,
+        "end": 35
+      },
+      {
+        "title": "Soloing - One-bar Phrases",
+        "start": 36,
+        "end": 36
+      },
+      {
+        "title": "Soloing - Developing Musical Phrases",
+        "start": 37,
+        "end": 39
+      },
+      {
+        "title": "Soloing - Three-beat Phrases",
+        "start": 40,
+        "end": 43
+      },
+      {
+        "title": "Soloing - Developing Longer Solos",
+        "start": 44,
+        "end": 44
+      },
+      {
+        "title": "Soloing - Question and Answer Solo",
+        "start": 45,
+        "end": 46
+      },
+      {
+        "title": "Brushes - Basic Pattern",
+        "start": 48,
+        "end": 48
+      },
+      {
+        "title": "Brushes - Ballad Patterns",
+        "start": 49,
+        "end": 49
+      },
+      {
+        "title": "Brushes - Uptempo Patterns",
+        "start": 50,
+        "end": 50
+      },
+      {
+        "title": "Brushes - The Figure 8",
+        "start": 51,
+        "end": 51
+      },
+      {
+        "title": "Brushes - 3 Against 2 Feel",
+        "start": 51,
+        "end": 51
+      },
+      {
+        "title": "Brushes - Brush Patterns in 3/4",
+        "start": 52,
+        "end": 54
+      },
+      {
+        "title": "More Jazz Essentials - The Shuffle",
+        "start": 56,
+        "end": 56
+      },
+      {
+        "title": "More Jazz Essentials - Playing in 2",
+        "start": 57,
+        "end": 57
+      },
+      {
+        "title": "More Jazz Essentials - 3/4 Waltz",
+        "start": 58,
+        "end": 58
+      },
+      {
+        "title": "More Jazz Essentials - Samba",
+        "start": 59,
+        "end": 59
+      },
+      {
+        "title": "More Jazz Essentials - 12/8 Feel",
+        "start": 59,
+        "end": 59
+      },
+      {
+        "title": "More Jazz Essentials - Mambo",
+        "start": 60,
+        "end": 60
+      },
+      {
+        "title": "More Jazz Essentials - Uptempo Playing",
+        "start": 60,
+        "end": 61
+      },
+      {
+        "title": "Charts - School Days (medium)",
+        "start": 64,
+        "end": 64
+      },
+      {
+        "title": "Charts - Last Week (shuffle)",
+        "start": 65,
+        "end": 65
+      },
+      {
+        "title": "Charts - What Is This Thing Called? (medium-up)",
+        "start": 66,
+        "end": 66
+      },
+      {
+        "title": "Charts - October (ballad)",
+        "start": 67,
+        "end": 67
+      },
+      {
+        "title": "Charts - Satch and Diz (3/4, 4/4)",
+        "start": 68,
+        "end": 68
+      }
     ]
   },
   "advanced-techniques-modern-drummer": {
