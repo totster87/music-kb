@@ -700,15 +700,26 @@
     "scanned": false,
     "auto_indexed": true,
     "text_coverage": 0.812,
-    "chapters": [],
-    "_notation_warning": "Auto-detection yielded 0 notation pages — fell back to all pages. Likely a watermarked or unusual PDF. Review and edit page-index manually if needed."
+    "chapters": [
+      {
+        "title": "Grooves",
+        "start": 4,
+        "end": 15
+      }
+    ]
   },
   "20-chops": {
-    "_note": "Scanned PDF — no text layer detected (0% pages have text). Cannot auto-chapterize. Add chapters manually or via OCR.",
+    "_note": "Scanned PDF — no text layer. p.1 cover, p.2-3 intro, p.4 content, p.5 excluded (end matter).",
     "scanned": true,
     "auto_indexed": false,
     "text_coverage": 0.0,
-    "chapters": []
+    "chapters": [
+      {
+        "title": "Chops",
+        "start": 4,
+        "end": 4
+      }
+    ]
   },
   "etid-low-teens": {
     "scanned": false,
