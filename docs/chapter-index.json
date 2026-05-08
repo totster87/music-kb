@@ -350,11 +350,102 @@
     "chapters": []
   },
   "advanced-funk-studies": {
-    "_note": "Scanned PDF — no text layer detected (0% pages have text). Cannot auto-chapterize. Add chapters manually or via OCR.",
+    "_note": "Scanned PDF — no text layer detected (0% pages have text). Chapters entered manually from ToC. Page numbers are book page numbers.",
     "scanned": true,
     "auto_indexed": false,
     "text_coverage": 0.0,
-    "chapters": []
+    "chapters": [
+      {
+        "title": "Preface",
+        "start": 5,
+        "end": 5
+      },
+      {
+        "title": "Explanation of Notation",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "title": "Introductory Exercises",
+        "start": 8,
+        "end": 8
+      },
+      {
+        "title": "Fixed Hi-hat Patterns",
+        "start": 9,
+        "end": 9
+      },
+      {
+        "title": "Hi-hat Quarter Notes",
+        "start": 10,
+        "end": 10
+      },
+      {
+        "title": "Hi-hat Eighth Notes",
+        "start": 10,
+        "end": 10
+      },
+      {
+        "title": "Hi-hat Off Beat",
+        "start": 11,
+        "end": 11
+      },
+      {
+        "title": "Hi-hat Sixteenth Notes (and-ah)",
+        "start": 12,
+        "end": 12
+      },
+      {
+        "title": "Hi-hat Openings",
+        "start": 13,
+        "end": 13
+      },
+      {
+        "title": "Combination Exercises",
+        "start": 14,
+        "end": 16
+      },
+      {
+        "title": "Fill Patterns",
+        "start": 17,
+        "end": 17
+      },
+      {
+        "title": "Funk Patterns",
+        "start": 18,
+        "end": 22
+      },
+      {
+        "title": "Transcriptions — Steve Gadd",
+        "start": 24,
+        "end": 26
+      },
+      {
+        "title": "Transcriptions — David Garibaldi",
+        "start": 27,
+        "end": 27
+      },
+      {
+        "title": "Transcriptions — Harvey Mason",
+        "start": 28,
+        "end": 28
+      },
+      {
+        "title": "Transcriptions — Peter Erskine",
+        "start": 29,
+        "end": 29
+      },
+      {
+        "title": "Transcriptions — Gerry Brown / Paul Leim / Moon Calhoun / Ed Greene",
+        "start": 30,
+        "end": 31
+      },
+      {
+        "title": "Solos Nos. 1-10",
+        "start": 32,
+        "end": 51
+      }
+    ]
   },
   "progressive-steps-syncopation": {
     "scanned": false,
