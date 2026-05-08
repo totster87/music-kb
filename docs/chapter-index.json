@@ -350,99 +350,99 @@
     "chapters": []
   },
   "advanced-funk-studies": {
-    "_note": "Scanned PDF — no text layer detected (0% pages have text). Chapters entered manually from ToC. Page numbers are book page numbers.",
+    "_note": "Scanned PDF — no text layer. Chapters entered manually from ToC. PDF page = book page + 2 (verified: book p.17 = PDF p.19).",
     "scanned": true,
     "auto_indexed": false,
     "text_coverage": 0.0,
     "chapters": [
       {
         "title": "Preface",
-        "start": 5,
-        "end": 5
-      },
-      {
-        "title": "Explanation of Notation",
-        "start": 6,
+        "start": 7,
         "end": 7
       },
       {
-        "title": "Introductory Exercises",
+        "title": "Explanation of Notation",
         "start": 8,
-        "end": 8
-      },
-      {
-        "title": "Fixed Hi-hat Patterns",
-        "start": 9,
         "end": 9
       },
       {
-        "title": "Hi-hat Quarter Notes",
+        "title": "Introductory Exercises",
         "start": 10,
         "end": 10
       },
       {
-        "title": "Hi-hat Eighth Notes",
-        "start": 10,
-        "end": 10
-      },
-      {
-        "title": "Hi-hat Off Beat",
+        "title": "Fixed Hi-hat Patterns",
         "start": 11,
         "end": 11
       },
       {
-        "title": "Hi-hat Sixteenth Notes (and-ah)",
+        "title": "Hi-hat Quarter Notes",
         "start": 12,
         "end": 12
       },
       {
-        "title": "Hi-hat Openings",
+        "title": "Hi-hat Eighth Notes",
+        "start": 12,
+        "end": 12
+      },
+      {
+        "title": "Hi-hat Off Beat",
         "start": 13,
         "end": 13
       },
       {
-        "title": "Combination Exercises",
+        "title": "Hi-hat Sixteenth Notes (and-ah)",
         "start": 14,
-        "end": 16
+        "end": 14
+      },
+      {
+        "title": "Hi-hat Openings",
+        "start": 15,
+        "end": 15
+      },
+      {
+        "title": "Combination Exercises",
+        "start": 16,
+        "end": 18
       },
       {
         "title": "Fill Patterns",
-        "start": 17,
-        "end": 17
+        "start": 19,
+        "end": 19
       },
       {
         "title": "Funk Patterns",
-        "start": 18,
-        "end": 22
+        "start": 20,
+        "end": 24
       },
       {
         "title": "Transcriptions — Steve Gadd",
-        "start": 24,
-        "end": 26
-      },
-      {
-        "title": "Transcriptions — David Garibaldi",
-        "start": 27,
-        "end": 27
-      },
-      {
-        "title": "Transcriptions — Harvey Mason",
-        "start": 28,
+        "start": 26,
         "end": 28
       },
       {
-        "title": "Transcriptions — Peter Erskine",
+        "title": "Transcriptions — David Garibaldi",
         "start": 29,
         "end": 29
       },
       {
-        "title": "Transcriptions — Gerry Brown / Paul Leim / Moon Calhoun / Ed Greene",
+        "title": "Transcriptions — Harvey Mason",
         "start": 30,
+        "end": 30
+      },
+      {
+        "title": "Transcriptions — Peter Erskine",
+        "start": 31,
         "end": 31
       },
       {
-        "title": "Solos Nos. 1-10",
+        "title": "Transcriptions — Gerry Brown / Paul Leim / Moon Calhoun / Ed Greene",
         "start": 32,
+        "end": 33
+      },
+      {
+        "title": "Solos Nos. 1-10",
+        "start": 34,
         "end": 51
       }
     ]
