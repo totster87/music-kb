@@ -296,27 +296,42 @@
       {
         "title": "Single Beat Combinations",
         "start": 5,
-        "end": 10
+        "end": 7
       },
       {
-        "title": "Double Beat Combinations",
-        "start": 11,
-        "end": 16
+        "title": "Triplets",
+        "start": 8,
+        "end": 9
       },
       {
-        "title": "Mixed Groupings",
-        "start": 17,
-        "end": 30
+        "title": "Short Roll Combinations",
+        "start": 10,
+        "end": 15
       },
       {
-        "title": "Accent Studies",
-        "start": 31,
-        "end": 40
+        "title": "Flams",
+        "start": 16,
+        "end": 23
       },
       {
-        "title": "Flam Studies",
-        "start": 41,
-        "end": 50
+        "title": "Short Rolls in 6/8",
+        "start": 24,
+        "end": 29
+      },
+      {
+        "title": "Combinations in 3/8",
+        "start": 30,
+        "end": 32
+      },
+      {
+        "title": "Flam Triplets",
+        "start": 34,
+        "end": 37
+      },
+      {
+        "title": "Short Roll Progressions",
+        "start": 38,
+        "end": 46
       }
     ]
   },
