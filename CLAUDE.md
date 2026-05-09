@@ -200,7 +200,7 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `progressive-independence-rock` | Progressive Independence: Rock | Ron Spagnardi | 162 | Part 3 combos: p.9 |
 | `master-studies-morello` | Master Studies | Joe Morello | 97 | Table of Time: p.43 / Groups of Four (fill-ins): p.71 / Accent Studies: p.7 |
 | `the-art-of-bop-drumming` | The Art of Bop Drumming | John Riley | 68 | Jazz comping and ride vocabulary |
-| `advanced-techniques-modern-drummer` | Advanced Techniques Vol.1 | Jim Chapin | 55 | Coordinated independence, jazz/be-bop / p.6 confirmed text — do NOT use p.1–13 / exercises confirmed from p.14+ |
+| `advanced-techniques-modern-drummer` | Advanced Techniques Vol.1 | Jim Chapin | 55 | Coordinated independence, jazz/be-bop / p.6 confirmed text — do NOT use p.1–13 / Dotted 8ths+16ths: p.9–14 / Eighths: p.16–20 / Triplet: p.25–29 / Sixteenths: p.30–33 / Solo Exercises: p.41–55 |
 | `stick-control` | Stick Control | George Lawrence Stone | 50 | Single Beat Combinations: p.5 |
 | `advanced-funk-studies` | Advanced Funk Studies | Rick Latham | 51 | Funk patterns throughout / p.5 = author bio — do NOT use / content starts p.6+ |
 | `progressive-steps-syncopation` | Progressive Steps to Syncopation | Ted Reed | 61 | Syncopation reading |
