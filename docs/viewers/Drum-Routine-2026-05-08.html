@@ -17,16 +17,6 @@
     h1 { font-size: 1.4rem; font-weight: 700; color: #f5f5f5; margin-bottom: 4px; }
     .subtitle { font-size: 0.85rem; color: #888; margin-bottom: 6px; }
     .note { font-size: 0.8rem; color: #666; margin-bottom: 24px; font-style: italic; }
-    .section-label {
-      font-size: 0.7rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: #555;
-      margin: 24px 0 10px;
-      padding-bottom: 4px;
-      border-bottom: 1px solid #222;
-    }
     .block {
       background: #1a1a1a;
       border-left: 3px solid #cc44ff;
@@ -35,13 +25,13 @@
       margin-bottom: 14px;
     }
     .block.warmup     { border-left-color: #44dd88; }
-    .block.reading    { border-left-color: #88ddff; }
-    .block.technique  { border-left-color: #ff8800; }
     .block.funk       { border-left-color: #ffcc00; }
+    .block.chops      { border-left-color: #ff8800; }
+    .block.technique  { border-left-color: #ff8800; }
+    .block.jazz       { border-left-color: #44aaff; }
     .block.independence { border-left-color: #cc44ff; }
     .block.doublebass { border-left-color: #ff4444; }
-    .block.jazz       { border-left-color: #44aaff; }
-    .block.music      { border-left-color: #44aaff; }
+    .block.reading    { border-left-color: #88ddff; }
     .block.burnout    { border-left-color: #ff2222; background: #1a0a0a; }
     .block-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
     .block-title { font-size: 1rem; font-weight: 600; color: #f0f0f0; }
@@ -87,317 +77,177 @@
     .score-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: #555; margin-bottom: 5px; }
     .score-img { width: 100%; border-radius: 4px; display: block; margin-bottom: 8px; border: 1px solid #2a2a2a; }
     .divider { height: 1px; background: #1e1e1e; margin: 20px 0; }
-    .summary-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
-    .summary-chip { background: #1e1e1e; border: 1px solid #2a2a2a; border-radius: 20px; padding: 3px 10px; font-size: 0.78rem; color: #888; }
     .item-num { font-size: 0.75rem; color: #555; font-weight: 700; margin-right: 4px; }
   </style>
 </head>
 <body>
 
   <h1>Drum Routine</h1>
-  <div class="subtitle">Friday 8 May 2026 &nbsp;·&nbsp; 20 exercises &nbsp;·&nbsp; ~120 min total</div>
-  <div class="note">Full session pool — work through as many as you have time for, in order. The flow is deliberate: easy hands → reading → technique → funk → independence → feet → jazz → metal → burnout.</div>
+  <div class="subtitle">Friday 8 May 2026 &nbsp;·&nbsp; 10 exercises &nbsp;·&nbsp; ~60 min</div>
+  <div class="note">Deliberately random — pulling from corners of the library not recently touched. Do them in order.</div>
 
-  <div class="summary-row">
-    <span class="summary-chip">Warm-up ×3</span>
-    <span class="summary-chip">Reading ×2</span>
-    <span class="summary-chip">Technique ×4</span>
-    <span class="summary-chip">Funk ×3</span>
-    <span class="summary-chip">Independence ×2</span>
-    <span class="summary-chip">Double bass ×3</span>
-    <span class="summary-chip">Jazz ×1</span>
-    <span class="summary-chip">Music ×1</span>
-    <span class="summary-chip">Burnout ×1</span>
-  </div>
-
-  <div class="section-label">Warm-Up</div>
-
+  <!-- 01 -->
   <div class="block warmup">
     <div class="block-header">
-      <span class="block-title"><span class="item-num">01</span>Stick Control — Single Beat Combinations</span>
+      <span class="block-title"><span class="item-num">01</span>Stick Control — Accent Combinations</span>
       <span class="block-time">5 min</span>
     </div>
-    <div class="block-tag">Stick Control · Stone · p.9</div>
+    <div class="block-tag">Stick Control · Stone · p.14</div>
     <ul>
-      <li>Plain snare, no kit orchestration yet — feel the stick rebound before adding anything</li>
-      <li>Start at <span class="bpm-tag">60 BPM</span>, 8th note pulse — even hands, even tone</li>
-      <li>If it feels good at 60, push to <span class="bpm-tag">80 BPM</span></li>
-      <li>Last row: try the patterns with accent on beat 1 of each group</li>
+      <li>Plain snare — no kit yet, just loose wrists and rebounds</li>
+      <li>Different page from p.5 and p.9 used previously — new sticking patterns</li>
+      <li>Start at <span class="bpm-tag">65 BPM</span> 8th pulse, push to <span class="bpm-tag">85 BPM</span> if clean</li>
+      <li>Every accent: full arm. Every tap: wrist only. No in-between.</li>
     </ul>
     <div class="score-section">
-      <div class="score-label">Stick Control — p.9</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-009.png" alt="Stick Control p.9">
+      <div class="score-label">Stick Control — p.14</div>
+      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-014.png" alt="Stick Control p.14">
     </div>
   </div>
 
-  <div class="block warmup">
+  <!-- 02 -->
+  <div class="block funk">
     <div class="block-header">
-      <span class="block-title"><span class="item-num">02</span>Stick Control — Accent Patterns</span>
-      <span class="block-time">5 min</span>
+      <span class="block-title"><span class="item-num">02</span>Latham — Advanced Funk Studies</span>
+      <span class="block-time">7 min</span>
     </div>
-    <div class="block-tag">Stick Control · Stone · p.17</div>
+    <div class="block-tag">Advanced Funk Studies · Latham · p.10 · First time on this material</div>
     <ul>
-      <li>Continue from p.9 — same hand combinations but with accent markings</li>
-      <li>Let the accents speak without clenching — loose grip on taps, full arm on accents</li>
-      <li>Keep <span class="bpm-tag">70 BPM</span> — accuracy over speed here</li>
-    </ul>
-    <div class="score-section">
-      <div class="score-label">Stick Control — p.17</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-017.png" alt="Stick Control p.17">
-    </div>
-  </div>
-
-  <div class="block warmup">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">03</span>Morello — Accent Studies</span>
-      <span class="block-time">5 min</span>
-    </div>
-    <div class="block-tag">Master Studies · Morello · p.8</div>
-    <ul>
-      <li>Accent control before any heavy double bass work — build the wrist first</li>
-      <li>One exercise at a time — get each one clean before moving on</li>
-      <li>Add kick on 1 and 3 if it feels natural — don't force it</li>
-      <li><span class="bpm-tag">60–75 BPM</span></li>
-    </ul>
-    <div class="score-section">
-      <div class="score-label">Master Studies — p.8</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/master-studies-morello/page-008.png" alt="Master Studies p.8">
-    </div>
-  </div>
-
-  <div class="section-label">Reading</div>
-
-  <div class="block reading">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">04</span>Reed Syncopation — Reading on Snare</span>
-      <span class="block-time">6 min</span>
-    </div>
-    <div class="block-tag">Progressive Steps to Syncopation · Reed · p.31</div>
-    <ul>
-      <li>Snare only — no orchestration until the line is solid</li>
-      <li>Read each rest as long as the note before it — rushing at rests is the main trap</li>
-      <li><span class="bpm-tag">60 BPM</span>, 8th pulse — once comfortable push to <span class="bpm-tag">80 BPM</span></li>
-      <li>Different page from last session (p.37 on 05/06) — fresh reading, start slow</li>
+      <li>Read the whole page before touching the kit — map the ghost notes vs. full strokes</li>
+      <li>No click first: find where the groove wants to sit, then add a metronome to anchor it</li>
+      <li>Ghost notes should be felt, not heard — they live in the bottom third of the stick's range</li>
+      <li>Pick one groove that feels natural and loop it for 2 full minutes at a locked tempo</li>
     </ul>
     <div class="focus-box">
-      <strong>Key:</strong> Read first, play second. Scan the full line before clicking on the metronome.
+      <strong>Goal:</strong> Get one groove to actually feel like a groove, not just a pattern. If it doesn't make you want to nod, it's not there yet.
     </div>
     <div class="score-section">
-      <div class="score-label">Progressive Steps to Syncopation — p.31</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-steps-syncopation/page-031.png" alt="Reed Syncopation p.31">
+      <div class="score-label">Advanced Funk Studies — p.10</div>
+      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/advanced-funk-studies/page-010.png" alt="Advanced Funk Studies p.10">
     </div>
   </div>
 
-  <div class="block reading">
+  <!-- 03 -->
+  <div class="block chops">
     <div class="block-header">
-      <span class="block-title"><span class="item-num">05</span>Reed Syncopation — Orchestrate to Kit</span>
+      <span class="block-title"><span class="item-num">03</span>20 Chops — Exercise from p.3</span>
       <span class="block-time">6 min</span>
     </div>
-    <div class="block-tag">Progressive Steps to Syncopation · Reed · p.41</div>
+    <div class="block-tag">20 Chops · p.3 · First time on this material</div>
     <ul>
-      <li>Take the reading from item 4 and now orchestrate: kick on the written notes, hi-hat pulse on 2+4</li>
-      <li>Or: move the melodic line around the kit — toms as melody, snare on back beats</li>
-      <li>New page — read it on snare first before moving to kit</li>
-      <li><span class="bpm-tag">60–75 BPM</span></li>
+      <li>Five-page book — read p.3 cold, no prep, no context</li>
+      <li>Work each written exercise in isolation: understand the sticking, then add tempo</li>
+      <li>No click initially — let the hands figure out the pattern before imposing a grid</li>
+      <li>When a chop clicks, push the BPM until it stops being clean, note where that is</li>
     </ul>
     <div class="score-section">
-      <div class="score-label">Progressive Steps to Syncopation — p.41</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-steps-syncopation/page-041.png" alt="Reed Syncopation p.41">
+      <div class="score-label">20 Chops — p.3</div>
+      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/20-chops/page-003.png" alt="20 Chops p.3">
     </div>
   </div>
 
-  <div class="section-label">Technique</div>
-
+  <!-- 04 -->
   <div class="block technique">
     <div class="block-header">
-      <span class="block-title"><span class="item-num">06</span>Morello — Table of Time</span>
+      <span class="block-title"><span class="item-num">04</span>Morello — Table of Time</span>
       <span class="block-time">8 min</span>
     </div>
-    <div class="block-tag">Master Studies · Morello · p.44</div>
+    <div class="block-tag">Master Studies · Morello · p.43 · Active focus</div>
     <ul>
-      <li>Subdivision transitions — the core of this exercise is moving between note values cleanly</li>
-      <li>Last logged at <span class="bpm-tag">53 BPM</span> halftime — start there, don't rush the tempo</li>
-      <li>Problem point: rushing on subdivision changes — feel the landing before speeding up</li>
-      <li>Two rounds per line: one at slow tempo to understand the transition, one up to session tempo</li>
+      <li>Known issue: rushing subdivision transitions — the rhythm accelerates before the next value settles</li>
+      <li>Start at <span class="bpm-tag">53 BPM</span> halftime — that's where it last felt manageable</li>
+      <li>Two passes per line: first pass slow to understand the transition, second pass at session tempo</li>
+      <li>When a transition rushes, stop. Pause. Re-enter. Don't glide over it.</li>
     </ul>
     <div class="focus-box">
-      <strong>Known issue:</strong> Subdivision rushes on transitions. Fix: pause on the barline before switching feel. The gap is better than the rush.
+      <strong>Fix:</strong> Pause intentionally at the barline before each subdivision change. A short silence is better than a sloppy transition.
     </div>
     <div class="score-section">
-      <div class="score-label">Master Studies — p.44</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/master-studies-morello/page-044.png" alt="Master Studies p.44">
+      <div class="score-label">Master Studies — p.43</div>
+      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/master-studies-morello/page-043.png" alt="Master Studies p.43">
     </div>
   </div>
 
-  <div class="block technique">
+  <!-- 05 -->
+  <div class="block jazz">
     <div class="block-header">
-      <span class="block-title"><span class="item-num">07</span>20 Chops — Exercise 1</span>
-      <span class="block-time">6 min</span>
+      <span class="block-title"><span class="item-num">05</span>Riley — Art of Bop Drumming</span>
+      <span class="block-time">7 min</span>
     </div>
-    <div class="block-tag">20 Chops · p.2 · First session on this material</div>
+    <div class="block-tag">The Art of Bop Drumming · Riley · p.5 · Earlier section than p.22</div>
     <ul>
-      <li>Fresh material — read the full page before touching the kit</li>
-      <li>Play each exercise in isolation: 4 bars on loop until clean, then move on</li>
-      <li>No click to start — feel the sticking pattern before adding tempo pressure</li>
-      <li>Add click at whatever tempo feels natural once the hands are under control</li>
+      <li>p.22 (05/05) was brutal — this is an earlier page with less density, use it to build the framework</li>
+      <li>Ride hand first: lock in the jazz ride pattern before adding any comping</li>
+      <li>Add hi-hat foot on 2+4 once ride is automatic — no hands on snare yet</li>
+      <li>Then, and only then: add written comping with the snare and bass drum</li>
+      <li><span class="bpm-tag">Very slow</span> — medium slow swing feel, around <span class="bpm-tag">100–110 BPM</span> quarter note</li>
     </ul>
+    <div class="record-box">
+      <strong>⬤ Record target</strong> — one clean chorus of the first exercise at whatever tempo holds together. Phone audio, one take.
+    </div>
     <div class="score-section">
-      <div class="score-label">20 Chops — p.2</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/20-chops/page-002.png" alt="20 Chops p.2">
+      <div class="score-label">Art of Bop Drumming — p.5</div>
+      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/the-art-of-bop-drumming/page-005.png" alt="Art of Bop Drumming p.5">
     </div>
   </div>
 
-  <div class="block technique">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">08</span>Chapin — Coordinated Independence</span>
-      <span class="block-time">6 min</span>
-    </div>
-    <div class="block-tag">Advanced Techniques · Chapin · p.14</div>
-    <ul>
-      <li>Different page from p.18 (done 05/05) — continue building through the book</li>
-      <li>Metronome on 2 and 4 only — this makes the written BPM feel very slow but the musical feel right</li>
-      <li>One exercise at a time — don't move on until hands and feet agree</li>
-      <li><span class="bpm-tag">55–65 BPM</span> written (which equals medium swing feel with 2+4 click)</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Approach:</strong> These patterns are about making independence feel automatic. If you're thinking about the feet, the hands are suffering. Aim for zero thought on the ride hand.
-    </div>
-    <div class="score-section">
-      <div class="score-label">Advanced Techniques (Chapin) — p.14</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/advanced-techniques-modern-drummer/page-014.png" alt="Chapin p.14">
-    </div>
-  </div>
-
-  <div class="block technique">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">09</span>Chapin — Independence Continuation</span>
-      <span class="block-time">6 min</span>
-    </div>
-    <div class="block-tag">Advanced Techniques · Chapin · p.20</div>
-    <ul>
-      <li>Advance from p.14 — same logic, harder voicings</li>
-      <li>If p.14 didn't feel clean, stay there — only move forward when it locks in</li>
-      <li>Play in a jazz context: light ride touch, brush-style snare if possible</li>
-    </ul>
-    <div class="score-section">
-      <div class="score-label">Advanced Techniques (Chapin) — p.20</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/advanced-techniques-modern-drummer/page-020.png" alt="Chapin p.20">
-    </div>
-  </div>
-
-  <div class="section-label">Funk</div>
-
-  <div class="block funk">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">10</span>Latham — Advanced Funk Studies</span>
-      <span class="block-time">6 min</span>
-    </div>
-    <div class="block-tag">Advanced Funk Studies · Latham · p.5 · First session on this material</div>
-    <ul>
-      <li>Fresh — read the groove before playing it</li>
-      <li>Feel the ghost notes: they're what makes funk patterns groove rather than just sit</li>
-      <li>No click first — find the pocket, then add a metronome to lock it in</li>
-      <li>Start at whatever tempo feels natural and comfortable, not fast</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Ghost note rule:</strong> If your ghost notes are audible from across the room, they're too loud. They should fill the space without calling attention to themselves.
-    </div>
-    <div class="score-section">
-      <div class="score-label">Advanced Funk Studies — p.5</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/advanced-funk-studies/page-005.png" alt="Advanced Funk Studies p.5">
-    </div>
-  </div>
-
-  <div class="block funk">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">11</span>Latham — Funk Continuation</span>
-      <span class="block-time">5 min</span>
-    </div>
-    <div class="block-tag">Advanced Funk Studies · Latham · p.11</div>
-    <ul>
-      <li>Move forward from p.5 — compare the feel as the patterns evolve</li>
-      <li>Experiment: what's the highest tempo where the ghost notes still feel deliberate?</li>
-      <li>If you find a groove you like, loop it for 2 full minutes and see if it starts to breathe</li>
-    </ul>
-    <div class="score-section">
-      <div class="score-label">Advanced Funk Studies — p.11</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/advanced-funk-studies/page-011.png" alt="Advanced Funk Studies p.11">
-    </div>
-  </div>
-
-  <div class="block funk">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">12</span>30 Dirty Grooves</span>
-      <span class="block-time">5 min</span>
-    </div>
-    <div class="block-tag">30 Dirty Grooves · p.4 · Different from p.8 (05/06)</div>
-    <ul>
-      <li>p.8 last session felt awesome at 100–115 BPM — now check a different page</li>
-      <li>Same approach: read without click first, find the feel, then lock tempo</li>
-      <li>Push until it gets uncomfortable, back off slightly, hold that edge</li>
-    </ul>
-    <div class="score-section">
-      <div class="score-label">30 Dirty Grooves — p.4</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/30-dirty-grooves/page-004.png" alt="30 Dirty Grooves p.4">
-    </div>
-  </div>
-
-  <div class="section-label">Independence</div>
-
+  <!-- 06 -->
   <div class="block independence">
     <div class="block-header">
-      <span class="block-title"><span class="item-num">13</span>PI Rock — Part 3, Exercises 1–4</span>
-      <span class="block-time">8 min</span>
-    </div>
-    <div class="block-tag">Progressive Independence: Rock · Spagnardi · p.9</div>
-    <ul>
-      <li>Last session (05/04): got ~4 bars at <span class="bpm-tag">75 BPM</span> before losing control</li>
-      <li>Problem: 16th note alternating hats losing control when right hand hits snare — especially groups of 3</li>
-      <li>Isolation strategy: play the groups-of-3 bar 5× in a loop before combining with bar 1</li>
-      <li>Drop to <span class="bpm-tag">60 BPM</span> and make every note intentional before bumping up</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Known weak spot:</strong> Second measure groups of 3 — snare hit disrupts the hi-hat 16th stream. Fix: practice the snare + hi-hat move in isolation, no feet, at very slow tempo.
-    </div>
-    <div class="score-section">
-      <div class="score-label">Progressive Independence: Rock — p.9</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-independence-rock/page-009.png" alt="PI Rock p.9">
-    </div>
-  </div>
-
-  <div class="block independence">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">14</span>PI Rock — Advance in the Book</span>
+      <span class="block-title"><span class="item-num">06</span>PI Rock — Part 1</span>
       <span class="block-time">6 min</span>
     </div>
-    <div class="block-tag">Progressive Independence: Rock · Spagnardi · p.15</div>
+    <div class="block-tag">Progressive Independence: Rock · Spagnardi · p.3 · Different section from usual p.9</div>
     <ul>
-      <li>Only attempt if item 13 felt clean — if it didn't, spend more time there instead</li>
-      <li>New exercises from further in the book — same family of patterns, harder voicings</li>
-      <li>Start at <span class="bpm-tag">60 BPM</span> regardless of how good p.9 felt</li>
+      <li>You've been living on Part 3 (p.9) — this is Part 1, simpler patterns, different feel</li>
+      <li>Treat it as a coordination reset: what's automatic vs. what still requires thought?</li>
+      <li>Play straight through the page, no stopping — note where the attention snaps to the hands vs. feet</li>
+      <li><span class="bpm-tag">80–100 BPM</span> — these earlier exercises can go faster than Part 3</li>
     </ul>
     <div class="score-section">
-      <div class="score-label">Progressive Independence: Rock — p.15</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-independence-rock/page-015.png" alt="PI Rock p.15">
+      <div class="score-label">Progressive Independence: Rock — p.3</div>
+      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-independence-rock/page-003.png" alt="PI Rock p.3">
     </div>
   </div>
 
-  <div class="section-label">Double Bass</div>
+  <!-- 07 -->
+  <div class="block technique">
+    <div class="block-header">
+      <span class="block-title"><span class="item-num">07</span>Chapin — Basic Coordination</span>
+      <span class="block-time">6 min</span>
+    </div>
+    <div class="block-tag">Advanced Techniques · Chapin · p.6 · Earlier than p.14 and p.18 previously used</div>
+    <ul>
+      <li>Start from an earlier section — this is where the independence logic is introduced</li>
+      <li>Metronome on 2+4 only — the written tempo will feel glacially slow but the musical feel is right</li>
+      <li>Right hand: ride. Left hand: snare comping. Right foot: bass drum. Left foot: hi-hat on 2+4.</li>
+      <li>Goal: make the ride hand completely automatic before the session ends</li>
+    </ul>
+    <div class="focus-box">
+      <strong>Test:</strong> Can you hold a conversation while playing the ride? If not, the ride hand still requires attention. That's the baseline to fix first.
+    </div>
+    <div class="score-section">
+      <div class="score-label">Advanced Techniques (Chapin) — p.6</div>
+      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/advanced-techniques-modern-drummer/page-006.png" alt="Chapin p.6">
+    </div>
+  </div>
 
+  <!-- 08 -->
   <div class="block doublebass">
     <div class="block-header">
-      <span class="block-title"><span class="item-num">15</span>Donati — Basic Single Strokes</span>
+      <span class="block-title"><span class="item-num">08</span>Donati — Single Stroke Foundation</span>
       <span class="block-time">6 min</span>
     </div>
-    <div class="block-tag">Double Bass Drum Freedom · Donati · p.9 · Not yet in session log</div>
+    <div class="block-tag">Double Bass Drum Freedom · Donati · p.9 · Not yet done in session log</div>
     <ul>
-      <li>Start of the Donati single stroke system — alternating R/L on double bass</li>
-      <li>Even pressure both feet — right foot dominance will show up here, let it tell you something</li>
-      <li><span class="bpm-tag">60 BPM</span> 16ths — slow enough to feel each stroke land cleanly</li>
-      <li>Add simple ride pattern on top once the feet feel automatic</li>
+      <li>Start of the Donati system — alternating RLRL on double bass, no hands yet</li>
+      <li>Feet only for the first 2 minutes: listen to the evenness of each stroke landing</li>
+      <li>Right foot dominance will appear here — let it tell you something before compensating</li>
+      <li>Add a simple ride pattern once feet feel automatic: quarter notes or a sparse jazz ride</li>
+      <li><span class="bpm-tag">60 BPM</span> 16th notes — slow enough to feel each stroke land cleanly</li>
     </ul>
     <div class="focus-box">
-      <strong>Purpose:</strong> This is the foundation of everything Donati builds on. Even if it feels easy, the cleanliness you build here is what the harder pages depend on.
+      <strong>Note:</strong> This is foundation material for everything Donati builds on. Even if it feels easy, the evenness you build here determines how far p.21 and p.59 can go.
     </div>
     <div class="score-section">
       <div class="score-label">Double Bass Drum Freedom — p.9</div>
@@ -405,119 +255,49 @@
     </div>
   </div>
 
-  <div class="block doublebass">
+  <!-- 09 -->
+  <div class="block reading">
     <div class="block-header">
-      <span class="block-title"><span class="item-num">16</span>Donati — Hand-Foot Independence</span>
-      <span class="block-time">8 min</span>
-    </div>
-    <div class="block-tag">Double Bass Drum Freedom · Donati · p.21</div>
-    <ul>
-      <li>Last session (05/06): started at 100 BPM, dropped to 70 — equally hard. Coordination problem, not tempo.</li>
-      <li>Start at <span class="bpm-tag">55 BPM</span> — purely to isolate the coordination pattern</li>
-      <li>Short bursts: 4–8 bars, full stop, assess. Don't grind through mistakes.</li>
-      <li>When you find a configuration that locks, loop it for 1 full minute before moving</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Diagnosis:</strong> If it falls apart at 70 and at 100 equally, the problem is the pattern not the speed. Understand which hand-foot relationship is breaking before trying to fix it.
-    </div>
-    <div class="score-section">
-      <div class="score-label">Double Bass Drum Freedom — p.21</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-021.png" alt="Double Bass Drum Freedom p.21">
-    </div>
-  </div>
-
-  <div class="block doublebass">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">17</span>Donati — Sextuplet Series</span>
-      <span class="block-time">8 min</span>
-    </div>
-    <div class="block-tag">Double Bass Drum Freedom · Donati · p.59</div>
-    <ul>
-      <li>Last session (05/05): 60 solid, wobbly in high 70s, 80 BPM most lines OK</li>
-      <li>3rd and 5th lines were the hardest — start with those</li>
-      <li>Pick up at <span class="bpm-tag">75 BPM</span> — don't start at 60 unless the wrists feel tight</li>
-      <li>Target: find where 80 starts to blur and hold just below that edge</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Note:</strong> Sextuplets feel different from 16ths — the grouping of 6 creates a rolling momentum. Don't fight it, ride the pattern.
-    </div>
-    <div class="score-section">
-      <div class="score-label">Double Bass Drum Freedom — p.59</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-059.png" alt="Double Bass Drum Freedom p.59">
-    </div>
-  </div>
-
-  <div class="section-label">Jazz / Bop</div>
-
-  <div class="block jazz">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">18</span>Riley — Art of Bop Drumming</span>
-      <span class="block-time">8 min</span>
-    </div>
-    <div class="block-tag">The Art of Bop Drumming · Riley · p.22</div>
-    <ul>
-      <li>Last session (05/05): very demanding, ride got shaky, had to slow way down</li>
-      <li>Weak spot: doubles on 2+4 — last triplet lands simultaneously with a ride hit</li>
-      <li>New approach: read one exercise slowly, play it on snare first, then move to the full kit</li>
-      <li>No pressure to play exercises end-to-end — mastering one bar cleanly is a win</li>
-      <li><span class="bpm-tag">Very slow</span> — the notes take time to comprehend. That's normal.</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Strategy:</strong> Isolate the doubles-on-2+4 problem. Play ONLY those bars, 10× in a row, until the ride hand and the snare feel like one motion.
-    </div>
-    <div class="record-box">
-      <strong>⬤ Record target</strong> — one clean statement of your best exercise from this page, whatever tempo feels honest. One take, phone audio.
-    </div>
-    <div class="score-section">
-      <div class="score-label">Art of Bop Drumming — p.22</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/the-art-of-bop-drumming/page-022.png" alt="Art of Bop Drumming p.22">
-    </div>
-  </div>
-
-  <div class="section-label">Music Application</div>
-
-  <div class="block music">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">19</span>ABR Messengers Drums — Up Against the Ropes</span>
-      <span class="block-time">10 min</span>
-    </div>
-    <div class="block-tag">After the Burial — Messengers · Drum Transcription · Song 2 · p.18</div>
-    <ul>
-      <li>Truth of a Liar (pp.7–17) got first page clean at 143 BPM on 05/06 — now start the next song</li>
-      <li>Read through p.18 first — identify sections and note the tempo difference from TOAL</li>
-      <li>No click initially — put the record on and just listen to where the drums sit</li>
-      <li>Pick one section (4–8 bars) and learn it, rather than rushing through the whole page</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Context:</strong> Fresh song in the transcription book. Treat it like a cold read — note the time signature, the groove type, and what carries over from TOAL before playing anything.
-    </div>
-    <div class="score-section">
-      <div class="score-label">ABR Messengers Drums — p.18 (Up Against the Ropes)</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers-drums/page-018.png" alt="ABR Messengers Drums p.18">
-    </div>
-  </div>
-
-  <div class="section-label">Burnout</div>
-
-  <div class="block burnout">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">20</span>Burnout: Sextuplet Sprint</span>
+      <span class="block-title"><span class="item-num">09</span>Reed Syncopation — Snare Only</span>
       <span class="block-time">5 min</span>
     </div>
-    <div class="block-tag">No click · No structure · Push tempo each minute</div>
+    <div class="block-tag">Progressive Steps to Syncopation · Reed · p.10 · Fresh page, snare only</div>
     <ul>
-      <li>Groups of 6 on the feet — RLRLRL, alternating — start at whatever feels fast but controlled</li>
-      <li>Every minute, push the tempo slightly — keep going until the groups start to blur</li>
-      <li>Simple hands on top: ride + snare on 2 and 4, or just crash every group if the hands give out</li>
-      <li>Stop when you can't maintain the sextuplet grouping — rest 30 seconds, one more round</li>
-      <li>Last session burnout was straight 16th endurance — this is the rolling version</li>
+      <li>Snare and hi-hat foot only — no kit orchestration, no bass drum</li>
+      <li>Read the full line before playing it — scan rests, note where ties cross the barline</li>
+      <li><span class="bpm-tag">65 BPM</span> 8th pulse — read every rest as if it were a note</li>
+      <li>After 3 clean repetitions of a line: add the bass drum on every quarter note</li>
+      <li>Do NOT orchestrate around the kit until those two layers are solid</li>
+    </ul>
+    <div class="focus-box">
+      <strong>Rule:</strong> The moment you reach for a tom, you've skipped a step. Snare + bass drum must feel locked before anything moves around the kit.
+    </div>
+    <div class="score-section">
+      <div class="score-label">Progressive Steps to Syncopation — p.10</div>
+      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-steps-syncopation/page-010.png" alt="Reed Syncopation p.10">
+    </div>
+  </div>
+
+  <!-- 10 -->
+  <div class="block burnout">
+    <div class="block-header">
+      <span class="block-title"><span class="item-num">10</span>Burnout: Kick + Snare Unison</span>
+      <span class="block-time">5 min</span>
+    </div>
+    <div class="block-tag">No click · No structure · Feet and snare hit on every note together</div>
+    <ul>
+      <li>Every note: both feet AND the snare hit simultaneously — kick, left kick, and snare as one sound</li>
+      <li>Start at a tempo that feels medium-fast — every hit is unison, no independence required</li>
+      <li>Build speed each minute until the unison starts to split — stop when it separates</li>
+      <li>Hands can add anything on top: ride, crashes, nothing. Doesn't matter. The unison is the thing.</li>
+      <li>Different from last session's sextuplet sprint and the straight 16th endurance before that</li>
     </ul>
   </div>
 
   <div class="divider"></div>
 
   <div class="focus-box" style="margin-bottom: 24px;">
-    <strong>After session:</strong> Log BPMs for: Morello p.44 (halftime), Donati p.21 (highest coordinated tempo), Donati p.59 (max before blur), Riley p.22 (working tempo). Any wins or problem spots worth flagging?
+    <strong>After session:</strong> Log BPMs for Latham p.10 (pocket tempo), Morello p.43 (halftime), Donati p.9 (first clean tempo), Riley p.5 (swing tempo). Anything that surprised you?
   </div>
 
 </body>
