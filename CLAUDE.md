@@ -192,6 +192,8 @@ Run: `python docs/viewers/generate_viewer.py <slug> "<title>" <start> <end>` the
 
 All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only read images when explicitly requested.
 
+**Page selection rule:** When embedding score pages in routines, favour pages from the middle of the book. Early pages (covers, TOC, forewords, bios, introductions) and late pages (indices, afterwords) are often text-heavy and useless as exercises. Pages with minimal words and mostly notation are the target — if a page has more prose than staves, skip it and go deeper into the book.
+
 | Slug | Title | Author | Pages | Key Pages |
 |------|-------|--------|-------|-----------|
 | `double-bass-freedom` | Double Bass Drum Freedom | Virgil Donati | 135 | Basic single strokes: p.9 / Hand-foot independence: p.21 / Sextuplet series: p.59 |
