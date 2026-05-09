@@ -200,7 +200,7 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `the-art-of-bop-drumming` | The Art of Bop Drumming | John Riley | 68 | Jazz comping and ride vocabulary |
 | `advanced-techniques-modern-drummer` | Advanced Techniques Vol.1 | Jim Chapin | 55 | Coordinated independence, jazz/be-bop |
 | `stick-control` | Stick Control | George Lawrence Stone | 50 | Single Beat Combinations: p.5 |
-| `advanced-funk-studies` | Advanced Funk Studies | Rick Latham | 51 | Funk patterns throughout |
+| `advanced-funk-studies` | Advanced Funk Studies | Rick Latham | 51 | Funk patterns throughout / p.5 = author bio — do NOT use / content starts p.6+ |
 | `progressive-steps-syncopation` | Progressive Steps to Syncopation | Ted Reed | 61 | Syncopation reading |
 | `abr-messengers` | ABR — Messengers (Guitar) | — | 146 | Full guitar transcription / Truth of a Liar is song 1 / Content start page unknown — do NOT use p.1-7, start from p.8+ until confirmed |
 | `abr-messengers-drums` | ABR — Messengers (Drums) | — | 121 | Full drum transcription / Truth of a Liar: pp.7–17 / Up Against the Ropes starts p.18 |
