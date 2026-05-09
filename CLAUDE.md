@@ -192,15 +192,17 @@ Run: `python docs/viewers/generate_viewer.py <slug> "<title>" <start> <end>` the
 
 All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only read images when explicitly requested.
 
+**Page selection rule:** When embedding score pages in routines, favour pages from the middle of the book. Early pages (covers, TOC, forewords, bios, introductions) and late pages (indices, afterwords) are often text-heavy and useless as exercises. Pages with minimal words and mostly notation are the target — if a page has more prose than staves, skip it and go deeper into the book.
+
 | Slug | Title | Author | Pages | Key Pages |
 |------|-------|--------|-------|-----------|
 | `double-bass-freedom` | Double Bass Drum Freedom | Virgil Donati | 135 | Basic single strokes: p.9 / Hand-foot independence: p.21 / Sextuplet series: p.59 |
 | `progressive-independence-rock` | Progressive Independence: Rock | Ron Spagnardi | 162 | Part 3 combos: p.9 |
 | `master-studies-morello` | Master Studies | Joe Morello | 97 | Table of Time: p.43 / Groups of Four (fill-ins): p.71 / Accent Studies: p.7 |
 | `the-art-of-bop-drumming` | The Art of Bop Drumming | John Riley | 68 | Jazz comping and ride vocabulary |
-| `advanced-techniques-modern-drummer` | Advanced Techniques Vol.1 | Jim Chapin | 55 | Coordinated independence, jazz/be-bop |
+| `advanced-techniques-modern-drummer` | Advanced Techniques Vol.1 | Jim Chapin | 55 | Coordinated independence, jazz/be-bop / p.6 confirmed text — do NOT use p.1–13 / exercises confirmed from p.14+ |
 | `stick-control` | Stick Control | George Lawrence Stone | 50 | Single Beat Combinations: p.5 |
-| `advanced-funk-studies` | Advanced Funk Studies | Rick Latham | 51 | Funk patterns throughout |
+| `advanced-funk-studies` | Advanced Funk Studies | Rick Latham | 51 | Funk patterns throughout / p.5 = author bio — do NOT use / content starts p.6+ |
 | `progressive-steps-syncopation` | Progressive Steps to Syncopation | Ted Reed | 61 | Syncopation reading |
 | `abr-messengers` | ABR — Messengers (Guitar) | — | 146 | Full guitar transcription / Truth of a Liar is song 1 / Content start page unknown — do NOT use p.1-7, start from p.8+ until confirmed |
 | `abr-messengers-drums` | ABR — Messengers (Drums) | — | 121 | Full drum transcription / Truth of a Liar: pp.7–17 / Up Against the Ropes starts p.18 |
