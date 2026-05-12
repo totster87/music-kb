@@ -39,6 +39,10 @@ tags:
 | 2026-05-11 | Better Lovers — Lie Between the Lines pp.10–12 | Guitar (Drop D) | ~115 BPM | Song coming along. Harmonics on 5th string hard — used to tremolo on 6th. Okayish execution at 115. |
 | 2026-05-11 | ABR — Truth of a Liar, m.30 E section | Guitar (Drop D) | 124 BPM (ceiling) | Mutes between chugs settling in. Pre-section riff feels fun. Tendency to pull off instead of picking all notes on higher strings. Breaks down at 124 BPM. |
 | 2026-05-11 | ABR — Treatment, pinch harmonics | Guitar (Drop C) | — | Can't reliably fire PHs below 3rd string (G). Focusing on G string first. Hit rate maybe 50% or less. |
+| 2026-05-11 | Stick Control p.24 — Short Rolls in 6/8 | Drums | 80 BPM | Added quarter note bass pulse in 3/4, hats on every other hit (roughly once per 2 bars). 80 BPM felt fine. |
+| 2026-05-11 | Chapin — Advanced Techniques pp.16–18 | Drums | Slow–medium | Pretty solid. Accustomed to triplet-based feel — sixteenth-based independence feels odd in jazz context. |
+| 2026-05-11 | Donati — Double Bass Freedom p.75 | Drums — Double Bass | 80 BPM | ‘e’ and ‘&’ subdivision positions tough at 80 BPM. Coordination breaks on off-subdivisions. |
+| 2026-05-11 | You Got Me (The Roots) | Drums | — | Did not reach — ran out of time. |
 
 ---
 
