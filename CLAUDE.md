@@ -192,25 +192,27 @@ Run: `python docs/viewers/generate_viewer.py <slug> "<title>" <start> <end>` the
 
 All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only read images when explicitly requested.
 
+**Page selection rule:** When embedding score pages in routines, favour pages from the middle of the book. Early pages (covers, TOC, forewords, bios, introductions) and late pages (indices, afterwords) are often text-heavy and useless as exercises. Pages with minimal words and mostly notation are the target — if a page has more prose than staves, skip it and go deeper into the book.
+
 | Slug | Title | Author | Pages | Key Pages |
 |------|-------|--------|-------|-----------|
-| `double-bass-freedom` | Double Bass Drum Freedom | Virgil Donati | 135 | Basic single strokes: p.9 / Hand-foot independence: p.21 / Sextuplet series: p.59 |
-| `progressive-independence-rock` | Progressive Independence: Rock | Ron Spagnardi | 162 | Part 3 combos: p.9 |
-| `master-studies-morello` | Master Studies | Joe Morello | 97 | Table of Time: p.43 / Groups of Four (fill-ins): p.71 / Accent Studies: p.7 |
-| `the-art-of-bop-drumming` | The Art of Bop Drumming | John Riley | 68 | Jazz comping and ride vocabulary |
-| `advanced-techniques-modern-drummer` | Advanced Techniques Vol.1 | Jim Chapin | 55 | Coordinated independence, jazz/be-bop |
-| `stick-control` | Stick Control | George Lawrence Stone | 50 | **Note: saved file page numbers may be offset from TOC** / Single Beat Combinations: pp.5–7 / Triplets: pp.8–9 / Short Roll Combinations: pp.10–15 / Flams: pp.16–23 / Short Rolls in 6/8: pp.24–29 / Combinations in 3/8: pp.30–32 / Flam Triplets: pp.34–37 / Short Roll Progressions: pp.38–46 |
-| `advanced-funk-studies` | Advanced Funk Studies | Rick Latham | 51 | **Note: saved file page numbers may be offset from TOC** / Introductory Exercises: p.8 / Hi-hat Quarter Notes: p.10 / Hi-hat Eighth Notes: p.10 / Hi-hat Off Beat: p.11 / Hi-hat Sixteenth Notes: p.12 / Hi-hat Openings: p.13 / Combination Exercises: p.14 / Fill Patterns: p.17 / Funk Patterns (74 exercises): p.18 / Transcriptions: p.23 (Steve Gadd p.24, Garibaldi p.27, Harvey Mason p.28, Erskine p.29) / Solos 1–10: p.31 |
-| `progressive-steps-syncopation` | Progressive Steps to Syncopation | Ted Reed | 61 | Syncopation reading |
-| `abr-messengers` | ABR — Messengers (Guitar) | — | 146 | Full guitar transcription / Truth of a Liar is song 1 / Content start page unknown — do NOT use p.1-7, start from p.8+ until confirmed |
-| `abr-messengers-drums` | ABR — Messengers (Drums) | — | 121 | Full drum transcription / Truth of a Liar: pp.7–17 / Up Against the Ropes starts p.18 |
-| `better-lovers-highly-irresponsible` | Better Lovers — Highly Irresponsible | — | 122 | Song index: p.4 / Lie Between: p.7 |
+| `double-bass-freedom` | Double Bass Drum Freedom | Virgil Donati | 135 | Ch.1 Getting Started: p.6–27 / Ch.2 Left Foot Technique: p.28–36 / Ch.3 Developing Single Strokes: p.37–47 / Ch.4 Creative Single Strokes: p.48–59 / Ch.5 16th Note Triplet Series: p.60–73 / Ch.6 16th Note Series: p.74–82 / Ch.7 Double Stroke Rolls: p.83–100 / Ch.8 Paradiddles: p.101–108 / Ch.9 Bass Drum Flams: p.109–118 / Ch.10 Recorded Works: p.119–135 |
+| `progressive-independence-rock` | Progressive Independence: Rock | Ron Spagnardi | 162 | S1 Right Hand 8th Notes: p.3–29 / S2 Right Hand Quarter Notes: p.30–56 / S3 Right Hand Up-Beats: p.57–83 / S4 Right Hand Sixteenth Notes: p.84–109 / S5 16th Note 1E&: p.110–136 / S6: p.137–162 / Note: "Part 3 combos p.9" = S1 Snare/Bass Drum Combination |
+| `master-studies-morello` | Master Studies | Joe Morello | 97 | Accent Studies: p.7–19 / Buzz Roll Studies: p.20–29 / Stroke Combination Studies: p.30–39 / Control Studies (Table of Time p.43, Stone Killer p.54): p.40–65 / Fill-In Studies (Groups of Three p.66, Groups of Four p.70): p.66–76 / Ostinato Studies: p.77–81 / Flam Studies: p.82–93 |
+| `the-art-of-bop-drumming` | The Art of Bop Drumming | John Riley | 68 | Time Playing: p.6–14 / Comping: p.16–32 / Soloing: p.34–45 / Brushes: p.47–53 / Jazz Essentials (Shuffle, Waltz, Samba, Mambo): p.55–60 / Charts: p.63–68 |
+| `advanced-techniques-modern-drummer` | Advanced Techniques Vol.1 | Jim Chapin | 55 | Coordinated independence, jazz/be-bop / p.6 confirmed text — do NOT use p.1–13 / Dotted 8ths+16ths: p.9–14 / Eighths: p.16–20 / Triplet: p.25–29 / Sixteenths: p.30–33 / Solo Exercises: p.41–55 |
+| `stick-control` | Stick Control | George Lawrence Stone | 50 | Single Beat Combinations: p.5–7 / Triplets: p.8–9 / Short Roll Combinations: p.10–15 / Flams: p.16–23 / Short Rolls in 6/8: p.24–29 / Combinations in 3/8: p.30–32 / Flam Triplets: p.34–37 / Short Roll Progressions: p.38–46 |
+| `advanced-funk-studies` | Advanced Funk Studies | Rick Latham | 51 | p.5 = author bio — do NOT use / Introductory Exercises: p.10 / Fixed Hi-hat Patterns: p.11–15 / Combination Exercises: p.16–18 / Fill Patterns: p.19 / Funk Patterns: p.20–24 / Transcriptions (Gadd, Garibaldi, Mason, Erskine etc.): p.26–33 / Solos: p.34–51 |
+| `progressive-steps-syncopation` | Progressive Steps to Syncopation | Ted Reed | 61 | Foundation (quarter/eighth/dotted/triplet/16th notes): p.3–27 / Syncopated Eighth Notes: p.28–35 / Syncopation Exercises 1–9: p.36–44 / Accents: p.45–59 |
+| `abr-messengers` | ABR — Messengers (Guitar) | — | 146 | NOT YET CHAPTERIZED — do not use in routines |
+| `abr-messengers-drums` | ABR — Messengers (Drums) | — | 121 | Truth of a Liar: p.7–17 / Up Against the Ropes: p.18–30 / Back Burner: p.31–38 / The Blinding Light: p.39–60 / Vital Signs: p.61–69 / The Eleventh Hour: p.70–80 / The Balance: p.81–89 / Black Sheep: p.90–97 / An American Dream: p.98–120 |
+| `better-lovers-highly-irresponsible` | Better Lovers — Highly Irresponsible | — | 122 | Lie Between The Lines: p.7–19 / Your Misplaced Self: p.20–24 / A White Horse Covered In Blood: p.25–35 / Future Myopia: p.36–47 / Deliver Us From Life: p.48–58 / Drowning In A Burning World: p.59–67 / Everything Was Put Here For Me: p.68–78 / Superman Died Paralyzed: p.79–93 / At All Times: p.94–106 / Love As An Act Of Rebellion: p.107–122 |
 | `better-lovers-play-it-properly` | Better Lovers — Play It Properly | — | 1 | 1 page ingested |
-| `dep-one-of-us-is-the-killer` | DEP — One Of Us Is The Killer | — | 93 | Guitar transcription / 8 songs auto-indexed |
-| `etid-low-teens` | Every Time I Die — Low Teens | — | 90 | Guitar transcription / Content start page unknown — do NOT use p.1-9, start from p.10+ until confirmed |
-| `30-dirty-grooves` | 30 Dirty Grooves | — | 16 | Drum sheet music |
-| `20-chops` | 20 Chops | — | 5 | Drum sheet music (scanned) |
-| `evolution-of-blast-beats` | The Evolution of Blast Beats | Derek Roddy | ~100 | 4 blast types intro: p.22 / Kick variations (Metal Downbeat/Upbeat, Punk Feel): p.15 / Double Bass Workout: p.79–81+ / Double Bass Workout exercises work well as burnout finishers OR warm-ups / No pages ingested yet — screenshots only |
+| `dep-one-of-us-is-the-killer` | DEP — One Of Us Is The Killer | — | 93 | Prancer: p.6–16 / When I Lost My Bet: p.17–27 / One Of Us Is the Killer: p.28–35 / Hero of the Soviet Union: p.36–42 / Nothing's Funny: p.43–50 / Understanding Decay: p.51–62 / Paranoia Shields: p.63–70 / Crossburner: p.76–82 / The Threat Posed by Nuclear Weapons: p.83–92 |
+| `etid-low-teens` | Every Time I Die — Low Teens | — | 90 | Fear And Trembling: p.4–12 / C++ (Love Will Get You Killed): p.13–17 / Two Summers: p.18–22 / Awful Lot: p.23–27 / I Didn't Want To Join Your Stupid Cult Anyway: p.28–32 / It Remembers: p.33–45 / The Coin Has A Say: p.46–50 / Religion Of Speed: p.51–58 / Just As Real But Not As Brightly Lit: p.59–69 / Map Change: p.70–80 / Skin Without Bones: p.81–84 / Nothing Visible; Ocean Empty: p.85–90 |
+| `30-dirty-grooves` | 30 Dirty Grooves | — | 16 | Grooves: p.4–15 |
+| `20-chops` | 20 Chops | — | 5 | p.1 = cover / p.2–3 = intro / Chops content: p.4 |
+| `evolution-of-blast-beats` | The Evolution of Blast Beats | Derek Roddy | ~100 | NOT YET CHAPTERIZED — do not use in routines / No pages ingested yet — screenshots only / Known from screenshots: 4 blast types intro p.22 / Kick variations p.15 / Double Bass Workout p.79–81+ |
 
 ---
 

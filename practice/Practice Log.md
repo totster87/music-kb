@@ -34,6 +34,18 @@ tags:
 | 2026-05-06 | Donati — Double Bass Freedom p.21 Hand-Foot Independence | Drums — Double Bass | 70–100 BPM | Started at 100, thought it was ok. Dropped to 70 — equally hard. Coordination problem, not tempo problem. |
 | 2026-05-06 | ABR Messengers Drums — Truth of a Liar p.7 | Drums | 143 BPM | Got first page down pretty clean at 143. Loses meter on the big fill but executes it fine. Tempo a bit shaky. |
 | 2026-05-06 | Burnout — Straight 16th Endurance | Drums | Max | Intense. Burned out very quickly. |
+| 2026-05-11 | Legato warm-up — chromatic hammer-ons/pull-offs | Guitar | No click | Uneven ascending across strings — string crossing on the way up makes hammer-ons inconsistent and sloppy. |
+| 2026-05-11 | Tremolo burst drill | Guitar | Max | Tense up immediately on downstroke bursts. Alternating picking: notes uneven in volume, especially the 2nd note (first upstroke). Single-string bursts much faster than alternating. Upstroke accent drill (16th note alt picking, cycle accent through 1/e/&/a) flagged as a fix. |
+| 2026-05-11 | Better Lovers — Lie Between the Lines pp.10–12 | Guitar (Drop D) | ~115 BPM | Song coming along. Harmonics on 5th string hard — used to tremolo on 6th. Okayish execution at 115. |
+| 2026-05-11 | ABR — Truth of a Liar, m.30 E section | Guitar (Drop D) | 124 BPM (ceiling) | Mutes between chugs settling in. Pre-section riff feels fun. Tendency to pull off instead of picking all notes on higher strings. Breaks down at 124 BPM. |
+| 2026-05-11 | ABR — Treatment, pinch harmonics | Guitar (Drop C) | — | Can't reliably fire PHs below 3rd string (G). Focusing on G string first. Hit rate maybe 50% or less. |
+| 2026-05-11 | Stick Control p.24 — Short Rolls in 6/8 | Drums | 80 BPM | Added quarter note bass pulse in 3/4, hats on every other hit (roughly once per 2 bars). 80 BPM felt fine. |
+| 2026-05-11 | Chapin — Advanced Techniques pp.16–18 | Drums | Slow–medium | Pretty solid. Accustomed to triplet-based feel — sixteenth-based independence feels odd in jazz context. |
+| 2026-05-11 | Donati — Double Bass Freedom p.75 | Drums — Double Bass | 80 BPM | ‘e’ and ‘&’ subdivision positions tough at 80 BPM. Coordination breaks on off-subdivisions. |
+| 2026-05-11 | You Got Me (The Roots) | Drums | — | Did not reach — ran out of time. |
+| 2026-05-12 | Reed — Syncopation p.28 | Drums | 80 BPM (2+4 click) | Played straight and swung. Reading comfortable at tempo. Fast swing gets hard. |
+| 2026-05-12 | Morello — Stone Killer p.54 | Drums | — | Kit incorporation tricky — dynamics don't transfer well from pad to kit. Need to build dynamic awareness on full kit, not just snare/pad practice. |
+| 2026-05-12 | PI Rock p.84 — Section 4, 16th Note Ride | Drums | 85 BPM | Fast swung 16ths tough. At 85 BPM played each beat 4× through the full page. |
 
 ---
 
