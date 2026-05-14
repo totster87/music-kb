@@ -43,6 +43,9 @@ tags:
 | 2026-05-11 | Chapin — Advanced Techniques pp.16–18 | Drums | Slow–medium | Pretty solid. Accustomed to triplet-based feel — sixteenth-based independence feels odd in jazz context. |
 | 2026-05-11 | Donati — Double Bass Freedom p.75 | Drums — Double Bass | 80 BPM | ‘e’ and ‘&’ subdivision positions tough at 80 BPM. Coordination breaks on off-subdivisions. |
 | 2026-05-11 | You Got Me (The Roots) | Drums | — | Did not reach — ran out of time. |
+| 2026-05-12 | Reed — Syncopation p.28 | Drums | 80 BPM (2+4 click) | Played straight and swung. Reading comfortable at tempo. Fast swing gets hard. |
+| 2026-05-12 | Morello — Stone Killer p.54 | Drums | — | Kit incorporation tricky — dynamics don't transfer well from pad to kit. Need to build dynamic awareness on full kit, not just snare/pad practice. |
+| 2026-05-12 | PI Rock p.84 — Section 4, 16th Note Ride | Drums | 85 BPM | Fast swung 16ths tough. At 85 BPM played each beat 4× through the full page. |
 
 ---
 
