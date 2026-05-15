@@ -1,3 +1,9 @@
+---
+title: README
+type: note
+permalink: music-kb/docs/inbox/readme
+---
+
 # Screenshot Inbox
 
 Drop any drum/guitar transcription screenshots here, then tell Claude:

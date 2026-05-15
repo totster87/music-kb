@@ -8,6 +8,7 @@ tags:
 - learning
 - clean
 - string-skipping
+permalink: music-kb/repertoire/better-lovers-lie-between-the-lines
 ---
 
 # Better Lovers — Lie Between the Lines
