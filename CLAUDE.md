@@ -9,9 +9,35 @@ permalink: music-kb/claude
 ## Basic Memory
 - MCP server: `basic-memory` — scoped to `project="music-kb"` only
 - **Always pass `project="music-kb"`** to every Basic Memory tool call — never use the default project
-- Use Basic Memory to track song progress as living entities: current max BPM, known issues, session observations
-- After every session: write/update a note for each song or exercise worked on
 - Never write to or read from any other Basic Memory project
+
+### After every practice session
+1. Create a session note at `practice/sessions/YYYY-MM-DD-instrument.md` using `write_note`
+2. Include: what was practiced, BPMs reached, specific issues observed
+3. Add a `## Relations` section with `practiced [[Song Name]]` or `practiced_from [[Book Name]]` wikilinks
+4. Update the repertoire file for any song worked on — update `current_max_bpm` in frontmatter if it improved
+5. Commit and push all changes
+
+### Session note format
+```markdown
+---
+title: Session YYYY-MM-DD — Instrument
+type: note
+tags: [session, instrument, YYYY-MM]
+date: YYYY-MM-DD
+---
+
+# Session YYYY-MM-DD — Instrument
+
+## [Exercise / Song Name]
+- BPM reached: X
+- Issues: ...
+
+## Relations
+- practiced [[Song Name]]
+- revealed_issue [[Technique Name]]
+- practiced_from [[Book Name]]
+```
 
 ## ⚠️ CRITICAL — READ FIRST
 - **NEVER read, open, or load any `.png`, `.pdf`, or `.html` file. Ever. Under any circumstances.**

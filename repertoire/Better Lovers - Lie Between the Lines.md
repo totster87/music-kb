@@ -9,6 +9,9 @@ tags:
 - clean
 - string-skipping
 permalink: music-kb/repertoire/better-lovers-lie-between-the-lines
+status: in-progress
+current_max_bpm: 99
+tuning: drop-d
 ---
 
 # Better Lovers — Lie Between the Lines
@@ -83,4 +86,12 @@ Free noodling in Drop D. No structure. Let the hands relax.
 ## BPM Log
 | Date | Section | BPM | Notes |
 |------|---------|-----|-------|
-| — | Clean Intro | — | Starting out, string skipping issue on downpicking |
+| 2026-05-05 | Clean Intro (pp.7–8) | 99 | mm.3–4 pinky stretch awkward. Bar 8: G string 5th fret fingering (sustains open E). |
+| 2026-05-05 | Section B (pp.8–9) | — | Bar 20: unsure which strings on open jab. Bar 23: missing downward skip. Bars 24–25: not committing to bend. |
+| 2026-05-11 | Full song (pp.10–12) | ~115 | Coming along. Harmonics on 5th string hard — used to tremolo on 6th. |
+
+## Relations
+- belongs_to [[Better Lovers - Songs]]
+- bottleneck [[String Skipping]]
+- bottleneck [[Bend Commitment]]
+- transcription_source [[Better Lovers — Highly Irresponsible]]

@@ -9,6 +9,10 @@ tags:
 - learning
 - lead
 - progressive-metal
+status: in-progress
+current_max_bpm: 90
+target_bpm: 100
+tuning: standard
 ---
 
 # Between the Buried and Me — Prequel to the Sequel
@@ -26,19 +30,15 @@ tags:
 | Intro — lead melody | ♩=100 | Single note lines only — melody/lead guitar, no chords or rhythm parts |
 
 ## Current Progress
-- **Intro lead melody:** In progress
+- **Intro lead melody:** In progress — max 90 BPM
 - **Known issue:** Pick accuracy on descending single-note runs — misses target string even at slow tempos
-
-## Practice Notes
-
-### Intro Lead Melody (♩=100)
-- Single note lines only — melody throughout, no chord work
-- Arpeggio-style runs ascending and descending across strings
-- Tab positions reach frets 9–14 on A/D strings, wide stretches
-- **Max comfortable BPM:** 90 (gets sloppy above this)
-- **Problem:** Descending run pick accuracy — sometimes clips wrong string even slowly
+- Motion problem, not a speed problem — slowing down is the fix
 
 ## BPM Log
 | Date | Section | BPM | Notes |
 |------|---------|-----|-------|
-| 2026-05-03 | Intro lead | 90 | Gets sloppy at 90. Pick accuracy on descending arpeggio. |
+| 2026-05-03 | Intro lead | 90 | Gets sloppy at 90. Pick accuracy on descending arpeggio — misses even at slow tempos. |
+
+## Relations
+- bottleneck [[Pick Accuracy]]
+- requires_technique [[Alternate Picking]]
