@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'MUSIC-KB SESSION START: Call mcp__basic-memory__recent_activity with project=\"music-kb\" and timeframe=\"7d\" to load recent practice notes. Greet the user with a brief summary of what was worked on recently. If the Basic Memory tools are unavailable or the call fails, tell the user immediately: \"Basic Memory could not load — MCP server may not be running.\"'"
+          }
+        ]
+      }
+    ]
+  }
+}

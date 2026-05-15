@@ -1,3 +1,9 @@
+---
+title: CLAUDE
+type: note
+permalink: music-kb/claude
+---
+
 # music-kb — Claude Instructions
 
 ## Basic Memory
@@ -10,12 +16,16 @@
 ## ⚠️ CRITICAL — READ FIRST
 - **NEVER read, open, or load any `.png`, `.pdf`, or `.html` file. Ever. Under any circumstances.**
 - **Do NOT auto-trigger any routines or read any files on session start**
-- **Wait for user input. Do nothing until the user speaks first.**
 - When showing exercises, songs, or routines: **generate or update an HTML file** and tell the user to open it in Safari. Never output tab or images in chat.
 - Use `python docs/viewers/generate_viewer.py` or write a custom HTML file to `docs/viewers/`
 - After generating: commit, push, then give the full GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/<filename>.html`
 - Always output full https:// links — never local file paths. Links must be tappable on iPhone.
-- On session init: greet the user, tell them to say `load my session` or a trigger phrase. Stop there.
+
+### Session start sequence
+1. Call `mcp__basic-memory__recent_activity` with `project="music-kb"` and `timeframe="7d"`
+2. If it succeeds: greet the user with a brief summary of what was recently worked on
+3. If it fails or tools are unavailable: tell the user immediately — **"Basic Memory could not load — MCP server may not be running"** — then greet normally
+4. Do NOT read any other files, generate routines, or do anything else until the user asks
 
 ---
 
