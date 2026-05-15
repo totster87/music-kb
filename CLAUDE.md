@@ -1,5 +1,12 @@
 # music-kb — Claude Instructions
 
+## Basic Memory
+- MCP server: `basic-memory` — scoped to `project="music-kb"` only
+- **Always pass `project="music-kb"`** to every Basic Memory tool call — never use the default project
+- Use Basic Memory to track song progress as living entities: current max BPM, known issues, session observations
+- After every session: write/update a note for each song or exercise worked on
+- Never write to or read from any other Basic Memory project
+
 ## ⚠️ CRITICAL — READ FIRST
 - **NEVER read, open, or load any `.png`, `.pdf`, or `.html` file. Ever. Under any circumstances.**
 - **Do NOT auto-trigger any routines or read any files on session start**
