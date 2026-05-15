@@ -1,0 +1,38 @@
+# Exclude all non-markdown content from Basic Memory indexing
+# Markdown files in the repo are the source of truth
+
+# Score images (Git LFS)
+docs/rendered/
+
+# Source PDFs
+docs/*.pdf
+docs/transcriptions/
+
+# Generated HTML viewers
+docs/viewers/
+
+# Screenshot inbox
+docs/inbox/*.png
+docs/inbox/*.jpg
+docs/inbox/*.jpeg
+
+# Python tooling
+docs/*.py
+docs/viewers/*.py
+
+# JSON manifests
+docs/page-index.json
+
+# General binaries that occasionally land here
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.html
+*.gif
+
+# Standard
+.git
+.DS_Store
+*.tmp
+*.swp

@@ -54,8 +54,8 @@ User has physical books. No sticking notation stored here — just reference for
 31. Single Drag Tap
 32. Double Drag Tap
 33. Single Dragadiddle
-34. Drag Paradiddle #1
-35. Drag Paradiddle #2
+34. Drag Paradiddle No.1
+35. Drag Paradiddle No.2
 36. Single Ratamacue
 37. Double Ratamacue
 38. Triple Ratamacue

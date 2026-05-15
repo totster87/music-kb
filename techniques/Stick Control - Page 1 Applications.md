@@ -34,7 +34,7 @@ When a pattern has consecutive same-hand strokes (e.g. R L R R), insert the oppo
 - Straight jazz ride pattern layered on top
 - Hi-hat on 2 and 4
 
-**Problem patterns:** #9, #12, #13, and others with 3+ consecutive bass foot strokes — hi-hat placement on 2 and 4 gets disrupted and feels unbalanced. Two consecutive foot strokes is manageable; three or more breaks it down.
+**Problem patterns:** pattern 9, 12, 13, and others with 3+ consecutive bass foot strokes — hi-hat placement on 2 and 4 gets disrupted and feels unbalanced. Two consecutive foot strokes is manageable; three or more breaks it down.
 
 ## Current BPM
 - Jazz application (foot + hand + ride): 100 BPM actual

@@ -14,30 +14,16 @@ permalink: music-kb/claude
 ### After every practice session
 1. Create a session note at `practice/sessions/YYYY-MM-DD-instrument.md` using `write_note`
 2. Include: what was practiced, BPMs reached, specific issues observed
-3. Add a `## Relations` section with `practiced [[Song Name]]` or `practiced_from [[Book Name]]` wikilinks
+3. Add a `## Relations` section using wikilink syntax (see template below)
 4. Update the repertoire file for any song worked on — update `current_max_bpm` in frontmatter if it improved
 5. Commit and push all changes
 
 ### Session note format
-```markdown
----
-title: Session YYYY-MM-DD — Instrument
-type: note
-tags: [session, instrument, YYYY-MM]
-date: YYYY-MM-DD
----
-
-# Session YYYY-MM-DD — Instrument
-
-## [Exercise / Song Name]
-- BPM reached: X
-- Issues: ...
-
-## Relations
-- practiced [[Song Name]]
-- revealed_issue [[Technique Name]]
-- practiced_from [[Book Name]]
-```
+See `practice/sessions/2026-05-11-guitar.md` for a canonical example.
+Use these relation types in the `## Relations` section:
+- `practiced` — points to a repertoire entity (song)
+- `practiced_from` — points to a book/method entity
+- `revealed_issue` — points to a technique entity (bottleneck)
 
 ## ⚠️ CRITICAL — READ FIRST
 - **NEVER read, open, or load any `.png`, `.pdf`, or `.html` file. Ever. Under any circumstances.**
