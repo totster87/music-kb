@@ -41,6 +41,7 @@ tuning: drop-d
 |------|---------|-----|-------|
 | 2026-05-03 | Section A | 120 | Started 75, auto-incremented. 105 iffy, 118 sloppy. String skipping bottleneck. |
 | 2026-05-11 | Section A / m.30 E | 124 | Mutes between chugs settling in. Pre-section riff feels fun. Breaks down at 124. |
+| 2026-05-15 | m.30 | 123–124 | Ceiling unchanged. String skipping still flaky at max tempo. |
 
 ## Relations
 - same_album_as [[ABR - Treatment]]

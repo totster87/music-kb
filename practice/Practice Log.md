@@ -46,6 +46,12 @@ tags:
 | 2026-05-12 | Reed — Syncopation p.28 | Drums | 80 BPM (2+4 click) | Played straight and swung. Reading comfortable at tempo. Fast swing gets hard. |
 | 2026-05-12 | Morello — Stone Killer p.54 | Drums | — | Kit incorporation tricky — dynamics don't transfer well from pad to kit. Need to build dynamic awareness on full kit, not just snare/pad practice. |
 | 2026-05-12 | PI Rock p.84 — Section 4, 16th Note Ride | Drums | 85 BPM | Fast swung 16ths tough. At 85 BPM played each beat 4× through the full page. |
+| 2026-05-15 | Legato warm-up — hammer-ons/pull-offs | Guitar | No click | Pull-offs harder than hammer-ons. Fingers wobble on string crossings (pinky→ring). Try with click next session. |
+| 2026-05-15 | Upstroke accent drill | Guitar | 80 BPM | Solid at 80, sloppy above. |
+| 2026-05-15 | Better Lovers — Lie Between the Lines, Section B (pp.8–9) | Guitar (Drop D) | ♩=135 | Descending arpeggio into bend getting more consistent. |
+| 2026-05-15 | ABR — Truth of a Liar, m.30 | Guitar (Drop D) | 123–124 BPM | String skipping still flaky at ceiling. No change from 2026-05-11. |
+| 2026-05-15 | Pinch harmonics — B string | Guitar | — | Lower hit rate than estimated. First knuckle of thumb works better than pad. Still inconsistent. |
+| 2026-05-15 | BTBAM — Prequel to the Sequel, Intro lead | Guitar | 80 BPM | 80 getting sloppy — regression from 90 BPM on 2026-05-03. |
 
 ---
 
@@ -190,3 +196,40 @@ tags:
 **Burnout — Straight 16th Endurance**
 - Very intense, burned out fast
 - Good sign — was pushing hard enough
+
+---
+
+### 2026-05-15 — Guitar
+
+**Legato Warm-Up — hammer-ons/pull-offs**
+- Pull-offs noticeably harder than hammer-ons
+- Fingers wander on string crossings — e.g. pull-off from pinky to ring destabilizes position
+- No click — felt ok generally; try with metronome next session to expose timing gaps
+
+**Upstroke Accent Drill**
+- Solid at 80 BPM, gets sloppy above
+- Max: 80 BPM
+
+**Better Lovers — Lie Between the Lines, Section B (pp.8–9, ♩=135)**
+→ `repertoire/Better Lovers - Lie Between the Lines.md`
+- Descending arpeggio into bend getting more consistent
+- Playing at song tempo (135 BPM)
+- Tuning felt unusual ("drop A feels weird" — song is in Drop D)
+
+**ABR — Truth of a Liar, m.30**
+→ `repertoire/ABR - Truth of a Liar.md`
+- Ceiling: 123–124 BPM (no change from 2026-05-11)
+- String skipping still flaky at ceiling tempo
+
+**Pinch Harmonics (ABR Treatment, Drop C)**
+→ `repertoire/ABR - Treatment.md`
+- Hit rate lower than the previous 80% estimate
+- First knuckle of thumb grazing the string is working better than using the pad
+- Still inconsistent — technique needs more focused work
+
+**BTBAM — Prequel to the Sequel, Intro lead**
+→ `repertoire/BTBAM - Prequel to the Sequel.md`
+- 80 BPM getting sloppy — regression from 90 BPM ceiling on 2026-05-03
+- Needs dedicated blocks to rebuild
+
+**Not reached:** ABR Treatment (block 6), ETID Low Teens (block 8)

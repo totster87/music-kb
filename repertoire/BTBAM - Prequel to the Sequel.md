@@ -10,7 +10,7 @@ tags:
 - lead
 - progressive-metal
 status: in-progress
-current_max_bpm: 90
+current_max_bpm: 80
 target_bpm: 100
 tuning: standard
 ---
@@ -30,7 +30,7 @@ tuning: standard
 | Intro — lead melody | ♩=100 | Single note lines only — melody/lead guitar, no chords or rhythm parts |
 
 ## Current Progress
-- **Intro lead melody:** In progress — max 90 BPM
+- **Intro lead melody:** In progress — max 80 BPM (regression; was 90 BPM on 2026-05-03)
 - **Known issue:** Pick accuracy on descending single-note runs — misses target string even at slow tempos
 - Motion problem, not a speed problem — slowing down is the fix
 
