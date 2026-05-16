@@ -32,7 +32,16 @@ render_pdf() {
 
     git lfs track "docs/rendered/$slug/*.png" 2>/dev/null || true
 
-    pdftoppm -r 150 -png "$pdf" "$outdir/page"
+    # Convert to Windows paths if on Windows (pdftoppm is a Windows binary)
+    local win_pdf win_prefix
+    if command -v cygpath &>/dev/null; then
+        win_pdf="$(cygpath -w "$pdf")"
+        win_prefix="$(cygpath -w "$outdir/page")"
+    else
+        win_pdf="$pdf"
+        win_prefix="$outdir/page"
+    fi
+    pdftoppm -r 150 -png "$win_pdf" "$win_prefix"
 
     # Rename page-1.png → page-001.png
     for f in "$outdir"/page*.png; do
