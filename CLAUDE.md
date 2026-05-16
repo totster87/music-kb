@@ -244,6 +244,20 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `30-dirty-grooves` | 30 Dirty Grooves | — | 16 | Grooves: p.4–15 |
 | `20-chops` | 20 Chops | — | 5 | p.1 = cover / p.2–3 = intro / Chops content: p.4 |
 | `evolution-of-blast-beats` | The Evolution of Blast Beats | Derek Roddy | ~100 | NOT YET CHAPTERIZED — do not use in routines / No pages ingested yet — screenshots only / Known from screenshots: 4 blast types intro p.22 / Kick variations p.15 / Double Bass Workout p.79–81+ |
+| `rod-morgenstein-drum-set-warm-ups` | Drum Set Warm-Ups | Rod Morgenstein | ? | NOT YET CHAPTERIZED — pages not yet rendered |
+| `jungle-drum-n-bass` | Jungle / Drum n Bass | — | ? | NOT YET CHAPTERIZED — pages not yet rendered |
+| `120-right-hand-studies-giuliani` | 120 Right Hand Studies | Mauro Giuliani | ? | NOT YET CHAPTERIZED — pages not yet rendered |
+| `scale-studies-jazz-guitar-stone` | Scale Studies for Jazz Guitar | Rick Stone | ? | NOT YET CHAPTERIZED — pages not yet rendered |
+| `converge-axe-to-fall` | Converge — Axe to Fall | — | ? | Guitar tab — pages not yet rendered |
+| `converge-concubine` | Converge — Concubine | — | ? | Guitar tab — pages not yet rendered |
+| `converge-dark-horse` | Converge — Dark Horse | — | ? | Guitar tab — pages not yet rendered |
+| `converge-drop-out` | Converge — Drop Out | — | ? | Guitar tab — pages not yet rendered |
+| `converge-first-light` | Converge — First Light | — | ? | Guitar tab — pages not yet rendered |
+| `converge-hum-of-hurt` | Converge — Hum of Hurt | — | ? | Guitar tab — pages not yet rendered |
+| `converge-to-feel-something` | Converge — To Feel Something | — | ? | Guitar tab — pages not yet rendered |
+| `converge-under-duress` | Converge — Under Duress | — | ? | Guitar tab — pages not yet rendered |
+| `converge-versus` | Converge — Versus | — | ? | Guitar tab — pages not yet rendered |
+| `converge-worms-will-feed` | Converge — Worms Will Feed | — | ? | Guitar tab — pages not yet rendered |
 
 ---
 
