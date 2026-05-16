@@ -41,7 +41,10 @@ render_pdf() {
         win_pdf="$pdf"
         win_prefix="$outdir/page"
     fi
-    pdftoppm -r 150 -png "$win_pdf" "$win_prefix"
+    if ! pdftoppm -r 150 -png "$win_pdf" "$win_prefix"; then
+        echo "  ERROR: pdftoppm failed on $fname — skipping"
+        return
+    fi
 
     # Rename page-1.png → page-001.png
     for f in "$outdir"/page*.png; do
