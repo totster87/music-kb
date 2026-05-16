@@ -1,3 +1,9 @@
+---
+title: README
+type: note
+permalink: music-kb/readme
+---
+
 # Music Practice Knowledge Base
 
 A personal knowledge base for tracking music practice, repertoire, techniques, and goals.

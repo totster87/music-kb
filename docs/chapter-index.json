@@ -1,0 +1,1206 @@
+{
+  "_note": "Page numbers = PDF page number (1-indexed). Extracted via PyMuPDF. Books marked 'scanned' have no text layer — chapters entered manually.",
+  "master-studies-morello": {
+    "_note": "No PDF offset — PDF page = book page. Chapters from ToC (PDF p.4) + user page data.",
+    "scanned": false,
+    "auto_indexed": false,
+    "text_coverage": 1.0,
+    "chapters": [
+      {
+        "title": "Accent Studies - 8th Notes with Buzz Accents",
+        "start": 7,
+        "end": 17
+      },
+      {
+        "title": "Accent Studies - 8th-Note and Triplet Combinations",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "title": "Buzz Roll Studies - 8th Notes with Buzz Rolls",
+        "start": 20,
+        "end": 24
+      },
+      {
+        "title": "Buzz Roll Studies - Triplets with Buzz Rolls",
+        "start": 25,
+        "end": 29
+      },
+      {
+        "title": "Stroke Combination Studies - Single and Double",
+        "start": 30,
+        "end": 30
+      },
+      {
+        "title": "Stroke Combination Studies - Double and Buzz",
+        "start": 31,
+        "end": 31
+      },
+      {
+        "title": "Stroke Combination Studies - Single and Buzz",
+        "start": 32,
+        "end": 33
+      },
+      {
+        "title": "Stroke Combination Studies - 5 Stroke Roll",
+        "start": 34,
+        "end": 35
+      },
+      {
+        "title": "Stroke Combination Studies - 7 Stroke Roll",
+        "start": 36,
+        "end": 36
+      },
+      {
+        "title": "Stroke Combination Studies - 5 and 7 Stroke Roll",
+        "start": 37,
+        "end": 38
+      },
+      {
+        "title": "Stroke Combination Studies - 9 Stroke Roll",
+        "start": 39,
+        "end": 39
+      },
+      {
+        "title": "Control Studies - Sticking Exercises",
+        "start": 40,
+        "end": 41
+      },
+      {
+        "title": "Control Studies - Table of Time",
+        "start": 42,
+        "end": 43
+      },
+      {
+        "title": "Control Studies - Endurance",
+        "start": 44,
+        "end": 44
+      },
+      {
+        "title": "Control Studies - Velocity",
+        "start": 45,
+        "end": 47
+      },
+      {
+        "title": "Control Studies - Progressive Accents",
+        "start": 48,
+        "end": 51
+      },
+      {
+        "title": "Control Studies - Dynamics",
+        "start": 52,
+        "end": 53
+      },
+      {
+        "title": "Control Studies - Stone Killer",
+        "start": 54,
+        "end": 65
+      },
+      {
+        "title": "Fill-In Studies - Groups of Three",
+        "start": 66,
+        "end": 69
+      },
+      {
+        "title": "Fill-In Studies - Groups of Four",
+        "start": 70,
+        "end": 71
+      },
+      {
+        "title": "Fill-In Studies - Threes and Fours",
+        "start": 72,
+        "end": 72
+      },
+      {
+        "title": "Fill-In Studies - Twos",
+        "start": 73,
+        "end": 74
+      },
+      {
+        "title": "Fill-In Studies - Endurance Exercise",
+        "start": 75,
+        "end": 76
+      },
+      {
+        "title": "Ostinato Studies",
+        "start": 77,
+        "end": 81
+      },
+      {
+        "title": "Flam Studies - Flat Flams",
+        "start": 82,
+        "end": 85
+      },
+      {
+        "title": "Flam Studies - 8th Notes with Flams",
+        "start": 86,
+        "end": 89
+      },
+      {
+        "title": "Flam Studies - Triplets with Flams",
+        "start": 90,
+        "end": 93
+      }
+    ]
+  },
+  "double-bass-freedom": {
+    "_note": "PDF page = book page - 6 (verified: PDF p.24 = book p.30). Chapters from ToC on PDF pp.2-3.",
+    "scanned": false,
+    "auto_indexed": false,
+    "text_coverage": 0.904,
+    "chapters": [
+      {
+        "title": "Chapter 1 — Getting Started",
+        "start": 6,
+        "end": 27
+      },
+      {
+        "title": "Chapter 2 — Technique Development for the Left Foot",
+        "start": 28,
+        "end": 36
+      },
+      {
+        "title": "Chapter 3 — Developing Single Strokes",
+        "start": 37,
+        "end": 47
+      },
+      {
+        "title": "Chapter 4 — Creative Single Stroke Development",
+        "start": 48,
+        "end": 59
+      },
+      {
+        "title": "Chapter 5 — Sixteenth Note Triplet Series",
+        "start": 60,
+        "end": 73
+      },
+      {
+        "title": "Chapter 6 — Sixteenth Note Series",
+        "start": 74,
+        "end": 82
+      },
+      {
+        "title": "Chapter 7 — Double Stroke Rolls",
+        "start": 83,
+        "end": 100
+      },
+      {
+        "title": "Chapter 8 — Developing Paradiddles with the Feet",
+        "start": 101,
+        "end": 108
+      },
+      {
+        "title": "Chapter 9 — Bass Drum Flams",
+        "start": 109,
+        "end": 118
+      },
+      {
+        "title": "Chapter 10 — Recorded Works",
+        "start": 119,
+        "end": 135
+      }
+    ]
+  },
+  "progressive-independence-rock": {
+    "_note": "Scanned PDF. No offset — PDF page = file page number. Sections 1-4 user-verified, sections 5-6 estimated using same 3/3/6/6/6/3 pattern.",
+    "scanned": true,
+    "auto_indexed": false,
+    "text_coverage": 0.0,
+    "chapters": [
+      {
+        "title": "Section 1 - Right Hand 8th Note Beats - Snare Drum Independence with Eighth Notes",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "title": "Section 1 - Right Hand 8th Note Beats - Bass Drum Independence with Eighth Notes",
+        "start": 6,
+        "end": 8
+      },
+      {
+        "title": "Section 1 - Right Hand 8th Note Beats - Snare/Bass Drum Combination",
+        "start": 9,
+        "end": 14
+      },
+      {
+        "title": "Section 1 - Right Hand 8th Note Beats - Snare/Bass Hi-Hat Eighth Notes",
+        "start": 15,
+        "end": 20
+      },
+      {
+        "title": "Section 1 - Right Hand 8th Note Beats - Snare/Bass Hi-Hat Upbeats",
+        "start": 21,
+        "end": 26
+      },
+      {
+        "title": "Section 1 - Right Hand 8th Note Beats - Two Bar Combinations",
+        "start": 27,
+        "end": 29
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Snare with Quarter Notes",
+        "start": 30,
+        "end": 32
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Bass with Quarter Notes",
+        "start": 33,
+        "end": 35
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Snare/Bass Combination with Quarter Notes",
+        "start": 36,
+        "end": 41
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Snare/Bass Combination with Hi-Hat Eighth Notes",
+        "start": 42,
+        "end": 47
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Snare/Bass Combination with Hi-Hat Upbeats",
+        "start": 48,
+        "end": 53
+      },
+      {
+        "title": "Section 2 - Right Hand Quarter Note Beats - Two Bar Combinations",
+        "start": 54,
+        "end": 56
+      },
+      {
+        "title": "Section 3 - Right Hand Up-Beats - Snare",
+        "start": 57,
+        "end": 59
+      },
+      {
+        "title": "Section 3 - Right Hand Up-Beats - Bass",
+        "start": 60,
+        "end": 62
+      },
+      {
+        "title": "Section 3 - Right Hand Up-Beats - Snare/Bass Combination",
+        "start": 63,
+        "end": 68
+      },
+      {
+        "title": "Section 3 - Right Hand Up-Beats - Snare/Bass with Hi-Hat Eighth Notes",
+        "start": 69,
+        "end": 80
+      },
+      {
+        "title": "Section 3 - Right Hand Up-Beats - Two Bar Combinations",
+        "start": 81,
+        "end": 83
+      },
+      {
+        "title": "Section 4 - Right Hand Sixteenth Notes - Snare",
+        "start": 84,
+        "end": 85
+      },
+      {
+        "title": "Section 4 - Right Hand Sixteenth Notes - Bass",
+        "start": 86,
+        "end": 88
+      },
+      {
+        "title": "Section 4 - Right Hand Sixteenth Notes - Snare/Bass Combination",
+        "start": 89,
+        "end": 94
+      },
+      {
+        "title": "Section 4 - Right Hand Sixteenth Notes - Snare/Bass Combination with Hi-Hat Eighth Notes",
+        "start": 95,
+        "end": 100
+      },
+      {
+        "title": "Section 4 - Right Hand Sixteenth Notes - Snare/Bass Combination with Hi-Hat Upbeat",
+        "start": 101,
+        "end": 106
+      },
+      {
+        "title": "Section 4 - Right Hand Sixteenth Notes - Two Bar Combinations",
+        "start": 107,
+        "end": 109
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Snare",
+        "start": 110,
+        "end": 112
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Bass",
+        "start": 113,
+        "end": 115
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Snare/Bass Combination",
+        "start": 116,
+        "end": 121
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Snare/Bass Combination with Hi-Hat Eighth Notes",
+        "start": 122,
+        "end": 127
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Snare/Bass Combination with Hi-Hat Upbeat",
+        "start": 128,
+        "end": 133
+      },
+      {
+        "title": "Section 5 - 16th Note 1E& - Two Bar Combinations",
+        "start": 134,
+        "end": 136
+      },
+      {
+        "title": "Section 6 - Snare",
+        "start": 137,
+        "end": 139
+      },
+      {
+        "title": "Section 6 - Bass",
+        "start": 140,
+        "end": 142
+      },
+      {
+        "title": "Section 6 - Snare/Bass Combination",
+        "start": 143,
+        "end": 148
+      },
+      {
+        "title": "Section 6 - Snare/Bass Combination with Hi-Hat Eighth Notes",
+        "start": 149,
+        "end": 154
+      },
+      {
+        "title": "Section 6 - Snare/Bass Combination with Hi-Hat Upbeat",
+        "start": 155,
+        "end": 160
+      },
+      {
+        "title": "Section 6 - Two Bar Combinations",
+        "start": 161,
+        "end": 162
+      }
+    ]
+  },
+  "stick-control": {
+    "_note": "Scanned PDF — no text layer detected (6% pages have text). Cannot auto-chapterize. Add chapters manually or via OCR.",
+    "scanned": true,
+    "auto_indexed": false,
+    "text_coverage": 0.06,
+    "chapters": [
+      {
+        "title": "Single Beat Combinations",
+        "start": 5,
+        "end": 7
+      },
+      {
+        "title": "Triplets",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "title": "Short Roll Combinations",
+        "start": 10,
+        "end": 15
+      },
+      {
+        "title": "Flams",
+        "start": 16,
+        "end": 23
+      },
+      {
+        "title": "Short Rolls in 6/8",
+        "start": 24,
+        "end": 29
+      },
+      {
+        "title": "Combinations in 3/8",
+        "start": 30,
+        "end": 32
+      },
+      {
+        "title": "Flam Triplets",
+        "start": 34,
+        "end": 37
+      },
+      {
+        "title": "Short Roll Progressions",
+        "start": 38,
+        "end": 46
+      }
+    ]
+  },
+  "the-art-of-bop-drumming": {
+    "_note": "PDF page = book page - 1 (verified: PDF p.7 = book p.8). Chapters from ToC.",
+    "scanned": false,
+    "auto_indexed": false,
+    "text_coverage": 1.0,
+    "chapters": [
+      {
+        "title": "Time Playing - The Ride Cymbal",
+        "start": 6,
+        "end": 6
+      },
+      {
+        "title": "Time Playing - Phrasing",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "title": "Time Playing - The Jazz Drum Sound",
+        "start": 9,
+        "end": 9
+      },
+      {
+        "title": "Time Playing - The Bass Drum & Hi-hat",
+        "start": 10,
+        "end": 10
+      },
+      {
+        "title": "Time Playing - Cymbals",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "title": "Time Playing - Practicing",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "title": "Comping - Interdependence",
+        "start": 16,
+        "end": 16
+      },
+      {
+        "title": "Comping - Comp Example 1",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "title": "Comping - Pacing",
+        "start": 19,
+        "end": 19
+      },
+      {
+        "title": "Comping - Rhythmic Transposition",
+        "start": 20,
+        "end": 20
+      },
+      {
+        "title": "Comping - Comp Example 2",
+        "start": 21,
+        "end": 22
+      },
+      {
+        "title": "Comping - Comping with the Bass Drum",
+        "start": 23,
+        "end": 24
+      },
+      {
+        "title": "Comping - Comp Example 3",
+        "start": 25,
+        "end": 26
+      },
+      {
+        "title": "Comping - Comp Example 4",
+        "start": 27,
+        "end": 28
+      },
+      {
+        "title": "Comping - Accompanying a Soloist",
+        "start": 29,
+        "end": 30
+      },
+      {
+        "title": "Comping - Listening/Song Structure",
+        "start": 31,
+        "end": 31
+      },
+      {
+        "title": "Comping - Awareness",
+        "start": 32,
+        "end": 32
+      },
+      {
+        "title": "Soloing - Solo Structure",
+        "start": 34,
+        "end": 34
+      },
+      {
+        "title": "Soloing - One-bar Phrases",
+        "start": 35,
+        "end": 35
+      },
+      {
+        "title": "Soloing - Developing Musical Phrases",
+        "start": 36,
+        "end": 38
+      },
+      {
+        "title": "Soloing - Three-beat Phrases",
+        "start": 39,
+        "end": 42
+      },
+      {
+        "title": "Soloing - Developing Longer Solos",
+        "start": 43,
+        "end": 43
+      },
+      {
+        "title": "Soloing - Question and Answer Solo",
+        "start": 44,
+        "end": 45
+      },
+      {
+        "title": "Brushes - Basic Pattern",
+        "start": 47,
+        "end": 47
+      },
+      {
+        "title": "Brushes - Ballad Patterns",
+        "start": 48,
+        "end": 48
+      },
+      {
+        "title": "Brushes - Uptempo Patterns",
+        "start": 49,
+        "end": 49
+      },
+      {
+        "title": "Brushes - The Figure 8",
+        "start": 50,
+        "end": 50
+      },
+      {
+        "title": "Brushes - 3 Against 2 Feel",
+        "start": 50,
+        "end": 50
+      },
+      {
+        "title": "Brushes - Brush Patterns in 3/4",
+        "start": 51,
+        "end": 53
+      },
+      {
+        "title": "More Jazz Essentials - The Shuffle",
+        "start": 55,
+        "end": 55
+      },
+      {
+        "title": "More Jazz Essentials - Playing in 2",
+        "start": 56,
+        "end": 56
+      },
+      {
+        "title": "More Jazz Essentials - 3/4 Waltz",
+        "start": 57,
+        "end": 57
+      },
+      {
+        "title": "More Jazz Essentials - Samba",
+        "start": 58,
+        "end": 58
+      },
+      {
+        "title": "More Jazz Essentials - 12/8 Feel",
+        "start": 58,
+        "end": 58
+      },
+      {
+        "title": "More Jazz Essentials - Mambo",
+        "start": 59,
+        "end": 59
+      },
+      {
+        "title": "More Jazz Essentials - Uptempo Playing",
+        "start": 59,
+        "end": 60
+      },
+      {
+        "title": "Charts - School Days (medium)",
+        "start": 63,
+        "end": 63
+      },
+      {
+        "title": "Charts - Last Week (shuffle)",
+        "start": 64,
+        "end": 64
+      },
+      {
+        "title": "Charts - What Is This Thing Called? (medium-up)",
+        "start": 65,
+        "end": 65
+      },
+      {
+        "title": "Charts - October (ballad)",
+        "start": 66,
+        "end": 66
+      },
+      {
+        "title": "Charts - Satch and Diz (3/4, 4/4)",
+        "start": 67,
+        "end": 67
+      },
+      {
+        "title": "Charts - Out In The Open (uptempo)",
+        "start": 68,
+        "end": 68
+      }
+    ]
+  },
+  "advanced-techniques-modern-drummer": {
+    "_note": "Scanned PDF — no text layer. Chapters entered manually. PDF page = book page + 5 (verified: book p.4 = PDF p.9). Entire book is jazz comping exercises.",
+    "scanned": true,
+    "auto_indexed": false,
+    "text_coverage": 0.0,
+    "chapters": [
+      {
+        "title": "Dotted Eighths and Sixteenths",
+        "start": 9,
+        "end": 14
+      },
+      {
+        "title": "Eighths",
+        "start": 16,
+        "end": 20
+      },
+      {
+        "title": "Triplet",
+        "start": 25,
+        "end": 29
+      },
+      {
+        "title": "Sixteenths",
+        "start": 30,
+        "end": 33
+      },
+      {
+        "title": "Sixteenths (cont.)",
+        "start": 35,
+        "end": 36
+      },
+      {
+        "title": "Solo Exercise",
+        "start": 41,
+        "end": 44
+      },
+      {
+        "title": "Solo Exercise (p.42)",
+        "start": 47,
+        "end": 47
+      },
+      {
+        "title": "Solo Exercise (p.46)",
+        "start": 51,
+        "end": 51
+      },
+      {
+        "title": "Solo Exercise (p.51)",
+        "start": 55,
+        "end": 55
+      }
+    ]
+  },
+  "advanced-funk-studies": {
+    "_note": "Scanned PDF — no text layer. Chapters entered manually from ToC. PDF page = book page + 2 (verified: book p.17 = PDF p.19).",
+    "scanned": true,
+    "auto_indexed": false,
+    "text_coverage": 0.0,
+    "chapters": [
+      {
+        "title": "Preface",
+        "start": 7,
+        "end": 7
+      },
+      {
+        "title": "Explanation of Notation",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "title": "Introductory Exercises",
+        "start": 10,
+        "end": 10
+      },
+      {
+        "title": "Fixed Hi-hat Patterns",
+        "start": 11,
+        "end": 11
+      },
+      {
+        "title": "Hi-hat Quarter Notes",
+        "start": 12,
+        "end": 12
+      },
+      {
+        "title": "Hi-hat Eighth Notes",
+        "start": 12,
+        "end": 12
+      },
+      {
+        "title": "Hi-hat Off Beat",
+        "start": 13,
+        "end": 13
+      },
+      {
+        "title": "Hi-hat Sixteenth Notes (and-ah)",
+        "start": 14,
+        "end": 14
+      },
+      {
+        "title": "Hi-hat Openings",
+        "start": 15,
+        "end": 15
+      },
+      {
+        "title": "Combination Exercises",
+        "start": 16,
+        "end": 18
+      },
+      {
+        "title": "Fill Patterns",
+        "start": 19,
+        "end": 19
+      },
+      {
+        "title": "Funk Patterns",
+        "start": 20,
+        "end": 24
+      },
+      {
+        "title": "Transcriptions — Steve Gadd",
+        "start": 26,
+        "end": 28
+      },
+      {
+        "title": "Transcriptions — David Garibaldi",
+        "start": 29,
+        "end": 29
+      },
+      {
+        "title": "Transcriptions — Harvey Mason",
+        "start": 30,
+        "end": 30
+      },
+      {
+        "title": "Transcriptions — Peter Erskine",
+        "start": 31,
+        "end": 31
+      },
+      {
+        "title": "Transcriptions — Gerry Brown / Paul Leim / Moon Calhoun / Ed Greene",
+        "start": 32,
+        "end": 33
+      },
+      {
+        "title": "Solos Nos. 1-10",
+        "start": 34,
+        "end": 51
+      }
+    ]
+  },
+  "progressive-steps-syncopation": {
+    "scanned": false,
+    "auto_indexed": false,
+    "text_coverage": 0.41,
+    "chapters": [
+      {
+        "title": "Foundation - Quarter Notes",
+        "start": 3,
+        "end": 8
+      },
+      {
+        "title": "Foundation - Eighth Notes",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "title": "Foundation - Dotted Quarter",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "title": "Foundation - Triplets",
+        "start": 13,
+        "end": 18
+      },
+      {
+        "title": "Foundation - Sixteenths",
+        "start": 19,
+        "end": 27
+      },
+      {
+        "title": "Syncopated Eighth Notes",
+        "start": 28,
+        "end": 35
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 1",
+        "start": 36,
+        "end": 36
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 2",
+        "start": 37,
+        "end": 37
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 3",
+        "start": 38,
+        "end": 38
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 4",
+        "start": 39,
+        "end": 39
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 5",
+        "start": 40,
+        "end": 40
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 6",
+        "start": 41,
+        "end": 41
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 7",
+        "start": 42,
+        "end": 42
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 8",
+        "start": 43,
+        "end": 43
+      },
+      {
+        "title": "Syncopation Exercises - Exercise 9",
+        "start": 44,
+        "end": 44
+      },
+      {
+        "title": "Accents - Eighth Notes",
+        "start": 45,
+        "end": 47
+      },
+      {
+        "title": "Accents - Dotted Eighth and Sixteenth",
+        "start": 48,
+        "end": 50
+      },
+      {
+        "title": "Accents - Eighth Note Triplets",
+        "start": 51,
+        "end": 55
+      },
+      {
+        "title": "Accents - Triplets with Mixed Stickings",
+        "start": 56,
+        "end": 56
+      },
+      {
+        "title": "Accents - Sixteenth Notes",
+        "start": 57,
+        "end": 59
+      }
+    ],
+    "_note": "No PDF offset — PDF page = file page number. Chapters entered manually by user."
+  },
+  "abr-messengers-drums": {
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 0.975,
+    "chapters": [
+      {
+        "title": "Music by August Burns Red",
+        "start": 2,
+        "end": 5
+      },
+      {
+        "title": "Notation Legend",
+        "start": 6,
+        "end": 6
+      },
+      {
+        "title": "Truth of a Liar",
+        "start": 7,
+        "end": 17
+      },
+      {
+        "title": "Up Against the Ropes",
+        "start": 18,
+        "end": 30
+      },
+      {
+        "title": "Back Burner",
+        "start": 31,
+        "end": 38
+      },
+      {
+        "title": "The Blinding Light",
+        "start": 39,
+        "end": 60
+      },
+      {
+        "title": "Vital Signs",
+        "start": 61,
+        "end": 69
+      },
+      {
+        "title": "The Eleventh Hour",
+        "start": 70,
+        "end": 80
+      },
+      {
+        "title": "The Balance",
+        "start": 81,
+        "end": 89
+      },
+      {
+        "title": "Black Sheep",
+        "start": 90,
+        "end": 97
+      },
+      {
+        "title": "An American Dream",
+        "start": 98,
+        "end": 120
+      },
+      {
+        "title": "Sheet Happens Publishing",
+        "start": 121,
+        "end": 121
+      }
+    ]
+  },
+  "better-lovers-highly-irresponsible": {
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 0.926,
+    "chapters": [
+      {
+        "title": "Lie Between The Lines",
+        "start": 7,
+        "end": 19
+      },
+      {
+        "title": "Your Misplaced Self",
+        "start": 20,
+        "end": 24
+      },
+      {
+        "title": "A White Horse Covered In Blood",
+        "start": 25,
+        "end": 35
+      },
+      {
+        "title": "Future Myopia",
+        "start": 36,
+        "end": 47
+      },
+      {
+        "title": "Deliver Us From Life",
+        "start": 48,
+        "end": 58
+      },
+      {
+        "title": "Drowning In A Burning World",
+        "start": 59,
+        "end": 67
+      },
+      {
+        "title": "Everything Was Put Here For Me",
+        "start": 68,
+        "end": 78
+      },
+      {
+        "title": "Superman Died Paralyzed",
+        "start": 79,
+        "end": 93
+      },
+      {
+        "title": "At All Times",
+        "start": 94,
+        "end": 106
+      },
+      {
+        "title": "Love As An Act Of Rebellion",
+        "start": 107,
+        "end": 122
+      }
+    ]
+  },
+  "the-roots-you-got-me": {
+    "_note": "Single-page screenshot transcription by @fabio_thedrummer.",
+    "chapters": [
+      {
+        "title": "DnB Final Part of the Song — Questlove",
+        "start": 1,
+        "end": 1
+      }
+    ]
+  },
+  "dep-one-of-us-is-the-killer": {
+    "_note": "PDF page = book page + 5 (verified via ToC on PDF p.5). Song list from ToC image.",
+    "scanned": false,
+    "auto_indexed": false,
+    "text_coverage": 0.946,
+    "chapters": [
+      {
+        "title": "Prancer",
+        "start": 6,
+        "end": 16
+      },
+      {
+        "title": "When I Lost My Bet",
+        "start": 17,
+        "end": 27
+      },
+      {
+        "title": "One Of Us Is the Killer",
+        "start": 28,
+        "end": 35
+      },
+      {
+        "title": "Hero of the Soviet Union",
+        "start": 36,
+        "end": 42
+      },
+      {
+        "title": "Nothing's Funny",
+        "start": 43,
+        "end": 50
+      },
+      {
+        "title": "Understanding Decay",
+        "start": 51,
+        "end": 62
+      },
+      {
+        "title": "Paranoia Shields",
+        "start": 63,
+        "end": 70
+      },
+      {
+        "title": "CH 375 268 277 ARS",
+        "start": 71,
+        "end": 72
+      },
+      {
+        "title": "Magic That I Held You Prisoner",
+        "start": 73,
+        "end": 75
+      },
+      {
+        "title": "Crossburner",
+        "start": 76,
+        "end": 82
+      },
+      {
+        "title": "The Threat Posed by Nuclear Weapons",
+        "start": 83,
+        "end": 92
+      }
+    ]
+  },
+  "30-dirty-grooves": {
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 0.812,
+    "chapters": [
+      {
+        "title": "Grooves",
+        "start": 4,
+        "end": 15
+      }
+    ]
+  },
+  "20-chops": {
+    "_note": "Scanned PDF — no text layer. p.1 cover, p.2-3 intro, p.4 content, p.5 excluded (end matter).",
+    "scanned": true,
+    "auto_indexed": false,
+    "text_coverage": 0.0,
+    "chapters": [
+      {
+        "title": "Chops",
+        "start": 2,
+        "end": 4
+      }
+    ]
+  },
+  "etid-low-teens": {
+    "scanned": false,
+    "auto_indexed": true,
+    "text_coverage": 0.967,
+    "chapters": [
+      {
+        "title": "All Music by Every Time I Die",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "title": "Fear And Trembling",
+        "start": 4,
+        "end": 12
+      },
+      {
+        "title": "C++ (Love Will Get You Killed)",
+        "start": 13,
+        "end": 17
+      },
+      {
+        "title": "Two Summers",
+        "start": 18,
+        "end": 22
+      },
+      {
+        "title": "Awful Lot",
+        "start": 23,
+        "end": 27
+      },
+      {
+        "title": "I Didn't Want To Join Your Stupid Cult Anyway",
+        "start": 28,
+        "end": 32
+      },
+      {
+        "title": "It Remembers",
+        "start": 33,
+        "end": 45
+      },
+      {
+        "title": "The Coin Has A Say",
+        "start": 46,
+        "end": 50
+      },
+      {
+        "title": "Religion Of Speed",
+        "start": 51,
+        "end": 58
+      },
+      {
+        "title": "Just As Real But Not As Brightly Lit",
+        "start": 59,
+        "end": 69
+      },
+      {
+        "title": "Map Change",
+        "start": 70,
+        "end": 80
+      },
+      {
+        "title": "Skin Without Bones",
+        "start": 81,
+        "end": 84
+      },
+      {
+        "title": "Nothing Visible; Ocean Empty",
+        "start": 85,
+        "end": 90
+      }
+    ]
+  }
+}

@@ -14,17 +14,8 @@
       max-width: 800px;
       margin: 0 auto;
     }
-    h1 {
-      font-size: 1.4rem;
-      font-weight: 700;
-      color: #f5f5f5;
-      margin-bottom: 4px;
-    }
-    .subtitle {
-      font-size: 0.85rem;
-      color: #888;
-      margin-bottom: 24px;
-    }
+    h1 { font-size: 1.4rem; font-weight: 700; color: #f5f5f5; margin-bottom: 4px; }
+    .subtitle { font-size: 0.85rem; color: #888; margin-bottom: 24px; }
     .block {
       background: #1a1a1a;
       border-left: 3px solid #ff4444;
@@ -35,49 +26,13 @@
     .block.technique { border-left-color: #ff8800; }
     .block.song      { border-left-color: #44aaff; }
     .block.cooldown  { border-left-color: #44dd88; }
-    .block-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 8px;
-    }
-    .block-title {
-      font-size: 1rem;
-      font-weight: 600;
-      color: #f0f0f0;
-    }
-    .block-time {
-      font-size: 0.8rem;
-      color: #666;
-      white-space: nowrap;
-    }
-    .block-tag {
-      display: inline-block;
-      font-size: 0.7rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: #888;
-      margin-bottom: 8px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      font-size: 0.92rem;
-      line-height: 1.6;
-      padding: 2px 0;
-      padding-left: 14px;
-      position: relative;
-      color: #ccc;
-    }
-    li::before {
-      content: "–";
-      position: absolute;
-      left: 0;
-      color: #555;
-    }
+    .block-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+    .block-title { font-size: 1rem; font-weight: 600; color: #f0f0f0; }
+    .block-time { font-size: 0.8rem; color: #666; white-space: nowrap; }
+    .block-tag { display: inline-block; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #888; margin-bottom: 8px; }
+    ul { list-style: none; padding: 0; }
+    li { font-size: 0.92rem; line-height: 1.6; padding: 2px 0; padding-left: 14px; position: relative; color: #ccc; }
+    li::before { content: "–"; position: absolute; left: 0; color: #555; }
     .bpm-tag {
       display: inline-block;
       background: #2a2a2a;
@@ -99,51 +54,20 @@
       color: #aaa;
       line-height: 1.5;
     }
-    .focus-box strong {
-      color: #ff8800;
-    }
-    .score-section {
-      margin-top: 14px;
-    }
-    .score-label {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: #555;
-      margin-bottom: 6px;
-    }
-    .score-img {
-      width: 100%;
+    .focus-box strong { color: #ff8800; }
+    .page-ref {
+      margin-top: 10px;
+      background: #1a1f1a;
+      border: 1px solid #2a3a2a;
       border-radius: 4px;
-      display: block;
-      margin-bottom: 8px;
-      border: 1px solid #2a2a2a;
-    }
-    .divider {
-      height: 1px;
-      background: #222;
-      margin: 20px 0;
-    }
-    .summary-row {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-bottom: 24px;
-    }
-    .summary-chip {
-      background: #1e1e1e;
-      border: 1px solid #333;
-      border-radius: 20px;
-      padding: 4px 12px;
-      font-size: 0.8rem;
-      color: #999;
-    }
-    .note {
+      padding: 8px 12px;
       font-size: 0.82rem;
-      color: #666;
-      font-style: italic;
-      margin-top: 6px;
+      color: #6a9a6a;
     }
+    .divider { height: 1px; background: #222; margin: 20px 0; }
+    .summary-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
+    .summary-chip { background: #1e1e1e; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.8rem; color: #999; }
+    .note { font-size: 0.82rem; color: #666; font-style: italic; margin-top: 6px; }
   </style>
 </head>
 <body>
@@ -159,7 +83,6 @@
     <span class="summary-chip">Cool-down 5 min</span>
   </div>
 
-  <!-- BLOCK 1: Warm-Up -->
   <div class="block">
     <div class="block-header">
       <span class="block-title">1 — Warm-Up</span>
@@ -174,7 +97,6 @@
     </ul>
   </div>
 
-  <!-- BLOCK 2: String-Skip Isolation -->
   <div class="block technique">
     <div class="block-header">
       <span class="block-title">2 — String-Skip Isolation Drill</span>
@@ -189,11 +111,10 @@
       <li>Push to <span class="bpm-tag">70 BPM</span> once 50 is locked</li>
     </ul>
     <div class="focus-box">
-      <strong>Fix cue:</strong> After hitting low D, let the wrist rise slightly so the pick clears the G string before descending to the target. Keep the pinky resting lightly on the body as an anchor — it tells you if the wrist is drifting. Any G-string buzz = wrist staying too flat.
+      <strong>Fix cue:</strong> After hitting low D, let the wrist rise slightly so the pick clears the G string before descending to the target. Keep the pinky resting lightly on the body as an anchor. Any G-string buzz = wrist staying too flat.
     </div>
   </div>
 
-  <!-- BLOCK 3: Clean Intro Song Work -->
   <div class="block song">
     <div class="block-header">
       <span class="block-title">3 — Clean Intro (Section A)</span>
@@ -207,16 +128,10 @@
       <li>When a chunk reaches 99 clean, mark it and move to the next</li>
       <li>Final 5 min: chain all completed chunks end to end at 99 BPM</li>
     </ul>
-    <p class="note">No BPM logged for this song yet — establish a baseline today. Note which bars feel rough.</p>
-    <div class="score-section">
-      <div class="score-label">Score — Page 7</div>
-      <img class="score-img" src="../rendered/better-lovers-highly-irresponsible/page-007.png" alt="Lie Between the Lines p.7">
-      <div class="score-label">Score — Page 8</div>
-      <img class="score-img" src="../rendered/better-lovers-highly-irresponsible/page-008.png" alt="Lie Between the Lines p.8">
-    </div>
+    <p class="note">No BPM logged for this song yet — establish a baseline today.</p>
+    <div class="page-ref">Open book: Better Lovers — Highly Irresponsible pp. 7–8</div>
   </div>
 
-  <!-- BLOCK 4: Section B Preview -->
   <div class="block technique">
     <div class="block-header">
       <span class="block-title">4 — Section B Preview (Main Riff)</span>
@@ -225,17 +140,13 @@
     <div class="block-tag">Song · Exploration · ♩=135</div>
     <ul>
       <li>Distortion on — palm mute open D, heavy attack</li>
-      <li>Don't try to nail it at 135 — just read through the riff at your own pace</li>
-      <li>Goal: feel how the energy shifts after the clean intro, get the shape in your hands</li>
+      <li>Don't try to nail it at 135 — just read through at your own pace</li>
+      <li>Goal: feel how the energy shifts after the clean intro</li>
       <li>Note any rhythm patterns that look tricky for next session</li>
     </ul>
-    <div class="score-section">
-      <div class="score-label">Score — Page 9</div>
-      <img class="score-img" src="../rendered/better-lovers-highly-irresponsible/page-009.png" alt="Lie Between the Lines p.9">
-    </div>
+    <div class="page-ref">Open book: Better Lovers — Highly Irresponsible p.9</div>
   </div>
 
-  <!-- BLOCK 5: Cool-Down -->
   <div class="block cooldown">
     <div class="block-header">
       <span class="block-title">5 — Cool-Down</span>
@@ -252,7 +163,7 @@
   <div class="divider"></div>
 
   <div class="focus-box" style="margin-bottom: 24px;">
-    <strong>After session:</strong> Note the highest BPM that felt comfortable on the Clean Intro, which bars needed the most work, and any observations on the string-skip fix. Log it in the Practice Log.
+    <strong>After session:</strong> Note the highest BPM that felt comfortable on the Clean Intro, which bars needed the most work, and any observations on the string-skip fix. Log it.
   </div>
 
 </body>
