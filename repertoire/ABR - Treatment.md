@@ -9,11 +9,16 @@ tags:
 - learning
 - djent
 - drop-c
+status: in-progress
+current_max_bpm: 130
+target_bpm: 195
+tuning: drop-c
 ---
 
 # August Burns Red — Treatment
 
 ## Song Info
+- **Album:** Messengers
 - **Tuning:** C G C F A D (Drop C)
 - **Guitars:** Two (Guitar 1 + Guitar 2, near-identical parts throughout)
 
@@ -53,15 +58,25 @@ One continuous section. Backbone is open low C (B string = 0) palm muted through
 - Not yet practiced
 
 ## Current Progress
-- **Section A (Guitar 1 only):** In progress
+- **Section A (Guitar 1 only):** In progress — max 130 BPM
 - **Section B:** Not started
 - **Section C:** Not started
 - **Guitar 2:** Not started on any section
 - **Known issues:**
   - Pinch harmonics missed frequently — pick angle and squeeze timing inconsistent
+  - Can't reliably fire PHs below 3rd string (G) — focusing on G string first
+  - Hit rate ~50% or less even in isolation
   - Under fingers comfortably at ~130 BPM; breaks down above that
 
 ## BPM Log
 | Date | Section | BPM | Notes |
 |------|---------|-----|-------|
-| 2026-05-03 | Section A (Guitar 1) | 130 | Under fingers at 130, bit sloppy above. Frequently misses pinch harmonic. Target 195. |
+| 2026-05-03 | Section A (Guitar 1) | 130 | Under fingers at 130, bit sloppy above. Frequently misses pinch harmonic. |
+| 2026-05-11 | Section A — PH isolation | — | Can't reliably fire PHs below 3rd string. G string focus. Hit rate ~50%. |
+
+## Relations
+- same_album_as [[ABR - Truth of a Liar]]
+- transcription_source [[ABR Messengers (Guitar)]]
+- bottleneck [[Pinch Harmonics]]
+- requires_technique [[Pinch Harmonics]]
+- practiced_alongside [[ABR - Truth of a Liar]]
