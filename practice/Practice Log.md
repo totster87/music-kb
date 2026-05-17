@@ -262,6 +262,11 @@ tags:
 - Fun — got most patterns to ~175 BPM
 - Right arm got shock/zing — stopped, needs rest
 
+**ABR Messengers Drums — Back Burner (pp.31–38)**
+- 200 BPM max — first session
+- Measure 7 is the slowdown point
+- Arm fatigue a factor
+
 **Sextuplet Sprint (burnout)**
 - 106 BPM cap on sustained sextuplets
 

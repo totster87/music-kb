@@ -51,8 +51,17 @@ Source slug: `abr-messengers-drums`.
 - **Status:** attempted (in routine 2026-05-15, flagged as RECORD target)
 - **Notes:** No BPM logged yet.
 
+### Back Burner — rendered p.31–38
+- **Focus:** metal transcription, full kit, double bass
+- **Status:** in-rotation
+- **Current ceiling:** 200 BPM
+- **Last worked:** 2026-05-17
+- **BPM History:**
+  - 2026-05-17: 200 BPM max — first session
+- **Bottlenecks:** Measure 7 slows things down. Arm fatigue.
+- **Notes:** First session. Good ceiling for a first pass.
+
 ## Tracks Untouched
-- Back Burner (rendered p.31–38)
 - The Blinding Light (rendered p.39–50)
 - Composure (rendered p.51–60)
 - Vital Signs (rendered p.61–69)
