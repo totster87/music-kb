@@ -279,7 +279,7 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `vai-10-hour-workout` | 10 Hour Guitar Workout | Steve Vai | 6 | Page-by-page rotation. Cycle pp.2→6 only (skip p.1 intro). |
 | `evolution-of-blast-beats` | The Evolution of Blast Beats | Derek Roddy | ~100 | NOT YET CHAPTERIZED — do not use in routines / No pages ingested yet — screenshots only / Known from screenshots: 4 blast types intro p.22 / Kick variations p.15 / Double Bass Workout p.79–81+ |
 | `rod-morgenstein-drum-set-warm-ups` | Drum Set Warm-Ups | Rod Morgenstein | ? | NOT YET CHAPTERIZED — pages not yet rendered |
-| `jungle-drum-n-bass` | Jungle / Drum n Bass | — | ? | NOT YET CHAPTERIZED — pages not yet rendered |
+| `jungle-drum-n-bass` | Jungle / Drum n Bass | — | 135 | Ch.1 Preliminary Exercises: p.25–30 / Ch.2 Eighth-Note Grooves: p.31–44 / Ch.3 Sixteenth-Note Grooves: p.45–54 / Ch.4 Basic Rolls and Buzzes: p.55–68 / Ch.5 Unison Jungle: p.69–88 / Ch.6 Linear Jungle Grooves: p.89–102 / Ch.7 Hi-Hat Exercises: p.103+ / Skip pp.1–24 (intro/front matter) |
 | `120-right-hand-studies-giuliani` | 120 Right Hand Studies | Mauro Giuliani | 15 | Page-by-page rotation. Cycle pp.3→14 only (skip pp.1–2 intro and p.15). |
 | `scale-studies-jazz-guitar-stone` | Scale Studies for Jazz Guitar | Rick Stone | 24 | Page-by-page rotation — no chapter map. Embed one page per warm-up, cycle p.1→p.24. |
 | `converge-axe-to-fall` | Converge — Axe to Fall | — | ? | Guitar tab — pages not yet rendered |
