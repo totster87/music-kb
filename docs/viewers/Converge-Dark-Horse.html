@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Converge — Dark Horse</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -13,79 +12,61 @@
   header h1 { font-size: 1rem; color: #fff; }
   header p { font-size: 0.75rem; color: #666; margin-top: 2px; }
   .content { max-width: 860px; margin: 0 auto; padding: 20px 16px; }
-  .page-block { background: #1a1a1a; margin-bottom: 12px;
-                border-radius: 8px; overflow: hidden;
-                box-shadow: 0 2px 12px rgba(0,0,0,0.4); }
-  .page-label { padding: 7px 16px; font-size: 0.7rem; color: #555;
-                 background: #111; border-bottom: 1px solid #222; }
-  .page-block img { width: 100%; display: block; min-height: 200px; background: #1a1a1a; }
-
-/* swipe carousel — added by add_swipe_carousels.py */
-.swipe-wrap { position: relative; margin: 8px 0 4px; }
-.swipe {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  border-radius: 6px;
-  background: #161616;
-}
-.swipe::-webkit-scrollbar { display: none; }
-.swipe > .slide {
-  flex: 0 0 100%;
-  min-width: 100%;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-}
-.swipe > .slide img { width: 100%; display: block; }
-.swipe-counter {
-  position: absolute;
-  top: 8px; right: 10px;
-  background: rgba(0,0,0,0.65);
-  color: #ddd;
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 3px 8px;
-  border-radius: 10px;
-  pointer-events: none;
-  letter-spacing: 0.03em;
-}
-.swipe-hint {
-  text-align: center;
-  font-size: 0.7rem;
-  color: #555;
-  margin-top: 4px;
-  letter-spacing: 0.05em;
-}
+  .swipe-wrap { position: relative; margin: 8px 0 4px; }
+  .swipe { display: flex; overflow-x: auto; scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch; scrollbar-width: none;
+            border-radius: 8px; background: #161616; box-shadow: 0 2px 12px rgba(0,0,0,0.4); }
+  .swipe::-webkit-scrollbar { display: none; }
+  .swipe > .slide { flex: 0 0 100%; min-width: 100%; scroll-snap-align: start;
+                    scroll-snap-stop: always; background: #1a1a1a; }
+  .slide .page-label { padding: 7px 16px; font-size: 0.7rem; color: #555;
+                       background: #111; border-bottom: 1px solid #222; }
+  .slide img { width: 100%; display: block; min-height: 200px; background: #1a1a1a; }
+  .swipe-counter { position: absolute; top: 8px; right: 10px;
+                   background: rgba(0,0,0,0.65); color: #ddd; font-size: 0.72rem;
+                   font-weight: 600; padding: 3px 8px; border-radius: 10px;
+                   pointer-events: none; letter-spacing: 0.03em; }
+  .swipe-hint { text-align: center; font-size: 0.7rem; color: #555;
+                margin-top: 4px; letter-spacing: 0.05em; }
 </style>
 </head>
 <body>
 <header>
-<h1>Converge — Dark Horse</h1>
-<p>Guitar tab</p>
+  <h1>Converge — Dark Horse</h1>
+  <p>Guitar · Converge tab</p>
 </header>
 <div class="content">
-
-<div class="swipe-wrap"><div class="swipe"><div class="slide"><div class="page-block">
-<div class="page-label">Page 1</div>
-<img alt="Page 1" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-001.png"/>
-</div></div><div class="slide"><div class="page-block">
-<div class="page-label">Page 2</div>
-<img alt="Page 2" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-002.png"/>
-</div></div><div class="slide"><div class="page-block">
-<div class="page-label">Page 3</div>
-<img alt="Page 3" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-003.png"/>
-</div></div><div class="slide"><div class="page-block">
-<div class="page-label">Page 4</div>
-<img alt="Page 4" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-004.png"/>
-</div></div><div class="slide"><div class="page-block">
-<div class="page-label">Page 5</div>
-<img alt="Page 5" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-005.png"/>
-</div></div><div class="slide"><div class="page-block">
-<div class="page-label">Page 6</div>
-<img alt="Page 6" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-006.png"/>
-</div></div></div><div class="swipe-counter">1 / 6</div><div class="swipe-hint">← swipe →</div></div></div>
+<div class="swipe-wrap">
+<div class="swipe">
+<div class="slide">
+  <div class="page-label">Page 1</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-001.png" alt="Page 1" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 2</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-002.png" alt="Page 2" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 3</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-003.png" alt="Page 3" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 4</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-004.png" alt="Page 4" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 5</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-005.png" alt="Page 5" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 6</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-dark-horse/page-006.png" alt="Page 6" loading="lazy">
+</div>
+</div>
+<div class="swipe-counter">1 / 6</div>
+<div class="swipe-hint">← swipe →</div>
+</div>
+</div>
 <script>
 (function() {
   document.querySelectorAll('.swipe-wrap').forEach(function(wrap) {
@@ -95,8 +76,7 @@
     var total = track.children.length;
     function update() {
       var idx = Math.round(track.scrollLeft / track.clientWidth) + 1;
-      if (idx < 1) idx = 1;
-      if (idx > total) idx = total;
+      if (idx < 1) idx = 1; if (idx > total) idx = total;
       counter.textContent = idx + ' / ' + total;
     }
     track.addEventListener('scroll', update, { passive: true });
@@ -104,5 +84,6 @@
     update();
   });
 })();
-</script></body>
+</script>
+</body>
 </html>
