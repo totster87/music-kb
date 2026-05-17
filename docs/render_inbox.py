@@ -59,6 +59,14 @@ for fname, slug in SLUG_MAP.items():
         print(f"SKIP (LFS pointer — run 'git lfs pull' first): {fname}")
         continue
 
+    # Skip if already rendered (any page-*.png in output dir).
+    # Delete the output dir or pass --force to re-render.
+    if os.path.isdir(out_dir):
+        existing = [f for f in os.listdir(out_dir) if f.startswith("page-") and f.endswith(".png")]
+        if existing and "--force" not in sys.argv:
+            print(f"SKIP (already rendered, {len(existing)} pages): {slug}")
+            continue
+
     print(f"\n{fname}")
     print(f"  → {slug} ({size // 1024} KB)")
     os.makedirs(out_dir, exist_ok=True)
