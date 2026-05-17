@@ -293,6 +293,7 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `jungle-drum-n-bass` | Jungle / Drum n Bass | — | 135 | Ch.1 Preliminary Exercises: p.25–30 / Ch.2 Eighth-Note Grooves: p.31–44 / Ch.3 Sixteenth-Note Grooves: p.45–54 / Ch.4 Basic Rolls and Buzzes: p.55–68 / Ch.5 Unison Jungle: p.69–88 / Ch.6 Linear Jungle Grooves: p.89–102 / Ch.7 Hi-Hat Exercises: p.103+ / Skip pp.1–24 (intro/front matter) |
 | `120-right-hand-studies-giuliani` | 120 Right Hand Studies | Mauro Giuliani | 15 | Page-by-page rotation. Cycle pp.3→14 only (skip pp.1–2 intro and p.15). |
 | `scale-studies-jazz-guitar-stone` | Scale Studies for Jazz Guitar | Rick Stone | 24 | Page-by-page rotation — no chapter map. Embed one page per warm-up, cycle p.1→p.24. |
+| `modern-rudimental-swing-solos` | Modern Rudimental Swing Solos | Charley Wilcoxon | 34 | Every page is a standalone snare solo. Pick randomly from p.1–34. |
 | `converge-axe-to-fall` | Converge — Axe to Fall | — | 5 | Guitar tab — single song, all pages usable. Viewer: Converge-Axe-to-Fall.html |
 | `converge-concubine` | Converge — Concubine | — | 3 | Guitar tab — single song, all pages usable. Viewer: Converge-Concubine.html |
 | `converge-dark-horse` | Converge — Dark Horse | — | 6 | Guitar tab — single song, all pages usable. Viewer: Converge-Dark-Horse.html |
