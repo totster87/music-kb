@@ -411,16 +411,27 @@
       "title": "The Evolution of Blast Beats",
       "author": "Derek Roddy",
       "instrument": "drums",
-      "pages_rendered": 5,
+      "pages_rendered": 6,
       "type": "method",
-      "notes": "Partial ingest — 5 excerpt pages. Full book not yet ingested.",
+      "notes": "Partial ingest — 6 excerpt pages. Full book not yet ingested.",
       "sections": [
-        { "name": "Skank Beats",                  "rendered": [1, 1] },
-        { "name": "Punk",                          "rendered": [2, 2] },
-        { "name": "Blast Beats",                   "rendered": [3, 3] },
-        { "name": "Traditional Blast Variations",  "rendered": [4, 4] },
-        { "name": "Double Bass Workout — 32nd Note Spurts", "rendered": [5, 5] }
+        { "name": "Skank Beats",                          "rendered": [1, 1] },
+        { "name": "Punk",                                  "rendered": [2, 2] },
+        { "name": "Blast Beats",                           "rendered": [3, 3] },
+        { "name": "Traditional Blast Variations",          "rendered": [4, 4] },
+        { "name": "Double Bass Workout — 32nd Note Spurts","rendered": [5, 5] },
+        { "name": "Additional Excerpt",                    "rendered": [6, 6] }
       ]
+    }
+  },
+    "art-of-brushes-thigpen": {
+      "title": "The Art of Brushes",
+      "author": "Ed Thigpen",
+      "instrument": "drums",
+      "pages_rendered": 0,
+      "type": "random",
+      "usable_from": 1,
+      "notes": "Brush technique. Every page usable — pick randomly. Update pages_rendered after rendering."
     }
   },
   "companion_books": {

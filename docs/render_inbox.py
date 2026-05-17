@@ -43,6 +43,7 @@ SLUG_MAP = {
     "Ted Greene - Modern Chord Progressions.pdf":              "ted-greene-modern-chord-progressions",
     "modern rudimental swing solos.pdf":                       "modern-rudimental-swing-solos",
     "blast beats excerpts.pdf":                                "evolution-of-blast-beats",
+    "Art of Brushes - Ed Thigpen.pdf":                         "art-of-brushes-thigpen",
 }
 
 DPI = 150
