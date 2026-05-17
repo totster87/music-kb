@@ -229,7 +229,8 @@ Then commit and push.
 - **Max BPM:** ~130 (target 195)
 - **Known issues:** Pinch harmonics frequently missed — pick angle and squeeze timing; sloppy above 130
 - **Repertoire file:** `repertoire/ABR - Treatment.md`
-- **Viewer:** Not yet generated — say "generate viewer for ABR Treatment" when ready
+- **Viewer:** `docs/viewers/ABR-Treatment.html` → https://totster87.github.io/music-kb/docs/viewers/ABR-Treatment.html
+- **Source:** `abr-rescue-and-restore` slug (manual scan, 15 pages, rendered p.18–32)
 
 ### Guitar — BTBAM, Prequel to the Sequel
 - **Tuning:** C# standard — standard down 3 half steps (high→low: C# G# E B F# C#)
@@ -275,6 +276,7 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `stick-control` | Stick Control | George Lawrence Stone | 50 | Single Beat Combinations: p.5–7 / Triplets: p.8–9 / Short Roll Combinations: p.10–15 / Flams: p.16–23 / Short Rolls in 6/8: p.24–29 / Combinations in 3/8: p.30–32 / Flam Triplets: p.34–37 / Short Roll Progressions: p.38–46 |
 | `advanced-funk-studies` | Advanced Funk Studies | Rick Latham | 51 | p.5 = author bio — do NOT use / Introductory Exercises: p.10 / Fixed Hi-hat Patterns: p.11–15 / Combination Exercises: p.16–18 / Fill Patterns: p.19 / Funk Patterns: p.20–24 / Transcriptions (Gadd, Garibaldi, Mason, Erskine etc.): p.26–33 / Solos: p.34–51 |
 | `progressive-steps-syncopation` | Progressive Steps to Syncopation | Ted Reed | 61 | Foundation (quarter/eighth/dotted/triplet/16th notes): p.3–27 / Syncopated Eighth Notes: p.28–35 / Syncopation Exercises 1–9: p.36–44 / Accents: p.45–59 |
+| `abr-rescue-and-restore` | ABR — Rescue & Restore (partial) | — | 46 | Offset 0 / Manual scan, 3 songs / Provision: p.4–17 / Treatment: p.18–32 / Fault Line: p.33–46 |
 | `abr-messengers` | ABR — Messengers (Guitar) | — | 146 | Offset +5 (book p + 5 = rendered p) / Truth Of A Liar: p.6–20 / Up Against The Ropes: p.21–35 / Back Burner: p.36–45 / The Blinding Light: p.46–61 / Composure: p.62–73 / Vital Signs: p.74–81 / The Eleventh Hour: p.82–91 / The Balance: p.92–104 / Black Sheep: p.105–117 / An American Dream: p.118–129 / Redemption: p.130–146 |
 | `abr-messengers-drums` | ABR — Messengers (Drums) | — | 121 | Offset +6 (book p + 6 = rendered p) / Truth Of A Liar: p.7–17 / Up Against The Ropes: p.18–30 / Back Burner: p.31–38 / The Blinding Light: p.39–50 / Composure: p.51–60 / Vital Signs: p.61–69 / The Eleventh Hour: p.70–80 / The Balance: p.81–89 / Black Sheep: p.90–97 / An American Dream: p.98–108 / Redemption: p.109–121 |
 | `better-lovers-highly-irresponsible` | Better Lovers — Highly Irresponsible | — | 122 | Lie Between The Lines: p.7–19 / Your Misplaced Self: p.20–24 / A White Horse Covered In Blood: p.25–35 / Future Myopia: p.36–47 / Deliver Us From Life: p.48–58 / Drowning In A Burning World: p.59–67 / Everything Was Put Here For Me: p.68–78 / Superman Died Paralyzed: p.79–93 / At All Times: p.94–106 / Love As An Act Of Rebellion: p.107–122 |

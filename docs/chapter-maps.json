@@ -378,14 +378,14 @@
       "author": "After the Burial",
       "viewer_prefix": "ABR",
       "instrument": "guitar",
-      "pages_rendered": 0,
-      "offset": null,
+      "pages_rendered": 46,
+      "offset": 0,
       "type": "transcription",
-      "notes": "Manual scan — 3 songs only (not full book). Offset TBD — verify with first page of Provision. Book page numbers: Provision p.4, Treatment p.18, Fault Line p.33.",
+      "notes": "Manual scan — 3 songs only, not full book.",
       "sections": [
-        { "name": "Provision",   "book": [4,  17] },
-        { "name": "Treatment",   "book": [18, 32] },
-        { "name": "Fault Line",  "book": [33, 99] }
+        { "name": "Provision",   "book": [4,  17], "rendered": [4,  17] },
+        { "name": "Treatment",   "book": [18, 32], "rendered": [18, 32] },
+        { "name": "Fault Line",  "book": [33, 46], "rendered": [33, 46] }
       ]
     },
     "ted-greene-modern-chord-progressions": {
