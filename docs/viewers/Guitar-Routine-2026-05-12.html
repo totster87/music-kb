@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title>Guitar Routine — 2026-05-12</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+<title>Guitar Routine — 2026-05-12</title>
+<style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -57,136 +58,179 @@
     .score-img { width: 100%; border-radius: 4px; display: block; margin-bottom: 8px; border: 1px solid #2a2a2a; }
     .divider { height: 1px; background: #1e1e1e; margin: 20px 0; }
     .item-num { font-size: 0.75rem; color: #555; font-weight: 700; margin-right: 4px; }
-  </style>
+  
+/* swipe carousel — added by add_swipe_carousels.py */
+.swipe-wrap { position: relative; margin: 8px 0 4px; }
+.swipe {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  border-radius: 6px;
+  background: #161616;
+}
+.swipe::-webkit-scrollbar { display: none; }
+.swipe > .slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.swipe > .slide img { width: 100%; display: block; }
+.swipe-counter {
+  position: absolute;
+  top: 8px; right: 10px;
+  background: rgba(0,0,0,0.65);
+  color: #ddd;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 10px;
+  pointer-events: none;
+  letter-spacing: 0.03em;
+}
+.swipe-hint {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #555;
+  margin-top: 4px;
+  letter-spacing: 0.05em;
+}
+</style>
 </head>
 <body>
-
-  <h1>Guitar Routine</h1>
-  <div class="subtitle">Tuesday 12 May 2026 &nbsp;·&nbsp; 5 blocks &nbsp;·&nbsp; ~50 min</div>
-  <div class="note">Upstroke fix first, then new Better Lovers pages, ABR TOAL BPM push, DEP cold read, PH isolation. Drop D for BL and ABR — Drop C for Treatment.</div>
-
-  <!-- ─── 1 ─── -->
-  <div class="section-label">Warm-Up</div>
-
-  <div class="block warmup">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">01</span>Upstroke Accent Drill</span>
-      <span class="block-time">7 min</span>
+<h1>Guitar Routine</h1>
+<div class="subtitle">Tuesday 12 May 2026  ·  5 blocks  ·  ~50 min</div>
+<div class="note">Upstroke fix first, then new Better Lovers pages, ABR TOAL BPM push, DEP cold read, PH isolation. Drop D for BL and ABR — Drop C for Treatment.</div>
+<!-- ─── 1 ─── -->
+<div class="section-label">Warm-Up</div>
+<div class="block warmup">
+<div class="block-header">
+<span class="block-title"><span class="item-num">01</span>Upstroke Accent Drill</span>
+<span class="block-time">7 min</span>
+</div>
+<div class="block-tag">Alt picking · 16th notes · No click then click · <span class="bpm-tag">60–90 BPM</span></div>
+<ul>
+<li>16th note alternate picking on a single string — accent the <strong style="color:#ccc">1</strong>, play 4 bars</li>
+<li>Shift the accent to the <strong style="color:#ccc">e</strong> — 4 bars. Then <strong style="color:#ccc">&amp;</strong>, then <strong style="color:#ccc">a</strong></li>
+<li>Each accent position: the accented note should be noticeably louder, upstroke or not</li>
+<li>When the upstroke accent feels equal to the downstroke accent, move to the next string</li>
+<li>Keep the unaccented notes quiet — the contrast is the exercise</li>
+</ul>
+<div class="focus-box">
+<strong>Why this drill:</strong> Last session — upstroke notes uneven in volume, especially the first upstroke in each group. This exercise forces the upstroke to carry full weight on demand. Fix the mechanics before playing repertoire.
     </div>
-    <div class="block-tag">Alt picking · 16th notes · No click then click · <span class="bpm-tag">60–90 BPM</span></div>
-    <ul>
-      <li>16th note alternate picking on a single string — accent the <strong style="color:#ccc">1</strong>, play 4 bars</li>
-      <li>Shift the accent to the <strong style="color:#ccc">e</strong> — 4 bars. Then <strong style="color:#ccc">&amp;</strong>, then <strong style="color:#ccc">a</strong></li>
-      <li>Each accent position: the accented note should be noticeably louder, upstroke or not</li>
-      <li>When the upstroke accent feels equal to the downstroke accent, move to the next string</li>
-      <li>Keep the unaccented notes quiet — the contrast is the exercise</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Why this drill:</strong> Last session — upstroke notes uneven in volume, especially the first upstroke in each group. This exercise forces the upstroke to carry full weight on demand. Fix the mechanics before playing repertoire.
+</div>
+<!-- ─── 2 ─── -->
+<div class="section-label">Better Lovers — New Pages</div>
+<div class="block bl">
+<div class="block-header">
+<span class="block-title"><span class="item-num">02</span>Lie Between the Lines — pp.13–15</span>
+<span class="block-time">12 min</span>
+</div>
+<div class="block-tag">Better Lovers · Highly Irresponsible · Drop D · <span class="bpm-tag">Slow → tempo</span></div>
+<ul>
+<li>New pages — haven't touched these yet. Read before playing</li>
+<li>Same approach as always: slow first, find the fingering, then build tempo</li>
+<li>Harmonics on 5th string (flagged from last session) — if they come up again here, stop and isolate that bar before moving on</li>
+<li>Don't burn time on pp.10–12 today — those need consolidation but not today’s focus</li>
+</ul>
+<div class="score-section">
+
+
+
+
+
+
+<div class="swipe-wrap"><div class="swipe"><div class="slide"><div class="score-label">Lie Between the Lines, p.13</div><img alt="Better Lovers p.13" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-013.png"/></div><div class="slide"><div class="score-label">p.14</div><img alt="Better Lovers p.14" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-014.png"/></div><div class="slide"><div class="score-label">p.15</div><img alt="Better Lovers p.15" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-015.png"/></div></div><div class="swipe-counter">1 / 3</div><div class="swipe-hint">← swipe →</div></div></div>
+</div>
+<!-- ─── 3 ─── -->
+<div class="section-label">ABR — Truth of a Liar</div>
+<div class="block abr">
+<div class="block-header">
+<span class="block-title"><span class="item-num">03</span>Truth of a Liar — BPM Push Past 124</span>
+<span class="block-time">10 min</span>
+</div>
+<div class="block-tag">ABR · Messengers Guitar · Drop D · <span class="bpm-tag">120–130 BPM</span></div>
+<ul>
+<li>Last session ceiling: 124 BPM — starts breaking down above that</li>
+<li>Start at 118, play the E section (m.30 onward) 3× clean before moving up</li>
+<li>Tendency to pull off on higher strings instead of picking — focus on full alternating pick attack</li>
+<li>The mutes between chugs were settling last session — keep that going, don’t let it slip under pressure</li>
+<li>Increment by 2 BPM. Stop when it breaks — don’t push into slop</li>
+</ul>
+<div class="score-section">
+
+
+
+</div>
+</div>
+<!-- ─── 4 ─── -->
+<div class="section-label">DEP — Cold Read</div>
+<div class="block dep">
+<div class="block-header">
+<span class="block-title"><span class="item-num">04</span>DEP — Prancer, pp.10–11</span>
+<span class="block-time">10 min</span>
+</div>
+<div class="block-tag">Dillinger Escape Plan · One Of Us Is The Killer · Standard · <span class="bpm-tag">Cold read</span></div>
+<ul>
+<li>No prep — cold read straight off the page, whatever tempo makes it feel like music</li>
+<li>DEP writing is rhythmically complex — read the bar lengths before you play a note</li>
+<li>Don’t try to sound like the record on the first pass. Mechanics first, feel second</li>
+<li>If a bar is genuinely unreadable: isolate it, figure out the subdivision, then move on</li>
+</ul>
+<div class="focus-box">
+<strong>Goal:</strong> Cover both pages at least once. Doesn’t have to be clean — the point is to encounter new material and start building the vocabulary.
     </div>
+<div class="score-section">
+
+
+
+
+<div class="swipe-wrap"><div class="swipe"><div class="slide"><div class="score-label">DEP — One Of Us Is The Killer · Prancer, p.10</div><img alt="DEP Prancer p.10" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/dep-one-of-us-is-the-killer/page-010.png"/></div><div class="slide"><div class="score-label">p.11</div><img alt="DEP Prancer p.11" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/dep-one-of-us-is-the-killer/page-011.png"/></div></div><div class="swipe-counter">1 / 2</div><div class="swipe-hint">← swipe →</div></div></div>
+</div>
+<!-- ─── 5 ─── -->
+<div class="section-label">ABR Treatment — Pinch Harmonic Isolation</div>
+<div class="block ph">
+<div class="block-header">
+<span class="block-title"><span class="item-num">05</span>Treatment — PH on G String</span>
+<span class="block-time">8 min</span>
+</div>
+<div class="block-tag">ABR · Treatment · Drop C · No click · <span class="bpm-tag">Isolated</span></div>
+<ul>
+<li>Focus on G string only — don’t attempt D or A string until G is consistent</li>
+<li>Experiment with pick angle and contact point — note what fires and what doesn’t</li>
+<li>Try: slightly more pick exposed, squeeze thumb immediately after pick contact</li>
+<li>Hit rate target: better than 50%. Count your attempts — track it</li>
+<li>Once a position reliably fires, do it 10× in a row before calling it a win</li>
+</ul>
+<div class="focus-box">
+<strong>From last session:</strong> G string hit rate ~50% or less. This block is about finding the exact pick contact geometry that fires reliably — not about playing in context yet.
+    </div>
+<div class="no-score">No transcription rendered for ABR Treatment — drop the PDF in docs/inbox/ to unlock score pages.</div>
+</div>
+<div class="divider"></div>
+<div class="focus-box" style="margin-bottom: 24px;">
+<strong>After session:</strong> Did the upstroke accent drill make any difference going into repertoire? What BPM did TOAL break down at today vs 124 last session? Any specific bars on BL pp.13–15 that need isolation next time? PH hit rate on G string — above or below 50%?
   </div>
-
-  <!-- ─── 2 ─── -->
-  <div class="section-label">Better Lovers — New Pages</div>
-
-  <div class="block bl">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">02</span>Lie Between the Lines — pp.13–15</span>
-      <span class="block-time">12 min</span>
-    </div>
-    <div class="block-tag">Better Lovers · Highly Irresponsible · Drop D · <span class="bpm-tag">Slow → tempo</span></div>
-    <ul>
-      <li>New pages — haven't touched these yet. Read before playing</li>
-      <li>Same approach as always: slow first, find the fingering, then build tempo</li>
-      <li>Harmonics on 5th string (flagged from last session) — if they come up again here, stop and isolate that bar before moving on</li>
-      <li>Don't burn time on pp.10–12 today — those need consolidation but not today’s focus</li>
-    </ul>
-    <div class="score-section">
-      <div class="score-label">Lie Between the Lines, p.13</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-013.png" alt="Better Lovers p.13">
-      <div class="score-label">p.14</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-014.png" alt="Better Lovers p.14">
-      <div class="score-label">p.15</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-015.png" alt="Better Lovers p.15">
-    </div>
-  </div>
-
-  <!-- ─── 3 ─── -->
-  <div class="section-label">ABR — Truth of a Liar</div>
-
-  <div class="block abr">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">03</span>Truth of a Liar — BPM Push Past 124</span>
-      <span class="block-time">10 min</span>
-    </div>
-    <div class="block-tag">ABR · Messengers Guitar · Drop D · <span class="bpm-tag">120–130 BPM</span></div>
-    <ul>
-      <li>Last session ceiling: 124 BPM — starts breaking down above that</li>
-      <li>Start at 118, play the E section (m.30 onward) 3× clean before moving up</li>
-      <li>Tendency to pull off on higher strings instead of picking — focus on full alternating pick attack</li>
-      <li>The mutes between chugs were settling last session — keep that going, don’t let it slip under pressure</li>
-      <li>Increment by 2 BPM. Stop when it breaks — don’t push into slop</li>
-    </ul>
-    <div class="score-section">
-      <div class="score-label">ABR Messengers Guitar — Truth of a Liar, pp.12–13</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-012.png" alt="ABR Messengers Guitar p.12">
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-013.png" alt="ABR Messengers Guitar p.13">
-    </div>
-  </div>
-
-  <!-- ─── 4 ─── -->
-  <div class="section-label">DEP — Cold Read</div>
-
-  <div class="block dep">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">04</span>DEP — Prancer, pp.10–11</span>
-      <span class="block-time">10 min</span>
-    </div>
-    <div class="block-tag">Dillinger Escape Plan · One Of Us Is The Killer · Standard · <span class="bpm-tag">Cold read</span></div>
-    <ul>
-      <li>No prep — cold read straight off the page, whatever tempo makes it feel like music</li>
-      <li>DEP writing is rhythmically complex — read the bar lengths before you play a note</li>
-      <li>Don’t try to sound like the record on the first pass. Mechanics first, feel second</li>
-      <li>If a bar is genuinely unreadable: isolate it, figure out the subdivision, then move on</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Goal:</strong> Cover both pages at least once. Doesn’t have to be clean — the point is to encounter new material and start building the vocabulary.
-    </div>
-    <div class="score-section">
-      <div class="score-label">DEP — One Of Us Is The Killer · Prancer, p.10</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/dep-one-of-us-is-the-killer/page-010.png" alt="DEP Prancer p.10">
-      <div class="score-label">p.11</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/dep-one-of-us-is-the-killer/page-011.png" alt="DEP Prancer p.11">
-    </div>
-  </div>
-
-  <!-- ─── 5 ─── -->
-  <div class="section-label">ABR Treatment — Pinch Harmonic Isolation</div>
-
-  <div class="block ph">
-    <div class="block-header">
-      <span class="block-title"><span class="item-num">05</span>Treatment — PH on G String</span>
-      <span class="block-time">8 min</span>
-    </div>
-    <div class="block-tag">ABR · Treatment · Drop C · No click · <span class="bpm-tag">Isolated</span></div>
-    <ul>
-      <li>Focus on G string only — don’t attempt D or A string until G is consistent</li>
-      <li>Experiment with pick angle and contact point — note what fires and what doesn’t</li>
-      <li>Try: slightly more pick exposed, squeeze thumb immediately after pick contact</li>
-      <li>Hit rate target: better than 50%. Count your attempts — track it</li>
-      <li>Once a position reliably fires, do it 10× in a row before calling it a win</li>
-    </ul>
-    <div class="focus-box">
-      <strong>From last session:</strong> G string hit rate ~50% or less. This block is about finding the exact pick contact geometry that fires reliably — not about playing in context yet.
-    </div>
-    <div class="no-score">No transcription rendered for ABR Treatment — drop the PDF in docs/inbox/ to unlock score pages.</div>
-  </div>
-
-  <div class="divider"></div>
-
-  <div class="focus-box" style="margin-bottom: 24px;">
-    <strong>After session:</strong> Did the upstroke accent drill make any difference going into repertoire? What BPM did TOAL break down at today vs 124 last session? Any specific bars on BL pp.13–15 that need isolation next time? PH hit rate on G string — above or below 50%?
-  </div>
-
-</body>
+<script>
+(function() {
+  document.querySelectorAll('.swipe-wrap').forEach(function(wrap) {
+    var track = wrap.querySelector('.swipe');
+    var counter = wrap.querySelector('.swipe-counter');
+    if (!track || !counter) return;
+    var total = track.children.length;
+    function update() {
+      var idx = Math.round(track.scrollLeft / track.clientWidth) + 1;
+      if (idx < 1) idx = 1;
+      if (idx > total) idx = total;
+      counter.textContent = idx + ' / ' + total;
+    }
+    track.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+})();
+</script></body>
 </html>
