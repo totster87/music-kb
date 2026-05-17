@@ -41,6 +41,7 @@ SLUG_MAP = {
     "steve-vai-10-hour-guitar-workout.pdf":                    "vai-10-hour-workout",
     "ABR - rescue and restore.pdf":                            "abr-rescue-and-restore",
     "Ted Greene - Modern Chord Progressions.pdf":              "ted-greene-modern-chord-progressions",
+    "modern rudimental swing solos.pdf":                       "modern-rudimental-swing-solos",
 }
 
 DPI = 150
