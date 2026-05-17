@@ -40,6 +40,7 @@ SLUG_MAP = {
     "converge-worms will feed.pdf":                            "converge-worms-will-feed",
     "steve-vai-10-hour-guitar-workout.pdf":                    "vai-10-hour-workout",
     "ABR - rescue and restore.pdf":                            "abr-rescue-and-restore",
+    "Ted Greene - Modern Chord Progressions.pdf":              "ted-greene-modern-chord-progressions",
 }
 
 DPI = 150
