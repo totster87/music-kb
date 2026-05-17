@@ -373,6 +373,21 @@
     "converge-under-duress":       { "title": "Converge — Under Duress",       "instrument": "guitar", "pages_rendered": 5,  "type": "single" },
     "converge-versus":             { "title": "Converge — Versus",             "instrument": "guitar", "pages_rendered": 7,  "type": "single" },
     "converge-worms-will-feed":    { "title": "Converge — Worms Will Feed",    "instrument": "guitar", "pages_rendered": 7,  "type": "single" },
+    "abr-rescue-and-restore": {
+      "title": "ABR — Rescue & Restore (partial)",
+      "author": "After the Burial",
+      "viewer_prefix": "ABR",
+      "instrument": "guitar",
+      "pages_rendered": 0,
+      "offset": null,
+      "type": "transcription",
+      "notes": "Manual scan — 3 songs only (not full book). Offset TBD — verify with first page of Provision. Book page numbers: Provision p.4, Treatment p.18, Fault Line p.33.",
+      "sections": [
+        { "name": "Provision",   "book": [4,  17] },
+        { "name": "Treatment",   "book": [18, 32] },
+        { "name": "Fault Line",  "book": [33, 99] }
+      ]
+    },
     "evolution-of-blast-beats": {
       "title": "The Evolution of Blast Beats",
       "author": "Derek Roddy",
