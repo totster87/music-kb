@@ -217,12 +217,17 @@ Run: `python docs/viewers/generate_viewer.py <slug> "<title>" <start> <end>` the
 - **Viewer:** Not yet generated — say "generate viewer for ABR Treatment" when ready
 
 ### Guitar — BTBAM, Prequel to the Sequel
-- **Tuning:** Standard (E A D G B E)
-- **Current section:** Intro — lead melody only (single note lines)
-- **Max BPM:** 90 (target 100)
+- **Tuning:** C# standard — standard down 3 half steps (high→low: C# G# E B F# C#)
+- **Tempo:** Section A ♩=100 · Section B ♩=120 (starts at 1:00)
+- **Tone:** Distortion w/ delay, palm muted throughout Section A
+- **Current section:** Section A intro — lead melody (mm.1–16). Section B (mm.19+) not yet started.
+- **Max BPM:** 80 (target 100 = song tempo)
+- **Source slug:** `btbam-prequel-to-the-sequel` — single-page stand-in tab from screenshot until full PDF acquired
+- **Score path:** `docs/rendered/btbam-prequel-to-the-sequel/page-001.png`
 - **Known issues:** Pick accuracy on descending runs — clips wrong string even at slow tempos
 - **Repertoire file:** `repertoire/BTBAM - Prequel to the Sequel.md`
-- **Viewer:** Not yet generated — say "generate viewer for BTBAM Prequel" when ready
+- **Viewer:** `docs/viewers/BTBAM-Prequel-to-the-Sequel.html` — auto-shows page-001.png once saved
+- **When building a routine block for BTBAM Prequel:** always reference the C# standard tuning, always embed the page-001 score image via the CDN URL, always note distortion+delay tone
 
 ### Drums
 - **Morello Groups of Four with Fill-Ins** (p.71): 72 BPM — left foot unstable at higher tempos, speeds up/flutters; focus on evenness not speed
@@ -263,6 +268,7 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `etid-low-teens` | Every Time I Die — Low Teens | — | 90 | Fear And Trembling: p.4–12 / C++ (Love Will Get You Killed): p.13–17 / Two Summers: p.18–22 / Awful Lot: p.23–27 / I Didn't Want To Join Your Stupid Cult Anyway: p.28–32 / It Remembers: p.33–45 / The Coin Has A Say: p.46–50 / Religion Of Speed: p.51–58 / Just As Real But Not As Brightly Lit: p.59–69 / Map Change: p.70–80 / Skin Without Bones: p.81–84 / Nothing Visible; Ocean Empty: p.85–90 |
 | `30-dirty-grooves` | 30 Dirty Grooves | — | 16 | Grooves: p.4–15 |
 | `20-chops` | 20 Chops | — | 5 | p.1 = cover / p.2–3 = intro / Chops content: p.4 |
+| `btbam-prequel-to-the-sequel` | BTBAM — Prequel to the Sequel | Paul Waggoner | 1+ | Single-page tab screenshot stand-in (C# standard tuning). Section A ♩=100 mm.1–16, Section B ♩=120 mm.19+. Replace with full PDF when acquired. |
 | `evolution-of-blast-beats` | The Evolution of Blast Beats | Derek Roddy | ~100 | NOT YET CHAPTERIZED — do not use in routines / No pages ingested yet — screenshots only / Known from screenshots: 4 blast types intro p.22 / Kick variations p.15 / Double Bass Workout p.79–81+ |
 | `rod-morgenstein-drum-set-warm-ups` | Drum Set Warm-Ups | Rod Morgenstein | ? | NOT YET CHAPTERIZED — pages not yet rendered |
 | `jungle-drum-n-bass` | Jungle / Drum n Bass | — | ? | NOT YET CHAPTERIZED — pages not yet rendered |
