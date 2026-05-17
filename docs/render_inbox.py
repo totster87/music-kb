@@ -42,6 +42,7 @@ SLUG_MAP = {
     "ABR - rescue and restore.pdf":                            "abr-rescue-and-restore",
     "Ted Greene - Modern Chord Progressions.pdf":              "ted-greene-modern-chord-progressions",
     "modern rudimental swing solos.pdf":                       "modern-rudimental-swing-solos",
+    "blast beats excerpts.pdf":                                "evolution-of-blast-beats",
 }
 
 DPI = 150
