@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Guitar Routine — 2026-05-17</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f0f0f;
+      color: #e0e0e0;
+      padding: 16px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 1.4rem; font-weight: 700; color: #f5f5f5; margin-bottom: 4px; }
+    .subtitle { font-size: 0.85rem; color: #888; margin-bottom: 24px; }
+    .block {
+      background: #1a1a1a;
+      border-left: 3px solid #cc44ff;
+      border-radius: 6px;
+      padding: 14px 16px;
+      margin-bottom: 16px;
+    }
+    .block.warmup     { border-left-color: #44dd88; }
+    .block.technique  { border-left-color: #ff8800; }
+    .block.song       { border-left-color: #cc44ff; }
+    .block.new        { border-left-color: #ff2266; }
+    .block.cooldown   { border-left-color: #555; }
+    .block-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+    .block-title { font-size: 1rem; font-weight: 600; color: #f0f0f0; }
+    .block-time { font-size: 0.8rem; color: #666; white-space: nowrap; }
+    .block-tag { display: inline-block; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #888; margin-bottom: 8px; }
+    ul { list-style: none; padding: 0; }
+    li { font-size: 0.92rem; line-height: 1.6; padding: 2px 0; padding-left: 14px; position: relative; color: #ccc; }
+    li::before { content: "–"; position: absolute; left: 0; color: #555; }
+    .bpm-tag {
+      display: inline-block;
+      background: #2a2a2a;
+      border: 1px solid #444;
+      border-radius: 3px;
+      padding: 1px 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #aaa;
+      margin-left: 4px;
+    }
+    .focus-box {
+      background: #222;
+      border: 1px solid #333;
+      border-radius: 4px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color: #aaa;
+      line-height: 1.5;
+    }
+    .focus-box strong { color: #ff8800; }
+    .new-box {
+      background: #1d0a14;
+      border: 1px solid #441830;
+      border-radius: 4px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color: #d899b8;
+      line-height: 1.5;
+    }
+    .new-box strong { color: #ff2266; }
+    .record-box {
+      background: #1a1200;
+      border: 1px solid #554400;
+      border-radius: 4px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color: #bbaa66;
+      line-height: 1.5;
+    }
+    .record-box strong { color: #ffcc00; }
+    .score-section { margin-top: 14px; }
+    .score-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: #555; margin-bottom: 6px; padding: 7px 12px; background: #111; border-bottom: 1px solid #222; }
+    .score-img { width: 100%; display: block; }
+    .divider { height: 1px; background: #222; margin: 20px 0; }
+    .summary-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
+    .summary-chip { background: #1e1e1e; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.8rem; color: #999; }
+    .summary-chip.new { background: #2a0f1a; border-color: #552233; color: #ff7799; }
+
+    /* swipe carousel */
+    .swipe-wrap { position: relative; margin: 8px 0 4px; }
+    .swipe {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      border-radius: 6px;
+      background: #161616;
+    }
+    .swipe::-webkit-scrollbar { display: none; }
+    .swipe > .slide {
+      flex: 0 0 100%;
+      min-width: 100%;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+    }
+    .swipe > .slide img { width: 100%; display: block; }
+    .swipe-counter {
+      position: absolute;
+      top: 8px; right: 10px;
+      background: rgba(0,0,0,0.65);
+      color: #ddd;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 10px;
+      pointer-events: none;
+      letter-spacing: 0.03em;
+    }
+    .swipe-hint {
+      text-align: center;
+      font-size: 0.7rem;
+      color: #555;
+      margin-top: 4px;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Guitar Routine</h1>
+  <div class="subtitle">Sunday 17 May 2026 &nbsp;·&nbsp; ~70 min &nbsp;·&nbsp; Mixed tunings</div>
+
+  <div class="summary-row">
+    <span class="summary-chip">Legato w/click 8 min</span>
+    <span class="summary-chip">Upstroke accent 7 min</span>
+    <span class="summary-chip">Better Lovers Section B 10 min</span>
+    <span class="summary-chip">ABR Truth m.30 10 min</span>
+    <span class="summary-chip new">★ Converge — Hum of Hurt 15 min</span>
+    <span class="summary-chip">BTBAM Prequel rebuild 10 min</span>
+    <span class="summary-chip">Pinch harmonics 5 min</span>
+    <span class="summary-chip">Cool-down 3 min</span>
+  </div>
+
+  <!-- 1 -->
+  <div class="block warmup">
+    <div class="block-header">
+      <span class="block-title">1 — Legato Warm-Up (with click)</span>
+      <span class="block-time">8 min</span>
+    </div>
+    <div class="block-tag">Drop D · Hammer-ons + pull-offs · Click on quarters</div>
+    <ul>
+      <li>Standard 1-2-3-4 chromatic legato, all 6 strings, up and down</li>
+      <li>Click at <span class="bpm-tag">70 BPM</span> quarter notes — 4 notes per beat (16th-note legato)</li>
+      <li>Focus pull-offs specifically — note from last session said they're weaker than hammer-ons</li>
+      <li>Watch string crossings: pinky → ring finger transition is where wobble starts</li>
+      <li>If clean at 70, push to <span class="bpm-tag">80 BPM</span></li>
+    </ul>
+    <div class="focus-box">
+      <strong>Carry over from 2026-05-15:</strong> No-click felt fine, but you flagged that timing gaps probably exist — today the click is the diagnostic. If notes drift off the click during a pull-off cluster, that's the gap.
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="block technique">
+    <div class="block-header">
+      <span class="block-title">2 — Upstroke Accent Drill</span>
+      <span class="block-time">7 min</span>
+    </div>
+    <div class="block-tag">16th-note alternate picking · cycle accent through 1 / e / & / a</div>
+    <ul>
+      <li>One string. 16th notes alternate picking. Click on quarters.</li>
+      <li>Cycle 1 minute on each accent position: accent on "1", then "e", then "&", then "a"</li>
+      <li>Start at <span class="bpm-tag">75 BPM</span> — rebuild before pushing</li>
+      <li>Once 75 is even, try <span class="bpm-tag">80 BPM</span> (last week's ceiling), then nudge to 82</li>
+      <li>Watch the 2nd note in alternate picking (first upstroke) — that's the one that loses volume</li>
+    </ul>
+    <div class="focus-box">
+      <strong>Carry over from 2026-05-15:</strong> Solid at 80, sloppy above. Don't blast to 85 — stay at 80–82 and make every note equal volume first.
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="block song">
+    <div class="block-header">
+      <span class="block-title">3 — Better Lovers: Lie Between the Lines, Section B</span>
+      <span class="block-time">10 min</span>
+    </div>
+    <div class="block-tag">Drop D · ♩=135 · Main riff · pp.8–9</div>
+    <ul>
+      <li>Descending arpeggio → bend is the focus point</li>
+      <li>Start at song tempo <span class="bpm-tag">135 BPM</span> — last session it was getting consistent</li>
+      <li>If bar 23's downward skip still clips, isolate it slow then ramp</li>
+      <li>Bars 24–25: commit to the bend — full pitch, hold it</li>
+      <li>End with one straight-through pass of Section B</li>
+    </ul>
+    <div class="focus-box">
+      <strong>Carry over from 2026-05-15:</strong> Descending arpeggio into bend getting more consistent. Lock it in today.
+    </div>
+    <div class="score-section">
+      <div class="swipe-wrap">
+        <div class="swipe">
+          <div class="slide">
+            <div class="score-label">Better Lovers — p.8</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-008.png" alt="Better Lovers p.8">
+          </div>
+          <div class="slide">
+            <div class="score-label">Better Lovers — p.9</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-009.png" alt="Better Lovers p.9">
+          </div>
+        </div>
+        <div class="swipe-counter">1 / 2</div>
+        <div class="swipe-hint">← swipe →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="block song">
+    <div class="block-header">
+      <span class="block-title">4 — ABR: Truth of a Liar, m.30 (isolation, not tempo)</span>
+      <span class="block-time">10 min</span>
+    </div>
+    <div class="block-tag">Drop D · String-skip cleanup · No ceiling push today</div>
+    <ul>
+      <li>Ceiling has been stuck at <span class="bpm-tag">123–124 BPM</span> for two sessions — don't keep slamming it</li>
+      <li>Drop to <span class="bpm-tag">100 BPM</span>. Find every string-skip pair in m.30 and play just those two notes.</li>
+      <li>Skip pair only, 8 reps clean before chaining</li>
+      <li>Listen for the middle-string ghost — if it's there, the wrist arc is too flat</li>
+      <li>Last 3 min only: try 124 again — see if isolation work moved anything</li>
+    </ul>
+    <div class="focus-box">
+      <strong>Strategy shift:</strong> 123–124 has plateaued on tempo pushes. Today is technique work at a tempo you can actually hear yourself at. Don't log a higher BPM — log whether the skip pairs got cleaner.
+    </div>
+  </div>
+
+  <!-- 5 — NEW -->
+  <div class="block new">
+    <div class="block-header">
+      <span class="block-title">5 — ★ Converge: Hum of Hurt (first session)</span>
+      <span class="block-time">15 min</span>
+    </div>
+    <div class="block-tag">Tuning TBD · Sight-read pp.1–3 · No tempo target · Orient + claim one fragment</div>
+    <ul>
+      <li><strong>First 3 min — tuning + key:</strong> Open the score, read the tuning at the top of page 1, retune guitar. If no tuning marking, try standard first, then Drop D, then Drop C.</li>
+      <li><strong>Next 4 min — sight-read p.1 slowly, no click:</strong> Just get a sense of what's there. Don't try to play full speed.</li>
+      <li><strong>Next 5 min — pick ONE fragment</strong> (2–4 bars max) that looks workable. Loop it slowly. Doesn't have to be the intro — pick the section that grabs you.</li>
+      <li><strong>Last 3 min — log what you found:</strong> tuning confirmed, which fragment you claimed, what the picking pattern is, anything weird about the timing.</li>
+    </ul>
+    <div class="new-box">
+      <strong>★ Fresh territory:</strong> Repertoire stub has zero info. Today's job is reconnaissance — fill in the repertoire file afterwards. Update <code>repertoire/Converge - Hum of Hurt.md</code> with tuning, current section, first impressions. No BPM expectations.
+    </div>
+    <div class="score-section">
+      <div class="swipe-wrap">
+        <div class="swipe">
+          <div class="slide">
+            <div class="score-label">Hum of Hurt — p.1</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-hum-of-hurt/page-001.png" alt="Hum of Hurt p.1">
+          </div>
+          <div class="slide">
+            <div class="score-label">Hum of Hurt — p.2</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-hum-of-hurt/page-002.png" alt="Hum of Hurt p.2">
+          </div>
+          <div class="slide">
+            <div class="score-label">Hum of Hurt — p.3</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-hum-of-hurt/page-003.png" alt="Hum of Hurt p.3">
+          </div>
+        </div>
+        <div class="swipe-counter">1 / 3</div>
+        <div class="swipe-hint">← swipe →</div>
+      </div>
+    </div>
+    <div class="record-box">
+      <strong>⬤ Optional record:</strong> If you claimed a fragment and it's loop-clean by the end of 15 min, capture one pass. Even rough — it's a baseline for next session.
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="block song">
+    <div class="block-header">
+      <span class="block-title">6 — BTBAM: Prequel to the Sequel, Section A (rebuild)</span>
+      <span class="block-time">10 min</span>
+    </div>
+    <div class="block-tag">C# standard (down 3 half steps) · ♩=100 · Distortion w/ delay · P.M. throughout</div>
+    <ul>
+      <li><strong>Tuning correction:</strong> retune to <strong>C# G# E B F# C#</strong> (high to low). Previous sessions may have been in wrong tuning — likely contributor to the regression.</li>
+      <li>Tone: distortion + delay, palm mute throughout Section A</li>
+      <li><span class="bpm-tag">80 BPM</span> was sloppy last session — regression from 90 (2026-05-03)</li>
+      <li>Drop to <span class="bpm-tag">65 BPM</span>. Work mm.1–4 — descending phrase in bar 2 (12 → 11-12-11 → 11 → 13-14 → 11-13) is the pick-accuracy minefield</li>
+      <li>4 clean reps of each bar before chaining. Step up: 65 → 70 → 75 → 80</li>
+      <li>Don't chase 100 (song tempo) today. Goal is clean 80 in correct tuning.</li>
+    </ul>
+    <div class="focus-box">
+      <strong>Carry over from 2026-05-15:</strong> Slowing down IS the fix. Pick accuracy is a motion problem — solve it at a tempo where you can actually see the pick. New variable today: the tuning. If the song suddenly sounds "right" against the record, the regression may have been a tuning issue all along.
+    </div>
+    <div class="score-section">
+      <div class="swipe-wrap">
+        <div class="swipe">
+          <div class="slide">
+            <div class="score-label">BTBAM Prequel — Sections A &amp; B (mm.1–28)</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/btbam-prequel-to-the-sequel/page-001.png" alt="BTBAM Prequel to the Sequel p.1">
+          </div>
+        </div>
+        <div class="swipe-counter">1 / 1</div>
+        <div class="swipe-hint">If image is broken: save the screenshot to docs/rendered/btbam-prequel-to-the-sequel/page-001.png + push</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7 -->
+  <div class="block technique">
+    <div class="block-header">
+      <span class="block-title">7 — Pinch Harmonic Isolation</span>
+      <span class="block-time">5 min</span>
+    </div>
+    <div class="block-tag">Drop C · ABR Treatment · G string focus · First knuckle technique</div>
+    <ul>
+      <li>Drop to Drop C tuning. Just fretted note + pinch on G string, no song context</li>
+      <li>Use the <strong>first knuckle of the thumb</strong> grazing the string — confirmed working better than pad on 2026-05-15</li>
+      <li>10 attempts in a row, count hits — log the percentage</li>
+      <li>Move pinch position 1/4 inch toward bridge each set if hit rate stays low</li>
+      <li>Only after G string lands 8/10: try B string</li>
+    </ul>
+    <div class="focus-box">
+      <strong>Carry over from 2026-05-15:</strong> Hit rate lower than the previous 80% estimate. No song context today — just the technique. Count the hits.
+    </div>
+  </div>
+
+  <!-- 8 -->
+  <div class="block cooldown">
+    <div class="block-header">
+      <span class="block-title">8 — Cool Down</span>
+      <span class="block-time">3 min</span>
+    </div>
+    <div class="block-tag">Standard or back to Drop D · Free noodling</div>
+    <ul>
+      <li>No metronome, no structure</li>
+      <li>Loose hands, let any tension from the pinch harmonic work dissolve</li>
+    </ul>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="focus-box" style="margin-bottom: 24px;">
+    <strong>After session — log these:</strong> What tuning is Hum of Hurt in? What fragment did you claim? Did the legato click expose timing gaps? Did the m.30 skip-pair isolation help vs hammering 124 again? Pinch harmonic hit rate on G string? BTBAM Prequel — back to 80 clean, or still wobbly?
+  </div>
+
+  <script>
+  (function() {
+    document.querySelectorAll('.swipe-wrap').forEach(function(wrap) {
+      var track = wrap.querySelector('.swipe');
+      var counter = wrap.querySelector('.swipe-counter');
+      if (!track || !counter) return;
+      var total = track.children.length;
+      function update() {
+        var idx = Math.round(track.scrollLeft / track.clientWidth) + 1;
+        if (idx < 1) idx = 1;
+        if (idx > total) idx = total;
+        counter.textContent = idx + ' / ' + total;
+      }
+      track.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update);
+      update();
+    });
+  })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BTBAM — Prequel to the Sequel</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #111; font-family: -apple-system, sans-serif; color: #ddd; line-height: 1.6; }
+  header { position: sticky; top: 0; background: #0a0a0a; padding: 14px 20px;
+            border-bottom: 1px solid #222; z-index: 10; }
+  header h1 { font-size: 1rem; color: #fff; }
+  header p { font-size: 0.75rem; color: #888; margin-top: 4px; }
+  header .meta { font-size: 0.7rem; color: #666; margin-top: 2px; }
+  .content { max-width: 1100px; margin: 0 auto; padding: 20px 16px; }
+  .info-box { background: #1a1a1a; border-radius: 6px; padding: 12px 16px; margin-bottom: 16px;
+              font-size: 0.85rem; color: #bbb; }
+  .info-box strong { color: #44dd88; }
+  .info-box .tuning { font-family: -apple-system, monospace; color: #fff; letter-spacing: 0.08em; }
+
+  /* swipe carousel */
+  .swipe-wrap { position: relative; margin: 8px 0 4px; }
+  .swipe {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    border-radius: 6px;
+    background: #161616;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  }
+  .swipe::-webkit-scrollbar { display: none; }
+  .swipe > .slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    background: #1a1a1a;
+  }
+  .slide .page-label { padding: 7px 16px; font-size: 0.7rem; color: #555;
+                       background: #111; border-bottom: 1px solid #222; }
+  .slide img { width: 100%; display: block; min-height: 200px; background: #1a1a1a; }
+  .swipe-counter {
+    position: absolute;
+    top: 8px; right: 10px;
+    background: rgba(0,0,0,0.65);
+    color: #ddd;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 10px;
+    pointer-events: none;
+  }
+  .swipe-hint { text-align: center; font-size: 0.7rem; color: #555; margin-top: 4px; }
+
+  .pending {
+    background: #1a1200;
+    border: 1px solid #554400;
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-top: 12px;
+    color: #ccaa66;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  .pending strong { color: #ffcc00; }
+  .pending code { background: #2a2a00; color: #ffdd88; padding: 1px 6px; border-radius: 3px; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>BTBAM — Prequel to the Sequel</h1>
+  <p>Colors (2007) · Paul Waggoner</p>
+  <div class="meta">Tuning: C# standard · Section A ♩=100 · Section B ♩=120</div>
+</header>
+<div class="content">
+  <div class="info-box">
+    <strong>Tuning:</strong> <span class="tuning">C# G# E B F# C#</span> (high → low) — standard E down 3 half steps.
+    Section A: distortion + delay, palm muted throughout.
+  </div>
+
+  <div class="swipe-wrap">
+    <div class="swipe">
+      <div class="slide">
+        <div class="page-label">Page 1 — Sections A &amp; B (mm.1–28)</div>
+        <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/btbam-prequel-to-the-sequel/page-001.png" alt="BTBAM Prequel to the Sequel — page 1" loading="lazy"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+        <div class="pending" style="display:none;">
+          <strong>Score not yet uploaded.</strong> Save your screenshot as:<br>
+          <code>docs/rendered/btbam-prequel-to-the-sequel/page-001.png</code><br>
+          then commit + push. CDN takes 1–2 min after the push for this to render.
+        </div>
+      </div>
+    </div>
+    <div class="swipe-counter">1 / 1</div>
+    <div class="swipe-hint">Add more pages later as <code style="color:#888;">page-002.png</code>, <code style="color:#888;">page-003.png</code>, …</div>
+  </div>
+</div>
+
+<script>
+(function() {
+  document.querySelectorAll('.swipe-wrap').forEach(function(wrap) {
+    var track = wrap.querySelector('.swipe');
+    var counter = wrap.querySelector('.swipe-counter');
+    if (!track || !counter) return;
+    var total = track.children.length;
+    function update() {
+      var idx = Math.round(track.scrollLeft / track.clientWidth) + 1;
+      if (idx < 1) idx = 1;
+      if (idx > total) idx = total;
+      counter.textContent = idx + ' / ' + total;
+    }
+    track.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+})();
+</script>
+</body>
+</html>

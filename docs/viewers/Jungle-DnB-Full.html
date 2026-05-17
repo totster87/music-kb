@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Jungle / Drum 'n' Bass</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #111; font-family: -apple-system, sans-serif; color: #ddd; line-height: 1.6; }
+  header { position: sticky; top: 0; background: #0a0a0a; padding: 14px 20px;
+            border-bottom: 1px solid #222; z-index: 10; }
+  header h1 { font-size: 1rem; color: #fff; }
+  header p { font-size: 0.75rem; color: #666; margin-top: 2px; }
+  .content { max-width: 860px; margin: 0 auto; padding: 20px 16px; }
+  .page-block { background: #1a1a1a; margin-bottom: 12px;
+                border-radius: 8px; overflow: hidden;
+                box-shadow: 0 2px 12px rgba(0,0,0,0.4); }
+  .page-label { padding: 7px 16px; font-size: 0.7rem; color: #555;
+                 background: #111; border-bottom: 1px solid #222; }
+  .page-block img { width: 100%; display: block; min-height: 200px; background: #1a1a1a; }
+
+/* swipe carousel — added by add_swipe_carousels.py */
+.swipe-wrap { position: relative; margin: 8px 0 4px; }
+.swipe {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  border-radius: 6px;
+  background: #161616;
+}
+.swipe::-webkit-scrollbar { display: none; }
+.swipe > .slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.swipe > .slide img { width: 100%; display: block; }
+.swipe-counter {
+  position: absolute;
+  top: 8px; right: 10px;
+  background: rgba(0,0,0,0.65);
+  color: #ddd;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 10px;
+  pointer-events: none;
+  letter-spacing: 0.03em;
+}
+.swipe-hint {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #555;
+  margin-top: 4px;
+  letter-spacing: 0.05em;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Jungle / Drum 'n' Bass</h1>
+<p>Drums · Breakbeat patterns, Amen variations, syncopated grooves</p>
+</header>
+<div class="content">
+
+<div class="swipe-wrap"><div class="swipe"><div class="slide"><div class="page-block">
+<div class="page-label">Page 1</div>
+<img alt="Page 1" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-001.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 2</div>
+<img alt="Page 2" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-002.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 3</div>
+<img alt="Page 3" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-003.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 4</div>
+<img alt="Page 4" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-004.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 5</div>
+<img alt="Page 5" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-005.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 6</div>
+<img alt="Page 6" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-006.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 7</div>
+<img alt="Page 7" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-007.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 8</div>
+<img alt="Page 8" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-008.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 9</div>
+<img alt="Page 9" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-009.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 10</div>
+<img alt="Page 10" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-010.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 11</div>
+<img alt="Page 11" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-011.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 12</div>
+<img alt="Page 12" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-012.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 13</div>
+<img alt="Page 13" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-013.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 14</div>
+<img alt="Page 14" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-014.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 15</div>
+<img alt="Page 15" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-015.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 16</div>
+<img alt="Page 16" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-016.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 17</div>
+<img alt="Page 17" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-017.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 18</div>
+<img alt="Page 18" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-018.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 19</div>
+<img alt="Page 19" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-019.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 20</div>
+<img alt="Page 20" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-020.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 21</div>
+<img alt="Page 21" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-021.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 22</div>
+<img alt="Page 22" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-022.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 23</div>
+<img alt="Page 23" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-023.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 24</div>
+<img alt="Page 24" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-024.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 25</div>
+<img alt="Page 25" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-025.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 26</div>
+<img alt="Page 26" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-026.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 27</div>
+<img alt="Page 27" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-027.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 28</div>
+<img alt="Page 28" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-028.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 29</div>
+<img alt="Page 29" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-029.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 30</div>
+<img alt="Page 30" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-030.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 31</div>
+<img alt="Page 31" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-031.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 32</div>
+<img alt="Page 32" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-032.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 33</div>
+<img alt="Page 33" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-033.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 34</div>
+<img alt="Page 34" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-034.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 35</div>
+<img alt="Page 35" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-035.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 36</div>
+<img alt="Page 36" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-036.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 37</div>
+<img alt="Page 37" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-037.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 38</div>
+<img alt="Page 38" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-038.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 39</div>
+<img alt="Page 39" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-039.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 40</div>
+<img alt="Page 40" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-040.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 41</div>
+<img alt="Page 41" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-041.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 42</div>
+<img alt="Page 42" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-042.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 43</div>
+<img alt="Page 43" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-043.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 44</div>
+<img alt="Page 44" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-044.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 45</div>
+<img alt="Page 45" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-045.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 46</div>
+<img alt="Page 46" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-046.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 47</div>
+<img alt="Page 47" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-047.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 48</div>
+<img alt="Page 48" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-048.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 49</div>
+<img alt="Page 49" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-049.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 50</div>
+<img alt="Page 50" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-050.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 51</div>
+<img alt="Page 51" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-051.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 52</div>
+<img alt="Page 52" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-052.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 53</div>
+<img alt="Page 53" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-053.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 54</div>
+<img alt="Page 54" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-054.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 55</div>
+<img alt="Page 55" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-055.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 56</div>
+<img alt="Page 56" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-056.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 57</div>
+<img alt="Page 57" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-057.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 58</div>
+<img alt="Page 58" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-058.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 59</div>
+<img alt="Page 59" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-059.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 60</div>
+<img alt="Page 60" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-060.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 61</div>
+<img alt="Page 61" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-061.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 62</div>
+<img alt="Page 62" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-062.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 63</div>
+<img alt="Page 63" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-063.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 64</div>
+<img alt="Page 64" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-064.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 65</div>
+<img alt="Page 65" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-065.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 66</div>
+<img alt="Page 66" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-066.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 67</div>
+<img alt="Page 67" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-067.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 68</div>
+<img alt="Page 68" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-068.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 69</div>
+<img alt="Page 69" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-069.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 70</div>
+<img alt="Page 70" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-070.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 71</div>
+<img alt="Page 71" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-071.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 72</div>
+<img alt="Page 72" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-072.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 73</div>
+<img alt="Page 73" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-073.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 74</div>
+<img alt="Page 74" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-074.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 75</div>
+<img alt="Page 75" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-075.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 76</div>
+<img alt="Page 76" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-076.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 77</div>
+<img alt="Page 77" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-077.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 78</div>
+<img alt="Page 78" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-078.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 79</div>
+<img alt="Page 79" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-079.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 80</div>
+<img alt="Page 80" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-080.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 81</div>
+<img alt="Page 81" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-081.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 82</div>
+<img alt="Page 82" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-082.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 83</div>
+<img alt="Page 83" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-083.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 84</div>
+<img alt="Page 84" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-084.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 85</div>
+<img alt="Page 85" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-085.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 86</div>
+<img alt="Page 86" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-086.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 87</div>
+<img alt="Page 87" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-087.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 88</div>
+<img alt="Page 88" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-088.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 89</div>
+<img alt="Page 89" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-089.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 90</div>
+<img alt="Page 90" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-090.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 91</div>
+<img alt="Page 91" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-091.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 92</div>
+<img alt="Page 92" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-092.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 93</div>
+<img alt="Page 93" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-093.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 94</div>
+<img alt="Page 94" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-094.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 95</div>
+<img alt="Page 95" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-095.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 96</div>
+<img alt="Page 96" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-096.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 97</div>
+<img alt="Page 97" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-097.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 98</div>
+<img alt="Page 98" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-098.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 99</div>
+<img alt="Page 99" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-099.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 100</div>
+<img alt="Page 100" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-100.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 101</div>
+<img alt="Page 101" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-101.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 102</div>
+<img alt="Page 102" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-102.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 103</div>
+<img alt="Page 103" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-103.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 104</div>
+<img alt="Page 104" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-104.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 105</div>
+<img alt="Page 105" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-105.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 106</div>
+<img alt="Page 106" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-106.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 107</div>
+<img alt="Page 107" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-107.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 108</div>
+<img alt="Page 108" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-108.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 109</div>
+<img alt="Page 109" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-109.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 110</div>
+<img alt="Page 110" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-110.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 111</div>
+<img alt="Page 111" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-111.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 112</div>
+<img alt="Page 112" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-112.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 113</div>
+<img alt="Page 113" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-113.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 114</div>
+<img alt="Page 114" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-114.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 115</div>
+<img alt="Page 115" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-115.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 116</div>
+<img alt="Page 116" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-116.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 117</div>
+<img alt="Page 117" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-117.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 118</div>
+<img alt="Page 118" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-118.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 119</div>
+<img alt="Page 119" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-119.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 120</div>
+<img alt="Page 120" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-120.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 121</div>
+<img alt="Page 121" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-121.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 122</div>
+<img alt="Page 122" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-122.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 123</div>
+<img alt="Page 123" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-123.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 124</div>
+<img alt="Page 124" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-124.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 125</div>
+<img alt="Page 125" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-125.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 126</div>
+<img alt="Page 126" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-126.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 127</div>
+<img alt="Page 127" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-127.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 128</div>
+<img alt="Page 128" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-128.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 129</div>
+<img alt="Page 129" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-129.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 130</div>
+<img alt="Page 130" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-130.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 131</div>
+<img alt="Page 131" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-131.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 132</div>
+<img alt="Page 132" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-132.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 133</div>
+<img alt="Page 133" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-133.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 134</div>
+<img alt="Page 134" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-134.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 135</div>
+<img alt="Page 135" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-135.png"/>
+</div></div></div><div class="swipe-counter">1 / 135</div><div class="swipe-hint">← swipe →</div></div></div>
+<script>
+(function() {
+  document.querySelectorAll('.swipe-wrap').forEach(function(wrap) {
+    var track = wrap.querySelector('.swipe');
+    var counter = wrap.querySelector('.swipe-counter');
+    if (!track || !counter) return;
+    var total = track.children.length;
+    function update() {
+      var idx = Math.round(track.scrollLeft / track.clientWidth) + 1;
+      if (idx < 1) idx = 1;
+      if (idx > total) idx = total;
+      counter.textContent = idx + ' / ' + total;
+    }
+    track.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+})();
+</script></body>
+</html>

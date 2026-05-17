@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Drum Routine — 2026-05-17</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f0f0f;
+      color: #e0e0e0;
+      padding: 16px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 1.4rem; font-weight: 700; color: #f5f5f5; margin-bottom: 4px; }
+    .subtitle { font-size: 0.85rem; color: #888; margin-bottom: 24px; }
+    .block {
+      background: #1a1a1a;
+      border-left: 3px solid #cc44ff;
+      border-radius: 6px;
+      padding: 14px 16px;
+      margin-bottom: 16px;
+    }
+    .block.warmup     { border-left-color: #44dd88; }
+    .block.technique  { border-left-color: #ff8800; }
+    .block.doublebass { border-left-color: #ff4444; }
+    .block.dnb        { border-left-color: #44ffdd; }
+    .block.music      { border-left-color: #cc44ff; }
+    .block.burnout    { border-left-color: #ff2222; }
+    .block.new        { border-left-color: #ff2266; }
+    .block-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+    .block-title { font-size: 1rem; font-weight: 600; color: #f0f0f0; }
+    .block-time { font-size: 0.8rem; color: #666; white-space: nowrap; }
+    .block-tag { display: inline-block; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #888; margin-bottom: 8px; }
+    ul { list-style: none; padding: 0; }
+    li { font-size: 0.92rem; line-height: 1.6; padding: 2px 0; padding-left: 14px; position: relative; color: #ccc; }
+    li::before { content: "–"; position: absolute; left: 0; color: #555; }
+    .bpm-tag {
+      display: inline-block;
+      background: #2a2a2a;
+      border: 1px solid #444;
+      border-radius: 3px;
+      padding: 1px 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #aaa;
+      margin-left: 4px;
+    }
+    .focus-box {
+      background: #222;
+      border: 1px solid #333;
+      border-radius: 4px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color: #aaa;
+      line-height: 1.5;
+    }
+    .focus-box strong { color: #ff8800; }
+    .new-box {
+      background: #0a1f1c;
+      border: 1px solid #1a4441;
+      border-radius: 4px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color: #99d8c8;
+      line-height: 1.5;
+    }
+    .new-box strong { color: #44ffdd; }
+    .warm-box {
+      background: #0a1a0a;
+      border: 1px solid #1a441a;
+      border-radius: 4px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color: #99d899;
+      line-height: 1.5;
+    }
+    .warm-box strong { color: #44dd88; }
+    .record-box {
+      background: #1a1200;
+      border: 1px solid #554400;
+      border-radius: 4px;
+      padding: 10px 12px;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      color: #bbaa66;
+      line-height: 1.5;
+    }
+    .record-box strong { color: #ffcc00; }
+    .score-section { margin-top: 14px; }
+    .score-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: #555; padding: 7px 12px; background: #111; border-bottom: 1px solid #222; }
+    .score-img { width: 100%; display: block; }
+    .divider { height: 1px; background: #222; margin: 20px 0; }
+    .summary-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
+    .summary-chip { background: #1e1e1e; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.8rem; color: #999; }
+    .summary-chip.warm { background: #0f2a0f; border-color: #1f4f1f; color: #66cc77; }
+    .summary-chip.new  { background: #0a2a25; border-color: #1f5f55; color: #66ffdd; }
+
+    /* swipe carousel */
+    .swipe-wrap { position: relative; margin: 8px 0 4px; }
+    .swipe {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      border-radius: 6px;
+      background: #161616;
+    }
+    .swipe::-webkit-scrollbar { display: none; }
+    .swipe > .slide {
+      flex: 0 0 100%;
+      min-width: 100%;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+    }
+    .swipe > .slide img { width: 100%; display: block; }
+    .swipe-counter {
+      position: absolute;
+      top: 8px; right: 10px;
+      background: rgba(0,0,0,0.65);
+      color: #ddd;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 10px;
+      pointer-events: none;
+      letter-spacing: 0.03em;
+    }
+    .swipe-hint {
+      text-align: center;
+      font-size: 0.7rem;
+      color: #555;
+      margin-top: 4px;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Drum Routine</h1>
+  <div class="subtitle">Sunday 17 May 2026 &nbsp;·&nbsp; ~70 min &nbsp;·&nbsp; Full kit</div>
+
+  <div class="summary-row">
+    <span class="summary-chip warm">★ Morgenstein warm-up 10 min</span>
+    <span class="summary-chip">Stick Control 6/8 rolls 8 min</span>
+    <span class="summary-chip">PI Rock S3 up-beats 10 min</span>
+    <span class="summary-chip">Donati Bass Drum Flams 10 min</span>
+    <span class="summary-chip new">★ Jungle / DnB 15 min</span>
+    <span class="summary-chip">ABR — Back Burner 10 min</span>
+    <span class="summary-chip">Sextuplet sprint 5 min</span>
+  </div>
+
+  <!-- 1 — Morgenstein warm-up -->
+  <div class="block warmup">
+    <div class="block-header">
+      <span class="block-title">1 — ★ Morgenstein: Drum Set Warm-Ups (first session)</span>
+      <span class="block-time">10 min</span>
+    </div>
+    <div class="block-tag">Full kit warm-up · pp.5–7 · No tempo target · Find the day's tempo</div>
+    <ul>
+      <li>Open the score — first 2 min: scan past any intro/foreword and find the first real exercises</li>
+      <li>Pick whichever pattern looks accessible — single strokes, 8th-note coordination, simple kit warm-up</li>
+      <li>No click for the first 5 min — let the body wake up at the tempo it wants</li>
+      <li>Then click on at <span class="bpm-tag">60 BPM</span> and play one pattern through cleanly 4×</li>
+      <li>Goal isn't to push — it's to find a tempo where everything (hi-hat, snare, bass, hat foot) lands together</li>
+    </ul>
+    <div class="warm-box">
+      <strong>★ First session on this book:</strong> Rod Morgenstein's warm-up method is brand new — pages just ingested. Today is reconnaissance. Note which exercises look promising for future warm-ups, and update <code>library/rod-morgenstein-drum-set-warm-ups.md</code> after the session with what you found on these pages.
+    </div>
+    <div class="score-section">
+      <div class="swipe-wrap">
+        <div class="swipe">
+          <div class="slide">
+            <div class="score-label">Morgenstein — p.5</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/rod-morgenstein-drum-set-warm-ups/page-005.png" alt="Morgenstein p.5">
+          </div>
+          <div class="slide">
+            <div class="score-label">Morgenstein — p.6</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/rod-morgenstein-drum-set-warm-ups/page-006.png" alt="Morgenstein p.6">
+          </div>
+          <div class="slide">
+            <div class="score-label">Morgenstein — p.7</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/rod-morgenstein-drum-set-warm-ups/page-007.png" alt="Morgenstein p.7">
+          </div>
+        </div>
+        <div class="swipe-counter">1 / 3</div>
+        <div class="swipe-hint">← swipe →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 — Stick Control -->
+  <div class="block technique">
+    <div class="block-header">
+      <span class="block-title">2 — Stick Control: Short Rolls in 6/8 (push)</span>
+      <span class="block-time">8 min</span>
+    </div>
+    <div class="block-tag">Stick Control · Stone · pp.24–26 · Last hit 80 BPM, push to 85</div>
+    <ul>
+      <li>Hands as written on snare/pad first — get the line under fingers</li>
+      <li>Add quarter pulse on bass, hats on every other hit (per 2026-05-11 setup)</li>
+      <li>Start at <span class="bpm-tag">80 BPM</span> — recap last session's ceiling</li>
+      <li>If clean, push to <span class="bpm-tag">85 BPM</span></li>
+      <li>p.25 and p.26 are progressions of the same system — try at least one new line</li>
+    </ul>
+    <div class="focus-box">
+      <strong>Carry over from 2026-05-11:</strong> 80 BPM felt fine with the 6/8 hands + 3/4 bass overlay. Time to see if 85 holds.
+    </div>
+    <div class="score-section">
+      <div class="swipe-wrap">
+        <div class="swipe">
+          <div class="slide">
+            <div class="score-label">Stick Control — p.24</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-024.png" alt="Stick Control p.24">
+          </div>
+          <div class="slide">
+            <div class="score-label">Stick Control — p.25</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-025.png" alt="Stick Control p.25">
+          </div>
+          <div class="slide">
+            <div class="score-label">Stick Control — p.26</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-026.png" alt="Stick Control p.26">
+          </div>
+        </div>
+        <div class="swipe-counter">1 / 3</div>
+        <div class="swipe-hint">← swipe →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 — PI Rock Section 3 -->
+  <div class="block technique">
+    <div class="block-header">
+      <span class="block-title">3 — PI Rock: Section 3 — Right Hand Up-Beats</span>
+      <span class="block-time">10 min</span>
+    </div>
+    <div class="block-tag">Progressive Independence Rock · Spagnardi · pp.57–59 · New section</div>
+    <ul>
+      <li>Right hand stays on up-beats (the &amp;) — strong contrast to S1 (8ths) and S2 (quarters)</li>
+      <li>Snare + bass independence underneath — read the first 2–3 exercises</li>
+      <li>Start at <span class="bpm-tag">70 BPM</span> — slower than S2 because the up-beat feel is destabilising</li>
+      <li>If the right-hand up-beat slips back onto down-beats when bass+snare get busy, drop tempo</li>
+      <li>One full clean exercise > four sloppy ones</li>
+    </ul>
+    <div class="focus-box">
+      <strong>Fresh section:</strong> S1 + S2 have been worked recently. S3 (Right Hand Up-Beats) is genuinely new territory — the right hand anchor is on the off-beats instead of the on-beats. Expect the body to want to flip it.
+    </div>
+    <div class="score-section">
+      <div class="swipe-wrap">
+        <div class="swipe">
+          <div class="slide">
+            <div class="score-label">PI Rock — p.57</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-independence-rock/page-057.png" alt="PI Rock p.57">
+          </div>
+          <div class="slide">
+            <div class="score-label">PI Rock — p.58</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-independence-rock/page-058.png" alt="PI Rock p.58">
+          </div>
+          <div class="slide">
+            <div class="score-label">PI Rock — p.59</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-independence-rock/page-059.png" alt="PI Rock p.59">
+          </div>
+        </div>
+        <div class="swipe-counter">1 / 3</div>
+        <div class="swipe-hint">← swipe →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 — Donati Bass Drum Flams -->
+  <div class="block doublebass">
+    <div class="block-header">
+      <span class="block-title">4 — Donati: Bass Drum Flams (Chapter 9)</span>
+      <span class="block-time">10 min</span>
+    </div>
+    <div class="block-tag">Double Bass Drum Freedom · Donati · pp.109–111 · New chapter</div>
+    <ul>
+      <li>First time touching this chapter — bass drum flams = both feet hit closely staggered, not unison</li>
+      <li>Read p.109 first, identify the sticking notation for feet</li>
+      <li>Start hands-off at <span class="bpm-tag">60 BPM</span> — just feet, get the flam tight</li>
+      <li>Add hands (ride + 2&amp;4 snare) on top once feet are steady</li>
+      <li>If feet revert to unison hits, drop tempo and isolate</li>
+    </ul>
+    <div class="focus-box">
+      <strong>New chapter:</strong> Different from sextuplets (Ch.5, 80 BPM ceiling), paradiddles (Ch.8 worked 2026-05-15), hand-foot independence (Ch.2 p.21). Flams are a coordination quirk — a hair of stagger between feet rather than tight unison.
+    </div>
+    <div class="score-section">
+      <div class="swipe-wrap">
+        <div class="swipe">
+          <div class="slide">
+            <div class="score-label">Donati — p.109</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-109.png" alt="Donati p.109">
+          </div>
+          <div class="slide">
+            <div class="score-label">Donati — p.110</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-110.png" alt="Donati p.110">
+          </div>
+          <div class="slide">
+            <div class="score-label">Donati — p.111</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-111.png" alt="Donati p.111">
+          </div>
+        </div>
+        <div class="swipe-counter">1 / 3</div>
+        <div class="swipe-hint">← swipe →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 — Jungle / DnB FIRST SESSION -->
+  <div class="block new">
+    <div class="block-header">
+      <span class="block-title">5 — ★ Jungle / Drum 'n' Bass (first session)</span>
+      <span class="block-time">15 min</span>
+    </div>
+    <div class="block-tag">Sight-read pp.40–42 · No tempo target · Find one groove to claim</div>
+    <ul>
+      <li><strong>First 4 min — scan p.40 to p.42:</strong> read the patterns visually, identify the kick/snare placement of an Amen-style break vs. a more syncopated DnB groove</li>
+      <li><strong>Next 6 min — pick ONE groove pattern</strong> and play it slow (start <span class="bpm-tag">75 BPM</span>). DnB lives at 160+ BPM — but learning at half tempo first</li>
+      <li><strong>Next 3 min — push it:</strong> double the click to <span class="bpm-tag">150 BPM</span> if half-tempo felt the same. See where the pocket breaks.</li>
+      <li><strong>Last 2 min — log:</strong> which page, which pattern, what felt foreign vs natural, the BPM where it broke</li>
+      <li>This is a different vocabulary from metal — ghost notes on the hi-hat and offbeat snares are the texture</li>
+    </ul>
+    <div class="new-box">
+      <strong>★ First session on this book:</strong> Brand new vocabulary — high-tempo breakbeat grooves. Goal is reconnaissance, not mastery. Update <code>library/jungle-drum-n-bass.md</code> after the session with the page/pattern you claimed.
+    </div>
+    <div class="score-section">
+      <div class="swipe-wrap">
+        <div class="swipe">
+          <div class="slide">
+            <div class="score-label">Jungle / DnB — p.40</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-040.png" alt="Jungle DnB p.40">
+          </div>
+          <div class="slide">
+            <div class="score-label">Jungle / DnB — p.41</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-041.png" alt="Jungle DnB p.41">
+          </div>
+          <div class="slide">
+            <div class="score-label">Jungle / DnB — p.42</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/jungle-drum-n-bass/page-042.png" alt="Jungle DnB p.42">
+          </div>
+        </div>
+        <div class="swipe-counter">1 / 3</div>
+        <div class="swipe-hint">← swipe →</div>
+      </div>
+    </div>
+    <div class="record-box">
+      <strong>⬤ Optional record:</strong> If the claimed groove sits at half-tempo by the end, capture one minute. Even rough — it's the baseline for next time.
+    </div>
+  </div>
+
+  <!-- 6 — ABR Back Burner -->
+  <div class="block music">
+    <div class="block-header">
+      <span class="block-title">6 — ABR Messengers: Back Burner</span>
+      <span class="block-time">10 min</span>
+    </div>
+    <div class="block-tag">After the Burial — Messengers · Drum Transcription · Song 3 · pp.31–33</div>
+    <ul>
+      <li>Truth of a Liar @ 143 BPM and Up Against the Ropes have been worked — Back Burner is fresh</li>
+      <li>Read pp.31–33 first — identify sections before playing</li>
+      <li>Find one approachable section (verse groove, drop hit, fill) — own it</li>
+      <li>No click — play to the record</li>
+      <li>Don't try the whole song. One claimed section &gt; full sloppy pass</li>
+    </ul>
+    <div class="focus-box">
+      <strong>New song in the rotation:</strong> Stays in the ABR Messengers ecosystem. The transcription style is consistent across songs so reading should feel familiar even though the music is new.
+    </div>
+    <div class="score-section">
+      <div class="swipe-wrap">
+        <div class="swipe">
+          <div class="slide">
+            <div class="score-label">ABR Messengers — p.31</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers-drums/page-031.png" alt="ABR Back Burner p.31">
+          </div>
+          <div class="slide">
+            <div class="score-label">ABR Messengers — p.32</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers-drums/page-032.png" alt="ABR Back Burner p.32">
+          </div>
+          <div class="slide">
+            <div class="score-label">ABR Messengers — p.33</div>
+            <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers-drums/page-033.png" alt="ABR Back Burner p.33">
+          </div>
+        </div>
+        <div class="swipe-counter">1 / 3</div>
+        <div class="swipe-hint">← swipe →</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7 — Burnout: Sextuplet Sprint -->
+  <div class="block burnout">
+    <div class="block-header">
+      <span class="block-title">7 — Burnout: Sextuplet Sprint</span>
+      <span class="block-time">5 min</span>
+    </div>
+    <div class="block-tag">Rotation from kick+snare unison · No click · Push every minute</div>
+    <ul>
+      <li>Groups of 6 on the feet — RLRLRL alternating</li>
+      <li>Simple hands on top (ride + 2&amp;4 snare) so feet are the focus</li>
+      <li>Start at a tempo you can hold — push every 60 seconds</li>
+      <li>Stop when the sextuplets blur into 5s or 7s — that's the actual ceiling for now</li>
+      <li>No looking at a click — feel the grouping</li>
+    </ul>
+    <div class="focus-box">
+      <strong>Rotation:</strong> Last burnout was Kick+Snare Unison (2026-05-15). Before that Straight 16ths (2026-05-06). Today: feet-only sextuplets. Different muscle.
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="focus-box" style="margin-bottom: 24px;">
+    <strong>After session — log these:</strong> Morgenstein — which pages had usable warm-ups? Stick Control 6/8 — did 85 hold? PI Rock S3 — did the up-beat anchor stay locked? Donati Ch.9 — did feet stagger or unison? Jungle/DnB — which page, which pattern, BPM ceiling, what felt foreign? ABR Back Burner — which section did you claim? Sextuplet sprint — where did the groupings blur?
+  </div>
+
+  <script>
+  (function() {
+    document.querySelectorAll('.swipe-wrap').forEach(function(wrap) {
+      var track = wrap.querySelector('.swipe');
+      var counter = wrap.querySelector('.swipe-counter');
+      if (!track || !counter) return;
+      var total = track.children.length;
+      function update() {
+        var idx = Math.round(track.scrollLeft / track.clientWidth) + 1;
+        if (idx < 1) idx = 1;
+        if (idx > total) idx = total;
+        counter.textContent = idx + ' / ' + total;
+      }
+      track.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update);
+      update();
+    });
+  })();
+  </script>
+
+</body>
+</html>

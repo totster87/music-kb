@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title>Guitar Routine — 2026-05-04</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+<title>Guitar Routine — 2026-05-04</title>
+<style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -64,174 +65,218 @@
     .summary-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
     .summary-chip { background: #1e1e1e; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.8rem; color: #999; }
     .note { font-size: 0.82rem; color: #666; font-style: italic; margin-top: 6px; }
-  </style>
+  
+/* swipe carousel — added by add_swipe_carousels.py */
+.swipe-wrap { position: relative; margin: 8px 0 4px; }
+.swipe {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  border-radius: 6px;
+  background: #161616;
+}
+.swipe::-webkit-scrollbar { display: none; }
+.swipe > .slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.swipe > .slide img { width: 100%; display: block; }
+.swipe-counter {
+  position: absolute;
+  top: 8px; right: 10px;
+  background: rgba(0,0,0,0.65);
+  color: #ddd;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 10px;
+  pointer-events: none;
+  letter-spacing: 0.03em;
+}
+.swipe-hint {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #555;
+  margin-top: 4px;
+  letter-spacing: 0.05em;
+}
+</style>
 </head>
 <body>
+<h1>Guitar Routine</h1>
+<div class="subtitle">Monday 4 May 2026  ·  Drop D / Drop C  ·  ~75 min</div>
+<div class="summary-row">
+<span class="summary-chip">Warm-up 5 min</span>
+<span class="summary-chip">String-skip drill 10 min</span>
+<span class="summary-chip">Better Lovers Intro 10 min</span>
+<span class="summary-chip">Better Lovers Riff 5 min</span>
+<span class="summary-chip">ABR Truth 15 min</span>
+<span class="summary-chip">Pinch harmonic drill 5 min</span>
+<span class="summary-chip">ABR Treatment 15 min</span>
+<span class="summary-chip">BTBAM 10 min</span>
+</div>
+<!-- 1 -->
+<div class="block warmup">
+<div class="block-header">
+<span class="block-title">1 — Warm-Up</span>
+<span class="block-time">5 min</span>
+</div>
+<div class="block-tag">Chromatic · No click</div>
+<ul>
+<li>1-2-3-4 chromatic across all 6 strings, one fret per finger</li>
+<li>Ascending downpick, descending alternate — even weight on every note</li>
+<li>No rush, no tension — get blood in the hands before anything else</li>
+</ul>
+</div>
+<!-- 2 -->
+<div class="block tech">
+<div class="block-header">
+<span class="block-title">2 — String-Skip Isolation</span>
+<span class="block-time">10 min</span>
+</div>
+<div class="block-tag">Technique · Applies to Better Lovers + ABR Truth</div>
+<ul>
+<li>Extract all string-skip pairs from Better Lovers intro: low D → B, low D → e</li>
+<li>Play just the two notes — open D, skip, land clean. No metronome first</li>
+<li>Add click at <span class="bpm-tag">50 BPM</span> once silent, push to <span class="bpm-tag">70 BPM</span> once locked</li>
+<li>Then do the same for any string skips in ABR Truth Section A</li>
+</ul>
+<div class="focus-box">
+<strong>Fix cue:</strong> Wrist rises slightly after the low string hit — pick needs to clear the middle string before landing. Pinky anchored on body as a reference. G-string buzz = wrist too flat.
+    </div>
+</div>
+<!-- 3 -->
+<div class="block song-bl">
+<div class="block-header">
+<span class="block-title">3 — Better Lovers: Clean Intro</span>
+<span class="block-time">10 min</span>
+</div>
+<div class="block-tag">Better Lovers — Lie Between the Lines · Drop D · pp. 7–8 · ♩=99</div>
+<ul>
+<li>2-bar chunks — don't chain until each is solid</li>
+<li><span class="bpm-tag">60 BPM</span> clean × 4 → <span class="bpm-tag">75 BPM</span> clean × 4 → <span class="bpm-tag">99 BPM</span></li>
+<li>Let ring throughout — notes should bleed into each other</li>
+<li>Note which bars are now solid and which still need work</li>
+</ul>
+<div class="score-section">
 
-  <h1>Guitar Routine</h1>
-  <div class="subtitle">Monday 4 May 2026 &nbsp;·&nbsp; Drop D / Drop C &nbsp;·&nbsp; ~75 min</div>
 
-  <div class="summary-row">
-    <span class="summary-chip">Warm-up 5 min</span>
-    <span class="summary-chip">String-skip drill 10 min</span>
-    <span class="summary-chip">Better Lovers Intro 10 min</span>
-    <span class="summary-chip">Better Lovers Riff 5 min</span>
-    <span class="summary-chip">ABR Truth 15 min</span>
-    <span class="summary-chip">Pinch harmonic drill 5 min</span>
-    <span class="summary-chip">ABR Treatment 15 min</span>
-    <span class="summary-chip">BTBAM 10 min</span>
+
+
+<div class="swipe-wrap"><div class="swipe"><div class="slide"><div class="score-label">Score — p.7</div><img alt="Lie Between the Lines p.7" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-007.png"/></div><div class="slide"><div class="score-label">Score — p.8</div><img alt="Lie Between the Lines p.8" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-008.png"/></div></div><div class="swipe-counter">1 / 2</div><div class="swipe-hint">← swipe →</div></div></div>
+</div>
+<!-- 4 -->
+<div class="block song-bl">
+<div class="block-header">
+<span class="block-title">4 — Better Lovers: Main Riff (Section B)</span>
+<span class="block-time">5 min</span>
+</div>
+<div class="block-tag">Better Lovers — Lie Between the Lines · Drop D · p.9 · ♩=135</div>
+<ul>
+<li>Distortion on — palm mute open D, heavy attack</li>
+<li>Read through at your own pace, don't try to match 135 yet</li>
+<li>Get the shape of the riff in your hands — feel the contrast after the clean intro</li>
+</ul>
+<div class="score-section">
+<div class="score-label">Score — p.9</div>
+<img alt="Lie Between the Lines p.9" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-009.png"/>
+</div>
+</div>
+<!-- 5 -->
+<div class="block song-abr">
+<div class="block-header">
+<span class="block-title">5 — ABR: Truth of a Liar</span>
+<span class="block-time">15 min</span>
+</div>
+<div class="block-tag">After the Burial · Section A · Drop D · Max: 120 BPM · Target: 130</div>
+<ul>
+<li>BPM automation from <span class="bpm-tag">75 BPM</span>, +1 BPM increments</li>
+<li>Last session max was 120 — aim to push into the 121–125 range today</li>
+<li>When a skip feels sloppy: stop, isolate just that pair, clean it up, re-run</li>
+<li>Single-string tremolo as a confidence reset — then go back to the skip</li>
+</ul>
+<div class="focus-box">
+<strong>Known issue:</strong> String skipping slows overall speed. Don't try to brute-force the BPM — isolate the skip, clean it at a lower tempo, then re-enter the automation.
+    </div>
+</div>
+<!-- 6 -->
+<div class="block tech">
+<div class="block-header">
+<span class="block-title">6 — Pinch Harmonic Isolation</span>
+<span class="block-time">5 min</span>
+</div>
+<div class="block-tag">Technique · For ABR Treatment</div>
+<ul>
+<li>Drop C tuning — open low C string, palm mute position</li>
+<li>Hit single pinch harmonic repeatedly — find the exact pick angle and thumb contact point that triggers it cleanly</li>
+<li>Slow, deliberate — one hit at a time. Don't rush to tempo</li>
+<li>Once you find the sweet spot: lock in that grip before moving to the full riff</li>
+</ul>
+<div class="focus-box">
+<strong>Fix cue:</strong> The thumb edge needs to graze the string immediately after the pick hits. Angle the pick slightly inward and squeeze through — if you're missing, the pick is too vertical or the thumb contact is too late.
+    </div>
+</div>
+<!-- 7 -->
+<div class="block song-abr">
+<div class="block-header">
+<span class="block-title">7 — ABR: Treatment</span>
+<span class="block-time">15 min</span>
+</div>
+<div class="block-tag">After the Burial · Section A · Drop C · Guitar 1 · Max: ~130 BPM · Target: 195</div>
+<ul>
+<li>Tune down to Drop C (C G C F A D) before starting</li>
+<li>Open at <span class="bpm-tag">100 BPM</span> — confirm the pattern is under fingers before pushing</li>
+<li>Work toward <span class="bpm-tag">130 BPM</span> — that was last session's ceiling</li>
+<li>Pinch harmonics: use the grip from block 6. Don't skip past the misses — stop and reset</li>
+<li>Try one pass at <span class="bpm-tag">135 BPM</span> near the end if 130 feels clean</li>
+</ul>
+<div class="focus-box">
+<strong>Known issue:</strong> Pinch harmonics missed frequently above 130. Priority is accuracy, not speed — a missed PH at 135 is worse than a clean one at 125.
+    </div>
+</div>
+<!-- 8 -->
+<div class="block song-bt">
+<div class="block-header">
+<span class="block-title">8 — BTBAM: Prequel to the Sequel</span>
+<span class="block-time">10 min</span>
+</div>
+<div class="block-tag">Between the Buried and Me · Intro lead melody · Standard · Max: 90 BPM · Target: 100</div>
+<ul>
+<li>Single note lines only — lead melody, no chords</li>
+<li>Start at <span class="bpm-tag">70 BPM</span> — slow enough to get pick placement right before building speed</li>
+<li>On every descending run: watch where the pick lands. Slow it down the moment it clips</li>
+<li>Build to <span class="bpm-tag">90 BPM</span> — last session's max. Try <span class="bpm-tag">92 BPM</span> if 90 feels stable</li>
+<li>Quality over tempo — one clean run at 88 is worth more than five sloppy ones at 92</li>
+</ul>
+<div class="focus-box">
+<strong>Known issue:</strong> Pick accuracy on descending runs — clips wrong string even at slow tempos. This is a motion problem, not a speed problem. Slow down until every note lands clean, then build.
+    </div>
+</div>
+<div class="divider"></div>
+<div class="focus-box" style="margin-bottom: 24px;">
+<strong>After session:</strong> What BPM felt comfortable on each song? Did the pinch harmonic drill help in context? Which bars in Better Lovers are now solid? Log it.
   </div>
-
-  <!-- 1 -->
-  <div class="block warmup">
-    <div class="block-header">
-      <span class="block-title">1 — Warm-Up</span>
-      <span class="block-time">5 min</span>
-    </div>
-    <div class="block-tag">Chromatic · No click</div>
-    <ul>
-      <li>1-2-3-4 chromatic across all 6 strings, one fret per finger</li>
-      <li>Ascending downpick, descending alternate — even weight on every note</li>
-      <li>No rush, no tension — get blood in the hands before anything else</li>
-    </ul>
-  </div>
-
-  <!-- 2 -->
-  <div class="block tech">
-    <div class="block-header">
-      <span class="block-title">2 — String-Skip Isolation</span>
-      <span class="block-time">10 min</span>
-    </div>
-    <div class="block-tag">Technique · Applies to Better Lovers + ABR Truth</div>
-    <ul>
-      <li>Extract all string-skip pairs from Better Lovers intro: low D → B, low D → e</li>
-      <li>Play just the two notes — open D, skip, land clean. No metronome first</li>
-      <li>Add click at <span class="bpm-tag">50 BPM</span> once silent, push to <span class="bpm-tag">70 BPM</span> once locked</li>
-      <li>Then do the same for any string skips in ABR Truth Section A</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Fix cue:</strong> Wrist rises slightly after the low string hit — pick needs to clear the middle string before landing. Pinky anchored on body as a reference. G-string buzz = wrist too flat.
-    </div>
-  </div>
-
-  <!-- 3 -->
-  <div class="block song-bl">
-    <div class="block-header">
-      <span class="block-title">3 — Better Lovers: Clean Intro</span>
-      <span class="block-time">10 min</span>
-    </div>
-    <div class="block-tag">Better Lovers — Lie Between the Lines · Drop D · pp. 7–8 · ♩=99</div>
-    <ul>
-      <li>2-bar chunks — don't chain until each is solid</li>
-      <li><span class="bpm-tag">60 BPM</span> clean × 4 → <span class="bpm-tag">75 BPM</span> clean × 4 → <span class="bpm-tag">99 BPM</span></li>
-      <li>Let ring throughout — notes should bleed into each other</li>
-      <li>Note which bars are now solid and which still need work</li>
-    </ul>
-    <div class="score-section">
-      <div class="score-label">Score — p.7</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-007.png" alt="Lie Between the Lines p.7">
-      <div class="score-label">Score — p.8</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-008.png" alt="Lie Between the Lines p.8">
-    </div>
-  </div>
-
-  <!-- 4 -->
-  <div class="block song-bl">
-    <div class="block-header">
-      <span class="block-title">4 — Better Lovers: Main Riff (Section B)</span>
-      <span class="block-time">5 min</span>
-    </div>
-    <div class="block-tag">Better Lovers — Lie Between the Lines · Drop D · p.9 · ♩=135</div>
-    <ul>
-      <li>Distortion on — palm mute open D, heavy attack</li>
-      <li>Read through at your own pace, don't try to match 135 yet</li>
-      <li>Get the shape of the riff in your hands — feel the contrast after the clean intro</li>
-    </ul>
-    <div class="score-section">
-      <div class="score-label">Score — p.9</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-009.png" alt="Lie Between the Lines p.9">
-    </div>
-  </div>
-
-  <!-- 5 -->
-  <div class="block song-abr">
-    <div class="block-header">
-      <span class="block-title">5 — ABR: Truth of a Liar</span>
-      <span class="block-time">15 min</span>
-    </div>
-    <div class="block-tag">After the Burial · Section A · Drop D · Max: 120 BPM · Target: 130</div>
-    <ul>
-      <li>BPM automation from <span class="bpm-tag">75 BPM</span>, +1 BPM increments</li>
-      <li>Last session max was 120 — aim to push into the 121–125 range today</li>
-      <li>When a skip feels sloppy: stop, isolate just that pair, clean it up, re-run</li>
-      <li>Single-string tremolo as a confidence reset — then go back to the skip</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Known issue:</strong> String skipping slows overall speed. Don't try to brute-force the BPM — isolate the skip, clean it at a lower tempo, then re-enter the automation.
-    </div>
-  </div>
-
-  <!-- 6 -->
-  <div class="block tech">
-    <div class="block-header">
-      <span class="block-title">6 — Pinch Harmonic Isolation</span>
-      <span class="block-time">5 min</span>
-    </div>
-    <div class="block-tag">Technique · For ABR Treatment</div>
-    <ul>
-      <li>Drop C tuning — open low C string, palm mute position</li>
-      <li>Hit single pinch harmonic repeatedly — find the exact pick angle and thumb contact point that triggers it cleanly</li>
-      <li>Slow, deliberate — one hit at a time. Don't rush to tempo</li>
-      <li>Once you find the sweet spot: lock in that grip before moving to the full riff</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Fix cue:</strong> The thumb edge needs to graze the string immediately after the pick hits. Angle the pick slightly inward and squeeze through — if you're missing, the pick is too vertical or the thumb contact is too late.
-    </div>
-  </div>
-
-  <!-- 7 -->
-  <div class="block song-abr">
-    <div class="block-header">
-      <span class="block-title">7 — ABR: Treatment</span>
-      <span class="block-time">15 min</span>
-    </div>
-    <div class="block-tag">After the Burial · Section A · Drop C · Guitar 1 · Max: ~130 BPM · Target: 195</div>
-    <ul>
-      <li>Tune down to Drop C (C G C F A D) before starting</li>
-      <li>Open at <span class="bpm-tag">100 BPM</span> — confirm the pattern is under fingers before pushing</li>
-      <li>Work toward <span class="bpm-tag">130 BPM</span> — that was last session's ceiling</li>
-      <li>Pinch harmonics: use the grip from block 6. Don't skip past the misses — stop and reset</li>
-      <li>Try one pass at <span class="bpm-tag">135 BPM</span> near the end if 130 feels clean</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Known issue:</strong> Pinch harmonics missed frequently above 130. Priority is accuracy, not speed — a missed PH at 135 is worse than a clean one at 125.
-    </div>
-  </div>
-
-  <!-- 8 -->
-  <div class="block song-bt">
-    <div class="block-header">
-      <span class="block-title">8 — BTBAM: Prequel to the Sequel</span>
-      <span class="block-time">10 min</span>
-    </div>
-    <div class="block-tag">Between the Buried and Me · Intro lead melody · Standard · Max: 90 BPM · Target: 100</div>
-    <ul>
-      <li>Single note lines only — lead melody, no chords</li>
-      <li>Start at <span class="bpm-tag">70 BPM</span> — slow enough to get pick placement right before building speed</li>
-      <li>On every descending run: watch where the pick lands. Slow it down the moment it clips</li>
-      <li>Build to <span class="bpm-tag">90 BPM</span> — last session's max. Try <span class="bpm-tag">92 BPM</span> if 90 feels stable</li>
-      <li>Quality over tempo — one clean run at 88 is worth more than five sloppy ones at 92</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Known issue:</strong> Pick accuracy on descending runs — clips wrong string even at slow tempos. This is a motion problem, not a speed problem. Slow down until every note lands clean, then build.
-    </div>
-  </div>
-
-  <div class="divider"></div>
-
-  <div class="focus-box" style="margin-bottom: 24px;">
-    <strong>After session:</strong> What BPM felt comfortable on each song? Did the pinch harmonic drill help in context? Which bars in Better Lovers are now solid? Log it.
-  </div>
-
-</body>
+<script>
+(function() {
+  document.querySelectorAll('.swipe-wrap').forEach(function(wrap) {
+    var track = wrap.querySelector('.swipe');
+    var counter = wrap.querySelector('.swipe-counter');
+    if (!track || !counter) return;
+    var total = track.children.length;
+    function update() {
+      var idx = Math.round(track.scrollLeft / track.clientWidth) + 1;
+      if (idx < 1) idx = 1;
+      if (idx > total) idx = total;
+      counter.textContent = idx + ' / ' + total;
+    }
+    track.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+})();
+</script></body>
 </html>
