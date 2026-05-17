@@ -428,10 +428,10 @@
       "title": "The Art of Brushes",
       "author": "Ed Thigpen",
       "instrument": "drums",
-      "pages_rendered": 0,
+      "pages_rendered": 23,
       "type": "random",
       "usable_from": 1,
-      "notes": "Brush technique. Every page usable — pick randomly. Update pages_rendered after rendering."
+      "notes": "Brush technique. Every page usable — pick randomly from p.1–23."
     }
   },
   "companion_books": {
