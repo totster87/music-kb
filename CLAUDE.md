@@ -269,6 +269,7 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `30-dirty-grooves` | 30 Dirty Grooves | — | 16 | Grooves: p.4–15 |
 | `20-chops` | 20 Chops | — | 5 | p.1 = cover / p.2–3 = intro / Chops content: p.4 |
 | `btbam-prequel-to-the-sequel` | BTBAM — Prequel to the Sequel | Paul Waggoner | 1+ | Single-page tab screenshot stand-in (C# standard tuning). Section A ♩=100 mm.1–16, Section B ♩=120 mm.19+. Replace with full PDF when acquired. |
+| `vai-10-hour-workout` | 10 Hour Guitar Workout | Steve Vai | ? | NOT YET CHAPTERIZED — pages not yet rendered |
 | `evolution-of-blast-beats` | The Evolution of Blast Beats | Derek Roddy | ~100 | NOT YET CHAPTERIZED — do not use in routines / No pages ingested yet — screenshots only / Known from screenshots: 4 blast types intro p.22 / Kick variations p.15 / Double Bass Workout p.79–81+ |
 | `rod-morgenstein-drum-set-warm-ups` | Drum Set Warm-Ups | Rod Morgenstein | ? | NOT YET CHAPTERIZED — pages not yet rendered |
 | `jungle-drum-n-bass` | Jungle / Drum n Bass | — | ? | NOT YET CHAPTERIZED — pages not yet rendered |

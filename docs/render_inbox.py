@@ -38,6 +38,7 @@ SLUG_MAP = {
     "converge-under duress.pdf":                               "converge-under-duress",
     "converge-versus.pdf":                                     "converge-versus",
     "converge-worms will feed.pdf":                            "converge-worms-will-feed",
+    "steve-vai-10-hour-guitar-workout.pdf":                    "vai-10-hour-workout",
 }
 
 DPI = 150
