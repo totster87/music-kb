@@ -1,0 +1,398 @@
+{
+  "$schema_version": 1,
+  "$description": "Source of truth for book chapter/track maps. Generated viewers and CLAUDE.md reference this. To update: edit here, then re-run docs/viewers/generate_viewer.py for any affected viewers.",
+  "$cdn_base": "https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered",
+  "books": {
+    "abr-messengers": {
+      "title": "ABR — Messengers (Guitar)",
+      "author": "After the Burial",
+      "viewer_prefix": "ABR",
+      "instrument": "guitar",
+      "pages_rendered": 146,
+      "offset": 5,
+      "type": "transcription",
+      "sections": [
+        { "name": "Truth Of A Liar",        "book": [1,   15],  "rendered": [6,   20] },
+        { "name": "Up Against The Ropes",   "book": [16,  30],  "rendered": [21,  35] },
+        { "name": "Back Burner",            "book": [31,  40],  "rendered": [36,  45] },
+        { "name": "The Blinding Light",     "book": [41,  56],  "rendered": [46,  61] },
+        { "name": "Composure",              "book": [57,  68],  "rendered": [62,  73] },
+        { "name": "Vital Signs",            "book": [69,  76],  "rendered": [74,  81] },
+        { "name": "The Eleventh Hour",      "book": [77,  86],  "rendered": [82,  91] },
+        { "name": "The Balance",            "book": [87,  99],  "rendered": [92,  104] },
+        { "name": "Black Sheep",            "book": [100, 112], "rendered": [105, 117] },
+        { "name": "An American Dream",      "book": [113, 124], "rendered": [118, 129] },
+        { "name": "Redemption",             "book": [125, 141], "rendered": [130, 146] }
+      ]
+    },
+    "abr-messengers-drums": {
+      "title": "ABR — Messengers (Drums)",
+      "author": "After the Burial",
+      "viewer_prefix": "ABR",
+      "instrument": "drums",
+      "pages_rendered": 121,
+      "offset": 6,
+      "type": "transcription",
+      "sections": [
+        { "name": "Truth Of A Liar",        "book": [1,   11],  "rendered": [7,   17] },
+        { "name": "Up Against The Ropes",   "book": [12,  24],  "rendered": [18,  30] },
+        { "name": "Back Burner",            "book": [25,  32],  "rendered": [31,  38] },
+        { "name": "The Blinding Light",     "book": [33,  44],  "rendered": [39,  50] },
+        { "name": "Composure",              "book": [45,  54],  "rendered": [51,  60] },
+        { "name": "Vital Signs",            "book": [55,  63],  "rendered": [61,  69] },
+        { "name": "The Eleventh Hour",      "book": [64,  74],  "rendered": [70,  80] },
+        { "name": "The Balance",            "book": [75,  83],  "rendered": [81,  89] },
+        { "name": "Black Sheep",            "book": [84,  91],  "rendered": [90,  97] },
+        { "name": "An American Dream",      "book": [92,  102], "rendered": [98,  108] },
+        { "name": "Redemption",             "book": [103, 115], "rendered": [109, 121] }
+      ]
+    },
+    "better-lovers-highly-irresponsible": {
+      "title": "Better Lovers — Highly Irresponsible",
+      "author": "Better Lovers",
+      "viewer_prefix": "Better-Lovers",
+      "instrument": "guitar",
+      "pages_rendered": 122,
+      "type": "transcription",
+      "sections": [
+        { "name": "Lie Between The Lines",            "rendered": [7,   19] },
+        { "name": "Your Misplaced Self",              "rendered": [20,  24] },
+        { "name": "A White Horse Covered In Blood",   "rendered": [25,  35] },
+        { "name": "Future Myopia",                    "rendered": [36,  47] },
+        { "name": "Deliver Us From Life",             "rendered": [48,  58] },
+        { "name": "Drowning In A Burning World",      "rendered": [59,  67] },
+        { "name": "Everything Was Put Here For Me",   "rendered": [68,  78] },
+        { "name": "Superman Died Paralyzed",          "rendered": [79,  93] },
+        { "name": "At All Times",                     "rendered": [94,  106] },
+        { "name": "Love As An Act Of Rebellion",      "rendered": [107, 122] }
+      ]
+    },
+    "better-lovers-play-it-properly": {
+      "title": "Better Lovers — Play It Properly",
+      "author": "Better Lovers",
+      "instrument": "guitar",
+      "pages_rendered": 1,
+      "type": "single"
+    },
+    "dep-one-of-us-is-the-killer": {
+      "title": "DEP — One Of Us Is The Killer",
+      "author": "The Dillinger Escape Plan",
+      "viewer_prefix": "DEP",
+      "instrument": "guitar",
+      "pages_rendered": 93,
+      "type": "transcription",
+      "sections": [
+        { "name": "Prancer",                            "rendered": [6,  16] },
+        { "name": "When I Lost My Bet",                 "rendered": [17, 27] },
+        { "name": "One Of Us Is the Killer",            "rendered": [28, 35] },
+        { "name": "Hero of the Soviet Union",           "rendered": [36, 42] },
+        { "name": "Nothing's Funny",                    "rendered": [43, 50] },
+        { "name": "Understanding Decay",                "rendered": [51, 62] },
+        { "name": "Paranoia Shields",                   "rendered": [63, 70] },
+        { "name": "Crossburner",                        "rendered": [76, 82] },
+        { "name": "The Threat Posed by Nuclear Weapons","rendered": [83, 92] }
+      ]
+    },
+    "etid-low-teens": {
+      "title": "Every Time I Die — Low Teens",
+      "author": "Every Time I Die",
+      "viewer_prefix": "ETID",
+      "instrument": "guitar",
+      "pages_rendered": 90,
+      "type": "transcription",
+      "sections": [
+        { "name": "Fear And Trembling",                       "rendered": [4,  12] },
+        { "name": "C++ (Love Will Get You Killed)",           "rendered": [13, 17] },
+        { "name": "Two Summers",                              "rendered": [18, 22] },
+        { "name": "Awful Lot",                                "rendered": [23, 27] },
+        { "name": "I Didn't Want To Join Your Stupid Cult Anyway", "rendered": [28, 32] },
+        { "name": "It Remembers",                             "rendered": [33, 45] },
+        { "name": "The Coin Has A Say",                       "rendered": [46, 50] },
+        { "name": "Religion Of Speed",                        "rendered": [51, 58] },
+        { "name": "Just As Real But Not As Brightly Lit",     "rendered": [59, 69] },
+        { "name": "Map Change",                               "rendered": [70, 80] },
+        { "name": "Skin Without Bones",                       "rendered": [81, 84] },
+        { "name": "Nothing Visible; Ocean Empty",             "rendered": [85, 90] }
+      ]
+    },
+    "btbam-prequel-to-the-sequel": {
+      "title": "BTBAM — Prequel to the Sequel",
+      "author": "Between the Buried and Me",
+      "instrument": "guitar",
+      "pages_rendered": 1,
+      "type": "single",
+      "notes": "Single-page tab stand-in. C# standard tuning. Section A ♩=100 mm.1-16, Section B ♩=120 mm.19+."
+    },
+    "vai-10-hour-workout": {
+      "title": "10 Hour Guitar Workout",
+      "author": "Steve Vai",
+      "instrument": "guitar",
+      "pages_rendered": 6,
+      "type": "rotation",
+      "rotation": { "first": 2, "last": 6 },
+      "skip_pages": { "before": 2 }
+    },
+    "120-right-hand-studies-giuliani": {
+      "title": "120 Right Hand Studies",
+      "author": "Mauro Giuliani",
+      "instrument": "guitar",
+      "pages_rendered": 15,
+      "type": "rotation",
+      "rotation": { "first": 3, "last": 14 },
+      "skip_pages": { "before": 3, "after": 14 }
+    },
+    "scale-studies-jazz-guitar-stone": {
+      "title": "Scale Studies for Jazz Guitar",
+      "author": "Rick Stone",
+      "instrument": "guitar",
+      "pages_rendered": 24,
+      "type": "rotation",
+      "rotation": { "first": 1, "last": 24 }
+    },
+    "rod-morgenstein-drum-set-warm-ups": {
+      "title": "Drum Set Warm-Ups",
+      "author": "Rod Morgenstein",
+      "instrument": "drums",
+      "pages_rendered": 98,
+      "offset": 6,
+      "type": "method",
+      "sections": [
+        { "name": "L1 — One-Hand Sixteenths",                   "book": [1, 1],   "rendered": [7, 7] },
+        { "name": "L2 — Four Strokes Per Hand",                 "book": [2, 2],   "rendered": [8, 8] },
+        { "name": "L3 — Alternating Single Strokes",            "book": [3, 6],   "rendered": [9, 12] },
+        { "name": "L4 — Double Strokes",                        "book": [7, 8],   "rendered": [13, 14] },
+        { "name": "L5 — Paradiddles",                           "book": [9, 9],   "rendered": [15, 15] },
+        { "name": "L6 — Sixteenth-Note Combinations",           "book": [10, 11], "rendered": [16, 17] },
+        { "name": "L7 — Three-Note Patterns",                   "book": [12, 12], "rendered": [18, 18] },
+        { "name": "L8 — One-Hand Triplets",                     "book": [13, 13], "rendered": [19, 19] },
+        { "name": "L9 — Three Strokes Per Hand",                "book": [14, 14], "rendered": [20, 20] },
+        { "name": "L10 — Triplets w/ Alternating Single Strokes","book": [15, 18], "rendered": [21, 24] },
+        { "name": "L11 — Two-Bar Triplet Combinations",         "book": [19, 20], "rendered": [25, 26] },
+        { "name": "L12 — Triplets with Mixed Stickings",        "book": [21, 22], "rendered": [27, 28] },
+        { "name": "L13 — One Stroke Per Surface",               "book": [23, 23], "rendered": [29, 29] },
+        { "name": "L14 — Combination Eighths and Sixteenths",   "book": [24, 24], "rendered": [30, 30] },
+        { "name": "L15 — Combination Triplets and Sextuplets",  "book": [25, 25], "rendered": [31, 31] },
+        { "name": "L16 — Bass Drum and Hi-Hat Endurance",       "book": [26, 28], "rendered": [32, 34] },
+        { "name": "L17 — Alternating Feet",                     "book": [29, 32], "rendered": [35, 38] },
+        { "name": "L18 — Foot Warm-Ups",                        "book": [33, 36], "rendered": [39, 42] },
+        { "name": "L19 — Alternating Snare Drum/Foot",          "book": [37, 40], "rendered": [43, 46] },
+        { "name": "L20 — Hand/Foot Combinations with Sixteenths","book": [41, 46], "rendered": [47, 52] },
+        { "name": "L21 — Hand/Foot Combinations with Triplets", "book": [47, 51], "rendered": [53, 57] },
+        { "name": "L22 — Accents",                              "book": [52, 58], "rendered": [58, 64] },
+        { "name": "L23 — Quick Snaps",                          "book": [59, 59], "rendered": [65, 65] },
+        { "name": "L24 — Flam Rudiments",                       "book": [60, 61], "rendered": [66, 67] },
+        { "name": "L25 — Paradiddle Variations",                "book": [62, 62], "rendered": [68, 68] },
+        { "name": "L26 — Cymbal Crashing",                      "book": [63, 64], "rendered": [69, 70] },
+        { "name": "L27 — Cymbal Smashing",                      "book": [65, 65], "rendered": [71, 71] },
+        { "name": "L28 — Rolls",                                "book": [66, 67], "rendered": [72, 73] },
+        { "name": "L29 — Drags and Ruffs",                      "book": [68, 68], "rendered": [74, 74] },
+        { "name": "L30 — Flat Flams",                           "book": [69, 70], "rendered": [75, 76] },
+        { "name": "L31 — Mirror Images",                        "book": [71, 75], "rendered": [77, 81] },
+        { "name": "L32 — Crossovers",                           "book": [76, 76], "rendered": [82, 82] },
+        { "name": "L33 — Use Your Imagination",                 "book": [77, 77], "rendered": [83, 83] },
+        { "name": "L34 — Combinations",                         "book": [78, 88], "rendered": [84, 94] }
+      ],
+      "skip_pages": { "after": 95 }
+    },
+    "jungle-drum-n-bass": {
+      "title": "Jungle / Drum n Bass",
+      "instrument": "drums",
+      "pages_rendered": 135,
+      "type": "method",
+      "sections": [
+        { "name": "Ch.1 — Preliminary Exercises",       "rendered": [25,  30] },
+        { "name": "Ch.2 — Eighth-Note Grooves",         "rendered": [31,  44] },
+        { "name": "Ch.3 — Sixteenth-Note Grooves",      "rendered": [45,  54] },
+        { "name": "Ch.4 — Basic Rolls and Buzzes",      "rendered": [55,  68] },
+        { "name": "Ch.5 — Unison Jungle",               "rendered": [69,  88] },
+        { "name": "Ch.6 — Linear Jungle Grooves",       "rendered": [89,  102] },
+        { "name": "Ch.7 — Hi-Hat Exercises",            "rendered": [103, 135] }
+      ],
+      "skip_pages": { "before": 25 }
+    },
+    "double-bass-freedom": {
+      "title": "Double Bass Drum Freedom",
+      "author": "Virgil Donati",
+      "instrument": "drums",
+      "pages_rendered": 135,
+      "type": "method",
+      "sections": [
+        { "name": "Ch.1 — Getting Started",             "rendered": [6,   27] },
+        { "name": "Ch.2 — Left Foot Technique",         "rendered": [28,  36] },
+        { "name": "Ch.3 — Developing Single Strokes",   "rendered": [37,  47] },
+        { "name": "Ch.4 — Creative Single Strokes",     "rendered": [48,  59] },
+        { "name": "Ch.5 — 16th Note Triplet Series",    "rendered": [60,  73] },
+        { "name": "Ch.6 — 16th Note Series",            "rendered": [74,  82] },
+        { "name": "Ch.7 — Double Stroke Rolls",         "rendered": [83,  100] },
+        { "name": "Ch.8 — Paradiddles",                 "rendered": [101, 108] },
+        { "name": "Ch.9 — Bass Drum Flams",             "rendered": [109, 118] },
+        { "name": "Ch.10 — Recorded Works",             "rendered": [119, 135] }
+      ]
+    },
+    "progressive-independence-rock": {
+      "title": "Progressive Independence: Rock",
+      "author": "Ron Spagnardi",
+      "instrument": "drums",
+      "pages_rendered": 162,
+      "type": "method",
+      "sections": [
+        { "name": "S1 — Right Hand 8th Notes",          "rendered": [3,   29] },
+        { "name": "S2 — Right Hand Quarter Notes",      "rendered": [30,  56] },
+        { "name": "S3 — Right Hand Up-Beats",           "rendered": [57,  83] },
+        { "name": "S4 — Right Hand Sixteenth Notes",    "rendered": [84,  109] },
+        { "name": "S5 — 16th Note 1E&",                 "rendered": [110, 136] },
+        { "name": "S6",                                  "rendered": [137, 162] }
+      ]
+    },
+    "master-studies-morello": {
+      "title": "Master Studies",
+      "author": "Joe Morello",
+      "instrument": "drums",
+      "pages_rendered": 97,
+      "type": "method",
+      "sections": [
+        { "name": "Accent Studies",                     "rendered": [7,  19] },
+        { "name": "Buzz Roll Studies",                  "rendered": [20, 29] },
+        { "name": "Stroke Combination Studies",         "rendered": [30, 39] },
+        { "name": "Control Studies (incl. Table of Time p.43, Stone Killer p.54)", "rendered": [40, 65] },
+        { "name": "Fill-In Studies (Groups of Three p.66, Groups of Four p.70)",   "rendered": [66, 76] },
+        { "name": "Ostinato Studies",                   "rendered": [77, 81] },
+        { "name": "Flam Studies",                       "rendered": [82, 93] }
+      ]
+    },
+    "the-art-of-bop-drumming": {
+      "title": "The Art of Bop Drumming",
+      "author": "John Riley",
+      "instrument": "drums",
+      "pages_rendered": 68,
+      "type": "method",
+      "sections": [
+        { "name": "Time Playing",       "rendered": [6,  14] },
+        { "name": "Comping",            "rendered": [16, 32] },
+        { "name": "Soloing",            "rendered": [34, 45] },
+        { "name": "Brushes",            "rendered": [47, 53] },
+        { "name": "Jazz Essentials",    "rendered": [55, 60] },
+        { "name": "Charts",             "rendered": [63, 68] }
+      ]
+    },
+    "advanced-techniques-modern-drummer": {
+      "title": "Advanced Techniques Vol.1",
+      "author": "Jim Chapin",
+      "instrument": "drums",
+      "pages_rendered": 55,
+      "type": "method",
+      "sections": [
+        { "name": "Dotted 8ths + 16ths",        "rendered": [9,  14] },
+        { "name": "Eighths",                    "rendered": [16, 20] },
+        { "name": "Triplet",                    "rendered": [25, 29] },
+        { "name": "Sixteenths",                 "rendered": [30, 33] },
+        { "name": "Solo Exercises",             "rendered": [41, 55] }
+      ],
+      "skip_pages": { "before": 9 }
+    },
+    "stick-control": {
+      "title": "Stick Control",
+      "author": "George Lawrence Stone",
+      "instrument": "drums",
+      "pages_rendered": 50,
+      "type": "method",
+      "sections": [
+        { "name": "Single Beat Combinations",   "rendered": [5,  7] },
+        { "name": "Triplets",                   "rendered": [8,  9] },
+        { "name": "Short Roll Combinations",    "rendered": [10, 15] },
+        { "name": "Flams",                      "rendered": [16, 23] },
+        { "name": "Short Rolls in 6/8",         "rendered": [24, 29] },
+        { "name": "Combinations in 3/8",        "rendered": [30, 32] },
+        { "name": "Flam Triplets",              "rendered": [34, 37] },
+        { "name": "Short Roll Progressions",    "rendered": [38, 46] }
+      ]
+    },
+    "advanced-funk-studies": {
+      "title": "Advanced Funk Studies",
+      "author": "Rick Latham",
+      "instrument": "drums",
+      "pages_rendered": 51,
+      "type": "method",
+      "sections": [
+        { "name": "Introductory Exercises",     "rendered": [10, 10] },
+        { "name": "Fixed Hi-hat Patterns",      "rendered": [11, 15] },
+        { "name": "Combination Exercises",      "rendered": [16, 18] },
+        { "name": "Fill Patterns",              "rendered": [19, 19] },
+        { "name": "Funk Patterns",              "rendered": [20, 24] },
+        { "name": "Transcriptions",             "rendered": [26, 33] },
+        { "name": "Solos",                      "rendered": [34, 51] }
+      ],
+      "skip_pages": { "specific": [5] }
+    },
+    "progressive-steps-syncopation": {
+      "title": "Progressive Steps to Syncopation",
+      "author": "Ted Reed",
+      "instrument": "drums",
+      "pages_rendered": 61,
+      "type": "method",
+      "sections": [
+        { "name": "Foundation",                 "rendered": [3,  27] },
+        { "name": "Syncopated Eighth Notes",    "rendered": [28, 35] },
+        { "name": "Syncopation Exercises 1–9",  "rendered": [36, 44] },
+        { "name": "Accents",                    "rendered": [45, 59] }
+      ]
+    },
+    "30-dirty-grooves": {
+      "title": "30 Dirty Grooves",
+      "instrument": "drums",
+      "pages_rendered": 16,
+      "type": "method",
+      "sections": [
+        { "name": "Grooves", "rendered": [4, 15] }
+      ]
+    },
+    "20-chops": {
+      "title": "20 Chops",
+      "instrument": "drums",
+      "pages_rendered": 5,
+      "type": "method",
+      "sections": [
+        { "name": "Chops", "rendered": [4, 4] }
+      ],
+      "skip_pages": { "before": 4, "after": 4 }
+    },
+    "the-roots-you-got-me": {
+      "title": "The Roots — You Got Me",
+      "author": "The Roots",
+      "instrument": "drums",
+      "pages_rendered": 1,
+      "type": "single"
+    },
+    "converge-axe-to-fall":       { "title": "Converge — Axe to Fall",       "instrument": "guitar", "pages_rendered": 5,  "type": "single" },
+    "converge-concubine":          { "title": "Converge — Concubine",          "instrument": "guitar", "pages_rendered": 3,  "type": "single" },
+    "converge-dark-horse":         { "title": "Converge — Dark Horse",         "instrument": "guitar", "pages_rendered": 6,  "type": "single" },
+    "converge-drop-out":           { "title": "Converge — Drop Out",           "instrument": "guitar", "pages_rendered": 5,  "type": "single" },
+    "converge-first-light":        { "title": "Converge — First Light",        "instrument": "guitar", "pages_rendered": 2,  "type": "single" },
+    "converge-hum-of-hurt":        { "title": "Converge — Hum of Hurt",        "instrument": "guitar", "pages_rendered": 10, "type": "single" },
+    "converge-to-feel-something":  { "title": "Converge — To Feel Something",  "instrument": "guitar", "pages_rendered": 7,  "type": "single" },
+    "converge-under-duress":       { "title": "Converge — Under Duress",       "instrument": "guitar", "pages_rendered": 5,  "type": "single" },
+    "converge-versus":             { "title": "Converge — Versus",             "instrument": "guitar", "pages_rendered": 7,  "type": "single" },
+    "converge-worms-will-feed":    { "title": "Converge — Worms Will Feed",    "instrument": "guitar", "pages_rendered": 7,  "type": "single" },
+    "evolution-of-blast-beats": {
+      "title": "The Evolution of Blast Beats",
+      "author": "Derek Roddy",
+      "instrument": "drums",
+      "pages_rendered": 0,
+      "type": "method",
+      "notes": "Not yet ingested. Known from screenshots: 4 blast types intro p.22, Kick variations p.15, Double Bass Workout p.79–81+."
+    }
+  },
+  "companion_books": {
+    "Truth Of A Liar": ["abr-messengers", "abr-messengers-drums"],
+    "Up Against The Ropes": ["abr-messengers", "abr-messengers-drums"],
+    "Back Burner": ["abr-messengers", "abr-messengers-drums"],
+    "The Blinding Light": ["abr-messengers", "abr-messengers-drums"],
+    "Composure": ["abr-messengers", "abr-messengers-drums"],
+    "Vital Signs": ["abr-messengers", "abr-messengers-drums"],
+    "The Eleventh Hour": ["abr-messengers", "abr-messengers-drums"],
+    "The Balance": ["abr-messengers", "abr-messengers-drums"],
+    "Black Sheep": ["abr-messengers", "abr-messengers-drums"],
+    "An American Dream": ["abr-messengers", "abr-messengers-drums"],
+    "Redemption": ["abr-messengers", "abr-messengers-drums"]
+  }
+}

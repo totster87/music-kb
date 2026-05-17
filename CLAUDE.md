@@ -190,7 +190,15 @@ Book slugs:
 Ask: pad or kit? How long? Then build a structured session. Display pages only when walking through each exercise.
 
 ### "generate viewer for [song/exercise]"
-Run: `python docs/viewers/generate_viewer.py <slug> "<title>" <start> <end>` then commit and push.
+Use `docs/viewers/generate_viewer.py`, which reads page ranges from `docs/chapter-maps.json` (the source of truth). Subcommands:
+- `python docs/viewers/generate_viewer.py song <slug> "<section-name>"` — one song/lesson
+- `python docs/viewers/generate_viewer.py combined "<section-name>"` — auto-uses guitar+drums companions from JSON (e.g. ABR songs)
+- `python docs/viewers/generate_viewer.py book <slug>` — whole book
+- `python docs/viewers/generate_viewer.py list [<slug>]` — list books or sections
+- `python docs/viewers/generate_viewer.py verify <slug> "<section-name>"` — print first-page URL to confirm offset before committing
+Then commit and push.
+
+**Chapter map source of truth:** `docs/chapter-maps.json`. If page ranges are wrong, fix the JSON first, then regenerate any affected viewers. Do NOT hand-edit viewer HTML — it'll drift.
 
 ---
 
