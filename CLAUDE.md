@@ -213,7 +213,7 @@ Run: `python docs/viewers/generate_viewer.py <slug> "<title>" <start> <end>` the
 - **Known issues:** String skipping is the bottleneck — single-string tremolo is faster; pick attack inconsistency; unclear how hard to hit strings
 - **Approach:** BPM automation from 75, +1 BPM increments. 105 iffy, 118 sloppy, 120 max
 - **Repertoire file:** `repertoire/ABR - Truth of a Liar.md`
-- **Viewer:** Not yet generated — say "generate viewer for ABR Truth of a Liar" when ready
+- **Viewer:** `docs/viewers/ABR-Truth-of-a-Liar.html` → https://totster87.github.io/music-kb/docs/viewers/ABR-Truth-of-a-Liar.html
 
 ### Guitar — ABR, Treatment
 - **Tuning:** C G C F A D (Drop C)
