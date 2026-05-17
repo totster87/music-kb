@@ -18,18 +18,17 @@ tags:
 *Steve Vai*
 
 Source slug: `vai-10-hour-workout`.
-**6 pages rendered.** Ready to use in routines — chapterize after first session.
+**6 pages rendered. Page-by-page rotation — no chapter map needed.**
 Viewer: https://totster87.github.io/music-kb/docs/viewers/Vai-10-Hour-Workout.html
 
-## Exercises Worked On
-*(none yet — first session pending)*
+## Usage Pattern
+Embed ONE page at a time in routine warm-up blocks. Rotate sequentially across sessions (p.1 → p.2 → … → p.6). Cycle back to p.1 when p.6 is reached. Track last-used page in the routine viewer note so the next routine picks the following one.
 
 ## Notes
 - Steve Vai's structured technique workout — originated in Guitar World as the "30 Hour Workout," expanded/condensed versions circulate as the 10 Hour Workout
 - Typically covers: chromatic warm-ups, alternate picking patterns, legato (hammer-ons/pull-offs), string skipping, sweep picking, scale sequences, ear training, theory
 - Designed as a daily routine — sections of the workout can be slotted into warm-up or technique blocks
 - Good for: pick-accuracy, legato evenness, alternate picking endurance, fretboard fluency — direct application to existing bottlenecks (string skipping for Better Lovers / ABR Truth, pick accuracy for BTBAM Prequel)
-- Once pages are ingested: chapterize by section (warm-up / picking / legato / etc.) and build candidates list
 
-## Candidates for Rotation
-*(populate after chapterizing)*
+## Sessions
+*(log page + observations after each warm-up that uses this book)*

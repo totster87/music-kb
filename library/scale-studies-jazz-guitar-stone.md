@@ -16,16 +16,16 @@ tags:
 *Rick Stone*
 
 Source slug: `scale-studies-jazz-guitar-stone`.
-**Not yet chapterized** — pages not yet rendered. Do not use in routines until pages are ingested.
+**24 pages rendered. Page-by-page rotation — no chapter map needed.**
+Viewer: https://totster87.github.io/music-kb/docs/viewers/Stone-Scale-Studies-Jazz-Guitar-Full.html
 
-## Exercises Worked On
-*(none yet)*
+## Usage Pattern
+Embed ONE page at a time in routine warm-up blocks. Rotate sequentially across sessions (p.1 → p.2 → p.3 …). Cycle back to p.1 when p.24 is reached. Track last-used page in the routine viewer note so the next routine picks the following one.
 
 ## Notes
 - Jazz guitar scale vocabulary and application
 - Likely covers: major/minor/modes in positions, bebop scales, melodic patterns, sequencing
 - Good for: lead guitar vocabulary, fretboard fluency, jazz-informed phrasing that transfers to metal lead work
-- Once pages are ingested: chapterize and build candidates list
 
-## Candidates for Rotation
-*(populate after chapterizing)*
+## Sessions
+*(log page + observations after each warm-up that uses this book)*
