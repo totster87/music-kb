@@ -22,7 +22,7 @@ Source slug: `vai-10-hour-workout`.
 Viewer: https://totster87.github.io/music-kb/docs/viewers/Vai-10-Hour-Workout.html
 
 ## Usage Pattern
-Embed ONE page at a time in routine warm-up blocks. Rotate sequentially across sessions (p.1 → p.2 → … → p.6). Cycle back to p.1 when p.6 is reached. Track last-used page in the routine viewer note so the next routine picks the following one.
+Embed ONE page at a time in routine warm-up blocks. **Rotation starts at p.2** — p.1 is title/intro. Rotate sequentially (p.2 → p.3 → … → p.6), then cycle back to p.2. Track last-used page in the routine viewer note so the next routine picks the following one.
 
 ## Notes
 - Steve Vai's structured technique workout — originated in Guitar World as the "30 Hour Workout," expanded/condensed versions circulate as the 10 Hour Workout
