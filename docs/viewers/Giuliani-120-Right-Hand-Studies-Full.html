@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>120 Right Hand Studies</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -18,60 +19,117 @@
   .page-label { padding: 7px 16px; font-size: 0.7rem; color: #555;
                  background: #111; border-bottom: 1px solid #222; }
   .page-block img { width: 100%; display: block; min-height: 200px; background: #1a1a1a; }
+
+/* swipe carousel — added by add_swipe_carousels.py */
+.swipe-wrap { position: relative; margin: 8px 0 4px; }
+.swipe {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  border-radius: 6px;
+  background: #161616;
+}
+.swipe::-webkit-scrollbar { display: none; }
+.swipe > .slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.swipe > .slide img { width: 100%; display: block; }
+.swipe-counter {
+  position: absolute;
+  top: 8px; right: 10px;
+  background: rgba(0,0,0,0.65);
+  color: #ddd;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 10px;
+  pointer-events: none;
+  letter-spacing: 0.03em;
+}
+.swipe-hint {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #555;
+  margin-top: 4px;
+  letter-spacing: 0.05em;
+}
 </style>
 </head>
 <body>
 <header>
-  <h1>120 Right Hand Studies</h1>
-  <p>Mauro Giuliani · Guitar · Classical fingerpicking (p i m a)</p>
+<h1>120 Right Hand Studies</h1>
+<p>Mauro Giuliani · Guitar · Classical fingerpicking (p i m a)</p>
 </header>
 <div class="content">
-<div class="page-block">
-  <div class="page-label">Page 1</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-001.png" alt="Page 1" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 2</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-002.png" alt="Page 2" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 3</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-003.png" alt="Page 3" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 4</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-004.png" alt="Page 4" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 5</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-005.png" alt="Page 5" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 6</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-006.png" alt="Page 6" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 7</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-007.png" alt="Page 7" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 8</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-008.png" alt="Page 8" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 9</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-009.png" alt="Page 9" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 10</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-010.png" alt="Page 10" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 11</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-011.png" alt="Page 11" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 12</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-012.png" alt="Page 12" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 13</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-013.png" alt="Page 13" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 14</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-014.png" alt="Page 14" loading="lazy">
-</div><div class="page-block">
-  <div class="page-label">Page 15</div>
-  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-015.png" alt="Page 15" loading="lazy">
-</div>
-</div>
-</body>
+
+<div class="swipe-wrap"><div class="swipe"><div class="slide"><div class="page-block">
+<div class="page-label">Page 1</div>
+<img alt="Page 1" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-001.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 2</div>
+<img alt="Page 2" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-002.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 3</div>
+<img alt="Page 3" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-003.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 4</div>
+<img alt="Page 4" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-004.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 5</div>
+<img alt="Page 5" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-005.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 6</div>
+<img alt="Page 6" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-006.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 7</div>
+<img alt="Page 7" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-007.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 8</div>
+<img alt="Page 8" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-008.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 9</div>
+<img alt="Page 9" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-009.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 10</div>
+<img alt="Page 10" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-010.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 11</div>
+<img alt="Page 11" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-011.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 12</div>
+<img alt="Page 12" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-012.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 13</div>
+<img alt="Page 13" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-013.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 14</div>
+<img alt="Page 14" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-014.png"/>
+</div></div><div class="slide"><div class="page-block">
+<div class="page-label">Page 15</div>
+<img alt="Page 15" loading="lazy" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/120-right-hand-studies-giuliani/page-015.png"/>
+</div></div></div><div class="swipe-counter">1 / 15</div><div class="swipe-hint">← swipe →</div></div></div>
+<script>
+(function() {
+  document.querySelectorAll('.swipe-wrap').forEach(function(wrap) {
+    var track = wrap.querySelector('.swipe');
+    var counter = wrap.querySelector('.swipe-counter');
+    if (!track || !counter) return;
+    var total = track.children.length;
+    function update() {
+      var idx = Math.round(track.scrollLeft / track.clientWidth) + 1;
+      if (idx < 1) idx = 1;
+      if (idx > total) idx = total;
+      counter.textContent = idx + ' / ' + total;
+    }
+    track.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+})();
+</script></body>
 </html>

@@ -102,25 +102,80 @@ CSS = """
   header h1 { font-size: 1rem; color: #fff; }
   header p { font-size: 0.75rem; color: #666; margin-top: 2px; }
   .content { max-width: 860px; margin: 0 auto; padding: 20px 16px; }
-  .page-block { background: #1a1a1a; margin-bottom: 12px;
-                border-radius: 8px; overflow: hidden;
-                box-shadow: 0 2px 12px rgba(0,0,0,0.4); }
-  .page-label { padding: 7px 16px; font-size: 0.7rem; color: #555;
-                 background: #111; border-bottom: 1px solid #222; }
-  .page-block img { width: 100%; display: block; min-height: 200px; background: #1a1a1a; }
+  .swipe-wrap { position: relative; margin: 8px 0 4px; }
+  .swipe {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    border-radius: 8px;
+    background: #161616;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  }
+  .swipe::-webkit-scrollbar { display: none; }
+  .swipe > .slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    background: #1a1a1a;
+  }
+  .slide .page-label { padding: 7px 16px; font-size: 0.7rem; color: #555;
+                       background: #111; border-bottom: 1px solid #222; }
+  .slide img { width: 100%; display: block; min-height: 200px; background: #1a1a1a; }
+  .swipe-counter {
+    position: absolute;
+    top: 8px; right: 10px;
+    background: rgba(0,0,0,0.65);
+    color: #ddd;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 10px;
+    pointer-events: none;
+    letter-spacing: 0.03em;
+  }
+  .swipe-hint {
+    text-align: center;
+    font-size: 0.7rem;
+    color: #555;
+    margin-top: 4px;
+    letter-spacing: 0.05em;
+  }
 """
+
+CAROUSEL_JS = """<script>
+(function() {
+  document.querySelectorAll('.swipe-wrap').forEach(function(wrap) {
+    var track = wrap.querySelector('.swipe');
+    var counter = wrap.querySelector('.swipe-counter');
+    if (!track || !counter) return;
+    var total = track.children.length;
+    function update() {
+      var idx = Math.round(track.scrollLeft / track.clientWidth) + 1;
+      if (idx < 1) idx = 1;
+      if (idx > total) idx = total;
+      counter.textContent = idx + ' / ' + total;
+    }
+    track.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+})();
+</script>"""
+
 
 def make_viewer(book, pages):
     slug = book["slug"]
     title = book["title"]
     subtitle = book["subtitle"]
-    filename = book["filename"]
 
-    page_blocks = []
+    slides = []
     for i in pages:
         url = f"{CDN}/{slug}/page-{i:03d}.png"
-        page_blocks.append(
-            f'<div class="page-block">\n'
+        slides.append(
+            f'<div class="slide">\n'
             f'  <div class="page-label">Page {i}</div>\n'
             f'  <img src="{url}" alt="Page {i}" loading="lazy">\n'
             f'</div>'
@@ -140,8 +195,15 @@ def make_viewer(book, pages):
   <p>{subtitle}</p>
 </header>
 <div class="content">
-{"".join(page_blocks)}
+<div class="swipe-wrap">
+<div class="swipe">
+{"".join(slides)}
 </div>
+<div class="swipe-counter">1 / {len(pages)}</div>
+<div class="swipe-hint">← swipe →</div>
+</div>
+</div>
+{CAROUSEL_JS}
 </body>
 </html>"""
     return html

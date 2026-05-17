@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title>Pad Routine — 2026-05-06</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+<title>Pad Routine — 2026-05-06</title>
+<style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -62,141 +63,188 @@
     .divider { height: 1px; background: #222; margin: 20px 0; }
     .summary-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
     .summary-chip { background: #1e1e1e; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.8rem; color: #999; }
-  </style>
+  
+/* swipe carousel — added by add_swipe_carousels.py */
+.swipe-wrap { position: relative; margin: 8px 0 4px; }
+.swipe {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  border-radius: 6px;
+  background: #161616;
+}
+.swipe::-webkit-scrollbar { display: none; }
+.swipe > .slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.swipe > .slide img { width: 100%; display: block; }
+.swipe-counter {
+  position: absolute;
+  top: 8px; right: 10px;
+  background: rgba(0,0,0,0.65);
+  color: #ddd;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 10px;
+  pointer-events: none;
+  letter-spacing: 0.03em;
+}
+.swipe-hint {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #555;
+  margin-top: 4px;
+  letter-spacing: 0.05em;
+}
+</style>
 </head>
 <body>
+<h1>Pad Routine</h1>
+<div class="subtitle">Wednesday 6 May 2026  ·  Practice pad only  ·  ~50 min</div>
+<div class="summary-row">
+<span class="summary-chip">Stick Control 15 min</span>
+<span class="summary-chip">20 Chops 10 min</span>
+<span class="summary-chip">Chapin hands 10 min</span>
+<span class="summary-chip">Reed reading 10 min</span>
+<span class="summary-chip">Burnout 5 min</span>
+</div>
+<!-- 1 -->
+<div class="block warmup">
+<div class="block-header">
+<span class="block-title">1 — Stick Control: Accents, Doubles, Flams</span>
+<span class="block-time">15 min</span>
+</div>
+<div class="block-tag">Stick Control · Stone · pp.14, 22, 30</div>
+<ul>
+<li>Three pages, five minutes each — read the page before playing it</li>
+<li><strong style="color:#ccc">p.14 — Accent combos:</strong> full strokes on accents, tap strokes on everything else. Dynamic gap should be obvious</li>
+<li><strong style="color:#ccc">p.22 — Double beats:</strong> second stroke of each pair must match the first in volume and depth — that's where doubles fall apart</li>
+<li><strong style="color:#ccc">p.30 — Flam studies:</strong> grace note lands just before the beat, not on it — if they sound simultaneous, the grace note is too late</li>
+<li>Start each page at <span class="bpm-tag">60 BPM</span>, push to <span class="bpm-tag">90 BPM</span> once the technique is clean</li>
+</ul>
+<div class="focus-box">
+<strong>Watch for:</strong> Each page tests something different. Don't let the muscle memory from one page bleed into the next — reset between pages.
+    </div>
+<div class="score-section">
 
-  <h1>Pad Routine</h1>
-  <div class="subtitle">Wednesday 6 May 2026 &nbsp;·&nbsp; Practice pad only &nbsp;·&nbsp; ~50 min</div>
 
-  <div class="summary-row">
-    <span class="summary-chip">Stick Control 15 min</span>
-    <span class="summary-chip">20 Chops 10 min</span>
-    <span class="summary-chip">Chapin hands 10 min</span>
-    <span class="summary-chip">Reed reading 10 min</span>
-    <span class="summary-chip">Burnout 5 min</span>
+
+
+
+
+<div class="swipe-wrap"><div class="swipe"><div class="slide"><div class="score-label">Stick Control — p.14 (Accents)</div><img alt="Stick Control p.14" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-014.png"/></div><div class="slide"><div class="score-label">Stick Control — p.22 (Doubles)</div><img alt="Stick Control p.22" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-022.png"/></div><div class="slide"><div class="score-label">Stick Control — p.30 (Flams)</div><img alt="Stick Control p.30" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-030.png"/></div></div><div class="swipe-counter">1 / 3</div><div class="swipe-hint">← swipe →</div></div></div>
+</div>
+<!-- 2 -->
+<div class="block technique">
+<div class="block-header">
+<span class="block-title">2 — 20 Chops</span>
+<span class="block-time">10 min</span>
+</div>
+<div class="block-tag">20 Chops · pp.2–4</div>
+<ul>
+<li>Pick two or three chops and go deep — don't skim all three pages</li>
+<li>No click first — feel the sticking pattern, then add tempo</li>
+<li>Push each chop to the edge of clean, note where it breaks</li>
+</ul>
+<div class="focus-box">
+<strong>Mindset:</strong> Own two chops completely rather than touching ten superficially.
+    </div>
+<div class="score-section">
+
+
+
+
+
+
+<div class="swipe-wrap"><div class="swipe"><div class="slide"><div class="score-label">20 Chops — p.2</div><img alt="20 Chops p.2" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/20-chops/page-002.png"/></div><div class="slide"><div class="score-label">20 Chops — p.3</div><img alt="20 Chops p.3" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/20-chops/page-003.png"/></div><div class="slide"><div class="score-label">20 Chops — p.4</div><img alt="20 Chops p.4" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/20-chops/page-004.png"/></div></div><div class="swipe-counter">1 / 3</div><div class="swipe-hint">← swipe →</div></div></div>
+</div>
+<!-- 3 -->
+<div class="block technique">
+<div class="block-header">
+<span class="block-title">3 — Chapin: Hand Patterns</span>
+<span class="block-time">10 min</span>
+</div>
+<div class="block-tag">Advanced Techniques for the Modern Drummer · Chapin · p.25</div>
+<ul>
+<li>Hands only on the pad — ignore foot notation</li>
+<li>Metronome on 2 and 4 only — feel the pulse internally between clicks</li>
+<li>Start at <span class="bpm-tag">60 BPM</span>, push to <span class="bpm-tag">75 BPM</span> once automatic</li>
+<li>If counting out loud helps, do it — Chapin patterns need to be internalised before they can be felt</li>
+</ul>
+<div class="focus-box">
+<strong>Key principle:</strong> Still thinking about what each hand is doing means the tempo is too fast.
+    </div>
+<div class="score-section">
+<div class="score-label">Advanced Techniques — p.25</div>
+<img alt="Chapin Advanced Techniques p.25" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/advanced-techniques-modern-drummer/page-025.png"/>
+</div>
+</div>
+<!-- 4 -->
+<div class="block reading">
+<div class="block-header">
+<span class="block-title">4 — Reed: Syncopation Reading</span>
+<span class="block-time">10 min</span>
+</div>
+<div class="block-tag">Progressive Steps to Syncopation · Reed · pp.38, 44, 52</div>
+<ul>
+<li>Snare only — all three pages, no orchestration</li>
+<li>Count out loud through every rest — don't let them rush</li>
+<li>Spend 3–4 minutes per page: one clean pass at <span class="bpm-tag">60 BPM</span>, then push</li>
+<li>If a bar trips you up, loop it until it's boring, then move on</li>
+</ul>
+<div class="focus-box">
+<strong>Carry forward:</strong> Reading stays on snare the whole block. That's the discipline — not the tempo.
+    </div>
+<div class="score-section">
+
+
+
+
+
+
+<div class="swipe-wrap"><div class="swipe"><div class="slide"><div class="score-label">Reed Syncopation — p.38</div><img alt="Reed Syncopation p.38" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-steps-syncopation/page-038.png"/></div><div class="slide"><div class="score-label">Reed Syncopation — p.44</div><img alt="Reed Syncopation p.44" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-steps-syncopation/page-044.png"/></div><div class="slide"><div class="score-label">Reed Syncopation — p.52</div><img alt="Reed Syncopation p.52" class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-steps-syncopation/page-052.png"/></div></div><div class="swipe-counter">1 / 3</div><div class="swipe-hint">← swipe →</div></div></div>
+</div>
+<!-- 5 -->
+<div class="block burnout">
+<div class="block-header">
+<span class="block-title">5 — Burnout: Single Stroke Sprint</span>
+<span class="block-time">5 min</span>
+</div>
+<div class="block-tag">No click · Max speed · 3 rounds</div>
+<ul>
+<li>Single stroke roll — build to absolute max over 20–30 seconds</li>
+<li>Hold until strokes blur or become uneven, then stop</li>
+<li>Rest 20 seconds, repeat — 3 rounds total</li>
+<li>Speed from relaxation, not tension — if the grip tightens, back off</li>
+</ul>
+</div>
+<div class="divider"></div>
+<div class="focus-box" style="margin-bottom: 24px;">
+<strong>After session:</strong> Which Stick Control page was hardest? Which chops from 20 Chops felt weakest? Did the Reed reading stay on snare? Log it.
   </div>
-
-  <!-- 1 -->
-  <div class="block warmup">
-    <div class="block-header">
-      <span class="block-title">1 — Stick Control: Accents, Doubles, Flams</span>
-      <span class="block-time">15 min</span>
-    </div>
-    <div class="block-tag">Stick Control · Stone · pp.14, 22, 30</div>
-    <ul>
-      <li>Three pages, five minutes each — read the page before playing it</li>
-      <li><strong style="color:#ccc">p.14 — Accent combos:</strong> full strokes on accents, tap strokes on everything else. Dynamic gap should be obvious</li>
-      <li><strong style="color:#ccc">p.22 — Double beats:</strong> second stroke of each pair must match the first in volume and depth — that's where doubles fall apart</li>
-      <li><strong style="color:#ccc">p.30 — Flam studies:</strong> grace note lands just before the beat, not on it — if they sound simultaneous, the grace note is too late</li>
-      <li>Start each page at <span class="bpm-tag">60 BPM</span>, push to <span class="bpm-tag">90 BPM</span> once the technique is clean</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Watch for:</strong> Each page tests something different. Don't let the muscle memory from one page bleed into the next — reset between pages.
-    </div>
-    <div class="score-section">
-      <div class="score-label">Stick Control — p.14 (Accents)</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-014.png" alt="Stick Control p.14">
-      <div class="score-label">Stick Control — p.22 (Doubles)</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-022.png" alt="Stick Control p.22">
-      <div class="score-label">Stick Control — p.30 (Flams)</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-030.png" alt="Stick Control p.30">
-    </div>
-  </div>
-
-  <!-- 2 -->
-  <div class="block technique">
-    <div class="block-header">
-      <span class="block-title">2 — 20 Chops</span>
-      <span class="block-time">10 min</span>
-    </div>
-    <div class="block-tag">20 Chops · pp.2–4</div>
-    <ul>
-      <li>Pick two or three chops and go deep — don't skim all three pages</li>
-      <li>No click first — feel the sticking pattern, then add tempo</li>
-      <li>Push each chop to the edge of clean, note where it breaks</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Mindset:</strong> Own two chops completely rather than touching ten superficially.
-    </div>
-    <div class="score-section">
-      <div class="score-label">20 Chops — p.2</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/20-chops/page-002.png" alt="20 Chops p.2">
-      <div class="score-label">20 Chops — p.3</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/20-chops/page-003.png" alt="20 Chops p.3">
-      <div class="score-label">20 Chops — p.4</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/20-chops/page-004.png" alt="20 Chops p.4">
-    </div>
-  </div>
-
-  <!-- 3 -->
-  <div class="block technique">
-    <div class="block-header">
-      <span class="block-title">3 — Chapin: Hand Patterns</span>
-      <span class="block-time">10 min</span>
-    </div>
-    <div class="block-tag">Advanced Techniques for the Modern Drummer · Chapin · p.25</div>
-    <ul>
-      <li>Hands only on the pad — ignore foot notation</li>
-      <li>Metronome on 2 and 4 only — feel the pulse internally between clicks</li>
-      <li>Start at <span class="bpm-tag">60 BPM</span>, push to <span class="bpm-tag">75 BPM</span> once automatic</li>
-      <li>If counting out loud helps, do it — Chapin patterns need to be internalised before they can be felt</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Key principle:</strong> Still thinking about what each hand is doing means the tempo is too fast.
-    </div>
-    <div class="score-section">
-      <div class="score-label">Advanced Techniques — p.25</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/advanced-techniques-modern-drummer/page-025.png" alt="Chapin Advanced Techniques p.25">
-    </div>
-  </div>
-
-  <!-- 4 -->
-  <div class="block reading">
-    <div class="block-header">
-      <span class="block-title">4 — Reed: Syncopation Reading</span>
-      <span class="block-time">10 min</span>
-    </div>
-    <div class="block-tag">Progressive Steps to Syncopation · Reed · pp.38, 44, 52</div>
-    <ul>
-      <li>Snare only — all three pages, no orchestration</li>
-      <li>Count out loud through every rest — don't let them rush</li>
-      <li>Spend 3–4 minutes per page: one clean pass at <span class="bpm-tag">60 BPM</span>, then push</li>
-      <li>If a bar trips you up, loop it until it's boring, then move on</li>
-    </ul>
-    <div class="focus-box">
-      <strong>Carry forward:</strong> Reading stays on snare the whole block. That's the discipline — not the tempo.
-    </div>
-    <div class="score-section">
-      <div class="score-label">Reed Syncopation — p.38</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-steps-syncopation/page-038.png" alt="Reed Syncopation p.38">
-      <div class="score-label">Reed Syncopation — p.44</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-steps-syncopation/page-044.png" alt="Reed Syncopation p.44">
-      <div class="score-label">Reed Syncopation — p.52</div>
-      <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-steps-syncopation/page-052.png" alt="Reed Syncopation p.52">
-    </div>
-  </div>
-
-  <!-- 5 -->
-  <div class="block burnout">
-    <div class="block-header">
-      <span class="block-title">5 — Burnout: Single Stroke Sprint</span>
-      <span class="block-time">5 min</span>
-    </div>
-    <div class="block-tag">No click · Max speed · 3 rounds</div>
-    <ul>
-      <li>Single stroke roll — build to absolute max over 20–30 seconds</li>
-      <li>Hold until strokes blur or become uneven, then stop</li>
-      <li>Rest 20 seconds, repeat — 3 rounds total</li>
-      <li>Speed from relaxation, not tension — if the grip tightens, back off</li>
-    </ul>
-  </div>
-
-  <div class="divider"></div>
-
-  <div class="focus-box" style="margin-bottom: 24px;">
-    <strong>After session:</strong> Which Stick Control page was hardest? Which chops from 20 Chops felt weakest? Did the Reed reading stay on snare? Log it.
-  </div>
-
-</body>
+<script>
+(function() {
+  document.querySelectorAll('.swipe-wrap').forEach(function(wrap) {
+    var track = wrap.querySelector('.swipe');
+    var counter = wrap.querySelector('.swipe-counter');
+    if (!track || !counter) return;
+    var total = track.children.length;
+    function update() {
+      var idx = Math.round(track.scrollLeft / track.clientWidth) + 1;
+      if (idx < 1) idx = 1;
+      if (idx > total) idx = total;
+      counter.textContent = idx + ' / ' + total;
+    }
+    track.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+})();
+</script></body>
 </html>

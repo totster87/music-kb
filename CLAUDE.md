@@ -62,6 +62,26 @@ All score PNGs in `docs/rendered/` are stored in **Git LFS**. GitHub Pages serve
 <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/<slug>/page-XXX.png" alt="...">
 ```
 
+### Swipe carousels for multi-page sections
+When a routine block references **2+ pages from the same source**, do NOT stack
+them vertically. Wrap them in a swipe carousel so they take the space of a
+single page. iPhone Safari handles the swipe natively via CSS scroll-snap.
+
+Pattern (drop the CSS into `<style>`, the script before `</body>`):
+```html
+<div class="swipe-wrap">
+  <div class="swipe">
+    <div class="slide"><div class="score-label">Book — p.X</div><img class="score-img" src="..."></div>
+    <div class="slide"><div class="score-label">Book — p.Y</div><img class="score-img" src="..."></div>
+  </div>
+  <div class="swipe-counter">1 / 2</div>
+  <div class="swipe-hint">← swipe →</div>
+</div>
+```
+Shortcut: write the routine with plain `score-section` blocks containing
+multiple `score-img` tags, then run `python docs/viewers/add_swipe_carousels.py`
+to retrofit (idempotent — safe to re-run).
+
 ### Deployment
 - GitHub Pages deploys from `main` branch — all viewer files must be on `main` to be accessible
 - Feature branches are NOT served by GitHub Pages
