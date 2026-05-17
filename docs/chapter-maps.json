@@ -411,9 +411,16 @@
       "title": "The Evolution of Blast Beats",
       "author": "Derek Roddy",
       "instrument": "drums",
-      "pages_rendered": 0,
+      "pages_rendered": 5,
       "type": "method",
-      "notes": "Not yet ingested. Known from screenshots: 4 blast types intro p.22, Kick variations p.15, Double Bass Workout p.79–81+."
+      "notes": "Partial ingest — 5 excerpt pages. Full book not yet ingested.",
+      "sections": [
+        { "name": "Skank Beats",                  "rendered": [1, 1] },
+        { "name": "Punk",                          "rendered": [2, 2] },
+        { "name": "Blast Beats",                   "rendered": [3, 3] },
+        { "name": "Traditional Blast Variations",  "rendered": [4, 4] },
+        { "name": "Double Bass Workout — 32nd Note Spurts", "rendered": [5, 5] }
+      ]
     }
   },
   "companion_books": {
