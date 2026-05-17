@@ -36,8 +36,19 @@ Use these relation types in the `## Relations` section:
 ### Session start sequence
 1. Call `mcp__basic-memory__recent_activity` with `project="music-kb"` and `timeframe="7d"`
 2. If it succeeds: greet the user with a brief summary of what was recently worked on
-3. If it fails or tools are unavailable: tell the user immediately — **"Basic Memory could not load — MCP server may not be running"** — then greet normally
-4. Do NOT read any other files, generate routines, or do anything else until the user asks
+3. If it fails or tools are unavailable: tell the user briefly — **"Basic memory is down — falling back to Practice Log."** Then:
+   - Read the last ~20 lines of `practice/Practice Log.md`
+   - List the 3 most recent files in `practice/sessions/`
+   - Greet with a brief summary of recent practice from those sources
+4. After the greeting, do NOT read other files, generate routines, or do anything else until the user asks
+
+### Logging sessions when Basic Memory is down
+If the MCP server is unavailable when it's time to log a session:
+- Append a new row to `practice/Practice Log.md` matching the existing table format
+- Create a session note at `practice/sessions/YYYY-MM-DD-instrument.md` following the canonical format (see `2026-05-11-guitar.md`)
+- Skip the `## Relations` block (wikilinks rely on Basic Memory) — note in the file that relations were skipped
+- Commit and push as usual
+- When Basic Memory comes back, the existing notes will reindex automatically
 
 ---
 
