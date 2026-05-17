@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABR — Composure</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #111; font-family: -apple-system, sans-serif; color: #ddd; line-height: 1.6; }
+  header { position: sticky; top: 0; background: #0a0a0a; padding: 14px 20px;
+            border-bottom: 1px solid #222; z-index: 10; }
+  header h1 { font-size: 1rem; color: #fff; }
+  header p { font-size: 0.75rem; color: #666; margin-top: 2px; }
+  .content { max-width: 860px; margin: 0 auto; padding: 20px 16px; }
+  .swipe-wrap { position: relative; margin: 8px 0 4px; }
+  .swipe {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    border-radius: 8px;
+    background: #161616;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  }
+  .swipe::-webkit-scrollbar { display: none; }
+  .swipe > .slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    background: #1a1a1a;
+  }
+  .slide .page-label { padding: 7px 16px; font-size: 0.7rem; color: #555;
+                       background: #111; border-bottom: 1px solid #222; }
+  .slide img { width: 100%; display: block; min-height: 200px; background: #1a1a1a; }
+  .swipe-counter {
+    position: absolute;
+    top: 8px; right: 10px;
+    background: rgba(0,0,0,0.65);
+    color: #ddd;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 10px;
+    pointer-events: none;
+    letter-spacing: 0.03em;
+  }
+  .swipe-hint {
+    text-align: center;
+    font-size: 0.7rem;
+    color: #555;
+    margin-top: 4px;
+    letter-spacing: 0.05em;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>After the Burial — Composure</h1>
+  <p>Guitar · Messengers · Drop D</p>
+</header>
+<div class="content">
+<div class="swipe-wrap">
+<div class="swipe">
+<div class="slide">
+  <div class="page-label">Page 63</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-063.png" alt="Page 63" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 64</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-064.png" alt="Page 64" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 65</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-065.png" alt="Page 65" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 66</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-066.png" alt="Page 66" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 67</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-067.png" alt="Page 67" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 68</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-068.png" alt="Page 68" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 69</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-069.png" alt="Page 69" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 70</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-070.png" alt="Page 70" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 71</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-071.png" alt="Page 71" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 72</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-072.png" alt="Page 72" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 73</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-073.png" alt="Page 73" loading="lazy">
+</div>
+<div class="slide">
+  <div class="page-label">Page 74</div>
+  <img src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-074.png" alt="Page 74" loading="lazy">
+</div>
+</div>
+<div class="swipe-counter">1 / 12</div>
+<div class="swipe-hint">← swipe →</div>
+</div>
+</div>
+<script>
+(function() {
+  document.querySelectorAll('.swipe-wrap').forEach(function(wrap) {
+    var track = wrap.querySelector('.swipe');
+    var counter = wrap.querySelector('.swipe-counter');
+    if (!track || !counter) return;
+    var total = track.children.length;
+    function update() {
+      var idx = Math.round(track.scrollLeft / track.clientWidth) + 1;
+      if (idx < 1) idx = 1;
+      if (idx > total) idx = total;
+      counter.textContent = idx + ' / ' + total;
+    }
+    track.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+})();
+</script>
+</body>
+</html>
