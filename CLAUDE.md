@@ -126,6 +126,13 @@ Do NOT default to any specific song. Generate a fresh varied routine by:
 6. Commit, push, output the GitHub Pages URL: `https://totster87.github.io/music-kb/docs/viewers/Guitar-Routine-YYYY-MM-DD.html`
 7. After the session ask for BPM + difficulty notes, log to Practice Log, commit and push
 
+**Warm-up block — always include one of these guitar workout sources:**
+Rotate page by page across sessions — don't repeat the same Vai page two routines in a row. Track the last-used page in the routine viewer so the next routine picks the following one. When a source is exhausted, cycle back to page 1.
+- **Steve Vai — 10 Hour Guitar Workout** (`vai-10-hour-workout`, 6 pages) — primary warm-up source. Embed the day's page via the swipe carousel, brief BPM target, 5–8 min block.
+- **120 Right Hand Studies — Giuliani** (`120-right-hand-studies-giuliani`, 15 pages) — alternate warm-up source when Vai feels stale. Classical right-hand control, transfers to pick-hand independence.
+- **Scale Studies for Jazz Guitar — Rick Stone** (`scale-studies-jazz-guitar-stone`, 24 pages) — alternate when scale/legato fluency is the priority.
+- The block should always reference the slug and embed the score page via the standard `media.githubusercontent.com` CDN URL.
+
 ### "drum routine" / "make me a drum routine"
 Do NOT default to any specific exercise. Generate a fresh varied routine by:
 1. Read `practice/Practice Log.md` (last 5–10 entries) to see what was last worked on — avoid repeating the same thing
