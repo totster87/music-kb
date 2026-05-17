@@ -280,7 +280,7 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 | `evolution-of-blast-beats` | The Evolution of Blast Beats | Derek Roddy | ~100 | NOT YET CHAPTERIZED — do not use in routines / No pages ingested yet — screenshots only / Known from screenshots: 4 blast types intro p.22 / Kick variations p.15 / Double Bass Workout p.79–81+ |
 | `rod-morgenstein-drum-set-warm-ups` | Drum Set Warm-Ups | Rod Morgenstein | ? | NOT YET CHAPTERIZED — pages not yet rendered |
 | `jungle-drum-n-bass` | Jungle / Drum n Bass | — | ? | NOT YET CHAPTERIZED — pages not yet rendered |
-| `120-right-hand-studies-giuliani` | 120 Right Hand Studies | Mauro Giuliani | 15 | Page-by-page rotation — no chapter map. Embed one page per warm-up, cycle p.1→p.15. |
+| `120-right-hand-studies-giuliani` | 120 Right Hand Studies | Mauro Giuliani | 15 | Page-by-page rotation. Cycle pp.3→14 only (skip pp.1–2 intro and p.15). |
 | `scale-studies-jazz-guitar-stone` | Scale Studies for Jazz Guitar | Rick Stone | 24 | Page-by-page rotation — no chapter map. Embed one page per warm-up, cycle p.1→p.24. |
 | `converge-axe-to-fall` | Converge — Axe to Fall | — | ? | Guitar tab — pages not yet rendered |
 | `converge-concubine` | Converge — Concubine | — | ? | Guitar tab — pages not yet rendered |

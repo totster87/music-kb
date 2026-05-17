@@ -21,7 +21,7 @@ Source slug: `120-right-hand-studies-giuliani`.
 Viewer: https://totster87.github.io/music-kb/docs/viewers/Giuliani-120-Right-Hand-Studies-Full.html
 
 ## Usage Pattern
-Embed ONE page at a time in routine warm-up blocks. Rotate sequentially across sessions (p.1 → p.2 → p.3 …). Cycle back to p.1 when p.15 is reached. Track last-used page in the routine viewer note so the next routine picks the following one.
+Embed ONE page at a time in routine warm-up blocks. **Rotation starts at p.3 and ends at p.14** — pp.1–2 are intro/foreword, p.15 is not useful as warm-up material. Rotate sequentially (p.3 → p.4 → … → p.14), then cycle back to p.3. Track last-used page in the routine viewer note so the next routine picks the following one.
 
 ## Notes
 - Classical guitar right-hand technique studies — 120 progressive exercises
