@@ -91,8 +91,20 @@ Source slug: `jungle-drum-n-bass`.
 - Good for: breakbeat vocabulary, syncopated kick/snare patterns, hi-hat independence, high-BPM groove application
 - Pages 1–24 are intro/front matter — skip when embedding in routines
 
-## Candidates for Rotation
-*(populate after first sessions)*
-
 ## Exercises Worked On
-*(none yet)*
+
+### p.40 — Eighth-Note Off-Beat Exercises: Two Measures (Ch.2)
+- **Chapter:** Ch.2 — Eighth-Note Grooves (pp.31–44)
+- **Focus:** breakbeat eighth-note patterns, off-beat placement
+- **Tags:** breakbeat, eighth-note, groove, off-beat, DnB
+- **Status:** in-rotation
+- **Current ceiling:** ~175 BPM
+- **Last worked:** 2026-05-17
+- **BPM History:**
+  - 2026-05-17: ~175 BPM — first session, got most patterns there
+- **Notes:** First session on this book. Fun. Right arm got shock/zing — stopped early. Next session: push deeper into p.40, then try p.41–42.
+
+## Candidates for Rotation
+- pp.31–39 — Ch.2 earlier pages: work forwards from p.40
+- pp.41–44 — Ch.2 later pages: extend current work
+- pp.45–54 — Ch.3 Sixteenth-Note Grooves: step up after 8th-note grooves settle

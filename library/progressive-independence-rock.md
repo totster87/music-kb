@@ -41,6 +41,17 @@ Note: Older routines reference "Part 3" — that maps to Section 1 (Right Hand 8
   - 2026-05-12: 85 BPM — fast swung 16ths tough; played each beat 4× through full page
 - **Notes:** Swung-16ths variant is where it gets hard.
 
+### pp.57–58 — Section 3 (Right Hand Up-Beats)
+- **Chapter:** Section 3 — Right Hand Up-Beats (pp.57–83)
+- **Focus:** right hand anchored on up-beats (&) with snare/bass independence
+- **Tags:** independence, up-beats, syncopation, rock
+- **Status:** in-rotation
+- **Current ceiling:** 100 BPM (felt easy)
+- **Last worked:** 2026-05-17
+- **BPM History:**
+  - 2026-05-17: 85–100 BPM — felt easy. Grooved mostly at 85.
+- **Notes:** Up-beat anchor held well. Push tempo next session.
+
 ## Candidates for Rotation
 - pp.30–31 — Section 2 (Right Hand Quarter Notes): featured in routine 2026-05-15, untouched in log
 - pp.57–83 — Section 3 (Right Hand Up-Beats): syncopated independence layer

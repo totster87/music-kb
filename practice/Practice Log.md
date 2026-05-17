@@ -232,4 +232,37 @@ tags:
 - 80 BPM getting sloppy — regression from 90 BPM ceiling on 2026-05-03
 - Needs dedicated blocks to rebuild
 
+---
+
+### 2026-05-17 — Drums
+
+**Morgenstein — Drum Set Warm-Ups pp.5–7 (L1 first session)**
+- 60 BPM · first time on this book
+- Had to reinterpret exercises — only 2 toms, not 3
+- Made up own variations inspired by the page — felt like a valid approach
+- Did RLRLRL alternating on 32nd notes rather than RRRR one-hand patterns
+- Great core workout and accuracy — promising warm-up source
+
+**Stick Control pp.24–25 — Short Rolls in 6/8**
+- 85 BPM comfortable, no problem
+- Added quarter kick + HF for 2/3 polyrhythm feel
+- Only did first 2 pages
+
+**PI Rock S3 — Right Hand Up-Beats pp.57–58**
+- Felt easy even at 100 BPM
+- Mostly grooved at 85 BPM
+- New section — up-beat anchor held well
+
+**Donati — Bass Drum Flams pp.109–110 (Ch.9)**
+- First exercise tough coordination
+- Flam sound on bass is wonky — not sure it's musically appealing, but coordination challenge is real
+- Some cool grooves on p.2 (p.110) — can't play them all yet
+
+**Jungle / Drum 'n' Bass p.40 — first session**
+- Fun — got most patterns to ~175 BPM
+- Right arm got shock/zing — stopped, needs rest
+
+**Sextuplet Sprint (burnout)**
+- 106 BPM cap on sustained sextuplets
+
 **Not reached:** ABR Treatment (block 6), ETID Low Teens (block 8)

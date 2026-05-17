@@ -68,4 +68,11 @@ Source slug: `rod-morgenstein-drum-set-warm-ups`.
 *(populate after first sessions)*
 
 ## Exercises Worked On
-*(none yet)*
+
+### L1 — One-Hand Sixteenths (rendered p.7)
+- **Status:** in-rotation
+- **Current ceiling:** 60 BPM
+- **Last worked:** 2026-05-17
+- **BPM History:**
+  - 2026-05-17: 60 BPM — first session
+- **Notes:** Reinterpreted for 2 toms (book assumes 3). Made own kit variations inspired by the page. RLRLRL alternating 32nds instead of one-hand patterns. Great core workout, accuracy focus. Good warm-up source.

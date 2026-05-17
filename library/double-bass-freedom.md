@@ -59,6 +59,14 @@ Source slug: `double-bass-freedom`. 135 pages.
 - **Status:** attempted (in routine 2026-05-15)
 - **Notes:** Featured in 2026-05-15 routine; no BPM logged yet.
 
+### pp.109–110 — Bass Drum Flams (Ch.9)
+- **Chapter:** Ch.9 Bass Drum Flams (pp.109–118)
+- **Focus:** staggered bass drum hits (flam timing between feet)
+- **Tags:** double-bass, flams, coordination, timing
+- **Status:** attempted
+- **Last worked:** 2026-05-17
+- **Notes:** First exercise tough — pure coordination challenge. Sound is unusual/wonky, not sure it's musically appealing yet. Some cool grooves on p.110. Can't play them all. Needs more time.
+
 ## Candidates for Rotation
 - pp.6–20 — Ch.1 Getting Started (early): foundational warm-up material
 - pp.28–36 — Ch.2 Left Foot Technique: directly targets the left-foot bottleneck from Morello p.71

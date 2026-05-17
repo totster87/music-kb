@@ -38,7 +38,10 @@ See [[Stick Control - Page 1 Applications]] for hands/feet/fill-in/jazz applicat
 - **Last worked:** 2026-05-11
 - **BPM History:**
   - 2026-05-11: 80 BPM — added quarter note bass pulse in 3/4, hats roughly every two bars
-- **Notes:** Felt fine at 80.
+  - 2026-05-17: 85 BPM comfortable — added quarter kick + HF for 2/3 polyrhythm feel. Only did pp.24–25.
+- **Current ceiling:** 85 BPM
+- **Status:** in-rotation
+- **Last worked:** 2026-05-17
 
 ## Candidates for Rotation
 - pp.10–15 — Short Roll Combinations: natural extension after Single Beat work
