@@ -18,10 +18,11 @@ tags:
 *Steve Vai*
 
 Source slug: `vai-10-hour-workout`.
-**Not yet chapterized** — pages not yet rendered. Do not use in routines until pages are ingested.
+**6 pages rendered.** Ready to use in routines — chapterize after first session.
+Viewer: https://totster87.github.io/music-kb/docs/viewers/Vai-10-Hour-Workout.html
 
 ## Exercises Worked On
-*(none yet)*
+*(none yet — first session pending)*
 
 ## Notes
 - Steve Vai's structured technique workout — originated in Guitar World as the "30 Hour Workout," expanded/condensed versions circulate as the 10 Hour Workout
