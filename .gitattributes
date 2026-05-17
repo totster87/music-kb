@@ -26,3 +26,4 @@ docs/rendered/converge-worms-will-feed/*.png filter=lfs diff=lfs merge=lfs -text
 docs/rendered/vai-10-hour-workout/*.png filter=lfs diff=lfs merge=lfs -text
 docs/rendered/abr-rescue-and-restore/*.png filter=lfs diff=lfs merge=lfs -text
 docs/rendered/ted-greene-modern-chord-progressions/*.png filter=lfs diff=lfs merge=lfs -text
+docs/rendered/modern-rudimental-swing-solos/*.png filter=lfs diff=lfs merge=lfs -text
