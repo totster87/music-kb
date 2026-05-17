@@ -28,3 +28,4 @@ docs/rendered/abr-rescue-and-restore/*.png filter=lfs diff=lfs merge=lfs -text
 docs/rendered/ted-greene-modern-chord-progressions/*.png filter=lfs diff=lfs merge=lfs -text
 docs/rendered/modern-rudimental-swing-solos/*.png filter=lfs diff=lfs merge=lfs -text
 docs/rendered/evolution-of-blast-beats/*.png filter=lfs diff=lfs merge=lfs -text
+docs/rendered/art-of-brushes-thigpen/*.png filter=lfs diff=lfs merge=lfs -text
