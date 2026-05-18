@@ -25,9 +25,10 @@ tuning: drop-d
 ## Song Structure
 | Section | Time | BPM | Notes |
 |---------|------|-----|-------|
-| A — Clean Intro | 0:00 | ♩=99 | Let ring, two guitars, string skipping, score pp.7–8 |
+| A — Clean Intro | 0:00 | ♩=99 | Let ring, two guitars, string skipping, score pp.7–8 (viewer pp.1–2) |
 | A — Slow down | ~0:30 | 98→75 | Tempo decelerates, Guitar 2 slides down |
-| B — Main riff | 0:38 | ♩=135 | Distortion, both guitars unison, heavy palm mute open D |
+| B — Main riff | 0:38 | ♩=135 | Distortion, both guitars unison, heavy palm mute open D, score p.8 (viewer p.2) |
+| C | — | — | score pp.9–10 (viewer pp.3–4) |
 
 ## Current Progress
 - **Section A (Clean Intro):** In progress
