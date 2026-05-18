@@ -8,7 +8,7 @@ tags:
 - learning
 - metal
 - hardcore
-status: not-started
+status: in-progress
 tuning: unknown
 ---
 
@@ -20,11 +20,14 @@ tuning: unknown
 - **Transcription:** Guitar Pro export
 
 ## Current Progress
-- **Status:** Not started — pages not yet rendered
+- **Status:** In progress — first session 2026-05-17
+- Most parts understood and playable
+- Close to song tempo but no BPM measured yet
 
 ## BPM Log
 | Date | Pass | BPM | Notes |
 |------|------|-----|-------|
+| 2026-05-17 | First pass | ~song tempo | Most parts understood, feels playable. No BPM number yet. |
 
 ## Relations
 - belongs_to [[Converge Songs]]

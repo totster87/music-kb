@@ -52,6 +52,11 @@ tags:
 | 2026-05-15 | ABR — Truth of a Liar, m.30 | Guitar (Drop D) | 123–124 BPM | String skipping still flaky at ceiling. No change from 2026-05-11. |
 | 2026-05-15 | Pinch harmonics — B string | Guitar | — | Lower hit rate than estimated. First knuckle of thumb works better than pad. Still inconsistent. |
 | 2026-05-15 | BTBAM — Prequel to the Sequel, Intro lead | Guitar | 80 BPM | 80 getting sloppy — regression from 90 BPM on 2026-05-03. |
+| 2026-05-17 | Legato warm-up — hammer-ons/pull-offs | Guitar | 80 BPM | String noise on pull-offs — switch to triplets/eighths (not sixteenths). 4321 descends in volume. Left fingers touching higher strings mid-pull-off. |
+| 2026-05-17 | Upstroke accent drill | Guitar | 80 BPM | Solid on all strings at 80. e and & positions hardest. |
+| 2026-05-17 | Better Lovers — Lie Between the Lines, Section C (pp.9–10) | Guitar (Drop D) | 120–135 BPM | Starts flubbing above 120. Bass note sounds off — 6th string open D ringing as A. |
+| 2026-05-17 | ABR — Truth of a Liar | Guitar (Drop D) | — | More comfortable overall. Palm mutes not punchy when plugged in — lift hand for accented notes then return. |
+| 2026-05-17 | Converge — Hum of Hurt | Guitar | ~song tempo | First session. Most parts understood and playable. Close to tempo but no BPM yet. |
 
 ---
 
@@ -271,3 +276,37 @@ tags:
 - 106 BPM cap on sustained sextuplets
 
 **Not reached:** ABR Treatment (block 6), ETID Low Teens (block 8)
+
+---
+
+### 2026-05-17 — Guitar
+
+**Legato Warm-Up — hammer-ons/pull-offs (4321 pattern)**
+- Max: 80 BPM
+- Sixteenths causing string noise on pull-offs — switch to triplets or eighths
+- Volume descends across fingers (4→1) — 4 and 3 louder, 1 weakest
+- Left fingers clipping higher strings mid-pull-off: needs closer, more vertical fretting
+
+**Upstroke Accent Drill**
+- Solid at 80 BPM on all strings
+- e and & positions (2nd and 4th 16th subdivisions) are hardest
+
+**Better Lovers — Lie Between the Lines, Section C (pp.9–10, viewer pp.3–4)**
+→ `repertoire/Better Lovers - Lie Between the Lines.md`
+- Starts flubbing above 120 BPM (song tempo 135)
+- Bass note sounds off — 6th string open D ringing as A
+- Not yet at full tempo — needs chunked-up work
+
+**ABR — Truth of a Liar**
+→ `repertoire/ABR - Truth of a Liar.md`
+- More comfortable overall; feel for the riff improving
+- Palm mutes not punchy when plugged in — pick hand sitting flat muting everything
+- Fix: lift hand for the accented/open note, then immediately return to mute position
+
+**Converge — Hum of Hurt — first session**
+→ `repertoire/Converge - Hum of Hurt.md`
+- Parts feel understood and playable
+- Close to song tempo but didn't stop to measure BPM
+- Good first pass — worth another block next session with a click
+
+**Not reached:** Rick Stone scales (block 6), pinch harmonics (block 7), cool-down (block 8)

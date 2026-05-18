@@ -35,6 +35,7 @@ tuning: drop-d
   - String skipping is the speed bottleneck
   - Single-string tremolo faster than multi-string skipping
   - Tendency to pull off instead of picking all notes on higher strings
+  - Palm mutes not punchy when plugged in — lift pick hand for accented notes, return to mute position after
 
 ## BPM Log
 | Date | Section | BPM | Notes |
@@ -42,6 +43,7 @@ tuning: drop-d
 | 2026-05-03 | Section A | 120 | Started 75, auto-incremented. 105 iffy, 118 sloppy. String skipping bottleneck. |
 | 2026-05-11 | Section A / m.30 E | 124 | Mutes between chugs settling in. Pre-section riff feels fun. Breaks down at 124. |
 | 2026-05-15 | m.30 | 123–124 | Ceiling unchanged. String skipping still flaky at max tempo. |
+| 2026-05-17 | Full section | — | More comfortable overall. Palm mutes not punchy plugged in — need lift-and-return technique for accented notes. |
 
 ## Relations
 - same_album_as [[ABR - Treatment]]
