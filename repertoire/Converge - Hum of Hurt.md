@@ -8,6 +8,8 @@ tags:
 - learning
 - metal
 - hardcore
+- tremolo
+- single-string
 status: in-progress
 tuning: unknown
 ---
@@ -18,6 +20,9 @@ tuning: unknown
 - **Source slug:** `converge-hum-of-hurt`
 - **Genre:** Metalcore / hardcore
 - **Transcription:** Guitar Pro export
+
+## Technique Focus
+- Good single-string tremolo practice in a musical context — use this song to build picking endurance at speed
 
 ## Current Progress
 - **Status:** In progress — first session 2026-05-17
@@ -31,3 +36,4 @@ tuning: unknown
 
 ## Relations
 - belongs_to [[Converge Songs]]
+- practice_target [[Single String Tremolo]]
