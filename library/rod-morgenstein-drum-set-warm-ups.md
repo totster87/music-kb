@@ -64,6 +64,22 @@ Source slug: `rod-morgenstein-drum-set-warm-ups`.
 - Good for: limb warm-up, stick control applied to kit, foot endurance, dynamic independence
 - Skip single-page lessons when time is short — multi-page lessons (L3, L10, L20, L21, L22, L34) have more material
 
+### L2 — Four Strokes Per Hand (rendered p.8)
+- **Status:** in-rotation
+- **Current ceiling:** 90 BPM
+- **Last worked:** 2026-05-21
+- **BPM History:**
+  - 2026-05-21: 90 BPM — scattered, worked around kit
+- **Notes:** Good workout. Scattered approach — tends to roam rather than stay on one surface.
+
+### L3 — Alternating Single Strokes (rendered pp.9–12)
+- **Status:** in-rotation
+- **Current ceiling:** 90 BPM
+- **Last worked:** 2026-05-21
+- **BPM History:**
+  - 2026-05-21: 90 BPM — combined with L2 block
+- **Notes:** Good movement exercise. Same scattered tendency as L2.
+
 ## Candidates for Rotation
 *(populate after first sessions)*
 

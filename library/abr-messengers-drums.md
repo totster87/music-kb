@@ -61,8 +61,13 @@ Source slug: `abr-messengers-drums`.
 - **Bottlenecks:** Measure 7 slows things down. Arm fatigue.
 - **Notes:** First session. Good ceiling for a first pass.
 
+### The Blinding Light — rendered p.39–50
+- **Focus:** metal transcription, full kit
+- **Status:** attempted
+- **Last worked:** 2026-05-21
+- **Notes:** First session. Much slower than expected — no tempo established yet. Need to map the form and isolate sections before attempting full tempo.
+
 ## Tracks Untouched
-- The Blinding Light (rendered p.39–50)
 - Composure (rendered p.51–60)
 - Vital Signs (rendered p.61–69)
 - The Eleventh Hour (rendered p.70–80)

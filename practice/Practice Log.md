@@ -57,6 +57,12 @@ tags:
 | 2026-05-17 | Better Lovers — Lie Between the Lines, Section C (pp.9–10) | Guitar (Drop D) | 120–135 BPM | Starts flubbing above 120. Bass note sounds off — 6th string open D ringing as A. |
 | 2026-05-17 | ABR — Truth of a Liar | Guitar (Drop D) | — | More comfortable overall. Palm mutes not punchy when plugged in — lift hand for accented notes then return. |
 | 2026-05-17 | Converge — Hum of Hurt | Guitar | ~song tempo | First session. Most parts understood and playable. Close to tempo but no BPM yet. |
+| 2026-05-21 | Morgenstein — Drum Set Warm-Ups L2–L3 (pp.8–10) | Drums | 90 BPM | Scattered approach — worked around the kit. Good workout. |
+| 2026-05-21 | Stick Control pp.10–11 — Short Roll Combinations | Drums | 90 BPM | Solid warmup. Doesn't feel musical on its own — tries to orchestrate it around kit. |
+| 2026-05-21 | Wilcoxon — Modern Rudimental Swing Solos p.17 | Drums (pad) | — | Challenging but not fun on drumset — better as a pad-only exercise. |
+| 2026-05-21 | Donati — Left Foot Technique Ch.2 pp.28–30 | Drums — Double Bass | — | Fun, great left foot workout. Left foot late getting on grid at start of note chains — fluttery. |
+| 2026-05-21 | Latham — Advanced Funk Studies pp.20–21 | Drums | 37 BPM | p.20 very slow at 37 BPM a bar. p.21 — 4+5 breakdown fun. |
+| 2026-05-21 | ABR Messengers Drums — The Blinding Light pp.39–41 | Drums | — | Much slower than expected. First session — no tempo established yet. |
 
 ---
 
@@ -310,3 +316,33 @@ tags:
 - Good first pass — worth another block next session with a click
 
 **Not reached:** Rick Stone scales (block 6), pinch harmonics (block 7), cool-down (block 8)
+
+---
+
+### 2026-05-21 — Drums
+
+**Morgenstein L2–L3 (pp.8–10)**
+- 90 BPM · scattered around the kit rather than staying on one surface
+- Good workout regardless — useful warm-up material
+
+**Stick Control pp.10–11 — Short Roll Combinations**
+- 90 BPM · solid warmup
+- Doesn't feel musical straight — tries to orchestrate around kit. Better treated as pure sticking drill.
+
+**Wilcoxon — Modern Rudimental Swing Solos p.17**
+- First session in this book. Challenging but not engaging on full kit.
+- Better as pad-only material — skip in future kit sessions.
+
+**Donati Ch.2 — Left Foot Technique (pp.28–30)**
+- Fun and effective. Great isolated left foot workout.
+- Key finding: left foot is late *entering* a chain of notes — gets on the grid after a couple notes, not from note 1. Startup flutteriness, not a running tempo problem.
+
+**Latham — Advanced Funk Studies (pp.20–21)**
+- p.20: very slow at 37 BPM per bar — material is dense, needs more time
+- p.21: the 4+5 pattern breakdown was fun and engaging
+
+**ABR Messengers Drums — The Blinding Light (pp.39–41)**
+- First session. Much slower than expected.
+- No tempo established — needs form mapping before pushing speed.
+
+**Burnout:** skipped

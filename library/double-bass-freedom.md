@@ -67,6 +67,14 @@ Source slug: `double-bass-freedom`. 135 pages.
 - **Last worked:** 2026-05-17
 - **Notes:** First exercise tough — pure coordination challenge. Sound is unusual/wonky, not sure it's musically appealing yet. Some cool grooves on p.110. Can't play them all. Needs more time.
 
+### pp.28–30 — Left Foot Technique (Ch.2)
+- **Chapter:** Ch.2 Left Foot Technique (pp.28–36)
+- **Focus:** isolated left foot control and independence
+- **Tags:** double-bass, left-foot, coordination, isolation
+- **Status:** in-rotation
+- **Last worked:** 2026-05-21
+- **Notes:** Fun block, great isolated left foot workout. Key finding: left foot is late getting on the grid at the *start* of a note chain — fluttery/delayed entry, not consistent once running. Startup problem, not endurance problem. Needs targeted repetition of the moment of entry.
+
 ## Candidates for Rotation
 - pp.6–20 — Ch.1 Getting Started (early): foundational warm-up material
 - pp.28–36 — Ch.2 Left Foot Technique: directly targets the left-foot bottleneck from Morello p.71

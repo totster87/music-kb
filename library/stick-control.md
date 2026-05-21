@@ -43,6 +43,17 @@ See [[Stick Control - Page 1 Applications]] for hands/feet/fill-in/jazz applicat
 - **Status:** in-rotation
 - **Last worked:** 2026-05-17
 
+### pp.10–11 — Short Roll Combinations
+- **Chapter:** Short Roll Combinations (pp.10–15)
+- **Focus:** short roll sticking patterns
+- **Tags:** hands, rolls, sticking, warm-up
+- **Status:** in-rotation
+- **Current ceiling:** 90 BPM
+- **Last worked:** 2026-05-21
+- **BPM History:**
+  - 2026-05-21: 90 BPM — solid warmup
+- **Notes:** Doesn't feel musical played straight — useful as sticking drill but needs orchestration to groove. Not a groove source.
+
 ## Candidates for Rotation
 - pp.10–15 — Short Roll Combinations: natural extension after Single Beat work
 - pp.16–23 — Flams: touchpoint before Morello flam studies

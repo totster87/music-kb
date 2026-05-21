@@ -24,8 +24,12 @@ Avoid p.5 (author bio).
 - **Chapter:** Funk Patterns (pp.20–24)
 - **Focus:** funk grooves
 - **Tags:** funk, groove, hi-hat, kick-snare
-- **Status:** attempted (in routine 2026-05-15)
-- **Notes:** Featured in 2026-05-15 routine; no BPM logged yet.
+- **Status:** in-rotation
+- **Current ceiling:** 37 BPM (p.20, very slow — material is dense)
+- **Last worked:** 2026-05-21
+- **BPM History:**
+  - 2026-05-21: 37 BPM per bar (p.20) — slow first pass; p.21 had a fun 4+5 pattern breakdown
+- **Notes:** p.20 dense — needs more time at slow tempo before pushing. p.21's 4+5 breakdown stood out as engaging. Worth revisiting p.21 specifically.
 
 ## Candidates for Rotation
 - p.10 — Introductory Exercises: warm into the system
