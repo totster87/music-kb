@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drum Routine — 2026-05-21</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #111; color: #eee; padding: 16px; }
+  h1 { font-size: 1.3rem; font-weight: 700; margin-bottom: 4px; }
+  .subtitle { font-size: 0.85rem; color: #888; margin-bottom: 20px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .chip { background: #222; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.75rem; color: #aaa; }
+  .block { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; margin-bottom: 20px; overflow: hidden; }
+  .block-header { padding: 14px 16px 10px; border-bottom: 1px solid #2a2a2a; }
+  .block-num { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #666; margin-bottom: 4px; }
+  .block-title { font-size: 1rem; font-weight: 600; color: #fff; }
+  .block-meta { font-size: 0.78rem; color: #888; margin-top: 4px; }
+  .block-body { padding: 12px 16px 14px; }
+  .cue { font-size: 0.85rem; color: #ccc; line-height: 1.55; }
+  .cue li { margin-left: 16px; margin-bottom: 3px; }
+  .record-badge { display: inline-block; background: #8B0000; color: #ffaaaa; font-size: 0.7rem; font-weight: 600; border-radius: 10px; padding: 2px 9px; margin-left: 8px; vertical-align: middle; letter-spacing: 0.05em; }
+  .bpm-pill { display: inline-block; background: #1e2d1e; color: #6dbb6d; border: 1px solid #2d4a2d; border-radius: 8px; padding: 3px 10px; font-size: 0.78rem; font-weight: 600; margin-top: 6px; }
+
+  /* Swipe carousel */
+  .swipe-wrap { margin-top: 12px; }
+  .swipe { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 0; }
+  .swipe::-webkit-scrollbar { display: none; }
+  .slide { flex: 0 0 100%; scroll-snap-align: start; }
+  .score-label { font-size: 0.72rem; color: #666; text-align: center; padding: 6px 0 4px; letter-spacing: 0.04em; }
+  .score-img { width: 100%; display: block; background: #fff; }
+  .swipe-counter { text-align: center; font-size: 0.72rem; color: #555; margin-top: 6px; }
+  .swipe-hint { text-align: center; font-size: 0.7rem; color: #444; margin-top: 2px; margin-bottom: 6px; letter-spacing: 0.03em; }
+
+  .burnout { border-color: #3a1a1a; background: #1a1010; }
+  .burnout .block-title { color: #ff7070; }
+  .burnout .block-num { color: #552222; }
+</style>
+</head>
+<body>
+
+<h1>Drum Routine</h1>
+<div class="subtitle">2026-05-21 · ~60 min</div>
+
+<div class="chips">
+  <div class="chip">Morgenstein L2–L3</div>
+  <div class="chip">Stick Control short rolls</div>
+  <div class="chip">Wilcoxon ⭐</div>
+  <div class="chip">Donati left foot</div>
+  <div class="chip">Latham funk</div>
+  <div class="chip">ABR Blinding Light</div>
+  <div class="chip">Burnout: unison</div>
+</div>
+
+<!-- BLOCK 1 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 1 · 10 min</div>
+    <div class="block-title">Warm-Up — Morgenstein L2–L3</div>
+    <div class="block-meta">Four Strokes Per Hand → Alternating Single Strokes</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">60–80 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>L2 (p.8): four strokes per hand — RRRRLLLL. Even weight every stroke before moving.</li>
+        <li>L3 (pp.9–10): alternating single strokes around the kit. No rushing on surface changes.</li>
+        <li>Add feet once hands are grooved: 4-on-floor or quarter note ride on 2+4.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw1">
+        <div class="slide">
+          <div class="score-label">Morgenstein — p.8 (L2)</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/rod-morgenstein-drum-set-warm-ups/page-008.png" alt="Morgenstein p.8">
+        </div>
+        <div class="slide">
+          <div class="score-label">Morgenstein — p.9 (L3)</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/rod-morgenstein-drum-set-warm-ups/page-009.png" alt="Morgenstein p.9">
+        </div>
+        <div class="slide">
+          <div class="score-label">Morgenstein — p.10 (L3 cont.)</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/rod-morgenstein-drum-set-warm-ups/page-010.png" alt="Morgenstein p.10">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw1-counter">1 / 3</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 2 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 2 · 10 min</div>
+    <div class="block-title">Stick Control — Short Roll Combinations</div>
+    <div class="block-meta">pp.10–11 · first time in this section</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">60–90 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Play straight on snare or pad first — read the page before orchestrating.</li>
+        <li>Once comfortable: add 4-on-floor bass drum and ride on 2+4.</li>
+        <li>Push tempo only after the sticking is clean.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw2">
+        <div class="slide">
+          <div class="score-label">Stick Control — p.10</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-010.png" alt="Stick Control p.10">
+        </div>
+        <div class="slide">
+          <div class="score-label">Stick Control — p.11</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/stick-control/page-011.png" alt="Stick Control p.11">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw2-counter">1 / 2</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 3 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 3 · 10 min</div>
+    <div class="block-title">Wilcoxon — Snare Solo p.17 <span class="record-badge">⭐ RECORD</span></div>
+    <div class="block-meta">Modern Rudimental Swing Solos · first session in this book</div>
+  </div>
+  <div class="block-body">
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Read through the page once before playing. Map the form.</li>
+        <li>Play at a comfortable tempo — accuracy over speed on a first read.</li>
+        <li><strong>Record target:</strong> pick any 4-bar phrase, play it twice, record one take on your phone. Don't edit — just capture.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw3">
+        <div class="slide">
+          <div class="score-label">Wilcoxon — p.17</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/modern-rudimental-swing-solos/page-017.png" alt="Wilcoxon p.17">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw3-counter">1 / 1</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 4 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 4 · 10 min</div>
+    <div class="block-title">Donati — Left Foot Technique</div>
+    <div class="block-meta">Ch.2 pp.28–30 · targets the left-foot flutter bottleneck</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">Slow — coordination focus</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Left foot has been fluttering/speeding up at higher tempos in Morello p.71 — this chapter isolates it.</li>
+        <li>Tempo doesn't matter here. Even one clean rep at slow speed is progress.</li>
+        <li>Feel for equal weight between both feet. If the left rushes, stop and reset.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw4">
+        <div class="slide">
+          <div class="score-label">Donati — p.28 (Ch.2)</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-028.png" alt="Donati p.28">
+        </div>
+        <div class="slide">
+          <div class="score-label">Donati — p.29</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-029.png" alt="Donati p.29">
+        </div>
+        <div class="slide">
+          <div class="score-label">Donati — p.30</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-030.png" alt="Donati p.30">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw4-counter">1 / 3</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 5 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 5 · 10 min</div>
+    <div class="block-title">Latham — Advanced Funk Studies</div>
+    <div class="block-meta">pp.20–21 · Funk Patterns section</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">80–110 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Long gap since last Latham work. Lock in the groove before pushing tempo.</li>
+        <li>Ghost notes where written — they carry the funk. Don't flatten them.</li>
+        <li>Push to 110+ if it's grooving. If it's not grooving, it's too fast.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw5">
+        <div class="slide">
+          <div class="score-label">Latham — p.20</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/advanced-funk-studies/page-020.png" alt="Latham p.20">
+        </div>
+        <div class="slide">
+          <div class="score-label">Latham — p.21</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/advanced-funk-studies/page-021.png" alt="Latham p.21">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw5-counter">1 / 2</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 6 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 6 · 10 min</div>
+    <div class="block-title">ABR Messengers Drums — The Blinding Light</div>
+    <div class="block-meta">pp.39–41 · first session on this track</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">~200 BPM target</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Fresh track — map the form first. Where do sections change? Any odd bars?</li>
+        <li>Try at tempo once you have the roadmap. Don't worry about clean — just get through it.</li>
+        <li>Note any specific measure that trips you up.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw6">
+        <div class="slide">
+          <div class="score-label">ABR Messengers Drums — p.39</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers-drums/page-039.png" alt="ABR Messengers Drums p.39">
+        </div>
+        <div class="slide">
+          <div class="score-label">ABR Messengers Drums — p.40</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers-drums/page-040.png" alt="ABR Messengers Drums p.40">
+        </div>
+        <div class="slide">
+          <div class="score-label">ABR Messengers Drums — p.41</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers-drums/page-041.png" alt="ABR Messengers Drums p.41">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw6-counter">1 / 3</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 7 — BURNOUT -->
+<div class="block burnout">
+  <div class="block-header">
+    <div class="block-num">Block 7 · 5 min</div>
+    <div class="block-title">Burnout — Kick + Snare Unison</div>
+  </div>
+  <div class="block-body">
+    <div class="cue" style="margin-top:8px;">
+      <ul>
+        <li>Feet and snare hit together on every note. Simple hand pattern on top (ride or hat).</li>
+        <li>Start at a medium tempo. Add 10 BPM each minute.</li>
+        <li>Keep going until the form collapses — that's the end.</li>
+        <li>No click. No structure. Just push.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.swipe-wrap').forEach(wrap => {
+    const swipe = wrap.querySelector('.swipe');
+    const counter = wrap.querySelector('[id$="-counter"]');
+    if (!swipe || !counter) return;
+    const slides = swipe.querySelectorAll('.slide');
+    if (slides.length <= 1) return;
+    swipe.addEventListener('scroll', () => {
+      const idx = Math.round(swipe.scrollLeft / swipe.clientWidth);
+      counter.textContent = (idx + 1) + ' / ' + slides.length;
+    }, { passive: true });
+  });
+</script>
+
+</body>
+</html>
