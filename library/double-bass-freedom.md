@@ -81,7 +81,7 @@ Source slug: `double-bass-freedom`. 135 pages.
 - **Tags:** double-bass, left-foot, coordination, isolation
 - **Status:** in-rotation
 - **Last worked:** 2026-05-21
-- **Notes:** Fun block, great isolated left foot workout. Key finding: left foot is late getting on the grid at the *start* of a note chain — fluttery/delayed entry, not consistent once running. Startup problem, not endurance problem. Needs targeted repetition of the moment of entry.
+- **Notes:** Fun block, great isolated left foot workout. Key finding: note 1 lands fine, but strokes 2–3 flutter before the left foot settles. Cold-start ramp-up problem — foot needs pre-activation (light taps at tempo before launching). Fix: restart drill (RLRL × 4, hard stop, re-enter) and pre-movement before note 1.
 
 ## Candidates for Rotation
 - pp.6–20 — Ch.1 Getting Started (early): foundational warm-up material
