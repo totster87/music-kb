@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drum Routine — 2026-05-23</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #111; color: #eee; padding: 16px; }
+  h1 { font-size: 1.3rem; font-weight: 700; margin-bottom: 4px; }
+  .subtitle { font-size: 0.85rem; color: #888; margin-bottom: 20px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .chip { background: #222; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.75rem; color: #aaa; }
+  .block { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; margin-bottom: 20px; overflow: hidden; }
+  .block-header { padding: 14px 16px 10px; border-bottom: 1px solid #2a2a2a; }
+  .block-num { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #666; margin-bottom: 4px; }
+  .block-title { font-size: 1rem; font-weight: 600; color: #fff; }
+  .block-meta { font-size: 0.78rem; color: #888; margin-top: 4px; }
+  .block-body { padding: 12px 16px 14px; }
+  .cue { font-size: 0.85rem; color: #ccc; line-height: 1.55; }
+  .cue li { margin-left: 16px; margin-bottom: 3px; }
+  .bottleneck-badge { display: inline-block; background: #2a1a00; color: #ffaa44; font-size: 0.7rem; font-weight: 600; border-radius: 10px; padding: 2px 9px; margin-left: 8px; vertical-align: middle; letter-spacing: 0.05em; }
+  .bpm-pill { display: inline-block; background: #1e2d1e; color: #6dbb6d; border: 1px solid #2d4a2d; border-radius: 8px; padding: 3px 10px; font-size: 0.78rem; font-weight: 600; margin-top: 6px; }
+
+  /* Swipe carousel */
+  .swipe-wrap { margin-top: 12px; }
+  .swipe { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 0; }
+  .swipe::-webkit-scrollbar { display: none; }
+  .slide { flex: 0 0 100%; scroll-snap-align: start; }
+  .score-label { font-size: 0.72rem; color: #666; text-align: center; padding: 6px 0 4px; letter-spacing: 0.04em; }
+  .score-img { width: 100%; display: block; background: #fff; }
+  .swipe-counter { text-align: center; font-size: 0.72rem; color: #555; margin-top: 6px; }
+  .swipe-hint { text-align: center; font-size: 0.7rem; color: #444; margin-top: 2px; margin-bottom: 6px; letter-spacing: 0.03em; }
+
+  .burnout { border-color: #3a1a1a; background: #1a1010; }
+  .burnout .block-title { color: #ff7070; }
+  .burnout .block-num { color: #552222; }
+</style>
+</head>
+<body>
+
+<h1>Drum Routine</h1>
+<div class="subtitle">2026-05-23 · ~55 min</div>
+
+<div class="chips">
+  <div class="chip">Morgenstein L4</div>
+  <div class="chip">PI Rock S1 bottleneck</div>
+  <div class="chip">Reed p.40</div>
+  <div class="chip">Donati Ch.3</div>
+  <div class="chip">ABR Truth pp.8–10</div>
+  <div class="chip">Burnout: doubletime bop</div>
+</div>
+
+<!-- BLOCK 1 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 1 · 8 min</div>
+    <div class="block-title">Warm-Up — Morgenstein L4</div>
+    <div class="block-meta">Double Strokes · pp.13–14</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">60–90 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Double strokes (RRLL) — focus on evenness between the two notes of each pair.</li>
+        <li>Stay on one surface until the pair is consistent, then orchestrate.</li>
+        <li>Don't rush the second stroke — it's usually the one that gets clipped.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw1">
+        <div class="slide">
+          <div class="score-label">Morgenstein — p.13 (L4)</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/rod-morgenstein-drum-set-warm-ups/page-013.png" alt="Morgenstein p.13">
+        </div>
+        <div class="slide">
+          <div class="score-label">Morgenstein — p.14 (L4 cont.)</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/rod-morgenstein-drum-set-warm-ups/page-014.png" alt="Morgenstein p.14">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw1-counter">1 / 2</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 2 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 2 · 12 min</div>
+    <div class="block-title">PI Rock S1 — Snare/Bass Combinations <span class="bottleneck-badge">BOTTLENECK</span></div>
+    <div class="block-meta">p.9 · exercises 1–4 · last worked 2026-05-04</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">60–75 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Known problem: 16th-note alternating hats lose control when right hand crosses to snare — especially <strong>groups of 3 in measure 2</strong>.</li>
+        <li>Isolate just those bars. Play measure 1 clean, stop, then play measure 2 alone. Don't chain until each is stable.</li>
+        <li>If the hats are scrambling: slow to 50 BPM and rebuild the pattern in silence first (no sound, just motion).</li>
+        <li>Don't rush past 75 — this is a coordination problem, not a tempo problem.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw2">
+        <div class="slide">
+          <div class="score-label">PI Rock — p.9 (S1)</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-independence-rock/page-009.png" alt="PI Rock p.9">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw2-counter">1 / 1</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 3 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 3 · 10 min</div>
+    <div class="block-title">Reed Syncopation — p.40</div>
+    <div class="block-meta">Syncopation Exercises · fresh page</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">70–90 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Read on snare only first — get the rhythms in the hands before moving around the kit.</li>
+        <li>Once clean on snare: add 4-on-floor bass drum, ride on 2+4 (or hi-hat foot on 2+4 for jazz feel).</li>
+        <li>Try swinging the 8th notes once the straight reading is comfortable.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw3">
+        <div class="slide">
+          <div class="score-label">Reed Syncopation — p.40</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/progressive-steps-syncopation/page-040.png" alt="Reed Syncopation p.40">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw3-counter">1 / 1</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 4 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 4 · 10 min</div>
+    <div class="block-title">Donati — Developing Single Strokes</div>
+    <div class="block-meta">Ch.3 pp.37–39 · first session in this section</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">Slow — build from there</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Fresh chapter — new material after Ch.2 left foot work.</li>
+        <li>Single stroke alternation between feet: even weight, even timing. Use a click if tempo feels slippery.</li>
+        <li>Add hands once feet are locked. Keep the hand groove simple — just a reference point, not the focus.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw4">
+        <div class="slide">
+          <div class="score-label">Donati — p.37 (Ch.3)</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-037.png" alt="Donati p.37">
+        </div>
+        <div class="slide">
+          <div class="score-label">Donati — p.38</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-038.png" alt="Donati p.38">
+        </div>
+        <div class="slide">
+          <div class="score-label">Donati — p.39</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-039.png" alt="Donati p.39">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw4-counter">1 / 3</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 5 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 5 · 10 min</div>
+    <div class="block-title">ABR Messengers Drums — Truth of a Liar</div>
+    <div class="block-meta">pp.8–10 · push past the first page · last: 143 BPM p.7 clean</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">~143 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>First page (p.7) was clean at 143 BPM on 2026-05-06 — start there to warm into the tune, then flip to pp.8–10.</li>
+        <li>Map any new sections: what changes from p.7? Any fill variations, section shifts, odd bars?</li>
+        <li>Note the specific measure number if something trips you up.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw5">
+        <div class="slide">
+          <div class="score-label">ABR Messengers Drums — p.8</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers-drums/page-008.png" alt="ABR Messengers Drums p.8">
+        </div>
+        <div class="slide">
+          <div class="score-label">ABR Messengers Drums — p.9</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers-drums/page-009.png" alt="ABR Messengers Drums p.9">
+        </div>
+        <div class="slide">
+          <div class="score-label">ABR Messengers Drums — p.10</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers-drums/page-010.png" alt="ABR Messengers Drums p.10">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw5-counter">1 / 3</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 6 — BURNOUT -->
+<div class="block burnout">
+  <div class="block-header">
+    <div class="block-num">Block 6 · 5 min</div>
+    <div class="block-title">Burnout — Doubletime Bop</div>
+  </div>
+  <div class="block-body">
+    <div class="cue" style="margin-top:8px;">
+      <ul>
+        <li>Pick a comfortable swing tempo (80–100 BPM). Lock in the ride feel.</li>
+        <li>Double it. Hold the ride pattern as long as you can at the doubled tempo.</li>
+        <li>When it starts to blur, back off briefly then push again. 5 min, no click.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.swipe-wrap').forEach(wrap => {
+    const swipe = wrap.querySelector('.swipe');
+    const counter = wrap.querySelector('[id$="-counter"]');
+    if (!swipe || !counter) return;
+    const slides = swipe.querySelectorAll('.slide');
+    if (slides.length <= 1) return;
+    swipe.addEventListener('scroll', () => {
+      const idx = Math.round(swipe.scrollLeft / swipe.clientWidth);
+      counter.textContent = (idx + 1) + ' / ' + slides.length;
+    }, { passive: true });
+  });
+</script>
+
+</body>
+</html>
