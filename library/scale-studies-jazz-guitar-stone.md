@@ -28,4 +28,7 @@ Embed ONE page at a time in routine warm-up blocks. Rotate sequentially across s
 - Good for: lead guitar vocabulary, fretboard fluency, jazz-informed phrasing that transfers to metal lead work
 
 ## Sessions
-*(log page + observations after each warm-up that uses this book)*
+
+### pp.8–9 — Melodic Minor
+- **Last worked:** 2026-05-23
+- **Notes:** Did both pages. Applied to Days of Wine and Roses on Bbm7 — using the standard as a frame made the scale click musically. Good reference for next session: revisit that Bbm7 moment before running positions cold.

@@ -365,3 +365,19 @@ tags:
 - Loved it
 
 **Not reached:** ABR Truth of a Liar pp.8–10 (block 5), Burnout (block 6)
+
+---
+
+### 2026-05-23 — Guitar
+
+**Rick Stone — Melodic Minor (pp.8–9)**
+- Did both pages. Scale makes more sense now — applied to Days of Wine and Roses over Bbm7. Musical context made it click.
+
+**Ted Greene — pp.18–19**
+- Voicings sound cool but extremely stretchy. Very hard.
+- With a pick: may need to leave out the bass note or approach partially
+
+**Ted Greene — pp.38–39**
+- Same observation — voicings can't be played as written with a pick. Leave out bass note, or consider fingerstyle.
+
+**Not reached:** Rick Stone Diminished/Whole-Tone (block 4), Free improv (block 5)
