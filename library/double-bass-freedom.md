@@ -67,6 +67,16 @@ Source slug: `double-bass-freedom`. 135 pages.
 - **Last worked:** 2026-05-17
 - **Notes:** First exercise tough — pure coordination challenge. Sound is unusual/wonky, not sure it's musically appealing yet. Some cool grooves on p.110. Can't play them all. Needs more time.
 
+### pp.10–13 — Getting Started (Ch.1 speedwork)
+- **Chapter:** Ch.1 Getting Started (pp.6–27)
+- **Focus:** straight alternating feet 16ths — primary speed building material
+- **Tags:** double-bass, single-strokes, speed, 16th
+- **Status:** in-rotation
+- **Last worked:** 2026-05-23
+- **BPM History:**
+  - 2026-05-23: 180 BPM achievable but sloppy. Clean ceiling ~170–175. New target: 190 BPM clean.
+- **Notes:** User identified pp.10–13 as the right speedwork pages. Pages rotate each session on user direction.
+
 ### pp.37–39 — Developing Single Strokes (Ch.3)
 - **Chapter:** Ch.3 Developing Single Strokes (pp.37–47)
 - **Focus:** single stroke alternation between feet with hands
