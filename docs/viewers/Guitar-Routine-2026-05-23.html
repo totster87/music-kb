@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guitar Routine — 2026-05-23</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #111; color: #eee; padding: 16px; }
+  h1 { font-size: 1.3rem; font-weight: 700; margin-bottom: 4px; }
+  .subtitle { font-size: 0.85rem; color: #888; margin-bottom: 20px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .chip { background: #222; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.75rem; color: #aaa; }
+  .block { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; margin-bottom: 20px; overflow: hidden; }
+  .block-header { padding: 14px 16px 10px; border-bottom: 1px solid #2a2a2a; }
+  .block-num { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #666; margin-bottom: 4px; }
+  .block-title { font-size: 1rem; font-weight: 600; color: #fff; }
+  .block-meta { font-size: 0.78rem; color: #888; margin-top: 4px; }
+  .block-body { padding: 12px 16px 14px; }
+  .cue { font-size: 0.85rem; color: #ccc; line-height: 1.55; }
+  .cue li { margin-left: 16px; margin-bottom: 4px; }
+  .bpm-pill { display: inline-block; background: #1e2d1e; color: #6dbb6d; border: 1px solid #2d4a2d; border-radius: 8px; padding: 3px 10px; font-size: 0.78rem; font-weight: 600; margin-top: 6px; }
+  .tone-pill { display: inline-block; background: #1e1e2d; color: #8888ff; border: 1px solid #2d2d4a; border-radius: 8px; padding: 3px 10px; font-size: 0.78rem; font-weight: 600; margin-top: 6px; margin-left: 6px; }
+
+  /* Swipe carousel */
+  .swipe-wrap { margin-top: 12px; }
+  .swipe { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 0; }
+  .swipe::-webkit-scrollbar { display: none; }
+  .slide { flex: 0 0 100%; scroll-snap-align: start; }
+  .score-label { font-size: 0.72rem; color: #666; text-align: center; padding: 6px 0 4px; letter-spacing: 0.04em; }
+  .score-img { width: 100%; display: block; background: #fff; }
+  .swipe-counter { text-align: center; font-size: 0.72rem; color: #555; margin-top: 6px; }
+  .swipe-hint { text-align: center; font-size: 0.7rem; color: #444; margin-top: 2px; margin-bottom: 6px; letter-spacing: 0.03em; }
+
+  .free-block { border-color: #2a2a1a; background: #1a1a10; }
+  .free-block .block-title { color: #ffdd88; }
+  .free-block .block-num { color: #555522; }
+</style>
+</head>
+<body>
+
+<h1>Guitar Routine</h1>
+<div class="subtitle">2026-05-23 · Jazz Focus · ~50 min · Clean tone throughout</div>
+
+<div class="chips">
+  <div class="chip">Rick Stone — Melodic Minor</div>
+  <div class="chip">Ted Greene ×2</div>
+  <div class="chip">Diminished + Whole-Tone</div>
+  <div class="chip">Free improv</div>
+</div>
+
+<!-- BLOCK 1 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 1 · 10 min — Warm-Up</div>
+    <div class="block-title">Rick Stone — Melodic Minor Scales</div>
+    <div class="block-meta">Scale Studies for Jazz Guitar · pp.8–9</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">Slow → comfortable</div>
+    <div class="tone-pill">Clean · no fx</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Melodic minor: ascending form uses raised 6th and 7th, descending reverts to natural minor (or stay ascending both ways in jazz context).</li>
+        <li>Run each position on the page two or three times before moving on — don't rush through every position.</li>
+        <li>Even pick attack. If legato, let the hammer-ons and pull-offs speak equally with the picked notes.</li>
+        <li>Apply one position to a short phrase — don't just run scales, end with something musical.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw1">
+        <div class="slide">
+          <div class="score-label">Rick Stone — p.8 (Melodic Minor)</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/scale-studies-jazz-guitar-stone/page-008.png" alt="Rick Stone p.8">
+        </div>
+        <div class="slide">
+          <div class="score-label">Rick Stone — p.9</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/scale-studies-jazz-guitar-stone/page-009.png" alt="Rick Stone p.9">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw1-counter">1 / 2</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 2 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 2 · 12 min</div>
+    <div class="block-title">Ted Greene — Chord Progressions</div>
+    <div class="block-meta">Modern Chord Progressions · pp.18–19</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">Very slow</div>
+    <div class="tone-pill">Clean · let ring</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>First pass: identify each chord symbol. Don't play yet — just read the voicings on the page and find them on the neck.</li>
+        <li>Play each chord and let it ring fully. Listen for the colour of each voicing.</li>
+        <li>Play through the progression slowly. Focus on smooth voice leading — which notes move the least between chords?</li>
+        <li>Pick one voicing that sounds interesting and memorise it. Just one.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw2">
+        <div class="slide">
+          <div class="score-label">Ted Greene — p.18</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/ted-greene-modern-chord-progressions/page-018.png" alt="Ted Greene p.18">
+        </div>
+        <div class="slide">
+          <div class="score-label">Ted Greene — p.19</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/ted-greene-modern-chord-progressions/page-019.png" alt="Ted Greene p.19">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw2-counter">1 / 2</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 3 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 3 · 12 min</div>
+    <div class="block-title">Ted Greene — Chord Progressions</div>
+    <div class="block-meta">Modern Chord Progressions · pp.38–39</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">Very slow</div>
+    <div class="tone-pill">Clean · let ring</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Same approach as block 2 — locate voicings before playing.</li>
+        <li>Notice how these compare to block 2: same harmonic ideas or different territory?</li>
+        <li>Try connecting one chord from this page to one from block 2 — even a two-chord fragment is a phrase.</li>
+        <li>Again: pick one voicing to remember. Don't try to learn everything at once.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw3">
+        <div class="slide">
+          <div class="score-label">Ted Greene — p.38</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/ted-greene-modern-chord-progressions/page-038.png" alt="Ted Greene p.38">
+        </div>
+        <div class="slide">
+          <div class="score-label">Ted Greene — p.39</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/ted-greene-modern-chord-progressions/page-039.png" alt="Ted Greene p.39">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw3-counter">1 / 2</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 4 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 4 · 8 min</div>
+    <div class="block-title">Rick Stone — Diminished + Whole-Tone</div>
+    <div class="block-meta">Scale Studies for Jazz Guitar · pp.14–15</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">Slow · one position at a time</div>
+    <div class="tone-pill">Clean · no fx</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Diminished (p.14): symmetrical scale — repeats every minor 3rd. Learn one position fully, then notice how the same shape moves up 3 frets and sounds identical.</li>
+        <li>Whole-tone (p.15): all whole steps, very floaty. Six notes only.</li>
+        <li>Don't try to memorise both in one session — pick whichever feels more interesting and stay with it.</li>
+        <li>End with a short phrase using the scale over an open-string drone.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw4">
+        <div class="slide">
+          <div class="score-label">Rick Stone — p.14 (Diminished)</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/scale-studies-jazz-guitar-stone/page-014.png" alt="Rick Stone p.14">
+        </div>
+        <div class="slide">
+          <div class="score-label">Rick Stone — p.15 (Whole-Tone)</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/scale-studies-jazz-guitar-stone/page-015.png" alt="Rick Stone p.15">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw4-counter">1 / 2</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 5 -->
+<div class="block free-block">
+  <div class="block-header">
+    <div class="block-num">Block 5 · 8 min — Free</div>
+    <div class="block-title">Improv — No Score</div>
+    <div class="block-meta">Connect the day's material</div>
+  </div>
+  <div class="block-body">
+    <div class="cue" style="margin-top:8px;">
+      <ul>
+        <li>Put the phone down. No score.</li>
+        <li>Pick one Ted Greene voicing from today and hold it as a tonal center. Let it ring. Solo over it using any scale from today.</li>
+        <li>Melodic minor over a minor chord. Diminished or whole-tone if you want outside. Don't force it.</li>
+        <li>This isn't about playing well — it's about using what you worked on. Even one phrase that makes sense is a win.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.swipe-wrap').forEach(wrap => {
+    const swipe = wrap.querySelector('.swipe');
+    const counter = wrap.querySelector('[id$="-counter"]');
+    if (!swipe || !counter) return;
+    const slides = swipe.querySelectorAll('.slide');
+    if (slides.length <= 1) return;
+    swipe.addEventListener('scroll', () => {
+      const idx = Math.round(swipe.scrollLeft / swipe.clientWidth);
+      counter.textContent = (idx + 1) + ' / ' + slides.length;
+    }, { passive: true });
+  });
+</script>
+
+</body>
+</html>
