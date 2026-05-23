@@ -24,11 +24,13 @@ Note: Older routines reference "Part 3" — that maps to Section 1 (Right Hand 8
 - **Chapter:** Section 1 — Right Hand 8th Notes (pp.3–29)
 - **Focus:** hand-foot independence under steady 16th hat
 - **Tags:** independence, sixteenth, hands, hi-hat, rock
-- **Status:** bottlenecked
-- **Current ceiling:** 75 BPM, ~4 bars before breakdown
-- **Last worked:** 2026-05-04
-- **Bottlenecks:** 16th note alternating hats lose control when right hand crosses to snare. Groups of 3 in second measure are the specific failure point.
-- **Notes:** Real independence challenge — harder than it looks.
+- **Status:** in-rotation
+- **Current ceiling:** ~75 BPM (no BPM logged 2026-05-23)
+- **Last worked:** 2026-05-23
+- **BPM History:**
+  - 2026-05-04: 75 BPM — 16th hats scramble when right hand crosses to snare; groups of 3 in measure 2 the failure point
+  - 2026-05-23: no BPM — felt pretty clean; bottleneck has improved. New finding: doubles with bass drum most inconsistent.
+- **Notes:** Groups-of-3 hat problem has eased. New focus: double stroke patterns combined with bass drum hits.
 
 ### p.84 — Section 4 (Right Hand 16th Notes)
 - **Chapter:** Section 4 — Right Hand Sixteenth Notes (pp.84–109)

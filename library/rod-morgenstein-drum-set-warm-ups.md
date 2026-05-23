@@ -72,6 +72,13 @@ Source slug: `rod-morgenstein-drum-set-warm-ups`.
   - 2026-05-21: 90 BPM — scattered, worked around kit
 - **Notes:** Good workout. Scattered approach — tends to roam rather than stay on one surface.
 
+### L4 — Double Strokes (rendered pp.13–14)
+- **Status:** in-rotation
+- **Last worked:** 2026-05-23
+- **BPM History:**
+  - 2026-05-23: no BPM — felt goofy but solid workout
+- **Notes:** RRLL orchestrated around kit. Good physical warm-up despite the awkward feel.
+
 ### L3 — Alternating Single Strokes (rendered pp.9–12)
 - **Status:** in-rotation
 - **Current ceiling:** 90 BPM

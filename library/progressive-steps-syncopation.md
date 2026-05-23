@@ -40,6 +40,14 @@ Source slug: `progressive-steps-syncopation`. 61 pages.
 - **Bottlenecks:** Rushed into orchestrating around the kit — didn't spend enough time reading on snare first
 - **Notes:** Next time: stay on snare only for several bars before touching the kit.
 
+### p.40 — Syncopation Exercises
+- **Chapter:** Syncopation Exercises 1–9 (pp.36–44)
+- **Focus:** syncopation reading, kit orchestration
+- **Tags:** reading, syncopation, kit-incorporation
+- **Status:** in-rotation
+- **Last worked:** 2026-05-23
+- **Notes:** Sight read felt pretty good. Follow-up from p.37 (needs-revisit) — this page landed better.
+
 ## Candidates for Rotation
 - pp.3–27 — Foundation (quarter/eighth/dotted/triplet/16th): re-anchor reading skills
 - pp.29–35 — Syncopated Eighth Notes (rest of chapter): extend p.28

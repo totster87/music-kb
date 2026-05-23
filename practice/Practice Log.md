@@ -346,3 +346,22 @@ tags:
 - No tempo established — needs form mapping before pushing speed.
 
 **Burnout:** skipped
+
+---
+
+### 2026-05-23 — Drums
+
+**Morgenstein L4 — Double Strokes (pp.13–14)**
+- Felt goofy but solid workout
+
+**PI Rock S1 p.9 — Snare/Bass Combinations**
+- Pretty clean — bottleneck has improved since 2026-05-04
+- Doubles combined with bass drum were the most inconsistent part
+
+**Reed Syncopation p.40**
+- Sight read felt pretty good
+
+**Donati Ch.3 — Developing Single Strokes (pp.37–39)**
+- Loved it
+
+**Not reached:** ABR Truth of a Liar pp.8–10 (block 5), Burnout (block 6)

@@ -67,6 +67,14 @@ Source slug: `double-bass-freedom`. 135 pages.
 - **Last worked:** 2026-05-17
 - **Notes:** First exercise tough — pure coordination challenge. Sound is unusual/wonky, not sure it's musically appealing yet. Some cool grooves on p.110. Can't play them all. Needs more time.
 
+### pp.37–39 — Developing Single Strokes (Ch.3)
+- **Chapter:** Ch.3 Developing Single Strokes (pp.37–47)
+- **Focus:** single stroke alternation between feet with hands
+- **Tags:** double-bass, single-strokes, development
+- **Status:** in-rotation
+- **Last worked:** 2026-05-23
+- **Notes:** Loved it — strong response. Keep in regular rotation. First session.
+
 ### pp.28–30 — Left Foot Technique (Ch.2)
 - **Chapter:** Ch.2 Left Foot Technique (pp.28–36)
 - **Focus:** isolated left foot control and independence
