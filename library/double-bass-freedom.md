@@ -43,14 +43,14 @@ Source slug: `double-bass-freedom`. 135 pages.
 
 ### p.75 — 16th Note Series
 - **Chapter:** Ch.6 16th Note Series (pp.74–82)
-- **Focus:** 16th note positioning, off-subdivisions
-- **Tags:** double-bass, sixteenth, subdivisions, coordination
+- **Focus:** hand/foot 16th note coordination — NOT pure continuous feet. Patterns mix 3 bass drum notes with snare in between. Useful for hand/foot breakup of the 16th grid, not straight double bass speed.
+- **Tags:** double-bass, sixteenth, hand-foot, coordination
 - **Status:** bottlenecked
-- **Current ceiling:** 80 BPM
+- **Current ceiling:** 80 BPM (halftime = ~160 BPM equivalent)
 - **Last worked:** 2026-05-11
 - **BPM History:**
-  - 2026-05-11: 80 BPM — `e` and `&` positions tough, coordination breaks on off-subdivisions
-- **Bottlenecks:** Off-subdivision coordination.
+  - 2026-05-11: 80 BPM halftime — `e` and `&` positions tough, coordination breaks on off-subdivisions
+- **Bottlenecks:** Off-subdivision hand/foot coordination. Not a straight speed drill.
 
 ### pp.101–102 — Paradiddles
 - **Chapter:** Ch.8 Paradiddles (pp.101–108)
