@@ -30,7 +30,7 @@ Source slug: `the-art-of-bop-drumming`. 68 pages.
 
 ## Candidates for Rotation
 - pp.6–14 — Time Playing: ride feel foundation
-- pp.16–21 — Comping (early pages): warm into the chapter
+- pp.17–21 — Comping (early pages): warm into the chapter. **Skip p.16 — intro text, no notation.**
 - pp.34–45 — Soloing: untouched, high value for jazz vocabulary
 - pp.47–53 — Brushes: untouched, full skill area
 - pp.55–60 — Jazz Essentials (Shuffle, Waltz, Samba, Mambo): style breadth
