@@ -18,14 +18,14 @@ Source slug: `master-studies-morello`. 97 pages.
 
 ## Exercises Worked On
 
-### p.43 — Table of Time
+### p.44 — Table of Time
 - **Chapter:** Control Studies (pp.40–65)
 - **Focus:** subdivision changes, internal clock
 - **Tags:** subdivisions, hands, control, internal-clock
 - **Status:** in-rotation
 - **Current ceiling:** 53 BPM halftime
 - **Bottlenecks:** Rushes on subdivision transitions
-- **Notes:** Earlier routines mistakenly cited p.8 — Table of Time is actually p.43.
+- **Notes:** Earlier routines cited p.43 — Table of Time is actually p.44. p.43 is not the exercise.
 
 ### p.54 — Stone Killer
 - **Chapter:** Control Studies (pp.40–65)
@@ -50,7 +50,7 @@ Source slug: `master-studies-morello`. 97 pages.
 
 ## Candidates for Rotation
 - p.66 — Groups of Three with Fill-Ins: sister exercise to p.71, different odd grouping
-- pp.7–19 — Accent Studies: untouched, foundational
+- pp.7–19 — Accent Studies: in-rotation as of 2026-06-14 — fun, first session
 - pp.20–29 — Buzz Roll Studies: builds press-roll vocabulary
 - pp.30–39 — Stroke Combination Studies: stickings for kit application
 - pp.82–93 — Flam Studies: after Stick Control flams

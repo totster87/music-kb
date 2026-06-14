@@ -258,7 +258,7 @@ Then commit and push.
 
 ### Drums
 - **Morello Groups of Four with Fill-Ins** (p.71): 72 BPM — left foot unstable at higher tempos, speeds up/flutters; focus on evenness not speed
-- **Morello Table of Time** (p.43): 53 BPM halftime — rushes on subdivision transitions. NOTE: p.43, not p.8
+- **Morello Table of Time** (p.44): 53 BPM halftime — rushes on subdivision transitions. NOTE: p.44 — p.43 is not the exercise
 - **PI Rock Part 3, exercises 1–4** (p.9): ~75 BPM — losing control on 16th note alternating hats when right hand hits snare; groups of 3 in second measure are the problem point
 - **You Got Me (The Roots)**: 83 BPM — steady, feels elementary but internal clock not 100% solid
 
@@ -266,7 +266,7 @@ Then commit and push.
 1. Stick Control p.5 — warm up hands
 2. Morello Groups of Four with Fill-Ins (p.71) — double bass, focus on left foot evenness
 3. PI Rock Part 3 exercises 1–4 (p.9) — independence, isolate the groups-of-3 snare problem
-4. Morello Table of Time (p.43) — subdivision transitions
+4. Morello Table of Time (p.44) — subdivision transitions
 5. You Got Me — music application
 
 ---
@@ -281,7 +281,7 @@ All PDFs in `docs/`, all pages pre-rendered in `docs/rendered/<slug>/`. Only rea
 |------|-------|--------|-------|-----------|
 | `double-bass-freedom` | Double Bass Drum Freedom | Virgil Donati | 135 | Ch.1 Getting Started: p.6–27 / Ch.2 Left Foot Technique: p.28–36 / Ch.3 Developing Single Strokes: p.37–47 / Ch.4 Creative Single Strokes: p.48–59 / Ch.5 16th Note Triplet Series: p.60–73 / Ch.6 16th Note Series: p.74–82 / Ch.7 Double Stroke Rolls: p.83–100 / Ch.8 Paradiddles: p.101–108 / Ch.9 Bass Drum Flams: p.109–118 / Ch.10 Recorded Works: p.119–135 |
 | `progressive-independence-rock` | Progressive Independence: Rock | Ron Spagnardi | 162 | S1 Right Hand 8th Notes: p.3–29 / S2 Right Hand Quarter Notes: p.30–56 / S3 Right Hand Up-Beats: p.57–83 / S4 Right Hand Sixteenth Notes: p.84–109 / S5 16th Note 1E&: p.110–136 / S6: p.137–162 / Note: "Part 3 combos p.9" = S1 Snare/Bass Drum Combination |
-| `master-studies-morello` | Master Studies | Joe Morello | 97 | Accent Studies: p.7–19 / Buzz Roll Studies: p.20–29 / Stroke Combination Studies: p.30–39 / Control Studies (Table of Time p.43, Stone Killer p.54): p.40–65 / Fill-In Studies (Groups of Three p.66, Groups of Four p.70): p.66–76 / Ostinato Studies: p.77–81 / Flam Studies: p.82–93 |
+| `master-studies-morello` | Master Studies | Joe Morello | 97 | Accent Studies: p.7–19 / Buzz Roll Studies: p.20–29 / Stroke Combination Studies: p.30–39 / Control Studies (Table of Time p.44, Stone Killer p.54): p.40–65 / Fill-In Studies (Groups of Three p.66, Groups of Four p.70): p.66–76 / Ostinato Studies: p.77–81 / Flam Studies: p.82–93 |
 | `the-art-of-bop-drumming` | The Art of Bop Drumming | John Riley | 68 | Time Playing: p.6–14 / Comping: p.16–32 / Soloing: p.34–45 / Brushes: p.47–53 / Jazz Essentials (Shuffle, Waltz, Samba, Mambo): p.55–60 / Charts: p.63–68 |
 | `advanced-techniques-modern-drummer` | Advanced Techniques Vol.1 | Jim Chapin | 55 | Coordinated independence, jazz/be-bop / p.6 confirmed text — do NOT use p.1–13 / Dotted 8ths+16ths: p.9–14 / Eighths: p.16–20 / Triplet: p.25–29 / Sixteenths: p.30–33 / Solo Exercises: p.41–55 |
 | `stick-control` | Stick Control | George Lawrence Stone | 50 | Single Beat Combinations: p.5–7 / Triplets: p.8–9 / Short Roll Combinations: p.10–15 / Flams: p.16–23 / Short Rolls in 6/8: p.24–29 / Combinations in 3/8: p.30–32 / Flam Triplets: p.34–37 / Short Roll Progressions: p.38–46 |
