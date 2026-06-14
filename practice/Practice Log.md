@@ -381,3 +381,29 @@ tags:
 - Same observation — voicings can't be played as written with a pick. Leave out bass note, or consider fingerstyle.
 
 **Not reached:** Rick Stone Diminished/Whole-Tone (block 4), Free improv (block 5)
+
+---
+
+### 2026-06-14 — Drums (Pad)
+
+**Stick Control — p.5 singles + p.8 triplets (warm-up)**
+- 80 BPM 16th notes on first page
+- Triplets: cool, hard to keep steady
+- 2-on/2-off metronome approach — time not staying even through most exercises
+- Internal clock needs work: tempo awareness breaking when click drops out
+
+**Morello — Accent Studies pp.7–10 (first session)**
+- Fun. New chapter.
+- No BPM logged — focused on accent vs. ghost contrast
+
+**Morello — Table of Time**
+- Wrong page shown again (p.43 in viewer) — actual exercise is p.44. Viewer corrected in catalog and CLAUDE.md.
+- Skipped this block
+
+**Ted Reed — Syncopation pp.41–42**
+- Good sight reading
+- Flat flam approach to focus on reading, not notation details
+
+**Burnout — Stick Control Short Rolls pp.10–11**
+- 91 BPM 16th notes — ~180 BPM hand speed equivalent
+- "Awesome" — strong response, great finisher

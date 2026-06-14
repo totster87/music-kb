@@ -18,6 +18,16 @@ Source slug: `master-studies-morello`. 97 pages.
 
 ## Exercises Worked On
 
+### pp.7–10 — Accent Studies
+- **Chapter:** Accent Studies (pp.7–19)
+- **Focus:** accent layering over single strokes — full stroke vs. ghost note contrast
+- **Tags:** hands, accents, dynamics, single-strokes
+- **Status:** in-rotation
+- **Last worked:** 2026-06-14
+- **BPM History:**
+  - 2026-06-14: first session — fun. No BPM logged, focused on accent/ghost contrast.
+- **Notes:** Fresh chapter, immediately enjoyable. Exaggerate contrast — accents as punch, ghosts near-silent.
+
 ### p.44 — Table of Time
 - **Chapter:** Control Studies (pp.40–65)
 - **Focus:** subdivision changes, internal clock
