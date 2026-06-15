@@ -49,11 +49,12 @@ See [[Stick Control - Page 1 Applications]] for hands/feet/fill-in/jazz applicat
 - **Focus:** short roll sticking patterns
 - **Tags:** hands, rolls, sticking, warm-up
 - **Status:** in-rotation
-- **Current ceiling:** 91 BPM (16th notes) ≈ 180 BPM equivalent
-- **Last worked:** 2026-06-14
+- **Current ceiling:** 101 BPM (16th notes) ≈ 200 BPM equivalent
+- **Last worked:** 2026-06-15
 - **BPM History:**
   - 2026-05-21: 90 BPM — solid warmup
-  - 2026-06-14: 91 BPM 16th notes as burnout finisher — "awesome." ~180 BPM hand speed equivalent.
+  - 2026-06-14: 91 BPM 16th notes as burnout finisher — ~180 BPM hand speed equivalent
+  - 2026-06-15: 101 BPM fastest spurts — ~200 BPM hand speed equivalent. +10 BPM in one day.
 - **Notes:** Doesn't feel musical played straight — useful as sticking drill but needs orchestration to groove. Great as a speed burnout: push to max, burst and release.
 
 ## Candidates for Rotation

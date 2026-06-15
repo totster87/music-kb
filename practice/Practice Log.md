@@ -384,6 +384,20 @@ tags:
 
 ---
 
+### 2026-06-15 — Drums (Pad)
+
+**Stick Control p.5 — 2-on/2-off internal clock drill**
+- Always rushing, especially on beat 1 at 70 BPM
+- Internal clock is running ahead — beat 1 is the specific problem point
+
+**Short Rolls pp.10–11 — speed finisher**
+- 101 BPM 16th notes — ~200 BPM hand speed equivalent
+- Up from 91 BPM yesterday (+10 BPM in one session)
+
+**Not reached:** Ted Reed syncopation (block 4)
+
+---
+
 ### 2026-06-14 — Drums (Pad)
 
 **Stick Control — p.5 singles + p.8 triplets (warm-up)**
