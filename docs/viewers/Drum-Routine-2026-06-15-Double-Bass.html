@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drum Routine — 2026-06-15 Double Bass</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #111; color: #eee; padding: 16px; }
+  h1 { font-size: 1.3rem; font-weight: 700; margin-bottom: 4px; }
+  .subtitle { font-size: 0.85rem; color: #888; margin-bottom: 20px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .chip { background: #222; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.75rem; color: #aaa; }
+
+  .block { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; margin-bottom: 20px; overflow: hidden; }
+  .block-header { padding: 14px 16px 10px; border-bottom: 1px solid #2a2a2a; }
+  .block-num { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #666; margin-bottom: 4px; }
+  .block-title { font-size: 1rem; font-weight: 600; color: #fff; }
+  .block-meta { font-size: 0.78rem; color: #888; margin-top: 4px; }
+  .block-body { padding: 12px 16px 14px; }
+  .cue { font-size: 0.85rem; color: #ccc; line-height: 1.6; }
+  .cue li { margin-left: 16px; margin-bottom: 4px; }
+  .bpm-pill { display: inline-block; background: #1e2d1e; color: #6dbb6d; border: 1px solid #2d4a2d; border-radius: 8px; padding: 3px 10px; font-size: 0.78rem; font-weight: 600; margin-top: 6px; }
+
+  .db-block { border-color: #1e3a1e; background: #121a12; }
+  .db-block .block-title { color: #88ff88; }
+  .db-block .block-num { color: #224422; }
+
+  .lf-block { border-color: #1e2a3a; background: #12151a; }
+  .lf-block .block-title { color: #7ab8e8; }
+  .lf-block .block-num { color: #1e3050; }
+
+  .burnout { border-color: #3a1a1a; background: #1a1010; }
+  .burnout .block-title { color: #ff7070; }
+  .burnout .block-num { color: #552222; }
+
+  .swipe-wrap { margin-top: 12px; }
+  .swipe { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .swipe::-webkit-scrollbar { display: none; }
+  .slide { flex: 0 0 100%; scroll-snap-align: start; }
+  .score-label { font-size: 0.72rem; color: #666; text-align: center; padding: 6px 0 4px; letter-spacing: 0.04em; }
+  .score-img { width: 100%; display: block; background: #fff; }
+  .swipe-counter { text-align: center; font-size: 0.72rem; color: #555; margin-top: 6px; }
+  .swipe-hint { text-align: center; font-size: 0.7rem; color: #444; margin-top: 2px; margin-bottom: 4px; }
+</style>
+</head>
+<body>
+
+<h1>Drum Routine — Double Bass</h1>
+<div class="subtitle">2026-06-15 · ~30 min · Kit</div>
+
+<div class="chips">
+  <div class="chip">Donati Ch.3 warm-up</div>
+  <div class="chip">Ch.1 speedwork — 3 weeks off, start at 155</div>
+  <div class="chip">Ch.2 left foot isolation</div>
+  <div class="chip">Straight 16th burnout</div>
+</div>
+
+<!-- BLOCK 1 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 1 · 6 min — Warm-Up</div>
+    <div class="block-title">Donati Ch.3 — Developing Single Strokes pp.37–39</div>
+    <div class="block-meta">Loved this last time — get the feet moving before pushing tempo</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">120–150 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Start at 120 — don't skip the warm. Feet need circulation before speed.</li>
+        <li>Work up to 150 by the end of this block. No ceiling here, this is just activation.</li>
+        <li>Hands can play a simple groove on top — ride + snare 2&4. Keep it light.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw1">
+        <div class="slide">
+          <div class="score-label">Donati Ch.3 — p.37</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-037.png" alt="Donati p.37">
+        </div>
+        <div class="slide">
+          <div class="score-label">Donati Ch.3 — p.38</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-038.png" alt="Donati p.38">
+        </div>
+        <div class="slide">
+          <div class="score-label">Donati Ch.3 — p.39</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-039.png" alt="Donati p.39">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw1-counter">1 / 3</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 2 -->
+<div class="block db-block">
+  <div class="block-header">
+    <div class="block-num">Block 2 · 14 min — Speedwork · 190 BPM Goal</div>
+    <div class="block-title">Donati Ch.1 — BPM Automation pp.10–13</div>
+    <div class="block-meta">Last ceiling: 170–175 BPM clean · 3 weeks off — start at 155</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">155 → ceiling BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Start at 155 — don't assume the old ceiling held after 3 weeks. Earn the tempo back.</li>
+        <li>Protocol: 2-min hold at each BPM. If it's clean and even, bump +5. If it's sloppy, stay.</li>
+        <li>Switch pages every time you bump the BPM — keeps it from becoming muscle memory on one pattern.</li>
+        <li>Right foot staying even is the priority. Left foot rushes are ok for now — the ceiling is a right foot problem first.</li>
+        <li>Log today's clean ceiling — that's the starting point next session.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw2">
+        <div class="slide">
+          <div class="score-label">Donati Ch.1 — p.10</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-010.png" alt="Donati p.10">
+        </div>
+        <div class="slide">
+          <div class="score-label">Donati Ch.1 — p.11</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-011.png" alt="Donati p.11">
+        </div>
+        <div class="slide">
+          <div class="score-label">Donati Ch.1 — p.12</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-012.png" alt="Donati p.12">
+        </div>
+        <div class="slide">
+          <div class="score-label">Donati Ch.1 — p.13</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-013.png" alt="Donati p.13">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw2-counter">1 / 4</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 3 -->
+<div class="block lf-block">
+  <div class="block-header">
+    <div class="block-num">Block 3 · 6 min — Left Foot Isolation</div>
+    <div class="block-title">Donati Ch.2 — Left Foot Technique pp.28–30</div>
+    <div class="block-meta">Cold-start flutter — pre-activate before launching</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">80–110 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Before each exercise: light taps at tempo for 4 beats with the left foot before the pattern starts. Don't cold-launch.</li>
+        <li>If strokes 2–3 flutter after entering: hard stop, RLRL × 4, re-enter. Don't play through the flutter.</li>
+        <li>Goal: entry is clean from note 1, not just note 4 once the foot warms up.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw3">
+        <div class="slide">
+          <div class="score-label">Donati Ch.2 — p.28</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-028.png" alt="Donati p.28">
+        </div>
+        <div class="slide">
+          <div class="score-label">Donati Ch.2 — p.29</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-029.png" alt="Donati p.29">
+        </div>
+        <div class="slide">
+          <div class="score-label">Donati Ch.2 — p.30</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/double-bass-freedom/page-030.png" alt="Donati p.30">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw3-counter">1 / 3</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 4 — BURNOUT -->
+<div class="block burnout">
+  <div class="block-header">
+    <div class="block-num">Block 4 · 5 min — Burnout</div>
+    <div class="block-title">Straight 16th Endurance</div>
+  </div>
+  <div class="block-body">
+    <div class="cue" style="margin-top:8px;">
+      <ul>
+        <li>Both feet alternating 16ths — RLRL continuous. Simple hand groove on top (ride + snare 2&4).</li>
+        <li>Start at whatever ceiling you hit in block 2. Hold until form breaks.</li>
+        <li>Rest 30 sec. Go again harder. 3 rounds.</li>
+        <li>No click on round 3 — push to absolute max, hold as long as you can.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.swipe-wrap').forEach(wrap => {
+    const swipe = wrap.querySelector('.swipe');
+    const counter = wrap.querySelector('[id$="-counter"]');
+    if (!swipe || !counter) return;
+    const slides = swipe.querySelectorAll('.slide');
+    if (slides.length <= 1) return;
+    swipe.addEventListener('scroll', () => {
+      const idx = Math.round(swipe.scrollLeft / swipe.clientWidth);
+      counter.textContent = (idx + 1) + ' / ' + slides.length;
+    }, { passive: true });
+  });
+</script>
+
+</body>
+</html>
