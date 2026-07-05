@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guitar Routine — 2026-06-15</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #111; color: #eee; padding: 16px; }
+  h1 { font-size: 1.3rem; font-weight: 700; margin-bottom: 4px; }
+  .subtitle { font-size: 0.85rem; color: #888; margin-bottom: 20px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .chip { background: #222; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.75rem; color: #aaa; }
+
+  .block { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; margin-bottom: 20px; overflow: hidden; }
+  .block-header { padding: 14px 16px 10px; border-bottom: 1px solid #2a2a2a; }
+  .block-num { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #666; margin-bottom: 4px; }
+  .block-title { font-size: 1rem; font-weight: 600; color: #fff; }
+  .block-meta { font-size: 0.78rem; color: #888; margin-top: 4px; }
+  .block-body { padding: 12px 16px 14px; }
+  .cue { font-size: 0.85rem; color: #ccc; line-height: 1.6; }
+  .cue li { margin-left: 16px; margin-bottom: 4px; }
+  .bpm-pill { display: inline-block; background: #1e2a3a; color: #7ab8e8; border: 1px solid #2d4a6a; border-radius: 8px; padding: 3px 10px; font-size: 0.78rem; font-weight: 600; margin-top: 6px; }
+  .tuning { display: inline-block; background: #2a1e1a; color: #e8a870; border: 1px solid #4a3020; border-radius: 6px; padding: 2px 8px; font-size: 0.7rem; font-weight: 600; margin-left: 8px; vertical-align: middle; letter-spacing: 0.04em; }
+
+  .jazz-block { border-color: #2a1e3a; background: #181220; }
+  .jazz-block .block-title { color: #b07ae8; }
+  .jazz-block .block-num { color: #301e50; }
+
+  .metal-block { border-color: #3a1e1a; background: #201412; }
+  .metal-block .block-title { color: #e88a70; }
+  .metal-block .block-num { color: #50301e; }
+
+  .swipe-wrap { margin-top: 12px; }
+  .swipe { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .swipe::-webkit-scrollbar { display: none; }
+  .slide { flex: 0 0 100%; scroll-snap-align: start; }
+  .score-label { font-size: 0.72rem; color: #666; text-align: center; padding: 6px 0 4px; letter-spacing: 0.04em; }
+  .score-img { width: 100%; display: block; background: #fff; }
+  .swipe-counter { text-align: center; font-size: 0.72rem; color: #555; margin-top: 6px; }
+  .swipe-hint { text-align: center; font-size: 0.7rem; color: #444; margin-top: 2px; margin-bottom: 4px; }
+</style>
+</head>
+<body>
+
+<h1>Guitar Routine</h1>
+<div class="subtitle">2026-06-15 · ~35 min · 3 weeks off — ease back in</div>
+
+<div class="chips">
+  <div class="chip">Vai p.3 (rotation)</div>
+  <div class="chip">Legato — string noise fix</div>
+  <div class="chip">Better Lovers Section C</div>
+  <div class="chip">Hum of Hurt — first BPM</div>
+  <div class="chip">Rick Stone Diminished (finally!)</div>
+</div>
+
+<!-- BLOCK 1 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 1 · 6 min — Warm-Up</div>
+    <div class="block-title">Vai — 10 Hour Workout p.3</div>
+    <div class="block-meta">Rotation: was p.2 last · next: p.3</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">70–90 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Clean tone. Read the page before playing — don't sight-read a workout.</li>
+        <li>Start well below the ceiling — 3 weeks off, hands need loosening before pushing.</li>
+        <li>Slow enough that every note is clean. When it's clean, then push.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw1">
+        <div class="slide">
+          <div class="score-label">Vai — p.3</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/vai-10-hour-workout/page-003.png" alt="Vai p.3">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw1-counter">1 / 1</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 2 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 2 · 6 min — Technique</div>
+    <div class="block-title">Legato Drill — String Noise Fix</div>
+    <div class="block-meta">Triplets/eighths only (not sixteenths) · 4321 volume drop</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">70–85 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Chromatic 1-2-3-4 hammer-ons then 4-3-2-1 pull-offs. Same finger per fret.</li>
+        <li>Vertical finger lift on pull-offs — no sideways drag onto adjacent strings.</li>
+        <li>4321 descending: pinky/ring notes shouldn't be quieter than index. Force even volume.</li>
+        <li>Triplets/eighths only — sixteenths sacrifice technique for speed at this stage.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 3 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 3 · 10 min — Song</div>
+    <div class="block-title">Better Lovers — Lie Between the Lines <span class="tuning">Drop D</span></div>
+    <div class="block-meta">Section C · pp.9–10 · ceiling 120–135, flubbing above 120</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">100 → 135 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Distortion. Start at 100, warm into the section.</li>
+        <li>Bass note issue: the 6th string open D was ringing as A last time. Check tuning first. If tuning is right, the pick is grazing the 5th string on the way to the 6th.</li>
+        <li>Once clean at 100, +5 BPM increments. Push to 130 today — that's beyond the last ceiling.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw3">
+        <div class="slide">
+          <div class="score-label">Better Lovers — Section C p.9</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-009.png" alt="Better Lovers p.9">
+        </div>
+        <div class="slide">
+          <div class="score-label">Better Lovers — Section C p.10</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/better-lovers-highly-irresponsible/page-010.png" alt="Better Lovers p.10">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw3-counter">1 / 2</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 4 -->
+<div class="block metal-block">
+  <div class="block-header">
+    <div class="block-num">Block 4 · 8 min — Song, Get a Number</div>
+    <div class="block-title">Converge — Hum of Hurt</div>
+    <div class="block-meta">pp.1–3 · single-string tremolo · no BPM logged yet — capture one today</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">Start 100, push to song tempo</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Distortion. Put a click on it — no more "song tempo" ambiguity.</li>
+        <li>Start at 100. When the tremolo passages stay clean for 2 bars, +10 BPM.</li>
+        <li>Log the fastest tempo where the picking hand doesn't tense up mid-phrase.</li>
+        <li>Tremolo bursts — remember: single-string is fast, alternating on skip is where it breaks. Watch for the same thing here.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw4">
+        <div class="slide">
+          <div class="score-label">Converge — Hum of Hurt p.1</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-hum-of-hurt/page-001.png" alt="Hum of Hurt p.1">
+        </div>
+        <div class="slide">
+          <div class="score-label">Converge — Hum of Hurt p.2</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-hum-of-hurt/page-002.png" alt="Hum of Hurt p.2">
+        </div>
+        <div class="slide">
+          <div class="score-label">Converge — Hum of Hurt p.3</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/converge-hum-of-hurt/page-003.png" alt="Hum of Hurt p.3">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw4-counter">1 / 3</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 5 -->
+<div class="block jazz-block">
+  <div class="block-header">
+    <div class="block-num">Block 5 · 5 min — Scale Vocabulary</div>
+    <div class="block-title">Rick Stone — Diminished + Whole-Tone</div>
+    <div class="block-meta">pp.14–15 · carried over twice — finally happening</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">Slow — get the shapes first</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Clean tone. This is vocabulary, not a technique drill.</li>
+        <li>p.14 Diminished — sym pattern (W-H-W-H). Repeats every 3 frets, so once you know it in one position, it moves cleanly up the neck.</li>
+        <li>p.15 Whole-Tone — every note a whole step. Only 2 unique scales exist. Sounds unresolved by design.</li>
+        <li>Play each one over a dom7 vamp mentally (dim over V7b9, whole-tone over V7+5).</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw5">
+        <div class="slide">
+          <div class="score-label">Rick Stone — Diminished p.14</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/scale-studies-jazz-guitar-stone/page-014.png" alt="Rick Stone p.14">
+        </div>
+        <div class="slide">
+          <div class="score-label">Rick Stone — Whole-Tone p.15</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/scale-studies-jazz-guitar-stone/page-015.png" alt="Rick Stone p.15">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw5-counter">1 / 2</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.swipe-wrap').forEach(wrap => {
+    const swipe = wrap.querySelector('.swipe');
+    const counter = wrap.querySelector('[id$="-counter"]');
+    if (!swipe || !counter) return;
+    const slides = swipe.querySelectorAll('.slide');
+    if (slides.length <= 1) return;
+    swipe.addEventListener('scroll', () => {
+      const idx = Math.round(swipe.scrollLeft / swipe.clientWidth);
+      counter.textContent = (idx + 1) + ' / ' + slides.length;
+    }, { passive: true });
+  });
+</script>
+
+</body>
+</html>
