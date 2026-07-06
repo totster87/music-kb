@@ -398,6 +398,17 @@ tags:
 
 ---
 
+### 2026-06-15 — Guitar
+
+**Converge — Hum of Hurt**
+- 130 BPM with click — first measured tempo
+- New ceiling logged
+
+**Better Lovers — Lie Between the Lines, Section C**
+- Just getting back into it — 3 weeks off. Familiarization pass.
+
+---
+
 ### 2026-06-14 — Drums (Pad)
 
 **Stick Control — p.5 singles + p.8 triplets (warm-up)**

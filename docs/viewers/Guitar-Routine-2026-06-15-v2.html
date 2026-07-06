@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guitar Routine — 2026-06-15 v2</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #111; color: #eee; padding: 16px; }
+  h1 { font-size: 1.3rem; font-weight: 700; margin-bottom: 4px; }
+  .subtitle { font-size: 0.85rem; color: #888; margin-bottom: 20px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .chip { background: #222; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; font-size: 0.75rem; color: #aaa; }
+
+  .block { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 12px; margin-bottom: 20px; overflow: hidden; }
+  .block-header { padding: 14px 16px 10px; border-bottom: 1px solid #2a2a2a; }
+  .block-num { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #666; margin-bottom: 4px; }
+  .block-title { font-size: 1rem; font-weight: 600; color: #fff; }
+  .block-meta { font-size: 0.78rem; color: #888; margin-top: 4px; }
+  .block-body { padding: 12px 16px 14px; }
+  .cue { font-size: 0.85rem; color: #ccc; line-height: 1.6; }
+  .cue li { margin-left: 16px; margin-bottom: 4px; }
+  .bpm-pill { display: inline-block; background: #1e2a3a; color: #7ab8e8; border: 1px solid #2d4a6a; border-radius: 8px; padding: 3px 10px; font-size: 0.78rem; font-weight: 600; margin-top: 6px; }
+  .tuning { display: inline-block; background: #2a1e1a; color: #e8a870; border: 1px solid #4a3020; border-radius: 6px; padding: 2px 8px; font-size: 0.7rem; font-weight: 600; margin-left: 8px; vertical-align: middle; letter-spacing: 0.04em; }
+
+  .jazz-block { border-color: #2a1e3a; background: #181220; }
+  .jazz-block .block-title { color: #b07ae8; }
+  .jazz-block .block-num { color: #301e50; }
+
+  .metal-block { border-color: #3a1e1a; background: #201412; }
+  .metal-block .block-title { color: #e88a70; }
+  .metal-block .block-num { color: #50301e; }
+
+  .new-tag { display: inline-block; background: #2a1e0a; color: #d4954a; border: 1px solid #4a3010; border-radius: 6px; padding: 2px 8px; font-size: 0.7rem; font-weight: 600; margin-left: 8px; vertical-align: middle; letter-spacing: 0.04em; }
+
+  .swipe-wrap { margin-top: 12px; }
+  .swipe { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .swipe::-webkit-scrollbar { display: none; }
+  .slide { flex: 0 0 100%; scroll-snap-align: start; }
+  .score-label { font-size: 0.72rem; color: #666; text-align: center; padding: 6px 0 4px; letter-spacing: 0.04em; }
+  .score-img { width: 100%; display: block; background: #fff; }
+  .swipe-counter { text-align: center; font-size: 0.72rem; color: #555; margin-top: 6px; }
+  .swipe-hint { text-align: center; font-size: 0.7rem; color: #444; margin-top: 2px; margin-bottom: 4px; }
+</style>
+</head>
+<body>
+
+<h1>Guitar Routine v2</h1>
+<div class="subtitle">2026-06-15 · ~40 min · Fresh material — different picks</div>
+
+<div class="chips">
+  <div class="chip">Vai p.4 (rotation)</div>
+  <div class="chip">ETID first session</div>
+  <div class="chip">ABR Truth palm mute</div>
+  <div class="chip">BTBAM Prequel comeback</div>
+  <div class="chip">Rick Stone — 3rd time's the charm</div>
+</div>
+
+<!-- BLOCK 1 -->
+<div class="block">
+  <div class="block-header">
+    <div class="block-num">Block 1 · 6 min — Warm-Up</div>
+    <div class="block-title">Vai — 10 Hour Workout p.4</div>
+    <div class="block-meta">Rotation continues · p.3 done, next p.4</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">70–90 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Clean tone. Read before playing.</li>
+        <li>Slow enough that every note is clean, then push.</li>
+        <li>Hands should be loose by end of block — nothing else in this routine warrants tension.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw1">
+        <div class="slide">
+          <div class="score-label">Vai — p.4</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/vai-10-hour-workout/page-004.png" alt="Vai p.4">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw1-counter">1 / 1</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 2 — ETID NEW -->
+<div class="block metal-block">
+  <div class="block-header">
+    <div class="block-num">Block 2 · 10 min — Song <span class="new-tag">NEW</span></div>
+    <div class="block-title">Every Time I Die — Fear And Trembling <span class="tuning">Drop D (confirm)</span></div>
+    <div class="block-meta">pp.4–6 · first session · untouched Low Teens material</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">Slow — first read</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>First time on this song. Distortion.</li>
+        <li>Read one system, play it slow. Don't try to play at tempo yet — map the riffs first.</li>
+        <li>Note any bar/section that trips you up — that's the target for next session.</li>
+        <li>Push tempo only on riffs that come easy. Save the ambitious ones for after the first pass.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw2">
+        <div class="slide">
+          <div class="score-label">ETID — Fear And Trembling p.4</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/etid-low-teens/page-004.png" alt="ETID p.4">
+        </div>
+        <div class="slide">
+          <div class="score-label">ETID — Fear And Trembling p.5</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/etid-low-teens/page-005.png" alt="ETID p.5">
+        </div>
+        <div class="slide">
+          <div class="score-label">ETID — Fear And Trembling p.6</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/etid-low-teens/page-006.png" alt="ETID p.6">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw2-counter">1 / 3</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 3 — ABR TRUTH -->
+<div class="block metal-block">
+  <div class="block-header">
+    <div class="block-num">Block 3 · 8 min — Song</div>
+    <div class="block-title">ABR — Truth of a Liar <span class="tuning">Drop D</span></div>
+    <div class="block-meta">Section E, m.30 · ceiling 124 BPM · palm mute lift-and-return</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">100 → 124 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Distortion. Start at 100, warm the section back.</li>
+        <li>Palm mute technique: lift the palm off for accented notes, return for muted. That's the punch.</li>
+        <li>String skipping is the historical bottleneck — go slower on the skip if it's flaky, faster on the tremolo.</li>
+        <li>Log the tempo where the string skip stays clean for 4 bars in a row.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw3">
+        <div class="slide">
+          <div class="score-label">ABR — Truth of a Liar p.7</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-007.png" alt="ABR p.7">
+        </div>
+        <div class="slide">
+          <div class="score-label">ABR — Truth of a Liar p.8</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/abr-messengers/page-008.png" alt="ABR p.8">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw3-counter">1 / 2</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 4 — BTBAM -->
+<div class="block metal-block">
+  <div class="block-header">
+    <div class="block-num">Block 4 · 6 min — Song</div>
+    <div class="block-title">BTBAM — Prequel to the Sequel <span class="tuning">C# standard</span></div>
+    <div class="block-meta">Section A intro lead · last ceiling regressed to 80 BPM · rebuild</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">70 → 90 BPM</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Tune to C# standard (high→low: C# G# E B F# C#). Distortion + delay.</li>
+        <li>Palm muted throughout Section A.</li>
+        <li>Descending arpeggio: pick accuracy is the bottleneck — clips wrong string even at slow tempos.</li>
+        <li>Start at 70. Do 2 bars clean, then bump. Get back to 90 today — regression from previous 90 ceiling.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw4">
+        <div class="slide">
+          <div class="score-label">BTBAM — Prequel to the Sequel</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/btbam-prequel-to-the-sequel/page-001.png" alt="BTBAM Prequel">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw4-counter">1 / 1</div>
+    </div>
+  </div>
+</div>
+
+<!-- BLOCK 5 — RICK STONE FINALLY -->
+<div class="block jazz-block">
+  <div class="block-header">
+    <div class="block-num">Block 5 · 6 min — Scale Vocabulary</div>
+    <div class="block-title">Rick Stone — Diminished + Whole-Tone</div>
+    <div class="block-meta">pp.14–15 · carried over 3× now · today it happens</div>
+  </div>
+  <div class="block-body">
+    <div class="bpm-pill">Slow — shapes first</div>
+    <div class="cue" style="margin-top:10px;">
+      <ul>
+        <li>Clean tone. Vocabulary, not technique.</li>
+        <li>p.14 Diminished — W-H-W-H. Symmetrical, repeats every 3 frets. Learn one position, moves cleanly.</li>
+        <li>p.15 Whole-Tone — all whole steps. Only 2 unique scales. Sounds unresolved by design.</li>
+        <li>Application: dim over V7♭9, whole-tone over V7♯5. Mentally hear a dom7 vamp underneath.</li>
+      </ul>
+    </div>
+    <div class="swipe-wrap">
+      <div class="swipe" id="sw5">
+        <div class="slide">
+          <div class="score-label">Rick Stone — Diminished p.14</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/scale-studies-jazz-guitar-stone/page-014.png" alt="Rick Stone p.14">
+        </div>
+        <div class="slide">
+          <div class="score-label">Rick Stone — Whole-Tone p.15</div>
+          <img class="score-img" src="https://media.githubusercontent.com/media/totster87/music-kb/main/docs/rendered/scale-studies-jazz-guitar-stone/page-015.png" alt="Rick Stone p.15">
+        </div>
+      </div>
+      <div class="swipe-counter" id="sw5-counter">1 / 2</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.swipe-wrap').forEach(wrap => {
+    const swipe = wrap.querySelector('.swipe');
+    const counter = wrap.querySelector('[id$="-counter"]');
+    if (!swipe || !counter) return;
+    const slides = swipe.querySelectorAll('.slide');
+    if (slides.length <= 1) return;
+    swipe.addEventListener('scroll', () => {
+      const idx = Math.round(swipe.scrollLeft / swipe.clientWidth);
+      counter.textContent = (idx + 1) + ' / ' + slides.length;
+    }, { passive: true });
+  });
+</script>
+
+</body>
+</html>

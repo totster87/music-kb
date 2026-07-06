@@ -25,14 +25,15 @@ tuning: unknown
 - Good single-string tremolo practice in a musical context — use this song to build picking endurance at speed
 
 ## Current Progress
-- **Status:** In progress — first session 2026-05-17
+- **Status:** In progress — first BPM logged 2026-06-15
 - Most parts understood and playable
-- Close to song tempo but no BPM measured yet
+- **Ceiling:** 130 BPM (2026-06-15)
 
 ## BPM Log
 | Date | Pass | BPM | Notes |
 |------|------|-----|-------|
 | 2026-05-17 | First pass | ~song tempo | Most parts understood, feels playable. No BPM number yet. |
+| 2026-06-15 | With click | 130 BPM | First measured tempo. |
 
 ## Relations
 - belongs_to [[Converge Songs]]
