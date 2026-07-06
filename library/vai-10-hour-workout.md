@@ -32,3 +32,8 @@ Embed ONE page at a time in routine warm-up blocks. **Rotation starts at p.2** �
 
 ## Sessions
 *(log page + observations after each warm-up that uses this book)*
+
+### p.4 — 2026-06-15
+- **Response:** Meh as a warm-up drill
+- **Takeaway:** Good reminder on 7th chord inversions — need to apply them (not just review them)
+- **Rotation:** p.5 next

@@ -407,6 +407,21 @@ tags:
 **Better Lovers — Lie Between the Lines, Section C**
 - Just getting back into it — 3 weeks off. Familiarization pass.
 
+**Vai — 10 Hour Workout p.4**
+- Meh — but some good reminder on inversions of 7th chords. Need to apply.
+
+**ETID — Fear And Trembling (first session, pp.4–12)**
+- Pretty cool. Confirmed tuning: Drop D (same as first Better Lovers song).
+
+**ABR — Truth of a Liar**
+- 130 BPM (sloppy) — hit target tempo for first time. New ceiling above 124.
+
+**BTBAM — Prequel to the Sequel**
+- 90 BPM feels good — back to previous ceiling. Rebuild complete.
+
+**Rick Stone — Diminished p.14**
+- Played first line. Boring — didn't engage. Skip Rick Stone for a while.
+
 ---
 
 ### 2026-06-14 — Drums (Pad)

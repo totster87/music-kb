@@ -11,7 +11,7 @@ tags:
 - c-sharp-standard
 permalink: music-kb/repertoire/btbam-prequel-to-the-sequel
 status: in-progress
-current_max_bpm: 80
+current_max_bpm: 90
 target_bpm: 100
 tuning: c-sharp-standard
 ---
@@ -83,6 +83,7 @@ Equivalent: take standard E A D G B E, drop every string 3 semitones (1.5 steps)
 |------|---------|-----|-------|
 | 2026-05-03 | Intro lead | 90 | Gets sloppy at 90. Pick accuracy on descending arpeggio — misses even at slow tempos. (Tuning unconfirmed at this point.) |
 | 2026-05-15 | Intro lead | 80 | Regression. Tuning likely incorrect — was set to standard E. Re-tune required. |
+| 2026-06-15 | Intro lead | 90 | Feels good at 90 — back to previous ceiling. Rebuild complete. |
 
 ## Relations
 - bottleneck [[Pick Accuracy]]

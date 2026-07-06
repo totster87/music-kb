@@ -32,3 +32,8 @@ Embed ONE page at a time in routine warm-up blocks. Rotate sequentially across s
 ### pp.8–9 — Melodic Minor
 - **Last worked:** 2026-05-23
 - **Notes:** Did both pages. Applied to Days of Wine and Roses on Bbm7 — using the standard as a frame made the scale click musically. Good reference for next session: revisit that Bbm7 moment before running positions cold.
+
+### p.14 — Diminished
+- **Last worked:** 2026-06-15
+- **Status:** low-priority
+- **Notes:** Played the first line, felt boring. Diminished scale needs musical context (dom7♭9 vamp) to make sense — running positions cold isn't engaging. Skip Rick Stone for a while; revisit only when there's a real musical situation calling for it. Melodic Minor worked because Days of Wine and Roses gave it a home.

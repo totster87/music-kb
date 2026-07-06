@@ -9,7 +9,7 @@ tags:
 - learning
 - djent
 status: in-progress
-current_max_bpm: 124
+current_max_bpm: 130
 target_bpm: 130
 tuning: drop-d
 ---
@@ -44,6 +44,7 @@ tuning: drop-d
 | 2026-05-11 | Section A / m.30 E | 124 | Mutes between chugs settling in. Pre-section riff feels fun. Breaks down at 124. |
 | 2026-05-15 | m.30 | 123–124 | Ceiling unchanged. String skipping still flaky at max tempo. |
 | 2026-05-17 | Full section | — | More comfortable overall. Palm mutes not punchy plugged in — need lift-and-return technique for accented notes. |
+| 2026-06-15 | Section | 130 (sloppy) | Hit target tempo for first time — sloppy but reached. New ceiling. |
 
 ## Relations
 - same_album_as [[ABR - Treatment]]
